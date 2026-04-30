@@ -28,10 +28,14 @@ CREATE TABLE IF NOT EXISTS items (
     cluster_id INTEGER,
     tags JSON,
     embedding BLOB,
-    fetched_at TEXT DEFAULT CURRENT_TIMESTAMP
+    fetched_at TEXT DEFAULT CURRENT_TIMESTAMP,
+    pinned INTEGER DEFAULT 0,
+    notes TEXT,
+    business_pitch TEXT
 );
 
 CREATE INDEX IF NOT EXISTS idx_items_status ON items(status);
+CREATE INDEX IF NOT EXISTS idx_items_pinned ON items(pinned);
 CREATE INDEX IF NOT EXISTS idx_items_source ON items(source);
 CREATE INDEX IF NOT EXISTS idx_items_fetched_at ON items(fetched_at);
 

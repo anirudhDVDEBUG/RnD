@@ -66,6 +66,15 @@ def run(dry_run: bool = False, top_k: int = 3, skip_video: bool = False,
     summary["brief_chars"] = len(brief_text)
     summary["top_item_ids"] = top_item_ids
 
+    # Cross-cutting: regenerate backlog + knowledge graph every run
+    try:
+        from trendforge import backlog, graphify
+        backlog.write_markdown()
+        graph_paths = graphify.write_all()
+        summary["graph_nodes"] = sum(1 for _ in open(graph_paths["json"]))
+    except Exception as e:
+        log.warning("backlog/graphify regen failed: %s", e)
+
     if dry_run:
         log.info("DRY-RUN: skipping issue + email")
         return summary
@@ -79,6 +88,14 @@ def run(dry_run: bool = False, top_k: int = 3, skip_video: bool = False,
         summary["email_sent"] = emailed
     else:
         summary["email_sent"] = False
+
+    # Sticky backlog issue: upsert (create-or-edit) on every run.
+    try:
+        from trendforge import backlog
+        backlog_url = backlog.upsert_github_issue()
+        summary["backlog_issue_url"] = backlog_url
+    except Exception as e:
+        log.warning("backlog issue upsert failed: %s", e)
 
     return summary
 

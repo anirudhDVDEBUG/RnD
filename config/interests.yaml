@@ -1,37 +1,98 @@
 high_signal_keywords:
+  # Claude-native (highest priority)
   - claude code
   - claude skill
   - skill.md
   - mcp server
   - model context protocol
-  - agent
-  - autonomous
-  - headless claude
+  - sub-agent
+  - claude opus
+  - claude sonnet
+  - anthropic
+
+  # Marketing / lead-gen / outreach (Adroitec sales focus)
+  - lead generation
+  - cold email
+  - outreach
+  - sales automation
+  - prospect
+  - hubspot
+  - salesforce
+  - crm
+  - b2b sales
+
+  # Ads / Shopify / Meta / D2C / e-commerce
+  - shopify
+  - meta ads
+  - facebook ads
+  - google ads
+  - tiktok ads
+  - d2c
+  - ecommerce
+  - product photography
+  - ad creative
+
+  # Video gen / UGC / creative AI for marketing
+  - video generation
+  - ugc video
+  - higgsfield
+  - veo
+  - sora
+  - kling
+  - runway
+  - midjourney
+  - gpt-image
+  - nano banana
+
+  # Agent factories / orchestration / automation platforms
+  - agent factory
+  - n8n
+  - zapier
+  - make.com
+  - workflow automation
+  - browser automation
+  - browser use
+  - autonomous agent
+
+  # Voice AI (ARIA)
   - pipecat
   - livekit
   - deepgram
   - voice ai
+  - tts
+  - stt
+
+  # Hardware (smart glasses)
   - vlsi
   - risc-v
   - npu
   - soc
-  - tape-out
-  - b2b sales automation
-  - lead intelligence
+
+  # Existing project anchors
   - rag
   - vector store
   - agent memory
-  - sub-agent
 
 active_projects:
-  pitchbot: B2B outreach pipeline
+  pitchbot: B2B outreach pipeline with Naukri RESDEX integration and CRO-audit upsell
   aria: AI voice interviewer for VLSI hiring
   smart_glasses: custom RISC-V SoC for AI smart glasses
-  trendforge: this very system
+  trendforge: this autonomous news + research agent
+  d2c_creative: Claude-driven D2C ad-creative service (Shopify + Meta + UGC video)
+  agent_factory: managed n8n + Claude-skills offering for Indian SMEs
+  byob_campaign_mgr: autonomous Meta-Ads / Shopify campaign manager via BYOB browser-use
 
 boring:
-  - funding rounds
-  - exec hires
+  # Pure research / academic noise — skip unless title explicitly mentions a tool
+  - arxiv
+  - cs.AI
+  - cs.LG
+  - weak-to-strong
+  - spectral
+  - benchmark survey
+  # Generic finance noise
+  - funding round
+  - exec hire
   - ipo
   - generic gpt comparison
   - politics

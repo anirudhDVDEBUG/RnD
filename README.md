@@ -80,6 +80,32 @@ Cron (`crontab -e`):
 0 7 * * * /home/anirudh/trendforge/scripts/cron_runner.sh
 ```
 
+## Backlog + Knowledge Graph
+
+Hand-pinned items survive across runs and get auto-published in two places:
+
+- `output/backlog.md` — markdown view, tracked in git
+- A persistent GitHub issue labelled `backlog` (auto-upserted every run)
+
+Pin items by editing `scripts/seed_backlog.py` (or by setting `pinned = 1`
++ filling `notes` and `business_pitch` directly on the items row), then run:
+
+```bash
+PYTHONPATH=. python3 scripts/seed_backlog.py
+PYTHONPATH=. python3 -m trendforge.backlog        # regenerate md + GH issue
+```
+
+Graphify produces a knowledge-graph view of the whole DB — items, tags,
+skills, prototypes, and Adroitec projects (PitchBot / ARIA / smart_glasses
+/ TrendForge):
+
+- `output/graph.md` — Mermaid diagram (renders natively on GitHub, scoped
+  to the backlog so it stays readable)
+- `output/graph.json` — full adjacency JSON for Neo4j / Obsidian / vis.js
+- `output/graph.html` — interactive vis.js explorer (open in a browser)
+
+Both regenerate on every cron run.
+
 ## Mode B — Research
 
 ```bash

@@ -1,0 +1,21 @@
+repos:
+  - anthropics/skills
+  - anthropics/claude-code
+  - anthropics/courses
+  - anthropics/anthropic-cookbook
+  - modelcontextprotocol/servers
+  - modelcontextprotocol/python-sdk
+  - modelcontextprotocol/typescript-sdk
+  - VoltAgent/awesome-agent-skills
+  - ComposioHQ/awesome-claude-skills
+  - bradautomates/claude-video
+  - langchain-ai/langchain
+  - langchain-ai/langgraph
+  - run-llama/llama_index
+  - microsoft/autogen
+  - openai/swarm
+  - huggingface/smolagents
+  - pipecat-ai/pipecat
+  - livekit/agents
+  - letta-ai/letta
+  - mem0ai/mem0

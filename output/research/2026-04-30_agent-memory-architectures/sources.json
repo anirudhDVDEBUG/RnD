@@ -1,0 +1,235 @@
+{
+  "topic": "agent memory architectures",
+  "audience": "JNTU students",
+  "duration": 30,
+  "depth": "quick",
+  "facets": [
+    "agent memory architectures survey 2024 2025",
+    "leading open-source agent memory frameworks MemGPT Letta Mem0 Zep",
+    "long-term memory benchmarks for LLM agents LoCoMo LongMemEval",
+    "episodic semantic procedural memory taxonomy in LLM agents",
+    "retrieval-augmented vs hierarchical memory comparison frameworks",
+    "vector store and knowledge graph hybrid memory systems for agents",
+    "recent advances in self-editing and reflective agent memory 2025",
+    "memory consolidation forgetting and compression strategies in autonomous agents"
+  ],
+  "db_items": [
+    {
+      "id": 1339,
+      "url": "https://github.com/anandpareek-hub/pixelbin-claude-skill",
+      "title": "Pixelbin-Media-Generation",
+      "similarity": 0.5
+    },
+    {
+      "id": 364,
+      "url": "https://officialskills.sh/anthropics/skills/template",
+      "title": "anthropics/template",
+      "similarity": 0.3535533845424652
+    },
+    {
+      "id": 415,
+      "url": "https://officialskills.sh/neondatabase/skills/neon-postgres-egress-optimizer",
+      "title": "neondatabase/neon-postgres-egress-optimizer",
+      "similarity": 0.3535533845424652
+    },
+    {
+      "id": 476,
+      "url": "https://officialskills.sh/google-labs-code/skills/stitch-loop",
+      "title": "google-labs-code/stitch-loop",
+      "similarity": 0.3535533845424652
+    },
+    {
+      "id": 479,
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-sheets",
+      "title": "googleworkspace/gws-sheets",
+      "similarity": 0.3535533845424652
+    },
+    {
+      "id": 1283,
+      "url": "https://antigravity.google/docs/skills",
+      "title": "Antigravity Skills",
+      "similarity": 0.47140451272328693
+    },
+    {
+      "id": 93,
+      "url": "https://arxiv.org/abs/2604.26553",
+      "title": "TLPO: Token-Level Policy Optimization for Mitigating Language Confusion in Large Language Models",
+      "similarity": 0.32075015082955355
+    },
+    {
+      "id": 391,
+      "url": "https://officialskills.sh/tinybirdco/skills/tinybird-python-sdk-guidelines",
+      "title": "tinybirdco/tinybird-python-sdk-guidelines",
+      "similarity": 0.23570225636164346
+    },
+    {
+      "id": 273,
+      "url": "https://github.com/hoangnecon/golab",
+      "title": "hoangnecon/golab: A blazing-fast, native Golang Model Context Protocol (MCP) Server for controlling and scraping Google Colab locally.",
+      "similarity": 0.3749999883137923
+    },
+    {
+      "id": 1300,
+      "url": "https://github.com/smerchek",
+      "title": "@smerchek",
+      "similarity": 0.35355339059327373
+    },
+    {
+      "id": 338,
+      "url": "https://github.com/CCCpan/ai-api-integration",
+      "title": "CCCpan/ai-api-integration: GPT-5 / Claude Opus 4.7 / Gemini 3.1 / Sora 2 / Suno / DeepSeek / Kimi - AI API integration cookbook for Cursor, Cline, Claude Code, ChatBox, Dify. 大模型 API 接入实战教程",
+      "similarity": 0.3317443879274782
+    },
+    {
+      "id": 277,
+      "url": "https://github.com/dmarcoff/mcp",
+      "title": "dmarcoff/mcp: DMARC analytics for AI assistants — Claude, ChatGPT, Cursor and more",
+      "similarity": 0.3015113471358405
+    },
+    {
+      "id": 308,
+      "url": "https://github.com/rkz91/coco",
+      "title": "rkz91/coco: Open-source library of AI superpowers — 59 skills, 34 commands, 10 agents + 24 GSD subagents, 3 system bundles. An entire team, wherever your AI lives. Vendor-neutral across Claude Code, Cursor, Codex, and any AGENTS.md tool.",
+      "similarity": 0.29793979158289097
+    },
+    {
+      "id": 738,
+      "url": "https://officialskills.sh/openai/skills/notion-meeting-intelligence",
+      "title": "openai/notion-meeting-intelligence",
+      "similarity": 0.49999999144286444
+    },
+    {
+      "id": 760,
+      "url": "https://officialskills.sh/openai/skills/figma-create-design-system-rules",
+      "title": "openai/figma-create-design-system-rules",
+      "similarity": 0.49999999144286444
+    },
+    {
+      "id": 757,
+      "url": "https://officialskills.sh/openai/skills/chatgpt-apps",
+      "title": "openai/chatgpt-apps",
+      "similarity": 0.35355339059327373
+    },
+    {
+      "id": 1148,
+      "url": "https://github.com/openaccountants/openaccountants",
+      "title": "openaccountants/openaccountants",
+      "similarity": 0.35355339059327373
+    },
+    {
+      "id": 1312,
+      "url": "https://github.com/LewisLiu007",
+      "title": "@LewisLiu007",
+      "similarity": 0.35355339059327373
+    },
+    {
+      "id": 1316,
+      "url": "https://github.com/OthmanAdi",
+      "title": "@OthmanAdi",
+      "similarity": 0.4082482904638631
+    },
+    {
+      "id": 1321,
+      "url": "https://github.com/lackeyjb",
+      "title": "@lackeyjb",
+      "similarity": 0.4082482904638631
+    },
+    {
+      "id": 365,
+      "url": "https://officialskills.sh/voltagent/skills/create-voltagent",
+      "title": "voltagent/create-voltagent",
+      "similarity": 0.28867512965434844
+    },
+    {
+      "id": 366,
+      "url": "https://officialskills.sh/voltagent/skills/voltagent-best-practices",
+      "title": "voltagent/voltagent-best-practices",
+      "similarity": 0.28867512965434844
+    },
+    {
+      "id": 367,
+      "url": "https://officialskills.sh/voltagent/skills/voltagent-core-reference",
+      "title": "voltagent/voltagent-core-reference",
+      "similarity": 0.28867512965434844
+    },
+    {
+      "id": 1303,
+      "url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+      "title": "artifacts-builder",
+      "similarity": 0.31622776601683794
+    },
+    {
+      "id": 369,
+      "url": "https://github.com/angular/skills",
+      "title": "angular/angular-developer",
+      "similarity": 0.22360679392311164
+    },
+    {
+      "id": 377,
+      "url": "https://officialskills.sh/stripe/skills/upgrade-stripe",
+      "title": "stripe/upgrade-stripe",
+      "similarity": 0.22360679392311164
+    },
+    {
+      "id": 386,
+      "url": "https://officialskills.sh/better-auth/skills/emailAndPassword",
+      "title": "better-auth/emailAndPassword",
+      "similarity": 0.22360679392311164
+    },
+    {
+      "id": 393,
+      "url": "https://officialskills.sh/hashicorp/skills/azure-verified-modules",
+      "title": "hashicorp/azure-verified-modules",
+      "similarity": 0.22360679392311164
+    },
+    {
+      "id": 1242,
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation",
+      "title": "muratcankoylan/evaluation",
+      "similarity": 0.49999999144286444
+    },
+    {
+      "id": 1328,
+      "url": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/",
+      "title": "using-git-worktrees",
+      "similarity": 0.35355339059327373
+    },
+    {
+      "id": 1349,
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing",
+      "title": "test-fixing",
+      "similarity": 0.35355339059327373
+    },
+    {
+      "id": 272,
+      "url": "https://github.com/hieuchaydi/DecisionGraph",
+      "title": "hieuchaydi/DecisionGraph: DecisionGraph is an engineering decision memory system that captures evidence from GitHub/Slack/Jira, answers “why” questions, and runs pre-change guardrails via CLI/API/MCP.",
+      "similarity": 0.33129458622345787
+    },
+    {
+      "id": 394,
+      "url": "https://officialskills.sh/hashicorp/skills/new-terraform-provider",
+      "title": "hashicorp/new-terraform-provider",
+      "similarity": 0.4264014254136712
+    },
+    {
+      "id": 481,
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-calendar",
+      "title": "googleworkspace/gws-calendar",
+      "similarity": 0.4264014254136712
+    },
+    {
+      "id": 1090,
+      "url": "https://officialskills.sh/garrytan/skills/unfreeze",
+      "title": "garrytan/unfreeze",
+      "similarity": 0.4264014254136712
+    },
+    {
+      "id": 1228,
+      "url": "https://github.com/Kevin7Qi/codex-collab",
+      "title": "Kevin7Qi/codex-collab",
+      "similarity": 0.4264014254136712
+    }
+  ],
+  "github": []
+}

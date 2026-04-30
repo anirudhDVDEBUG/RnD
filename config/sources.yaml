@@ -1,0 +1,40 @@
+rss:
+  - https://www.anthropic.com/news/rss.xml
+  - https://simonwillison.net/atom/everything/
+  - https://huggingface.co/blog/feed.xml
+  - https://blog.langchain.dev/rss/
+  - https://openai.com/blog/rss.xml
+  - https://export.arxiv.org/rss/cs.AI
+
+github_search:
+  - q: "topic:claude-skill"
+    sort: stars
+    days: 7
+  - q: "topic:mcp-server"
+    sort: stars
+    days: 7
+  - q: "topic:ai-agents language:python"
+    sort: stars
+    days: 7
+  - q: "topic:claude-code"
+    sort: stars
+    days: 7
+
+github_star_velocity:
+  watchlist_file: config/watched_repos.yaml
+  threshold_stars_per_day: 50
+
+awesome_lists:
+  - VoltAgent/awesome-agent-skills
+  - ComposioHQ/awesome-claude-skills
+  - anthropics/skills
+
+hackernews:
+  query: "claude OR anthropic OR mcp OR llm OR agent"
+  min_points: 30
+  hours: 24
+
+youtube:
+  channels:
+    - "UCLHfIq7P2CkA62ReystiOrw"
+  max_videos_per_channel_per_day: 3

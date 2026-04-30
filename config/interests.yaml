@@ -1,0 +1,37 @@
+high_signal_keywords:
+  - claude code
+  - claude skill
+  - skill.md
+  - mcp server
+  - model context protocol
+  - agent
+  - autonomous
+  - headless claude
+  - pipecat
+  - livekit
+  - deepgram
+  - voice ai
+  - vlsi
+  - risc-v
+  - npu
+  - soc
+  - tape-out
+  - b2b sales automation
+  - lead intelligence
+  - rag
+  - vector store
+  - agent memory
+  - sub-agent
+
+active_projects:
+  pitchbot: B2B outreach pipeline
+  aria: AI voice interviewer for VLSI hiring
+  smart_glasses: custom RISC-V SoC for AI smart glasses
+  trendforge: this very system
+
+boring:
+  - funding rounds
+  - exec hires
+  - ipo
+  - generic gpt comparison
+  - politics

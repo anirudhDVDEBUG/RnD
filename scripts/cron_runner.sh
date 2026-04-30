@@ -11,6 +11,16 @@ unset ANTHROPIC_API_KEY
 PROJECT_DIR="${TRENDFORGE_HOME:-$HOME/trendforge}"
 cd "$PROJECT_DIR"
 
+# Load .env so GITHUB_TOKEN, GMAIL_*, etc. reach subprocesses (gh, smtplib, ...)
+if [ -f .env ]; then
+  set -a
+  # shellcheck disable=SC1091
+  source .env
+  set +a
+  # gh CLI uses GH_TOKEN; mirror GITHUB_TOKEN if not set
+  export GH_TOKEN="${GH_TOKEN:-${GITHUB_TOKEN:-}}"
+fi
+
 # Activate venv if present
 if [ -d ".venv" ]; then
   # shellcheck disable=SC1091

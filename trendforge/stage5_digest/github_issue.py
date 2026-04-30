@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import subprocess
 from datetime import date
 from pathlib import Path
@@ -15,6 +16,11 @@ def open_issue(brief_path: Path, digest_date: str | None = None, db_path=None) -
     """Create the issue. Returns the URL, or None on failure."""
     today = digest_date or date.today().isoformat()
     title = f"TrendForge Daily — {today}"
+    env = os.environ.copy()
+    # gh CLI uses GH_TOKEN — mirror from GITHUB_TOKEN so cron works
+    # without an interactive `gh auth login`.
+    if not env.get("GH_TOKEN") and env.get("GITHUB_TOKEN"):
+        env["GH_TOKEN"] = env["GITHUB_TOKEN"]
     try:
         result = subprocess.run(
             [
@@ -31,6 +37,7 @@ def open_issue(brief_path: Path, digest_date: str | None = None, db_path=None) -
             capture_output=True,
             text=True,
             timeout=60,
+            env=env,
         )
     except (FileNotFoundError, subprocess.TimeoutExpired) as e:
         log.warning("gh CLI unavailable for issue creation: %s", e)

@@ -101,32 +101,58 @@ def score_item(row: dict, interests: dict) -> tuple[float, str]:
     return score, full_reasoning
 
 
-def score_pending(db_path=None, top_k: int = 3) -> list[int]:
-    """Score every status='new' item; return IDs of top_k 'selected'."""
+def _is_boring(row: dict, interests: dict) -> bool:
+    """Hard filter: any boring keyword in title/metadata kills the item."""
+    boring = interests.get("boring", []) or []
+    if not boring:
+        return False
+    text = " ".join([
+        row.get("title") or "",
+        json.dumps(row.get("raw_metadata") or {}),
+    ]).lower()
+    return any(b.lower() in text for b in boring)
+
+
+def score_pending(db_path=None, top_k: int = 5) -> list[int]:
+    """Score every status='new' item; return IDs of top_k non-boring 'selected'."""
     db = db_path or store.DB_PATH
     interests = load_interests()
-    selected: list[tuple[float, int]] = []
+    candidates: list[tuple[float, int, bool]] = []
 
     with store.get_conn(db) as conn:
         rows = store.get_items_by_status(conn, "new")
+        boring_count = 0
         for raw in rows:
             row = store.row_to_dict(raw)
             assert row is not None
             score, reasoning = score_item(row, interests)
+            is_boring = _is_boring(row, interests)
+            if is_boring:
+                boring_count += 1
+                store.update_score(
+                    conn,
+                    row["id"],
+                    score=score,
+                    reasoning=reasoning + " | DROPPED:boring",
+                    tags=None,
+                    status="dropped",
+                )
+                continue
             store.update_score(
                 conn,
                 row["id"],
                 score=score,
                 reasoning=reasoning,
-                tags=None,  # tagger.py fills this in later
+                tags=None,
                 status="scored",
             )
-            selected.append((score, row["id"]))
+            candidates.append((score, row["id"], is_boring))
 
-        selected.sort(reverse=True)
-        top = [iid for _, iid in selected[:top_k]]
+        candidates.sort(reverse=True)
+        top = [iid for _, iid, _ in candidates[:top_k]]
         for iid in top:
             store.update_status(conn, iid, "selected")
 
-    log.info("Scored %d items; selected top %d", len(selected), len(top))
+    log.info("Scored %d items (%d boring dropped); selected top %d",
+             len(candidates) + boring_count, boring_count, len(top))
     return top

@@ -61,29 +61,50 @@ def claude_build_prototype(skill_name: str, skill_md: str, item: dict, target_di
     # Use a fresh subdir so Claude can't accidentally clobber other prototypes.
     target_dir.mkdir(parents=True, exist_ok=True)
 
-    prompt = f"""You are writing a runnable prototype demo inside the directory you're invoked from.
-
-The skill description is below. Build the simplest possible demo that
-exercises this skill's core capability. The demo MUST run end-to-end via
-`bash run.sh` on a fresh Linux machine. Use Python (preferred) or Node.
-
-Required files in the current directory:
-- README.md  — what it does, how to install, how to run, expected output
-- run.sh     — executable script that runs the demo end-to-end
-- requirements.txt or package.json — declared dependencies
-- The actual implementation files
+    prompt = f"""You are building a "ready-to-evaluate" mini-repo inside the directory you're invoked from.
+The user wants to wake up to 5 of these every morning and immediately decide
+which to adopt — so the docs matter as much as the demo.
 
 Source item URL: {item.get('url')}
 Source item title: {item.get('title')}
 
-SKILL.md contents (the skill this prototype should demonstrate):
+SKILL.md contents (the skill or MCP this should demonstrate):
 ---
 {skill_md[:6000]}
 ---
 
-Test your code mentally before writing — make sure imports exist, file
-paths are correct, and `bash run.sh` will produce visible output without
-external API keys (use mock data if needed).
+REQUIRED files in the current directory (all five MUST exist):
+
+1. README.md
+   — TL;DR (2-3 sentences), one screenshot-worthy headline result, and a
+     pointer to HOW_TO_USE.md and TECH_DETAILS.md.
+
+2. HOW_TO_USE.md
+   — Install steps (pip / npm / git clone — be exact).
+   — If this is a Claude SKILL: where to drop the SKILL.md folder
+     (`~/.claude/skills/<name>/`) and what trigger phrases activate it.
+   — If this is an MCP server: the EXACT JSON snippet to paste into
+     `~/.claude.json` `mcpServers` block, with command/args/env.
+   — If neither: the CLI / SDK snippet to invoke it.
+   — A "First 60 seconds" section showing input → output.
+
+3. TECH_DETAILS.md
+   — What the source actually does (1-2 paragraph technical summary).
+   — Architecture: key files, data flow, dependencies, model calls.
+   — Limitations / what it does NOT do.
+   — Why it might matter for someone building Claude-driven products
+     (lead-gen, marketing, ad creatives, agent factories, voice AI).
+
+4. run.sh — executable, runs end-to-end via `bash run.sh`, produces visible
+   output without external API keys (use mock data if needed).
+
+5. requirements.txt or package.json — declared dependencies.
+
+Plus the actual implementation files (Python preferred; Node OK).
+
+Test mentally before writing — imports exist, paths correct,
+`bash run.sh` produces visible output. Be concrete in HOW_TO_USE.md and
+TECH_DETAILS.md — vague placeholders defeat the purpose.
 """
     env = os.environ.copy()
     env.pop("ANTHROPIC_API_KEY", None)

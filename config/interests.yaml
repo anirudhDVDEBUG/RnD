@@ -4,11 +4,29 @@ high_signal_keywords:
   - claude skill
   - skill.md
   - mcp server
+  - mcp client
   - model context protocol
   - sub-agent
+  - subagent
   - claude opus
   - claude sonnet
+  - claude haiku
+  - claude desktop
   - anthropic
+  # Anthropic / Claude Code release & feature signal
+  - anthropic announcement
+  - anthropic launch
+  - anthropic release
+  - claude release
+  - claude api update
+  - claude pricing
+  - claude code update
+  - claude code feature
+  - claude code release
+  - claude.ai
+  - skills release
+  - new skill
+  - new mcp
 
   # Marketing / lead-gen / outreach (Adroitec sales focus)
   - lead generation

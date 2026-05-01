@@ -20,7 +20,7 @@ def configure_logging(level: str = "INFO") -> None:
     )
 
 
-def run(dry_run: bool = False, top_k: int = 3, skip_video: bool = False,
+def run(dry_run: bool = False, top_k: int = 5, skip_video: bool = False,
         skip_skill: bool = False, skip_email: bool = False) -> dict:
     load_dotenv()
     # Force Max-plan auth for any Claude subprocess.
@@ -104,7 +104,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="TrendForge Mode A daily run")
     parser.add_argument("--dry-run", action="store_true",
                         help="Skip GitHub issue + email")
-    parser.add_argument("--top-k", type=int, default=3)
+    parser.add_argument("--top-k", type=int, default=5)
     parser.add_argument("--skip-video", action="store_true",
                         help="Skip /watch step (faster, no Claude CLI required)")
     parser.add_argument("--skip-skill", action="store_true",

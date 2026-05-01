@@ -28,7 +28,7 @@ high_signal_keywords:
   - new skill
   - new mcp
 
-  # Marketing / lead-gen / outreach (Adroitec sales focus)
+  # Marketing / lead-gen / outreach
   - lead generation
   - cold email
   - outreach
@@ -86,10 +86,116 @@ high_signal_keywords:
   - npu
   - soc
 
-  # Existing project anchors
-  - rag
-  - vector store
+  # Agent persistence (kept as keyword, removed as standalone topic)
   - agent memory
+
+# Topics: structured groupings used to classify each item to ONE primary topic.
+# Order matters — earlier topics win ties. Each item gets the topic whose
+# keywords it matches most strongly.
+topics:
+  claude-native:
+    label: "Claude-native (Claude Code, skills, MCP)"
+    keywords:
+      - claude code
+      - claude skill
+      - skill.md
+      - mcp server
+      - mcp client
+      - model context protocol
+      - sub-agent
+      - subagent
+      - claude opus
+      - claude sonnet
+      - claude haiku
+      - claude desktop
+      - anthropic
+      - agent memory
+  claude-releases:
+    label: "Anthropic / Claude Code releases"
+    keywords:
+      - anthropic announcement
+      - anthropic launch
+      - anthropic release
+      - claude release
+      - claude api update
+      - claude pricing
+      - claude code update
+      - claude code feature
+      - claude code release
+      - claude.ai
+      - skills release
+      - new skill
+      - new mcp
+  marketing:
+    label: "Marketing / lead-gen / outreach"
+    keywords:
+      - lead generation
+      - cold email
+      - outreach
+      - sales automation
+      - prospect
+      - hubspot
+      - salesforce
+      - crm
+      - b2b sales
+  ads:
+    label: "Ads / Shopify / Meta / D2C"
+    keywords:
+      - shopify
+      - meta ads
+      - facebook ads
+      - google ads
+      - tiktok ads
+      - d2c
+      - ecommerce
+      - product photography
+      - ad creative
+  video-gen:
+    label: "Video gen / UGC / creative AI"
+    keywords:
+      - video generation
+      - ugc video
+      - higgsfield
+      - veo
+      - sora
+      - kling
+      - runway
+      - midjourney
+      - gpt-image
+      - nano banana
+  agent-factories:
+    label: "Agent factories / orchestration"
+    keywords:
+      - agent factory
+      - n8n
+      - zapier
+      - make.com
+      - workflow automation
+      - browser automation
+      - browser use
+      - autonomous agent
+  voice-ai:
+    label: "Voice AI (ARIA stack)"
+    keywords:
+      - pipecat
+      - livekit
+      - deepgram
+      - voice ai
+      - tts
+      - stt
+  hardware:
+    label: "Hardware (smart glasses)"
+    keywords:
+      - vlsi
+      - risc-v
+      - npu
+      - soc
+
+# Quality gates
+selection:
+  per_topic_top_k: 5         # max items per topic per day
+  min_score: 0.30            # below this, drop (no padding)
+  prototype_min_score: 0.50  # below this, topic note only (no full mini-repo)
 
 active_projects:
   pitchbot: B2B outreach pipeline with Naukri RESDEX integration and CRO-audit upsell

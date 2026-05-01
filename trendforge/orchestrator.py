@@ -66,14 +66,16 @@ def run(dry_run: bool = False, top_k: int = 5, skip_video: bool = False,
     summary["brief_chars"] = len(brief_text)
     summary["top_item_ids"] = top_item_ids
 
-    # Cross-cutting: regenerate backlog + knowledge graph every run
+    # Cross-cutting: regenerate backlog + knowledge graph + Obsidian vault every run
     try:
-        from trendforge import backlog, graphify
+        from trendforge import backlog, graphify, vault_writer
         backlog.write_markdown()
         graph_paths = graphify.write_all()
         summary["graph_nodes"] = sum(1 for _ in open(graph_paths["json"]))
+        vault_stats = vault_writer.write_vault()
+        summary["vault"] = vault_stats
     except Exception as e:
-        log.warning("backlog/graphify regen failed: %s", e)
+        log.warning("backlog/graphify/vault regen failed: %s", e)
 
     if dry_run:
         log.info("DRY-RUN: skipping issue + email")

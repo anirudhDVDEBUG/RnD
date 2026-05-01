@@ -113,46 +113,68 @@ def _is_boring(row: dict, interests: dict) -> bool:
     return any(b.lower() in text for b in boring)
 
 
-def score_pending(db_path=None, top_k: int = 5) -> list[int]:
-    """Score every status='new' item; return IDs of top_k non-boring 'selected'."""
+def score_pending(db_path=None, top_k: int | None = None) -> list[int]:
+    """Score every status='new' item; promote the top-K per topic to 'selected'.
+
+    Selection rules (from interests.yaml `selection:` block):
+      - drop boring items (status='dropped')
+      - drop items with score < min_score (status='scored', not selected)
+      - per topic: keep up to per_topic_top_k highest-scoring items
+      - cross-topic top scorers also flagged for full prototype if score >= prototype_min_score
+    `top_k` arg is ignored for backwards-compat (per-topic gates the count).
+    """
+    from trendforge.topics import classify, selection_config, all_topic_slugs
+
     db = db_path or store.DB_PATH
     interests = load_interests()
-    candidates: list[tuple[float, int, bool]] = []
+    cfg = selection_config(interests)
+    per_topic_k = cfg["per_topic_top_k"]
+    min_score = cfg["min_score"]
+
+    by_topic: dict[str, list[tuple[float, int]]] = {}
 
     with store.get_conn(db) as conn:
         rows = store.get_items_by_status(conn, "new")
         boring_count = 0
+        below_threshold = 0
+
         for raw in rows:
             row = store.row_to_dict(raw)
             assert row is not None
             score, reasoning = score_item(row, interests)
-            is_boring = _is_boring(row, interests)
-            if is_boring:
+
+            if _is_boring(row, interests):
                 boring_count += 1
                 store.update_score(
-                    conn,
-                    row["id"],
+                    conn, row["id"],
                     score=score,
                     reasoning=reasoning + " | DROPPED:boring",
-                    tags=None,
-                    status="dropped",
+                    tags=None, status="dropped",
                 )
                 continue
+
+            topic = classify(row, interests)
+            full_reasoning = f"{reasoning} | topic={topic}"
             store.update_score(
-                conn,
-                row["id"],
-                score=score,
-                reasoning=reasoning,
-                tags=None,
-                status="scored",
+                conn, row["id"],
+                score=score, reasoning=full_reasoning,
+                tags=None, status="scored",
             )
-            candidates.append((score, row["id"], is_boring))
+            if score < min_score:
+                below_threshold += 1
+                continue
+            by_topic.setdefault(topic, []).append((score, row["id"]))
 
-        candidates.sort(reverse=True)
-        top = [iid for _, iid, _ in candidates[:top_k]]
-        for iid in top:
-            store.update_status(conn, iid, "selected")
+        # Per-topic top-K
+        promoted: list[int] = []
+        for topic, lst in by_topic.items():
+            lst.sort(reverse=True)
+            for _score, iid in lst[:per_topic_k]:
+                store.update_status(conn, iid, "selected")
+                promoted.append(iid)
 
-    log.info("Scored %d items (%d boring dropped); selected top %d",
-             len(candidates) + boring_count, boring_count, len(top))
-    return top
+    log.info(
+        "Scored %d items: %d boring dropped, %d below %.2f, %d promoted across %d topics",
+        len(rows), boring_count, below_threshold, min_score, len(promoted), len(by_topic),
+    )
+    return promoted

@@ -213,6 +213,42 @@
       "label": "claude-skills"
     },
     {
+      "id": "item:1754",
+      "type": "item",
+      "label": "⭐ velocity: langchain-ai/langchain +68/day — The agent engineering platform",
+      "url": "https://github.com/langchain-ai/langchain",
+      "source": "github",
+      "score": 0.7887165308678579,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agent-framework",
+      "type": "tag",
+      "label": "agent-framework"
+    },
+    {
+      "id": "tag:rag",
+      "type": "tag",
+      "label": "rag"
+    },
+    {
+      "id": "tag:langgraph",
+      "type": "tag",
+      "label": "langgraph"
+    },
+    {
+      "id": "tag:multi-agent",
+      "type": "tag",
+      "label": "multi-agent"
+    },
+    {
+      "id": "tag:llm-orchestration",
+      "type": "tag",
+      "label": "llm-orchestration"
+    },
+    {
       "id": "item:1712",
       "type": "item",
       "label": "⭐ velocity: anthropics/claude-code +90/day — Claude Code is an agentic coding to",
@@ -268,11 +304,6 @@
       "id": "tag:skill-curation",
       "type": "tag",
       "label": "skill-curation"
-    },
-    {
-      "id": "tag:multi-agent",
-      "type": "tag",
-      "label": "multi-agent"
     },
     {
       "id": "tag:awesome-list",
@@ -636,11 +667,6 @@
       "label": "document-ai"
     },
     {
-      "id": "tag:rag",
-      "type": "tag",
-      "label": "rag"
-    },
-    {
       "id": "tag:retrieval-evaluation",
       "type": "tag",
       "label": "retrieval-evaluation"
@@ -685,6 +711,37 @@
       "id": "tag:react",
       "type": "tag",
       "label": "react"
+    },
+    {
+      "id": "item:1727",
+      "type": "item",
+      "label": "iNaturalist Sightings",
+      "url": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+      "source": "rss",
+      "score": 0.6360559348289252,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:git-scraping",
+      "type": "tag",
+      "label": "git-scraping"
+    },
+    {
+      "id": "tag:inaturalist",
+      "type": "tag",
+      "label": "inaturalist"
+    },
+    {
+      "id": "tag:web-app",
+      "type": "tag",
+      "label": "web-app"
+    },
+    {
+      "id": "tag:data-visualization",
+      "type": "tag",
+      "label": "data-visualization"
     },
     {
       "id": "item:1714",
@@ -1068,11 +1125,6 @@
       "id": "tag:multi-agent-systems",
       "type": "tag",
       "label": "multi-agent-systems"
-    },
-    {
-      "id": "tag:agent-framework",
-      "type": "tag",
-      "label": "agent-framework"
     },
     {
       "id": "tag:observability",
@@ -1665,6 +1717,37 @@
       "label": "graphic-design"
     },
     {
+      "id": "item:1731",
+      "type": "item",
+      "label": "ravindranathpathi/scenelens: Give Claude a smarter video input. Scene-aware fram",
+      "url": "https://github.com/ravindranathpathi/scenelens",
+      "source": "github",
+      "score": 0.5580581024797223,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:video-analysis",
+      "type": "tag",
+      "label": "video-analysis"
+    },
+    {
+      "id": "tag:ocr",
+      "type": "tag",
+      "label": "ocr"
+    },
+    {
+      "id": "tag:whisper",
+      "type": "tag",
+      "label": "whisper"
+    },
+    {
+      "id": "tag:frame-extraction",
+      "type": "tag",
+      "label": "frame-extraction"
+    },
+    {
       "id": "item:323",
       "type": "item",
       "label": "nexu-io/open-design: 🎨 Local-first, open-source alternative to Anthropic's Claud",
@@ -1694,6 +1777,22 @@
       "id": "tag:byok",
       "type": "tag",
       "label": "byok"
+    },
+    {
+      "id": "item:1755",
+      "type": "item",
+      "label": "⭐ velocity: langchain-ai/langgraph +62/day — Build resilient language agents as ",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "source": "github",
+      "score": 0.5281013757709938,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:graph-agents",
+      "type": "tag",
+      "label": "graph-agents"
     },
     {
       "id": "item:1372",
@@ -5949,125 +6048,6 @@
       "label": "black-box-optimization"
     },
     {
-      "id": "item:58",
-      "type": "item",
-      "label": "Evergreen: Efficient Claim Verification for Semantic Aggregates",
-      "url": "https://arxiv.org/abs/2604.26180",
-      "source": "rss",
-      "score": 0.49827396191298834,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:claim-verification",
-      "type": "tag",
-      "label": "claim-verification"
-    },
-    {
-      "id": "tag:semantic-aggregation",
-      "type": "tag",
-      "label": "semantic-aggregation"
-    },
-    {
-      "id": "tag:query-optimization",
-      "type": "tag",
-      "label": "query-optimization"
-    },
-    {
-      "id": "tag:provenance",
-      "type": "tag",
-      "label": "provenance"
-    },
-    {
-      "id": "tag:prompt-caching",
-      "type": "tag",
-      "label": "prompt-caching"
-    },
-    {
-      "id": "item:59",
-      "type": "item",
-      "label": "Lifting Embodied World Models for Planning and Control",
-      "url": "https://arxiv.org/abs/2604.26182",
-      "source": "rss",
-      "score": 0.49827395982083356,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:embodied-agents",
-      "type": "tag",
-      "label": "embodied-agents"
-    },
-    {
-      "id": "tag:action-spaces",
-      "type": "tag",
-      "label": "action-spaces"
-    },
-    {
-      "id": "tag:planning",
-      "type": "tag",
-      "label": "planning"
-    },
-    {
-      "id": "item:65",
-      "type": "item",
-      "label": "LATTICE: Evaluating Decision Support Utility of Crypto Agents",
-      "url": "https://arxiv.org/abs/2604.26235",
-      "source": "rss",
-      "score": 0.49827394773381484,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:crypto-agents",
-      "type": "tag",
-      "label": "crypto-agents"
-    },
-    {
-      "id": "tag:decision-support",
-      "type": "tag",
-      "label": "decision-support"
-    },
-    {
-      "id": "tag:llm-judge",
-      "type": "tag",
-      "label": "llm-judge"
-    },
-    {
-      "id": "item:68",
-      "type": "item",
-      "label": "TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendatio",
-      "url": "https://arxiv.org/abs/2604.26247",
-      "source": "rss",
-      "score": 0.49827394205637743,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multimodal-recommendation",
-      "type": "tag",
-      "label": "multimodal-recommendation"
-    },
-    {
-      "id": "tag:spectral-filtering",
-      "type": "tag",
-      "label": "spectral-filtering"
-    },
-    {
-      "id": "tag:temporal-modeling",
-      "type": "tag",
-      "label": "temporal-modeling"
-    },
-    {
-      "id": "tag:graph-learning",
-      "type": "tag",
-      "label": "graph-learning"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6102,6 +6082,60 @@
       "type": "skill",
       "label": "rewrite_tool_descriptions",
       "path": "/home/rnd/trendforge/output/skills/rewrite_tool_descriptions"
+    },
+    {
+      "id": "skill:7",
+      "type": "skill",
+      "label": "langgraph_agent_graphs",
+      "path": "/home/rnd/trendforge/output/skills/langgraph_agent_graphs"
+    },
+    {
+      "id": "skill:8",
+      "type": "skill",
+      "label": "langchain_agent_platform",
+      "path": "/home/rnd/trendforge/output/skills/langchain_agent_platform"
+    },
+    {
+      "id": "skill:9",
+      "type": "skill",
+      "label": "ai_native_dev_workflow",
+      "path": "/home/rnd/trendforge/output/skills/ai_native_dev_workflow"
+    },
+    {
+      "id": "skill:10",
+      "type": "skill",
+      "label": "agent_corp_benchmark",
+      "path": "/home/rnd/trendforge/output/skills/agent_corp_benchmark"
+    },
+    {
+      "id": "skill:11",
+      "type": "skill",
+      "label": "prts_agent_terminal_service",
+      "path": "/home/rnd/trendforge/output/skills/prts_agent_terminal_service"
+    },
+    {
+      "id": "skill:12",
+      "type": "skill",
+      "label": "ai_agent_skills_production",
+      "path": "/home/rnd/trendforge/output/skills/ai_agent_skills_production"
+    },
+    {
+      "id": "skill:13",
+      "type": "skill",
+      "label": "mcp_deepcontext_semantic_search",
+      "path": "/home/rnd/trendforge/output/skills/mcp_deepcontext_semantic_search"
+    },
+    {
+      "id": "skill:14",
+      "type": "skill",
+      "label": "scenelens_video_analysis",
+      "path": "/home/rnd/trendforge/output/skills/scenelens_video_analysis"
+    },
+    {
+      "id": "skill:15",
+      "type": "skill",
+      "label": "inat_sightings_git_scraping_viewer",
+      "path": "/home/rnd/trendforge/output/skills/inat_sightings_git_scraping_viewer"
     },
     {
       "id": "prototype:1",
@@ -6144,6 +6178,69 @@
       "label": "rewrite_tool_descriptions",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/rewrite_tool_descriptions.pptx"
+    },
+    {
+      "id": "prototype:7",
+      "type": "prototype",
+      "label": "langgraph_agent_graphs",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/langgraph_agent_graphs.pptx"
+    },
+    {
+      "id": "prototype:8",
+      "type": "prototype",
+      "label": "langchain_agent_platform",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/langchain_agent_platform.pptx"
+    },
+    {
+      "id": "prototype:9",
+      "type": "prototype",
+      "label": "ai_native_dev_workflow",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_native_dev_workflow.pptx"
+    },
+    {
+      "id": "prototype:10",
+      "type": "prototype",
+      "label": "agent_corp_benchmark",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agent_corp_benchmark.pptx"
+    },
+    {
+      "id": "prototype:11",
+      "type": "prototype",
+      "label": "prts_agent_terminal_service",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/prts_agent_terminal_service.pptx"
+    },
+    {
+      "id": "prototype:12",
+      "type": "prototype",
+      "label": "ai_agent_skills_production",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_agent_skills_production.pptx"
+    },
+    {
+      "id": "prototype:13",
+      "type": "prototype",
+      "label": "mcp_deepcontext_semantic_search",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/mcp_deepcontext_semantic_search.pptx"
+    },
+    {
+      "id": "prototype:14",
+      "type": "prototype",
+      "label": "scenelens_video_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/scenelens_video_analysis.pptx"
+    },
+    {
+      "id": "prototype:15",
+      "type": "prototype",
+      "label": "inat_sightings_git_scraping_viewer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/inat_sightings_git_scraping_viewer.pptx"
     }
   ],
   "edges": [
@@ -6324,6 +6421,46 @@
     },
     {
       "from": "item:345",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1754",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1754",
+      "to": "tag:agent-framework",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1754",
+      "to": "tag:rag",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1754",
+      "to": "tag:langgraph",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1754",
+      "to": "tag:multi-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1754",
+      "to": "tag:llm-orchestration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1754",
+      "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1754",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -6806,6 +6943,36 @@
       "from": "item:326",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1727",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1727",
+      "to": "tag:git-scraping",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1727",
+      "to": "tag:inaturalist",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1727",
+      "to": "tag:claude-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1727",
+      "to": "tag:web-app",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1727",
+      "to": "tag:data-visualization",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:1714",
@@ -7888,6 +8055,46 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:1731",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1731",
+      "to": "tag:video-analysis",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1731",
+      "to": "tag:ocr",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1731",
+      "to": "tag:whisper",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1731",
+      "to": "tag:frame-extraction",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1731",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1731",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1731",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:323",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -7919,6 +8126,41 @@
     },
     {
       "from": "item:323",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1755",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1755",
+      "to": "tag:langgraph",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1755",
+      "to": "tag:agent-framework",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1755",
+      "to": "tag:multi-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1755",
+      "to": "tag:graph-agents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1755",
+      "to": "tag:llm-orchestration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1755",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -12588,121 +12830,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:58",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:58",
-      "to": "tag:claim-verification",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:58",
-      "to": "tag:semantic-aggregation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:58",
-      "to": "tag:query-optimization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:58",
-      "to": "tag:provenance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:58",
-      "to": "tag:prompt-caching",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:59",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:59",
-      "to": "tag:world-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:59",
-      "to": "tag:embodied-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:59",
-      "to": "tag:action-spaces",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:59",
-      "to": "tag:planning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:59",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:65",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:65",
-      "to": "tag:crypto-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:65",
-      "to": "tag:decision-support",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:65",
-      "to": "tag:llm-judge",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:65",
-      "to": "tag:agent-benchmark",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:65",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:68",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:68",
-      "to": "tag:multimodal-recommendation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:68",
-      "to": "tag:spectral-filtering",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:68",
-      "to": "tag:temporal-modeling",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:68",
-      "to": "tag:graph-learning",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -12733,6 +12860,51 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:7",
+      "to": "item:1755",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:8",
+      "to": "item:1754",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:9",
+      "to": "item:1747",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:10",
+      "to": "item:1739",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:11",
+      "to": "item:1741",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:12",
+      "to": "item:1742",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:13",
+      "to": "item:1732",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:14",
+      "to": "item:1731",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:15",
+      "to": "item:1727",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -12760,6 +12932,51 @@
     {
       "from": "prototype:6",
       "to": "skill:6",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:7",
+      "to": "skill:7",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:8",
+      "to": "skill:8",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:9",
+      "to": "skill:9",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:10",
+      "to": "skill:10",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:11",
+      "to": "skill:11",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:12",
+      "to": "skill:12",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:13",
+      "to": "skill:13",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:14",
+      "to": "skill:14",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:15",
+      "to": "skill:15",
       "rel": "DEMOS"
     }
   ]

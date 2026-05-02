@@ -1,0 +1,2 @@
+# No external dependencies — uses Python 3.10+ stdlib only.
+# dataclasses, json, os, textwrap are all built-in.

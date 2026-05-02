@@ -1,0 +1,18 @@
+service:
+  name: PRTS
+  version: "0.1"
+
+agents:
+  - name: research
+    class: agents.worker.ResearchAgent
+    enabled: true
+  - name: coder
+    class: agents.worker.CodeAgent
+    enabled: true
+  - name: summarizer
+    class: agents.worker.SummaryAgent
+    enabled: true
+
+dispatcher:
+  max_retries: 1
+  rebuild_on_failure: true

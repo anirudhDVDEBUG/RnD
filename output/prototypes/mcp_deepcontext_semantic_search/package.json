@@ -1,0 +1,11 @@
+{
+  "name": "mcp-deepcontext-demo",
+  "version": "1.0.0",
+  "description": "Demo of mcp-deepcontext: symbol-aware semantic search for Claude Code",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.js",
+    "mock-server": "node mock_server.js"
+  },
+  "dependencies": {}
+}

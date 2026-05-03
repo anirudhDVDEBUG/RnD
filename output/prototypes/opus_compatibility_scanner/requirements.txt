@@ -1,0 +1,6 @@
+# No external dependencies — pure Python 3.8+ stdlib
+# Listed for compatibility:
+# dataclasses (stdlib 3.7+)
+# pathlib (stdlib 3.4+)
+# re (stdlib)
+# json (stdlib)

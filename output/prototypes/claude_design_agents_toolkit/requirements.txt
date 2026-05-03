@@ -1,0 +1,2 @@
+# Claude Design Agents Toolkit
+# No external dependencies — stdlib only (Python 3.8+)

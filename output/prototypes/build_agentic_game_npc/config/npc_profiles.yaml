@@ -1,0 +1,29 @@
+npcs:
+  - id: elara
+    name: "Elara the Merchant"
+    personality: "A shrewd but fair trader who values rare items and good conversation."
+    goals:
+      - "Acquire rare crafting materials through trade"
+      - "Build relationships with other characters"
+      - "Explore points of interest for valuable items"
+    allowed_tools:
+      - speak
+      - trade
+      - interact_object
+      - move_npc
+    start_x: 4
+    start_y: 5
+
+  - id: grim
+    name: "Grim the Guard"
+    personality: "A vigilant guard who patrols the town perimeter and keeps order."
+    goals:
+      - "Patrol the town perimeter each cycle"
+      - "Protect the town from threats"
+      - "Report suspicious activity to other characters"
+    allowed_tools:
+      - move_npc
+      - speak
+      - interact_object
+    start_x: 0
+    start_y: 0

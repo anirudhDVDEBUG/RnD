@@ -744,6 +744,37 @@
       "label": "data-visualization"
     },
     {
+      "id": "item:1756",
+      "type": "item",
+      "label": "Sightings",
+      "url": "https://simonwillison.net/2026/May/2/sightings/#atom-everything",
+      "source": "rss",
+      "score": 0.6254591304330146,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:content-syndication",
+      "type": "tag",
+      "label": "content-syndication"
+    },
+    {
+      "id": "tag:wildlife-photography",
+      "type": "tag",
+      "label": "wildlife-photography"
+    },
+    {
+      "id": "tag:claude-code-web",
+      "type": "tag",
+      "label": "claude-code-web"
+    },
+    {
+      "id": "tag:personal-blog",
+      "type": "tag",
+      "label": "personal-blog"
+    },
+    {
       "id": "item:1714",
       "type": "item",
       "label": "⭐ velocity: ComposioHQ/awesome-claude-skills +54/day — A curated list of awesome",
@@ -6022,32 +6053,6 @@
       "label": "software-maintenance"
     },
     {
-      "id": "item:55",
-      "type": "item",
-      "label": "Test-Time Safety Alignment",
-      "url": "https://arxiv.org/abs/2604.26167",
-      "source": "rss",
-      "score": 0.4982739670268981,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:input-embeddings",
-      "type": "tag",
-      "label": "input-embeddings"
-    },
-    {
-      "id": "tag:jailbreaking",
-      "type": "tag",
-      "label": "jailbreaking"
-    },
-    {
-      "id": "tag:black-box-optimization",
-      "type": "tag",
-      "label": "black-box-optimization"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6136,6 +6141,54 @@
       "type": "skill",
       "label": "inat_sightings_git_scraping_viewer",
       "path": "/home/rnd/trendforge/output/skills/inat_sightings_git_scraping_viewer"
+    },
+    {
+      "id": "skill:16",
+      "type": "skill",
+      "label": "mem0_memory_layer",
+      "path": "/home/rnd/trendforge/output/skills/mem0_memory_layer"
+    },
+    {
+      "id": "skill:17",
+      "type": "skill",
+      "label": "claude_design_agents_toolkit",
+      "path": "/home/rnd/trendforge/output/skills/claude_design_agents_toolkit"
+    },
+    {
+      "id": "skill:18",
+      "type": "skill",
+      "label": "build_agentic_game_npc",
+      "path": "/home/rnd/trendforge/output/skills/build_agentic_game_npc"
+    },
+    {
+      "id": "skill:19",
+      "type": "skill",
+      "label": "docker_mcp_gateway",
+      "path": "/home/rnd/trendforge/output/skills/docker_mcp_gateway"
+    },
+    {
+      "id": "skill:20",
+      "type": "skill",
+      "label": "zeroclaw_mcp_router_toolkit",
+      "path": "/home/rnd/trendforge/output/skills/zeroclaw_mcp_router_toolkit"
+    },
+    {
+      "id": "skill:21",
+      "type": "skill",
+      "label": "founder_fundraising_outreach",
+      "path": "/home/rnd/trendforge/output/skills/founder_fundraising_outreach"
+    },
+    {
+      "id": "skill:22",
+      "type": "skill",
+      "label": "opus_compatibility_scanner",
+      "path": "/home/rnd/trendforge/output/skills/opus_compatibility_scanner"
+    },
+    {
+      "id": "skill:23",
+      "type": "skill",
+      "label": "inaturalist_sightings_syndication",
+      "path": "/home/rnd/trendforge/output/skills/inaturalist_sightings_syndication"
     },
     {
       "id": "prototype:1",
@@ -6241,6 +6294,62 @@
       "label": "inat_sightings_git_scraping_viewer",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/inat_sightings_git_scraping_viewer.pptx"
+    },
+    {
+      "id": "prototype:16",
+      "type": "prototype",
+      "label": "mem0_memory_layer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/mem0_memory_layer.pptx"
+    },
+    {
+      "id": "prototype:17",
+      "type": "prototype",
+      "label": "claude_design_agents_toolkit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_design_agents_toolkit.pptx"
+    },
+    {
+      "id": "prototype:18",
+      "type": "prototype",
+      "label": "build_agentic_game_npc",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/build_agentic_game_npc.pptx"
+    },
+    {
+      "id": "prototype:19",
+      "type": "prototype",
+      "label": "docker_mcp_gateway",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/docker_mcp_gateway.pptx"
+    },
+    {
+      "id": "prototype:20",
+      "type": "prototype",
+      "label": "zeroclaw_mcp_router_toolkit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/zeroclaw_mcp_router_toolkit.pptx"
+    },
+    {
+      "id": "prototype:21",
+      "type": "prototype",
+      "label": "founder_fundraising_outreach",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/founder_fundraising_outreach.pptx"
+    },
+    {
+      "id": "prototype:22",
+      "type": "prototype",
+      "label": "opus_compatibility_scanner",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/opus_compatibility_scanner.pptx"
+    },
+    {
+      "id": "prototype:23",
+      "type": "prototype",
+      "label": "inaturalist_sightings_syndication",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/inaturalist_sightings_syndication.pptx"
     }
   ],
   "edges": [
@@ -6972,6 +7081,36 @@
     {
       "from": "item:1727",
       "to": "tag:data-visualization",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1756",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1756",
+      "to": "tag:content-syndication",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1756",
+      "to": "tag:inaturalist",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1756",
+      "to": "tag:wildlife-photography",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1756",
+      "to": "tag:claude-code-web",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1756",
+      "to": "tag:personal-blog",
       "rel": "HAS_TAG"
     },
     {
@@ -12800,36 +12939,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:55",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:55",
-      "to": "tag:safety-alignment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:55",
-      "to": "tag:input-embeddings",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:55",
-      "to": "tag:jailbreaking",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:55",
-      "to": "tag:black-box-optimization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:55",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -12905,6 +13014,46 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:16",
+      "to": "item:1790",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:17",
+      "to": "item:1781",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:18",
+      "to": "item:1766",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:19",
+      "to": "item:1768",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:20",
+      "to": "item:1757",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:21",
+      "to": "item:1761",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:22",
+      "to": "item:1762",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:23",
+      "to": "item:1756",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -12977,6 +13126,46 @@
     {
       "from": "prototype:15",
       "to": "skill:15",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:16",
+      "to": "skill:16",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:17",
+      "to": "skill:17",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:18",
+      "to": "skill:18",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:19",
+      "to": "skill:19",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:20",
+      "to": "skill:20",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:21",
+      "to": "skill:21",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:22",
+      "to": "skill:22",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:23",
+      "to": "skill:23",
       "rel": "DEMOS"
     }
   ]

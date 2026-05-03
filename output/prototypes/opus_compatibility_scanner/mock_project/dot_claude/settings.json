@@ -1,0 +1,35 @@
+{
+  "allowedTools": ["Bash", "Read", "Write", "Edit"],
+  "blockedTools": ["RemoteTrigger"],
+  "customInstructions": "Always use TypeScript for new files",
+  "maxTurns": 25,
+  "autoApprove": true,
+  "contextWindow": 1000000,
+  "mcpTimeout": 30,
+  "telemetry": false,
+  "experimental": {
+    "parallelToolCalls": true
+  },
+  "theme": "dark",
+  "hooks": {
+    "PreToolUse": "echo 'tool starting'",
+    "PostToolUse": "echo 'tool done'",
+    "PreCommit": "npm test",
+    "PreFileEdit": "echo 'editing file'",
+    "PostFileEdit": "echo 'file edited'",
+    "OnSessionStart": "echo 'session started'",
+    "OnSessionEnd": "echo 'session ended'",
+    "OnError": "echo 'error occurred'",
+    "hook_timeout": 5000
+  },
+  "permissions": ["bash", "edit", "write"],
+  "sandbox_mode": "standard",
+  "mcpServers": {
+    "my-server": {
+      "command": "node",
+      "args": ["server.js"],
+      "protocol": "mcp-v1",
+      "transport": "sse"
+    }
+  }
+}

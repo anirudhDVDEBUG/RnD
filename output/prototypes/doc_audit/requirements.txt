@@ -1,0 +1,3 @@
+# No external dependencies required.
+# The demo uses only Python standard library.
+# The actual skill runs inside Claude Code with no additional packages.

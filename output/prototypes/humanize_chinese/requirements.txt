@@ -1,0 +1,2 @@
+# humanize_chinese — no external dependencies
+# Uses only Python 3.10+ stdlib (re, random, dataclasses, argparse)

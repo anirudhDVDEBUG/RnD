@@ -1748,6 +1748,63 @@
       "label": "graphic-design"
     },
     {
+      "id": "item:1801",
+      "type": "item",
+      "label": "KSroido/Kagi-Session2API-MCP: Free Kagi Search MCP server — access search and su",
+      "url": "https://github.com/KSroido/Kagi-Session2API-MCP",
+      "source": "github",
+      "score": 0.5740777387214543,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:web-search",
+      "type": "tag",
+      "label": "web-search"
+    },
+    {
+      "id": "tag:kagi",
+      "type": "tag",
+      "label": "kagi"
+    },
+    {
+      "id": "tag:search-api",
+      "type": "tag",
+      "label": "search-api"
+    },
+    {
+      "id": "tag:summarizer",
+      "type": "tag",
+      "label": "summarizer"
+    },
+    {
+      "id": "item:1794",
+      "type": "item",
+      "label": "l0z4n0-a1/skill-anthropic-grade-optimizer: Audits Claude-directing artifacts (CL",
+      "url": "https://github.com/l0z4n0-a1/skill-anthropic-grade-optimizer",
+      "source": "github",
+      "score": 0.5692359658800964,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:prompt-optimization",
+      "type": "tag",
+      "label": "prompt-optimization"
+    },
+    {
+      "id": "tag:linter",
+      "type": "tag",
+      "label": "linter"
+    },
+    {
+      "id": "tag:anthropic-rules",
+      "type": "tag",
+      "label": "anthropic-rules"
+    },
+    {
       "id": "item:1731",
       "type": "item",
       "label": "ravindranathpathi/scenelens: Give Claude a smarter video input. Scene-aware fram",
@@ -2337,6 +2394,32 @@
       "id": "tag:rust",
       "type": "tag",
       "label": "rust"
+    },
+    {
+      "id": "item:1791",
+      "type": "item",
+      "label": "Quoting Anthropic",
+      "url": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+      "source": "rss",
+      "score": 0.5151738945733518,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:claude-behavior",
+      "type": "tag",
+      "label": "claude-behavior"
+    },
+    {
+      "id": "tag:anthropic-research",
+      "type": "tag",
+      "label": "anthropic-research"
+    },
+    {
+      "id": "tag:ai-ethics",
+      "type": "tag",
+      "label": "ai-ethics"
     },
     {
       "id": "item:1670",
@@ -5405,11 +5488,6 @@
       "label": "ai-companions"
     },
     {
-      "id": "tag:ai-ethics",
-      "type": "tag",
-      "label": "ai-ethics"
-    },
-    {
       "id": "tag:relational-ai",
       "type": "tag",
       "label": "relational-ai"
@@ -5970,89 +6048,6 @@
       "label": "evaluation-bias"
     },
     {
-      "id": "item:45",
-      "type": "item",
-      "label": "Evaluating the Alignment Between GeoAI Explanations and Domain Knowledge in Sate",
-      "url": "https://arxiv.org/abs/2604.26051",
-      "source": "rss",
-      "score": 0.4982739940562992,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:geoai",
-      "type": "tag",
-      "label": "geoai"
-    },
-    {
-      "id": "tag:flood-mapping",
-      "type": "tag",
-      "label": "flood-mapping"
-    },
-    {
-      "id": "tag:shap",
-      "type": "tag",
-      "label": "shap"
-    },
-    {
-      "id": "tag:remote-sensing",
-      "type": "tag",
-      "label": "remote-sensing"
-    },
-    {
-      "id": "item:49",
-      "type": "item",
-      "label": "AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Att",
-      "url": "https://arxiv.org/abs/2604.26103",
-      "source": "rss",
-      "score": 0.49827398282455404,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:chiplet-architecture",
-      "type": "tag",
-      "label": "chiplet-architecture"
-    },
-    {
-      "id": "tag:attention-acceleration",
-      "type": "tag",
-      "label": "attention-acceleration"
-    },
-    {
-      "id": "tag:pim",
-      "type": "tag",
-      "label": "pim"
-    },
-    {
-      "id": "item:51",
-      "type": "item",
-      "label": "ImproBR: Bug Report Improver Using LLMs",
-      "url": "https://arxiv.org/abs/2604.26142",
-      "source": "rss",
-      "score": 0.4982739796042326,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:bug-reports",
-      "type": "tag",
-      "label": "bug-reports"
-    },
-    {
-      "id": "tag:few-shot-prompting",
-      "type": "tag",
-      "label": "few-shot-prompting"
-    },
-    {
-      "id": "tag:software-maintenance",
-      "type": "tag",
-      "label": "software-maintenance"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6189,6 +6184,60 @@
       "type": "skill",
       "label": "inaturalist_sightings_syndication",
       "path": "/home/rnd/trendforge/output/skills/inaturalist_sightings_syndication"
+    },
+    {
+      "id": "skill:24",
+      "type": "skill",
+      "label": "redis_development",
+      "path": "/home/rnd/trendforge/output/skills/redis_development"
+    },
+    {
+      "id": "skill:25",
+      "type": "skill",
+      "label": "humanize_chinese",
+      "path": "/home/rnd/trendforge/output/skills/humanize_chinese"
+    },
+    {
+      "id": "skill:26",
+      "type": "skill",
+      "label": "unslop_text",
+      "path": "/home/rnd/trendforge/output/skills/unslop_text"
+    },
+    {
+      "id": "skill:27",
+      "type": "skill",
+      "label": "vibe_coding_skills",
+      "path": "/home/rnd/trendforge/output/skills/vibe_coding_skills"
+    },
+    {
+      "id": "skill:28",
+      "type": "skill",
+      "label": "kagi_session_mcp_server",
+      "path": "/home/rnd/trendforge/output/skills/kagi_session_mcp_server"
+    },
+    {
+      "id": "skill:29",
+      "type": "skill",
+      "label": "anthropic_grade_optimizer",
+      "path": "/home/rnd/trendforge/output/skills/anthropic_grade_optimizer"
+    },
+    {
+      "id": "skill:30",
+      "type": "skill",
+      "label": "doc_audit",
+      "path": "/home/rnd/trendforge/output/skills/doc_audit"
+    },
+    {
+      "id": "skill:31",
+      "type": "skill",
+      "label": "skill_validator",
+      "path": "/home/rnd/trendforge/output/skills/skill_validator"
+    },
+    {
+      "id": "skill:32",
+      "type": "skill",
+      "label": "anti_sycophancy_reviewer",
+      "path": "/home/rnd/trendforge/output/skills/anti_sycophancy_reviewer"
     },
     {
       "id": "prototype:1",
@@ -6350,6 +6399,69 @@
       "label": "inaturalist_sightings_syndication",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/inaturalist_sightings_syndication.pptx"
+    },
+    {
+      "id": "prototype:24",
+      "type": "prototype",
+      "label": "redis_development",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/redis_development.pptx"
+    },
+    {
+      "id": "prototype:25",
+      "type": "prototype",
+      "label": "humanize_chinese",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/humanize_chinese.pptx"
+    },
+    {
+      "id": "prototype:26",
+      "type": "prototype",
+      "label": "unslop_text",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/unslop_text.pptx"
+    },
+    {
+      "id": "prototype:27",
+      "type": "prototype",
+      "label": "vibe_coding_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/vibe_coding_skills.pptx"
+    },
+    {
+      "id": "prototype:28",
+      "type": "prototype",
+      "label": "kagi_session_mcp_server",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/kagi_session_mcp_server.pptx"
+    },
+    {
+      "id": "prototype:29",
+      "type": "prototype",
+      "label": "anthropic_grade_optimizer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/anthropic_grade_optimizer.pptx"
+    },
+    {
+      "id": "prototype:30",
+      "type": "prototype",
+      "label": "doc_audit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/doc_audit.pptx"
+    },
+    {
+      "id": "prototype:31",
+      "type": "prototype",
+      "label": "skill_validator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/skill_validator.pptx"
+    },
+    {
+      "id": "prototype:32",
+      "type": "prototype",
+      "label": "anti_sycophancy_reviewer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/anti_sycophancy_reviewer.pptx"
     }
   ],
   "edges": [
@@ -8194,6 +8306,81 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:1801",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1801",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1801",
+      "to": "tag:web-search",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1801",
+      "to": "tag:kagi",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1801",
+      "to": "tag:search-api",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1801",
+      "to": "tag:summarizer",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1801",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1794",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1794",
+      "to": "tag:prompt-optimization",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1794",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1794",
+      "to": "tag:linter",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1794",
+      "to": "tag:anthropic-rules",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1794",
+      "to": "tag:prompt-engineering",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1794",
+      "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1794",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1731",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -9031,6 +9218,41 @@
     {
       "from": "item:675",
       "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1791",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1791",
+      "to": "tag:sycophancy",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1791",
+      "to": "tag:ai-safety",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1791",
+      "to": "tag:claude-behavior",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1791",
+      "to": "tag:anthropic-research",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1791",
+      "to": "tag:ai-ethics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1791",
+      "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
     {
@@ -12844,101 +13066,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:45",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:45",
-      "to": "tag:geoai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:45",
-      "to": "tag:explainability",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:45",
-      "to": "tag:flood-mapping",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:45",
-      "to": "tag:shap",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:45",
-      "to": "tag:remote-sensing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:45",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:49",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:49",
-      "to": "tag:chiplet-architecture",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:49",
-      "to": "tag:attention-acceleration",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:49",
-      "to": "tag:long-context",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:49",
-      "to": "tag:pim",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:51",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:51",
-      "to": "tag:bug-reports",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:51",
-      "to": "tag:rag",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:51",
-      "to": "tag:few-shot-prompting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:51",
-      "to": "tag:fine-tuning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:51",
-      "to": "tag:software-maintenance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:51",
-      "to": "project:pitchbot",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -13054,6 +13181,51 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:24",
+      "to": "item:1821",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:25",
+      "to": "item:1822",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:26",
+      "to": "item:1823",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:27",
+      "to": "item:1824",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:28",
+      "to": "item:1801",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:29",
+      "to": "item:1794",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:30",
+      "to": "item:1797",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:31",
+      "to": "item:1799",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:32",
+      "to": "item:1791",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -13166,6 +13338,51 @@
     {
       "from": "prototype:23",
       "to": "skill:23",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:24",
+      "to": "skill:24",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:25",
+      "to": "skill:25",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:26",
+      "to": "skill:26",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:27",
+      "to": "skill:27",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:28",
+      "to": "skill:28",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:29",
+      "to": "skill:29",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:30",
+      "to": "skill:30",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:31",
+      "to": "skill:31",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:32",
+      "to": "skill:32",
       "rel": "DEMOS"
     }
   ]

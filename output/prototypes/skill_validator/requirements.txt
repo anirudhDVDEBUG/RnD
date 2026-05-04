@@ -1,0 +1,1 @@
+# skill_validator has no external dependencies — stdlib only (Python 3.8+)

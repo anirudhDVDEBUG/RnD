@@ -1,0 +1,3 @@
+# Kagi Session MCP Server
+# No external dependencies — uses only Python stdlib (json, urllib, sys, os)
+# Python >= 3.10 required

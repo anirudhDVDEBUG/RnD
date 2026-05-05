@@ -1,0 +1,7 @@
+# Photo-agents demo - no external dependencies needed for core demo
+# Production would require:
+# anthropic>=0.30.0    # or openai>=1.0.0
+# pyautogui>=0.9.54   # screenshot capture
+# Pillow>=10.0.0      # image processing
+# numpy>=1.24.0       # embedding operations
+# sentence-transformers>=2.2.0  # CLIP embeddings

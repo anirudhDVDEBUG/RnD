@@ -311,6 +311,42 @@
       "label": "awesome-list"
     },
     {
+      "id": "item:1857",
+      "type": "item",
+      "label": "⭐ velocity: pipecat-ai/pipecat +101/day — Open Source framework for voice and mu",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "source": "github",
+      "score": 0.7229500385344605,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:voice-ai",
+      "type": "tag",
+      "label": "voice-ai"
+    },
+    {
+      "id": "tag:conversational-ai",
+      "type": "tag",
+      "label": "conversational-ai"
+    },
+    {
+      "id": "tag:real-time",
+      "type": "tag",
+      "label": "real-time"
+    },
+    {
+      "id": "tag:multimodal",
+      "type": "tag",
+      "label": "multimodal"
+    },
+    {
+      "id": "tag:pipecat",
+      "type": "tag",
+      "label": "pipecat"
+    },
+    {
       "id": "item:128",
       "type": "item",
       "label": "Student Guides Teacher: Weak-to-Strong Inference via Spectral Orthogonal Explora",
@@ -784,6 +820,73 @@
       "pinned": false,
       "pitch": null,
       "notes": null
+    },
+    {
+      "id": "item:1829",
+      "type": "item",
+      "label": "Redis Array Playground",
+      "url": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+      "source": "rss",
+      "score": 0.6182326988688325,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:redis",
+      "type": "tag",
+      "label": "redis"
+    },
+    {
+      "id": "tag:wasm",
+      "type": "tag",
+      "label": "wasm"
+    },
+    {
+      "id": "tag:data-structures",
+      "type": "tag",
+      "label": "data-structures"
+    },
+    {
+      "id": "tag:browser-playground",
+      "type": "tag",
+      "label": "browser-playground"
+    },
+    {
+      "id": "tag:server-side-grep",
+      "type": "tag",
+      "label": "server-side-grep"
+    },
+    {
+      "id": "item:1838",
+      "type": "item",
+      "label": "markifact/markifact-mcp: MCP server for Google Ads, Meta Ads, GA4, TikTok Ads, a",
+      "url": "https://github.com/markifact/markifact-mcp",
+      "source": "github",
+      "score": 0.6028947586715127,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:google-ads",
+      "type": "tag",
+      "label": "google-ads"
+    },
+    {
+      "id": "tag:meta-ads",
+      "type": "tag",
+      "label": "meta-ads"
+    },
+    {
+      "id": "tag:ad-management",
+      "type": "tag",
+      "label": "ad-management"
+    },
+    {
+      "id": "tag:marketing-automation",
+      "type": "tag",
+      "label": "marketing-automation"
     },
     {
       "id": "item:97",
@@ -1805,6 +1908,37 @@
       "label": "anthropic-rules"
     },
     {
+      "id": "item:1825",
+      "type": "item",
+      "label": "Granite 4.1 3B SVG Pelican Gallery",
+      "url": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+      "source": "rss",
+      "score": 0.5589246025502416,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:llm-benchmarking",
+      "type": "tag",
+      "label": "llm-benchmarking"
+    },
+    {
+      "id": "tag:svg-generation",
+      "type": "tag",
+      "label": "svg-generation"
+    },
+    {
+      "id": "tag:model-quantization",
+      "type": "tag",
+      "label": "model-quantization"
+    },
+    {
+      "id": "tag:gguf",
+      "type": "tag",
+      "label": "gguf"
+    },
+    {
       "id": "item:1731",
       "type": "item",
       "label": "ravindranathpathi/scenelens: Give Claude a smarter video input. Scene-aware fram",
@@ -1834,6 +1968,32 @@
       "id": "tag:frame-extraction",
       "type": "tag",
       "label": "frame-extraction"
+    },
+    {
+      "id": "item:1827",
+      "type": "item",
+      "label": "April 2026 newsletter",
+      "url": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+      "source": "rss",
+      "score": 0.5522595026802419,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:newsletter",
+      "type": "tag",
+      "label": "newsletter"
+    },
+    {
+      "id": "tag:llm-release",
+      "type": "tag",
+      "label": "llm-release"
+    },
+    {
+      "id": "tag:ai-roundup",
+      "type": "tag",
+      "label": "ai-roundup"
     },
     {
       "id": "item:323",
@@ -1912,6 +2072,42 @@
       "id": "tag:cli-tool",
       "type": "tag",
       "label": "cli-tool"
+    },
+    {
+      "id": "item:1828",
+      "type": "item",
+      "label": "TRE Python binding — ReDoS robustness demo",
+      "url": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+      "source": "rss",
+      "score": 0.5274844353775234,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:regex-engine",
+      "type": "tag",
+      "label": "regex-engine"
+    },
+    {
+      "id": "tag:redos",
+      "type": "tag",
+      "label": "redos"
+    },
+    {
+      "id": "tag:python-binding",
+      "type": "tag",
+      "label": "python-binding"
+    },
+    {
+      "id": "tag:security",
+      "type": "tag",
+      "label": "security"
+    },
+    {
+      "id": "tag:ctypes",
+      "type": "tag",
+      "label": "ctypes"
     },
     {
       "id": "item:1130",
@@ -2467,11 +2663,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "tag:model-quantization",
-      "type": "tag",
-      "label": "model-quantization"
     },
     {
       "id": "tag:low-rank-approximation",
@@ -4786,11 +4977,6 @@
       "notes": null
     },
     {
-      "id": "tag:multimodal",
-      "type": "tag",
-      "label": "multimodal"
-    },
-    {
       "id": "tag:feature-extraction",
       "type": "tag",
       "label": "feature-extraction"
@@ -5892,162 +6078,6 @@
       "label": "output-format"
     },
     {
-      "id": "item:28",
-      "type": "item",
-      "label": "Sociodemographic Biases in Educational Counselling by Large Language Models",
-      "url": "https://arxiv.org/abs/2604.25932",
-      "source": "rss",
-      "score": 0.4982740381646192,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:llm-bias",
-      "type": "tag",
-      "label": "llm-bias"
-    },
-    {
-      "id": "tag:sociodemographic-bias",
-      "type": "tag",
-      "label": "sociodemographic-bias"
-    },
-    {
-      "id": "item:35",
-      "type": "item",
-      "label": "A Survey of Multi-Agent Deep Reinforcement Learning with Graph Neural Network-Ba",
-      "url": "https://arxiv.org/abs/2604.25972",
-      "source": "rss",
-      "score": 0.4982740198344057,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multi-agent-rl",
-      "type": "tag",
-      "label": "multi-agent-rl"
-    },
-    {
-      "id": "tag:gnn-communication",
-      "type": "tag",
-      "label": "gnn-communication"
-    },
-    {
-      "id": "tag:marl-survey",
-      "type": "tag",
-      "label": "marl-survey"
-    },
-    {
-      "id": "tag:interaction-graph",
-      "type": "tag",
-      "label": "interaction-graph"
-    },
-    {
-      "id": "item:36",
-      "type": "item",
-      "label": "Rethinking KV Cache Eviction via a Unified Information-Theoretic Objective",
-      "url": "https://arxiv.org/abs/2604.25975",
-      "source": "rss",
-      "score": 0.4982740180029375,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:information-bottleneck",
-      "type": "tag",
-      "label": "information-bottleneck"
-    },
-    {
-      "id": "tag:cache-eviction",
-      "type": "tag",
-      "label": "cache-eviction"
-    },
-    {
-      "id": "item:39",
-      "type": "item",
-      "label": "Lightweight Quantum Agent for Edge Systems: Joint PQC and NOMA Resource Allocati",
-      "url": "https://arxiv.org/abs/2604.25980",
-      "source": "rss",
-      "score": 0.4982740102466534,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:post-quantum-crypto",
-      "type": "tag",
-      "label": "post-quantum-crypto"
-    },
-    {
-      "id": "tag:noma",
-      "type": "tag",
-      "label": "noma"
-    },
-    {
-      "id": "tag:resource-allocation",
-      "type": "tag",
-      "label": "resource-allocation"
-    },
-    {
-      "id": "tag:lyapunov-optimization",
-      "type": "tag",
-      "label": "lyapunov-optimization"
-    },
-    {
-      "id": "item:42",
-      "type": "item",
-      "label": "Training Computer Use Agents to Assess the Usability of Graphical User Interface",
-      "url": "https://arxiv.org/abs/2604.26020",
-      "source": "rss",
-      "score": 0.4982740006821973,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:computer-use-agents",
-      "type": "tag",
-      "label": "computer-use-agents"
-    },
-    {
-      "id": "tag:usability-testing",
-      "type": "tag",
-      "label": "usability-testing"
-    },
-    {
-      "id": "tag:gui-evaluation",
-      "type": "tag",
-      "label": "gui-evaluation"
-    },
-    {
-      "id": "item:43",
-      "type": "item",
-      "label": "Correcting Performance Estimation Bias in Imbalanced Classification with Minorit",
-      "url": "https://arxiv.org/abs/2604.26024",
-      "source": "rss",
-      "score": 0.498273998392585,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:imbalanced-classification",
-      "type": "tag",
-      "label": "imbalanced-classification"
-    },
-    {
-      "id": "tag:subconcepts",
-      "type": "tag",
-      "label": "subconcepts"
-    },
-    {
-      "id": "tag:evaluation-bias",
-      "type": "tag",
-      "label": "evaluation-bias"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6238,6 +6268,78 @@
       "type": "skill",
       "label": "anti_sycophancy_reviewer",
       "path": "/home/rnd/trendforge/output/skills/anti_sycophancy_reviewer"
+    },
+    {
+      "id": "skill:33",
+      "type": "skill",
+      "label": "metalbear_skills_registry",
+      "path": "/home/rnd/trendforge/output/skills/metalbear_skills_registry"
+    },
+    {
+      "id": "skill:34",
+      "type": "skill",
+      "label": "pipecat_voice_multimodal_agent",
+      "path": "/home/rnd/trendforge/output/skills/pipecat_voice_multimodal_agent"
+    },
+    {
+      "id": "skill:35",
+      "type": "skill",
+      "label": "mcp_servers_setup",
+      "path": "/home/rnd/trendforge/output/skills/mcp_servers_setup"
+    },
+    {
+      "id": "skill:36",
+      "type": "skill",
+      "label": "photo_agents_vision_memory",
+      "path": "/home/rnd/trendforge/output/skills/photo_agents_vision_memory"
+    },
+    {
+      "id": "skill:37",
+      "type": "skill",
+      "label": "nvidia_claude_proxy",
+      "path": "/home/rnd/trendforge/output/skills/nvidia_claude_proxy"
+    },
+    {
+      "id": "skill:38",
+      "type": "skill",
+      "label": "markifact_mcp_ads_management",
+      "path": "/home/rnd/trendforge/output/skills/markifact_mcp_ads_management"
+    },
+    {
+      "id": "skill:39",
+      "type": "skill",
+      "label": "yoloshii_gigaxity_deep_research_open_source_deep_research_mc",
+      "path": "/home/rnd/trendforge/output/skills/yoloshii_gigaxity_deep_research_open_source_deep_research_mc"
+    },
+    {
+      "id": "skill:40",
+      "type": "skill",
+      "label": "gguf_svg_benchmark_gallery",
+      "path": "/home/rnd/trendforge/output/skills/gguf_svg_benchmark_gallery"
+    },
+    {
+      "id": "skill:41",
+      "type": "skill",
+      "label": "data_center_land_use_debunk",
+      "path": "/home/rnd/trendforge/output/skills/data_center_land_use_debunk"
+    },
+    {
+      "id": "skill:42",
+      "type": "skill",
+      "label": "simon_willison_newsletter_ai_roundup",
+      "path": "/home/rnd/trendforge/output/skills/simon_willison_newsletter_ai_roundup"
+    },
+    {
+      "id": "skill:43",
+      "type": "skill",
+      "label": "tre_python_redos_robustness",
+      "path": "/home/rnd/trendforge/output/skills/tre_python_redos_robustness"
+    },
+    {
+      "id": "skill:44",
+      "type": "skill",
+      "label": "redis_array_playground",
+      "path": "/home/rnd/trendforge/output/skills/redis_array_playground"
     },
     {
       "id": "prototype:1",
@@ -6462,6 +6564,90 @@
       "label": "anti_sycophancy_reviewer",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/anti_sycophancy_reviewer.pptx"
+    },
+    {
+      "id": "prototype:33",
+      "type": "prototype",
+      "label": "metalbear_skills_registry",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/metalbear_skills_registry.pptx"
+    },
+    {
+      "id": "prototype:34",
+      "type": "prototype",
+      "label": "pipecat_voice_multimodal_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/pipecat_voice_multimodal_agent.pptx"
+    },
+    {
+      "id": "prototype:35",
+      "type": "prototype",
+      "label": "mcp_servers_setup",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/mcp_servers_setup.pptx"
+    },
+    {
+      "id": "prototype:36",
+      "type": "prototype",
+      "label": "photo_agents_vision_memory",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/photo_agents_vision_memory.pptx"
+    },
+    {
+      "id": "prototype:37",
+      "type": "prototype",
+      "label": "nvidia_claude_proxy",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/nvidia_claude_proxy.pptx"
+    },
+    {
+      "id": "prototype:38",
+      "type": "prototype",
+      "label": "markifact_mcp_ads_management",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/markifact_mcp_ads_management.pptx"
+    },
+    {
+      "id": "prototype:39",
+      "type": "prototype",
+      "label": "yoloshii_gigaxity_deep_research_open_source_deep_research_mc",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/yoloshii_gigaxity_deep_research_open_source_deep_research_mc.pptx"
+    },
+    {
+      "id": "prototype:40",
+      "type": "prototype",
+      "label": "gguf_svg_benchmark_gallery",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/gguf_svg_benchmark_gallery.pptx"
+    },
+    {
+      "id": "prototype:41",
+      "type": "prototype",
+      "label": "data_center_land_use_debunk",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/data_center_land_use_debunk.pptx"
+    },
+    {
+      "id": "prototype:42",
+      "type": "prototype",
+      "label": "simon_willison_newsletter_ai_roundup",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/simon_willison_newsletter_ai_roundup.pptx"
+    },
+    {
+      "id": "prototype:43",
+      "type": "prototype",
+      "label": "tre_python_redos_robustness",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/tre_python_redos_robustness.pptx"
+    },
+    {
+      "id": "prototype:44",
+      "type": "prototype",
+      "label": "redis_array_playground",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/redis_array_playground.pptx"
     }
   ],
   "edges": [
@@ -6753,6 +6939,41 @@
     {
       "from": "item:1713",
       "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1857",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1857",
+      "to": "tag:voice-ai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1857",
+      "to": "tag:conversational-ai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1857",
+      "to": "tag:real-time",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1857",
+      "to": "tag:multimodal",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1857",
+      "to": "tag:pipecat",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1857",
+      "to": "project:aria",
       "rel": "RELEVANT_TO"
     },
     {
@@ -7257,6 +7478,71 @@
     },
     {
       "from": "item:1714",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1829",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1829",
+      "to": "tag:redis",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1829",
+      "to": "tag:wasm",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1829",
+      "to": "tag:data-structures",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1829",
+      "to": "tag:browser-playground",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1829",
+      "to": "tag:server-side-grep",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1838",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1838",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1838",
+      "to": "tag:google-ads",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1838",
+      "to": "tag:meta-ads",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1838",
+      "to": "tag:ad-management",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1838",
+      "to": "tag:marketing-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1838",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -8381,6 +8667,36 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:1825",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1825",
+      "to": "tag:llm-benchmarking",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1825",
+      "to": "tag:svg-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1825",
+      "to": "tag:model-quantization",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1825",
+      "to": "tag:gguf",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1825",
+      "to": "tag:open-weights",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:1731",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -8419,6 +8735,26 @@
       "from": "item:1731",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1827",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1827",
+      "to": "tag:newsletter",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1827",
+      "to": "tag:llm-release",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1827",
+      "to": "tag:ai-roundup",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:323",
@@ -8524,6 +8860,36 @@
       "from": "item:1372",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:1828",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1828",
+      "to": "tag:regex-engine",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1828",
+      "to": "tag:redos",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1828",
+      "to": "tag:python-binding",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1828",
+      "to": "tag:security",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1828",
+      "to": "tag:ctypes",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:1130",
@@ -12886,186 +13252,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:28",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:28",
-      "to": "tag:llm-bias",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:28",
-      "to": "tag:education",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:28",
-      "to": "tag:sociodemographic-bias",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:28",
-      "to": "tag:fairness",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:28",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:35",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:35",
-      "to": "tag:multi-agent-rl",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:35",
-      "to": "tag:gnn-communication",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:35",
-      "to": "tag:marl-survey",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:35",
-      "to": "tag:interaction-graph",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:35",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:36",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:36",
-      "to": "tag:kv-cache",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:36",
-      "to": "tag:information-bottleneck",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:36",
-      "to": "tag:cache-eviction",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:36",
-      "to": "tag:long-context",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:39",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:39",
-      "to": "tag:post-quantum-crypto",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:39",
-      "to": "tag:edge-computing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:39",
-      "to": "tag:noma",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:39",
-      "to": "tag:resource-allocation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:39",
-      "to": "tag:lyapunov-optimization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:39",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:39",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:42",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:42",
-      "to": "tag:computer-use-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:42",
-      "to": "tag:usability-testing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:42",
-      "to": "tag:gui-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:42",
-      "to": "tag:agent-training",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:42",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:43",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:43",
-      "to": "tag:imbalanced-classification",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:43",
-      "to": "tag:subconcepts",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:43",
-      "to": "tag:evaluation-bias",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:43",
-      "to": "tag:fairness",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -13226,6 +13412,66 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:33",
+      "to": "item:1858",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:34",
+      "to": "item:1857",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:35",
+      "to": "item:1856",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:36",
+      "to": "item:1844",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:37",
+      "to": "item:1846",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:38",
+      "to": "item:1838",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:39",
+      "to": "item:1843",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:40",
+      "to": "item:1825",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:41",
+      "to": "item:1826",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:42",
+      "to": "item:1827",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:43",
+      "to": "item:1828",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:44",
+      "to": "item:1829",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -13383,6 +13629,66 @@
     {
       "from": "prototype:32",
       "to": "skill:32",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:33",
+      "to": "skill:33",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:34",
+      "to": "skill:34",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:35",
+      "to": "skill:35",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:36",
+      "to": "skill:36",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:37",
+      "to": "skill:37",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:38",
+      "to": "skill:38",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:39",
+      "to": "skill:39",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:40",
+      "to": "skill:40",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:41",
+      "to": "skill:41",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:42",
+      "to": "skill:42",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:43",
+      "to": "skill:43",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:44",
+      "to": "skill:44",
       "rel": "DEMOS"
     }
   ]

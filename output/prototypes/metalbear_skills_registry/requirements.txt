@@ -1,0 +1,3 @@
+# No external dependencies required - uses Python standard library only
+# pyyaml is optional (for advanced frontmatter parsing in production use)
+pyyaml>=6.0

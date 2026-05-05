@@ -1,0 +1,6 @@
+# No external dependencies — uses only Python 3.10+ stdlib
+# The demo server and config generator are self-contained.
+#
+# To install actual MCP servers in production:
+#   npm install -g @modelcontextprotocol/server-filesystem
+#   pip install mcp-server-git mcp-server-sqlite mcp-server-fetch

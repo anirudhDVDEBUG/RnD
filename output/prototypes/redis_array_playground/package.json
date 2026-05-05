@@ -1,0 +1,11 @@
+{
+  "name": "redis-array-playground",
+  "version": "1.0.0",
+  "description": "Interactive browser-based playground for Redis Array commands, running entirely client-side",
+  "scripts": {
+    "start": "bash run.sh"
+  },
+  "keywords": ["redis", "array", "playground", "wasm", "browser"],
+  "license": "MIT",
+  "dependencies": {}
+}

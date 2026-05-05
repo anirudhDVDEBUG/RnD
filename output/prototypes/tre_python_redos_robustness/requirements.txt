@@ -1,0 +1,1 @@
+# No external dependencies — uses only Python stdlib (ctypes, re, time, signal)

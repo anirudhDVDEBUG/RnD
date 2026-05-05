@@ -1,0 +1,7 @@
+# Core (demo mode - no external deps needed)
+# Python 3.8+ standard library only
+
+# For real inference (uncomment):
+# llm>=0.19
+# llm-gguf>=0.1
+# huggingface-hub>=0.20

@@ -1996,6 +1996,37 @@
       "label": "ai-roundup"
     },
     {
+      "id": "item:1859",
+      "type": "item",
+      "label": "Our AI started a cafe in Stockholm",
+      "url": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
+      "source": "rss",
+      "score": 0.5500241141740283,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:autonomous-agent",
+      "type": "tag",
+      "label": "autonomous-agent"
+    },
+    {
+      "id": "tag:ai-operations",
+      "type": "tag",
+      "label": "ai-operations"
+    },
+    {
+      "id": "tag:retail-automation",
+      "type": "tag",
+      "label": "retail-automation"
+    },
+    {
+      "id": "tag:ai-ethics",
+      "type": "tag",
+      "label": "ai-ethics"
+    },
+    {
       "id": "item:323",
       "type": "item",
       "label": "nexu-io/open-design: 🎨 Local-first, open-source alternative to Anthropic's Claud",
@@ -2611,11 +2642,6 @@
       "id": "tag:anthropic-research",
       "type": "tag",
       "label": "anthropic-research"
-    },
-    {
-      "id": "tag:ai-ethics",
-      "type": "tag",
-      "label": "ai-ethics"
     },
     {
       "id": "item:1670",
@@ -6047,37 +6073,6 @@
       "label": "ai-policy"
     },
     {
-      "id": "item:25",
-      "type": "item",
-      "label": "Analysing Lightweight Large Language Models for Biomedical Named Entity Recognit",
-      "url": "https://arxiv.org/abs/2604.25920",
-      "source": "rss",
-      "score": 0.4982740472786986,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:biomedical-ner",
-      "type": "tag",
-      "label": "biomedical-ner"
-    },
-    {
-      "id": "tag:lightweight-llm",
-      "type": "tag",
-      "label": "lightweight-llm"
-    },
-    {
-      "id": "tag:instruction-tuning",
-      "type": "tag",
-      "label": "instruction-tuning"
-    },
-    {
-      "id": "tag:output-format",
-      "type": "tag",
-      "label": "output-format"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6340,6 +6335,66 @@
       "type": "skill",
       "label": "redis_array_playground",
       "path": "/home/rnd/trendforge/output/skills/redis_array_playground"
+    },
+    {
+      "id": "skill:45",
+      "type": "skill",
+      "label": "claude_pets_desktop_pet",
+      "path": "/home/rnd/trendforge/output/skills/claude_pets_desktop_pet"
+    },
+    {
+      "id": "skill:46",
+      "type": "skill",
+      "label": "openpets_desktop_pet_mcp",
+      "path": "/home/rnd/trendforge/output/skills/openpets_desktop_pet_mcp"
+    },
+    {
+      "id": "skill:47",
+      "type": "skill",
+      "label": "ai_dev_effectiveness_git_analysis",
+      "path": "/home/rnd/trendforge/output/skills/ai_dev_effectiveness_git_analysis"
+    },
+    {
+      "id": "skill:48",
+      "type": "skill",
+      "label": "seo_agent_pipeline",
+      "path": "/home/rnd/trendforge/output/skills/seo_agent_pipeline"
+    },
+    {
+      "id": "skill:49",
+      "type": "skill",
+      "label": "aula_mcp_school_platform",
+      "path": "/home/rnd/trendforge/output/skills/aula_mcp_school_platform"
+    },
+    {
+      "id": "skill:50",
+      "type": "skill",
+      "label": "autonomous_agent_risk_audit",
+      "path": "/home/rnd/trendforge/output/skills/autonomous_agent_risk_audit"
+    },
+    {
+      "id": "skill:51",
+      "type": "skill",
+      "label": "llm_echo_mock_model_testing",
+      "path": "/home/rnd/trendforge/output/skills/llm_echo_mock_model_testing"
+    },
+    {
+      "id": "skill:52",
+      "type": "skill",
+      "label": "yc_openai_stake_analysis",
+      "path": "/home/rnd/trendforge/output/skills/yc_openai_stake_analysis"
+    },
+    {
+      "id": "skill:53",
+      "type": "skill",
+      "label": "gpt55_instant_system_card_analysis",
+      "path": "/home/rnd/trendforge/output/skills/gpt55_instant_system_card_analysis"
+    },
+    {
+      "id": "skill:54",
+      "type": "skill",
+      "label": "gpt55_instant_model_overview",
+      "path": "/home/rnd/trendforge/output/skills/gpt55_instant_model_overview"
     },
     {
       "id": "prototype:1",
@@ -6648,6 +6703,76 @@
       "label": "redis_array_playground",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/redis_array_playground.pptx"
+    },
+    {
+      "id": "prototype:45",
+      "type": "prototype",
+      "label": "claude_pets_desktop_pet",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_pets_desktop_pet.pptx"
+    },
+    {
+      "id": "prototype:46",
+      "type": "prototype",
+      "label": "openpets_desktop_pet_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/openpets_desktop_pet_mcp.pptx"
+    },
+    {
+      "id": "prototype:47",
+      "type": "prototype",
+      "label": "ai_dev_effectiveness_git_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_dev_effectiveness_git_analysis.pptx"
+    },
+    {
+      "id": "prototype:48",
+      "type": "prototype",
+      "label": "seo_agent_pipeline",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/seo_agent_pipeline.pptx"
+    },
+    {
+      "id": "prototype:49",
+      "type": "prototype",
+      "label": "aula_mcp_school_platform",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/aula_mcp_school_platform.pptx"
+    },
+    {
+      "id": "prototype:50",
+      "type": "prototype",
+      "label": "autonomous_agent_risk_audit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/autonomous_agent_risk_audit.pptx"
+    },
+    {
+      "id": "prototype:51",
+      "type": "prototype",
+      "label": "llm_echo_mock_model_testing",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/llm_echo_mock_model_testing.pptx"
+    },
+    {
+      "id": "prototype:52",
+      "type": "prototype",
+      "label": "yc_openai_stake_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/yc_openai_stake_analysis.pptx"
+    },
+    {
+      "id": "prototype:53",
+      "type": "prototype",
+      "label": "gpt55_instant_system_card_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/gpt55_instant_system_card_analysis.pptx"
+    },
+    {
+      "id": "prototype:54",
+      "type": "prototype",
+      "label": "gpt55_instant_model_overview",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/gpt55_instant_model_overview.pptx"
     }
   ],
   "edges": [
@@ -8755,6 +8880,36 @@
       "from": "item:1827",
       "to": "tag:ai-roundup",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1859",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:1859",
+      "to": "tag:autonomous-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1859",
+      "to": "tag:ai-operations",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1859",
+      "to": "tag:retail-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1859",
+      "to": "tag:ai-ethics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:1859",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:323",
@@ -13227,31 +13382,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:25",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:25",
-      "to": "tag:biomedical-ner",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:25",
-      "to": "tag:lightweight-llm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:25",
-      "to": "tag:instruction-tuning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:25",
-      "to": "tag:output-format",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -13472,6 +13602,56 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:45",
+      "to": "item:2080",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:46",
+      "to": "item:2081",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:47",
+      "to": "item:2086",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:48",
+      "to": "item:2077",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:49",
+      "to": "item:2065",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:50",
+      "to": "item:1859",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:51",
+      "to": "item:1861",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:52",
+      "to": "item:1862",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:53",
+      "to": "item:1863",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:54",
+      "to": "item:1864",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -13689,6 +13869,56 @@
     {
       "from": "prototype:44",
       "to": "skill:44",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:45",
+      "to": "skill:45",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:46",
+      "to": "skill:46",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:47",
+      "to": "skill:47",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:48",
+      "to": "skill:48",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:49",
+      "to": "skill:49",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:50",
+      "to": "skill:50",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:51",
+      "to": "skill:51",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:52",
+      "to": "skill:52",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:53",
+      "to": "skill:53",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:54",
+      "to": "skill:54",
       "rel": "DEMOS"
     }
   ]

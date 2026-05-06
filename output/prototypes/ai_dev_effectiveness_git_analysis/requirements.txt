@@ -1,0 +1,8 @@
+# ai-dev-effectiveness
+# Core analysis uses only Python stdlib (subprocess, re, json, argparse).
+# No external packages required for basic usage.
+#
+# Optional (for the upstream Jupyter notebook / subagent features):
+# anthropic>=0.39.0
+# jupyter>=1.0.0
+# matplotlib>=3.8.0

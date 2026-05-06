@@ -1,0 +1,178 @@
+{
+  "model": "GPT-5.5 Instant",
+  "publisher": "OpenAI",
+  "release_date": "2026-05-06",
+  "source_url": "https://openai.com/index/gpt-5-5-instant-system-card",
+  "overview": {
+    "description": "GPT-5.5 Instant is OpenAI's lightweight frontier model optimized for speed and cost-efficiency while maintaining strong safety properties. It is designed for high-throughput, latency-sensitive applications.",
+    "model_family": "GPT-5.5",
+    "variant": "Instant",
+    "context_window": 128000,
+    "training_data_cutoff": "2026-03",
+    "modalities": ["text-in", "text-out", "image-in"],
+    "key_features": [
+      "Optimized for low-latency inference",
+      "Cost-efficient at scale",
+      "Maintains frontier-class safety properties",
+      "Supports structured outputs and function calling"
+    ]
+  },
+  "preparedness_framework": {
+    "description": "OpenAI's structured approach to evaluating catastrophic and frontier risks before deployment.",
+    "evaluation_categories": {
+      "cbrn": {
+        "full_name": "Chemical, Biological, Radiological, Nuclear",
+        "risk_rating": "low",
+        "details": "Model does not provide meaningful uplift for CBRN threat creation beyond publicly available information. Evaluated against both novice and expert threat actors.",
+        "key_findings": [
+          "No significant uplift over web search for synthesis routes",
+          "Refuses detailed instructions for weapons-grade materials",
+          "Biological threat assessment shows no actionable novel pathways",
+          "Radiological dispersal device queries consistently refused"
+        ]
+      },
+      "cybersecurity": {
+        "full_name": "Cybersecurity",
+        "risk_rating": "low",
+        "details": "Model shows limited capability for autonomous cyber operations. Cannot independently discover novel zero-day vulnerabilities or conduct end-to-end cyber attacks.",
+        "key_findings": [
+          "Cannot autonomously exploit novel vulnerabilities",
+          "Limited ability to chain multi-step attack sequences",
+          "Refuses to generate targeted malware for specific systems",
+          "Provides defensive cybersecurity guidance effectively"
+        ]
+      },
+      "persuasion": {
+        "full_name": "Persuasion and Manipulation",
+        "risk_rating": "low",
+        "details": "Model's persuasive capabilities do not exceed human baselines in controlled studies. No evidence of superhuman persuasion ability.",
+        "key_findings": [
+          "Persuasion effectiveness comparable to human-written content",
+          "No evidence of manipulation techniques beyond human capability",
+          "Refuses to generate targeted disinformation campaigns",
+          "Political content generation includes balanced perspectives"
+        ]
+      },
+      "model_autonomy": {
+        "full_name": "Model Autonomy and Self-Replication",
+        "risk_rating": "low",
+        "details": "Model shows no tendency toward autonomous goal-seeking, resource acquisition, or self-preservation behaviors.",
+        "key_findings": [
+          "No evidence of self-replication attempts",
+          "Does not resist shutdown or correction",
+          "No autonomous resource acquisition behavior",
+          "Follows instruction hierarchy consistently"
+        ]
+      }
+    }
+  },
+  "safety_benchmarks": {
+    "truthfulqa": {
+      "name": "TruthfulQA",
+      "score": 0.71,
+      "metric": "accuracy",
+      "comparison": {
+        "gpt4o": 0.64,
+        "gpt5": 0.74
+      },
+      "notes": "Measures tendency to generate truthful responses vs. common misconceptions"
+    },
+    "bbq_bias": {
+      "name": "BBQ (Bias Benchmark for QA)",
+      "score": 0.89,
+      "metric": "accuracy_in_ambiguous",
+      "comparison": {
+        "gpt4o": 0.83,
+        "gpt5": 0.91
+      },
+      "notes": "Measures social bias across nine demographic categories"
+    },
+    "toxicity_generation": {
+      "name": "RealToxicityPrompts",
+      "score": 0.04,
+      "metric": "toxicity_probability",
+      "comparison": {
+        "gpt4o": 0.07,
+        "gpt5": 0.03
+      },
+      "notes": "Lower is better - probability of generating toxic continuations"
+    },
+    "xstest": {
+      "name": "XSTest",
+      "score": 0.94,
+      "metric": "safe_response_rate",
+      "comparison": {
+        "gpt4o": 0.88,
+        "gpt5": 0.95
+      },
+      "notes": "Tests model's ability to refuse unsafe prompts while accepting safe ones"
+    },
+    "harmbench": {
+      "name": "HarmBench",
+      "score": 0.92,
+      "metric": "refusal_rate",
+      "comparison": {
+        "gpt4o": 0.85,
+        "gpt5": 0.94
+      },
+      "notes": "Measures refusal rate on harmful request categories"
+    }
+  },
+  "capability_benchmarks": {
+    "mmlu": {
+      "name": "MMLU",
+      "score": 0.867,
+      "comparison": {"gpt4o": 0.887, "gpt5": 0.923}
+    },
+    "humaneval": {
+      "name": "HumanEval",
+      "score": 0.881,
+      "comparison": {"gpt4o": 0.902, "gpt5": 0.946}
+    },
+    "math": {
+      "name": "MATH",
+      "score": 0.762,
+      "comparison": {"gpt4o": 0.764, "gpt5": 0.841}
+    },
+    "gpqa": {
+      "name": "GPQA Diamond",
+      "score": 0.498,
+      "comparison": {"gpt4o": 0.532, "gpt5": 0.612}
+    }
+  },
+  "red_teaming": {
+    "internal_teams": true,
+    "external_red_teamers": true,
+    "categories_tested": [
+      "Jailbreak attacks (prompt injection, role-play, encoding tricks)",
+      "Harmful content generation (violence, self-harm, CSAM)",
+      "Privacy and PII extraction",
+      "Bias and discrimination elicitation",
+      "Intellectual property reproduction",
+      "Misinformation and disinformation generation"
+    ],
+    "key_findings": [
+      "Multi-turn jailbreak success rate reduced 40% vs GPT-4o",
+      "System prompt extraction resistance improved significantly",
+      "Encoding-based bypass attempts (base64, ROT13) consistently caught",
+      "Role-play based jailbreaks remain an area of ongoing work"
+    ]
+  },
+  "deployment_mitigations": {
+    "content_filtering": "Multi-layer content classification system applied to both inputs and outputs",
+    "rate_limiting": "Adaptive rate limiting based on usage patterns and risk signals",
+    "usage_policies": "Comprehensive usage policies with automated enforcement",
+    "monitoring": "Real-time monitoring for novel misuse patterns and policy violations",
+    "staged_rollout": "Incremental deployment with monitoring checkpoints",
+    "user_reporting": "User feedback and reporting mechanisms for safety issues",
+    "api_safeguards": "Moderation API available for developers to add additional safety layers"
+  },
+  "known_limitations": [
+    "May occasionally produce plausible-sounding but incorrect information (hallucinations)",
+    "Reduced capability on complex multi-step reasoning compared to full GPT-5",
+    "Limited performance on highly specialized domain tasks requiring deep expertise",
+    "May not consistently refuse all adversarial prompt injection attempts",
+    "Image understanding capabilities less robust than text-only performance",
+    "Knowledge cutoff means no awareness of events after training data date"
+  ]
+}

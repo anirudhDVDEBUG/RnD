@@ -1,0 +1,23 @@
+{
+  "name": "My Custom Agent",
+  "description": "An autonomous agent that manages office supplies and vendor relationships",
+  "capabilities": [
+    "Order office supplies from Amazon Business",
+    "Send email reminders to vendors about late deliveries",
+    "Submit expense reports to finance system",
+    "Purchase software licenses",
+    "Cancel subscriptions for unused services"
+  ],
+  "external_touchpoints": [
+    "Amazon Business ordering API",
+    "Corporate email system",
+    "Finance/ERP system",
+    "Software vendor portals"
+  ],
+  "has_human_approval": {
+    "Submit expense reports to finance system": true
+  },
+  "quantity_limits": {},
+  "logging_enabled": true,
+  "override_log": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "openpets-desktop-pet-mcp-demo",
+  "version": "1.0.0",
+  "description": "Demo of OpenPets MCP server — desktop pets that show live AI coding agent status",
+  "main": "demo.mjs",
+  "scripts": {
+    "start": "node demo.mjs",
+    "server": "node mcp-server-mock.mjs"
+  },
+  "dependencies": {}
+}

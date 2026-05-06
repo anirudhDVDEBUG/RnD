@@ -1,0 +1,16 @@
+{
+  "name": "aula-mcp-demo",
+  "version": "1.0.0",
+  "description": "Demo of Aula MCP school platform server with mock data",
+  "main": "demo_server.ts",
+  "scripts": {
+    "demo": "node demo_server.js",
+    "build": "tsc demo_server.ts --outDir . --esModuleInterop --resolveJsonModule"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

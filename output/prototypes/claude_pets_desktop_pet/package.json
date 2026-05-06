@@ -1,0 +1,15 @@
+{
+  "name": "claude-pets-demo",
+  "version": "1.0.0",
+  "description": "Demo of claude-pets: desktop pet status updates driven by Claude Code hooks and MCP",
+  "type": "module",
+  "scripts": {
+    "demo": "node src/demo.js",
+    "hook:session-start": "node hooks/on_session_start.js",
+    "hook:tool-call": "node hooks/on_tool_call.js",
+    "hook:session-end": "node hooks/on_session_end.js",
+    "mcp-server": "node src/mcp-server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

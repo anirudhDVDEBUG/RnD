@@ -1,0 +1,13 @@
+{
+  "name": "markpdf-convert-md-to-pdf-demo",
+  "version": "1.0.0",
+  "description": "Demo: Convert Markdown to premium PDFs, slides, and HTML using MarkPDF MCP server",
+  "main": "convert.js",
+  "scripts": {
+    "demo": "node convert.js"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "highlight.js": "^11.11.0"
+  }
+}

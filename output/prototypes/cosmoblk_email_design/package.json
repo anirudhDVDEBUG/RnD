@@ -1,0 +1,13 @@
+{
+  "name": "cosmoblk-email-design-demo",
+  "version": "1.0.0",
+  "description": "Demo of CosmoBlk email-design skill: anti-slop MJML email generation with six archetypes",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node index.js",
+    "demo:all": "node generate_all.js"
+  },
+  "dependencies": {
+    "mjml": "^4.15.3"
+  }
+}

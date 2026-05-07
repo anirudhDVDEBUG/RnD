@@ -1,0 +1,2 @@
+# No external dependencies - uses only Python stdlib
+# vLLM itself is NOT required; this tool validates configs and simulates metrics

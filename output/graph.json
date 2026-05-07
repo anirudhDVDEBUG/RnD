@@ -1851,6 +1851,32 @@
       "label": "graphic-design"
     },
     {
+      "id": "item:2682",
+      "type": "item",
+      "label": "gausoft/markpdf-skill: Claude Skill — convert Markdown to premium PDFs, slides, ",
+      "url": "https://github.com/gausoft/markpdf-skill",
+      "source": "github",
+      "score": 0.580817806257807,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:claude-code-skills",
+      "type": "tag",
+      "label": "claude-code-skills"
+    },
+    {
+      "id": "tag:markdown-to-pdf",
+      "type": "tag",
+      "label": "markdown-to-pdf"
+    },
+    {
+      "id": "tag:document-conversion",
+      "type": "tag",
+      "label": "document-conversion"
+    },
+    {
       "id": "item:1801",
       "type": "item",
       "label": "KSroido/Kagi-Session2API-MCP: Free Kagi Search MCP server — access search and su",
@@ -2139,6 +2165,22 @@
       "id": "tag:ctypes",
       "type": "tag",
       "label": "ctypes"
+    },
+    {
+      "id": "item:2680",
+      "type": "item",
+      "label": "krusemediallc/uni1-image-ad: Claude Code skill workbench for generating Meta ima",
+      "url": "https://github.com/krusemediallc/uni1-image-ad",
+      "source": "github",
+      "score": 0.5270685993850239,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ad-creative",
+      "type": "tag",
+      "label": "ad-creative"
     },
     {
       "id": "item:1130",
@@ -6021,58 +6063,6 @@
       "label": "data-readiness"
     },
     {
-      "id": "item:23",
-      "type": "item",
-      "label": "Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System",
-      "url": "https://arxiv.org/abs/2604.26805",
-      "source": "rss",
-      "score": 0.49827405151182047,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:operations-agents",
-      "type": "tag",
-      "label": "operations-agents"
-    },
-    {
-      "id": "tag:skill-orchestration",
-      "type": "tag",
-      "label": "skill-orchestration"
-    },
-    {
-      "id": "item:24",
-      "type": "item",
-      "label": "Risk Reporting for Developers' Internal AI Model Use",
-      "url": "https://arxiv.org/abs/2604.24966",
-      "source": "rss",
-      "score": 0.49827404954057897,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:frontier-ai",
-      "type": "tag",
-      "label": "frontier-ai"
-    },
-    {
-      "id": "tag:risk-reporting",
-      "type": "tag",
-      "label": "risk-reporting"
-    },
-    {
-      "id": "tag:internal-deployment",
-      "type": "tag",
-      "label": "internal-deployment"
-    },
-    {
-      "id": "tag:ai-policy",
-      "type": "tag",
-      "label": "ai-policy"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6395,6 +6385,54 @@
       "type": "skill",
       "label": "gpt55_instant_model_overview",
       "path": "/home/rnd/trendforge/output/skills/gpt55_instant_model_overview"
+    },
+    {
+      "id": "skill:55",
+      "type": "skill",
+      "label": "cybrix_deploy",
+      "path": "/home/rnd/trendforge/output/skills/cybrix_deploy"
+    },
+    {
+      "id": "skill:56",
+      "type": "skill",
+      "label": "seidr_smidja_vrm_avatar",
+      "path": "/home/rnd/trendforge/output/skills/seidr_smidja_vrm_avatar"
+    },
+    {
+      "id": "skill:57",
+      "type": "skill",
+      "label": "uni1_image_ad",
+      "path": "/home/rnd/trendforge/output/skills/uni1_image_ad"
+    },
+    {
+      "id": "skill:58",
+      "type": "skill",
+      "label": "markpdf_convert_md_to_pdf",
+      "path": "/home/rnd/trendforge/output/skills/markpdf_convert_md_to_pdf"
+    },
+    {
+      "id": "skill:59",
+      "type": "skill",
+      "label": "cosmoblk_email_design",
+      "path": "/home/rnd/trendforge/output/skills/cosmoblk_email_design"
+    },
+    {
+      "id": "skill:60",
+      "type": "skill",
+      "label": "biosymphony_ferm_doe",
+      "path": "/home/rnd/trendforge/output/skills/biosymphony_ferm_doe"
+    },
+    {
+      "id": "skill:61",
+      "type": "skill",
+      "label": "vibe_vs_agentic_coding_review",
+      "path": "/home/rnd/trendforge/output/skills/vibe_vs_agentic_coding_review"
+    },
+    {
+      "id": "skill:62",
+      "type": "skill",
+      "label": "vllm_v0_to_v1_rl_migration",
+      "path": "/home/rnd/trendforge/output/skills/vllm_v0_to_v1_rl_migration"
     },
     {
       "id": "prototype:1",
@@ -6773,6 +6811,62 @@
       "label": "gpt55_instant_model_overview",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/gpt55_instant_model_overview.pptx"
+    },
+    {
+      "id": "prototype:55",
+      "type": "prototype",
+      "label": "cybrix_deploy",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cybrix_deploy.pptx"
+    },
+    {
+      "id": "prototype:56",
+      "type": "prototype",
+      "label": "seidr_smidja_vrm_avatar",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/seidr_smidja_vrm_avatar.pptx"
+    },
+    {
+      "id": "prototype:57",
+      "type": "prototype",
+      "label": "uni1_image_ad",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/uni1_image_ad.pptx"
+    },
+    {
+      "id": "prototype:58",
+      "type": "prototype",
+      "label": "markpdf_convert_md_to_pdf",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/markpdf_convert_md_to_pdf.pptx"
+    },
+    {
+      "id": "prototype:59",
+      "type": "prototype",
+      "label": "cosmoblk_email_design",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cosmoblk_email_design.pptx"
+    },
+    {
+      "id": "prototype:60",
+      "type": "prototype",
+      "label": "biosymphony_ferm_doe",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/biosymphony_ferm_doe.pptx"
+    },
+    {
+      "id": "prototype:61",
+      "type": "prototype",
+      "label": "vibe_vs_agentic_coding_review",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/vibe_vs_agentic_coding_review.pptx"
+    },
+    {
+      "id": "prototype:62",
+      "type": "prototype",
+      "label": "vllm_v0_to_v1_rl_migration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/vllm_v0_to_v1_rl_migration.pptx"
     }
   ],
   "edges": [
@@ -8717,6 +8811,36 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:2682",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:2682",
+      "to": "tag:claude-code-skills",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2682",
+      "to": "tag:markdown-to-pdf",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2682",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2682",
+      "to": "tag:document-conversion",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2682",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1801",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -9045,6 +9169,41 @@
       "from": "item:1828",
       "to": "tag:ctypes",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2680",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:2680",
+      "to": "tag:ad-creative",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2680",
+      "to": "tag:claude-code-skills",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2680",
+      "to": "tag:image-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2680",
+      "to": "tag:meta-ads",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2680",
+      "to": "tag:marketing-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2680",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:1130",
@@ -13322,66 +13481,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:23",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:23",
-      "to": "tag:operations-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:23",
-      "to": "tag:skill-orchestration",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:23",
-      "to": "tag:root-cause-analysis",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:23",
-      "to": "tag:self-evolving",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:23",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:24",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:24",
-      "to": "tag:frontier-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:24",
-      "to": "tag:risk-reporting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:24",
-      "to": "tag:ai-governance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:24",
-      "to": "tag:internal-deployment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:24",
-      "to": "tag:ai-policy",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -13652,6 +13751,46 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:55",
+      "to": "item:2706",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:56",
+      "to": "item:2703",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:57",
+      "to": "item:2680",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:58",
+      "to": "item:2682",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:59",
+      "to": "item:2684",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:60",
+      "to": "item:2685",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:61",
+      "to": "item:2090",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:62",
+      "to": "item:2091",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -13919,6 +14058,46 @@
     {
       "from": "prototype:54",
       "to": "skill:54",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:55",
+      "to": "skill:55",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:56",
+      "to": "skill:56",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:57",
+      "to": "skill:57",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:58",
+      "to": "skill:58",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:59",
+      "to": "skill:59",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:60",
+      "to": "skill:60",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:61",
+      "to": "skill:61",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:62",
+      "to": "skill:62",
       "rel": "DEMOS"
     }
   ]

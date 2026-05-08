@@ -347,6 +347,42 @@
       "label": "pipecat"
     },
     {
+      "id": "item:3010",
+      "type": "item",
+      "label": "How I'd Learn Claude From Scratch in 2026",
+      "url": "https://www.youtube.com/watch?v=9sp5PCKbvuc",
+      "source": "youtube",
+      "score": 0.7226198489550558,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "source:youtube",
+      "type": "source",
+      "label": "youtube"
+    },
+    {
+      "id": "tag:claude-tutorial",
+      "type": "tag",
+      "label": "claude-tutorial"
+    },
+    {
+      "id": "tag:skills",
+      "type": "tag",
+      "label": "skills"
+    },
+    {
+      "id": "tag:connectors",
+      "type": "tag",
+      "label": "connectors"
+    },
+    {
+      "id": "tag:mcp",
+      "type": "tag",
+      "label": "mcp"
+    },
+    {
       "id": "item:128",
       "type": "item",
       "label": "Student Guides Teacher: Weak-to-Strong Inference via Spectral Orthogonal Explora",
@@ -739,11 +775,6 @@
       "label": "figma-to-code"
     },
     {
-      "id": "tag:mcp",
-      "type": "tag",
-      "label": "mcp"
-    },
-    {
       "id": "tag:react",
       "type": "tag",
       "label": "react"
@@ -820,6 +851,37 @@
       "pinned": false,
       "pitch": null,
       "notes": null
+    },
+    {
+      "id": "item:2718",
+      "type": "item",
+      "label": "Notes on the xAI/Anthropic data center deal",
+      "url": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+      "source": "rss",
+      "score": 0.6240841066690053,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:data-center",
+      "type": "tag",
+      "label": "data-center"
+    },
+    {
+      "id": "tag:anthropic",
+      "type": "tag",
+      "label": "anthropic"
+    },
+    {
+      "id": "tag:environmental-impact",
+      "type": "tag",
+      "label": "environmental-impact"
+    },
+    {
+      "id": "tag:compute-infrastructure",
+      "type": "tag",
+      "label": "compute-infrastructure"
     },
     {
       "id": "item:1829",
@@ -1851,6 +1913,32 @@
       "label": "graphic-design"
     },
     {
+      "id": "item:2722",
+      "type": "item",
+      "label": "Advancing voice intelligence with new models in the API",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "source": "rss",
+      "score": 0.5934403181744284,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:realtime-api",
+      "type": "tag",
+      "label": "realtime-api"
+    },
+    {
+      "id": "tag:speech-recognition",
+      "type": "tag",
+      "label": "speech-recognition"
+    },
+    {
+      "id": "tag:openai",
+      "type": "tag",
+      "label": "openai"
+    },
+    {
       "id": "item:2682",
       "type": "item",
       "label": "gausoft/markpdf-skill: Claude Skill — convert Markdown to premium PDFs, slides, ",
@@ -2098,6 +2186,37 @@
       "id": "tag:graph-agents",
       "type": "tag",
       "label": "graph-agents"
+    },
+    {
+      "id": "item:2717",
+      "type": "item",
+      "label": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+      "url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+      "source": "rss",
+      "score": 0.527834545342594,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:vulnerability-research",
+      "type": "tag",
+      "label": "vulnerability-research"
+    },
+    {
+      "id": "tag:llm-security-testing",
+      "type": "tag",
+      "label": "llm-security-testing"
+    },
+    {
+      "id": "tag:firefox",
+      "type": "tag",
+      "label": "firefox"
+    },
+    {
+      "id": "tag:automated-bug-finding",
+      "type": "tag",
+      "label": "automated-bug-finding"
     },
     {
       "id": "item:1372",
@@ -4418,6 +4537,22 @@
       "label": "personal-tooling"
     },
     {
+      "id": "item:2720",
+      "type": "item",
+      "label": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "source": "rss",
+      "score": 0.5055177051062566,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:trusted-access",
+      "type": "tag",
+      "label": "trusted-access"
+    },
+    {
       "id": "item:90",
       "type": "item",
       "label": "Text-Utilization for Encoder-dominated Speech Recognition Models",
@@ -4427,11 +4562,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "tag:speech-recognition",
-      "type": "tag",
-      "label": "speech-recognition"
     },
     {
       "id": "tag:encoder-models",
@@ -5943,126 +6073,6 @@
       "label": "adaptive-drafting"
     },
     {
-      "id": "item:13",
-      "type": "item",
-      "label": "Apriori-based Analysis of Learned Helplessness in Mathematics Tutoring: Behavior",
-      "url": "https://arxiv.org/abs/2604.26237",
-      "source": "rss",
-      "score": 0.4982740728726698,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:learning-analytics",
-      "type": "tag",
-      "label": "learning-analytics"
-    },
-    {
-      "id": "tag:apriori-algorithm",
-      "type": "tag",
-      "label": "apriori-algorithm"
-    },
-    {
-      "id": "tag:math-tutoring",
-      "type": "tag",
-      "label": "math-tutoring"
-    },
-    {
-      "id": "tag:behavioral-patterns",
-      "type": "tag",
-      "label": "behavioral-patterns"
-    },
-    {
-      "id": "item:17",
-      "type": "item",
-      "label": "AGEL-Comp: A Neuro-Symbolic Framework for Compositional Generalization in Intera",
-      "url": "https://arxiv.org/abs/2604.26522",
-      "source": "rss",
-      "score": 0.49827406421007736,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:ilp",
-      "type": "tag",
-      "label": "ilp"
-    },
-    {
-      "id": "tag:compositional-generalization",
-      "type": "tag",
-      "label": "compositional-generalization"
-    },
-    {
-      "id": "tag:world-model",
-      "type": "tag",
-      "label": "world-model"
-    },
-    {
-      "id": "item:18",
-      "type": "item",
-      "label": "Benchmarking the Safety of Large Language Models for Robotic Health Attendant Co",
-      "url": "https://arxiv.org/abs/2604.26577",
-      "source": "rss",
-      "score": 0.4982740611605876,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:healthcare",
-      "type": "tag",
-      "label": "healthcare"
-    },
-    {
-      "id": "tag:safety-benchmark",
-      "type": "tag",
-      "label": "safety-benchmark"
-    },
-    {
-      "id": "item:19",
-      "type": "item",
-      "label": "Human-in-the-Loop Benchmarking of Heterogeneous LLMs for Automated Competency As",
-      "url": "https://arxiv.org/abs/2604.26607",
-      "source": "rss",
-      "score": 0.49827405911502226,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:competency-assessment",
-      "type": "tag",
-      "label": "competency-assessment"
-    },
-    {
-      "id": "item:21",
-      "type": "item",
-      "label": "SciHorizon-DataEVA: An Agentic System for AI-Readiness Evaluation of Heterogeneo",
-      "url": "https://arxiv.org/abs/2604.26645",
-      "source": "rss",
-      "score": 0.4982740551825229,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:ai4science",
-      "type": "tag",
-      "label": "ai4science"
-    },
-    {
-      "id": "tag:data-evaluation",
-      "type": "tag",
-      "label": "data-evaluation"
-    },
-    {
-      "id": "tag:data-readiness",
-      "type": "tag",
-      "label": "data-readiness"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6433,6 +6443,66 @@
       "type": "skill",
       "label": "vllm_v0_to_v1_rl_migration",
       "path": "/home/rnd/trendforge/output/skills/vllm_v0_to_v1_rl_migration"
+    },
+    {
+      "id": "skill:63",
+      "type": "skill",
+      "label": "claude_feature_navigator",
+      "path": "/home/rnd/trendforge/output/skills/claude_feature_navigator"
+    },
+    {
+      "id": "skill:64",
+      "type": "skill",
+      "label": "claude_feature_navigator",
+      "path": "/home/rnd/trendforge/output/skills/claude_feature_navigator"
+    },
+    {
+      "id": "skill:65",
+      "type": "skill",
+      "label": "thunderbit_web_scraper",
+      "path": "/home/rnd/trendforge/output/skills/thunderbit_web_scraper"
+    },
+    {
+      "id": "skill:66",
+      "type": "skill",
+      "label": "fabric_powerbi_workflow",
+      "path": "/home/rnd/trendforge/output/skills/fabric_powerbi_workflow"
+    },
+    {
+      "id": "skill:67",
+      "type": "skill",
+      "label": "llm_vuln_harness",
+      "path": "/home/rnd/trendforge/output/skills/llm_vuln_harness"
+    },
+    {
+      "id": "skill:68",
+      "type": "skill",
+      "label": "datacenter_deal_analyst",
+      "path": "/home/rnd/trendforge/output/skills/datacenter_deal_analyst"
+    },
+    {
+      "id": "skill:69",
+      "type": "skill",
+      "label": "github_repo_stats",
+      "path": "/home/rnd/trendforge/output/skills/github_repo_stats"
+    },
+    {
+      "id": "skill:70",
+      "type": "skill",
+      "label": "openai_trusted_cyber_access",
+      "path": "/home/rnd/trendforge/output/skills/openai_trusted_cyber_access"
+    },
+    {
+      "id": "skill:71",
+      "type": "skill",
+      "label": "parloa_voice_service_agent",
+      "path": "/home/rnd/trendforge/output/skills/parloa_voice_service_agent"
+    },
+    {
+      "id": "skill:72",
+      "type": "skill",
+      "label": "openai_realtime_voice_models",
+      "path": "/home/rnd/trendforge/output/skills/openai_realtime_voice_models"
     },
     {
       "id": "prototype:1",
@@ -6867,6 +6937,76 @@
       "label": "vllm_v0_to_v1_rl_migration",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/vllm_v0_to_v1_rl_migration.pptx"
+    },
+    {
+      "id": "prototype:63",
+      "type": "prototype",
+      "label": "claude_feature_navigator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_feature_navigator.pptx"
+    },
+    {
+      "id": "prototype:64",
+      "type": "prototype",
+      "label": "claude_feature_navigator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_feature_navigator.pptx"
+    },
+    {
+      "id": "prototype:65",
+      "type": "prototype",
+      "label": "thunderbit_web_scraper",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/thunderbit_web_scraper.pptx"
+    },
+    {
+      "id": "prototype:66",
+      "type": "prototype",
+      "label": "fabric_powerbi_workflow",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/fabric_powerbi_workflow.pptx"
+    },
+    {
+      "id": "prototype:67",
+      "type": "prototype",
+      "label": "llm_vuln_harness",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/llm_vuln_harness.pptx"
+    },
+    {
+      "id": "prototype:68",
+      "type": "prototype",
+      "label": "datacenter_deal_analyst",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datacenter_deal_analyst.pptx"
+    },
+    {
+      "id": "prototype:69",
+      "type": "prototype",
+      "label": "github_repo_stats",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/github_repo_stats.pptx"
+    },
+    {
+      "id": "prototype:70",
+      "type": "prototype",
+      "label": "openai_trusted_cyber_access",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/openai_trusted_cyber_access.pptx"
+    },
+    {
+      "id": "prototype:71",
+      "type": "prototype",
+      "label": "parloa_voice_service_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/parloa_voice_service_agent.pptx"
+    },
+    {
+      "id": "prototype:72",
+      "type": "prototype",
+      "label": "openai_realtime_voice_models",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/openai_realtime_voice_models.pptx"
     }
   ],
   "edges": [
@@ -7193,6 +7333,36 @@
     {
       "from": "item:1857",
       "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3010",
+      "to": "source:youtube",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3010",
+      "to": "tag:claude-tutorial",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3010",
+      "to": "tag:skills",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3010",
+      "to": "tag:connectors",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3010",
+      "to": "tag:mcp",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3010",
+      "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
     {
@@ -7699,6 +7869,31 @@
       "from": "item:1714",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:2718",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:2718",
+      "to": "tag:data-center",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2718",
+      "to": "tag:anthropic",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2718",
+      "to": "tag:environmental-impact",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2718",
+      "to": "tag:compute-infrastructure",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:1829",
@@ -8811,6 +9006,36 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:2722",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:2722",
+      "to": "tag:voice-ai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2722",
+      "to": "tag:realtime-api",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2722",
+      "to": "tag:speech-recognition",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2722",
+      "to": "tag:openai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2722",
+      "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:2682",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -9102,6 +9327,36 @@
     },
     {
       "from": "item:1755",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:2717",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:2717",
+      "to": "tag:vulnerability-research",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2717",
+      "to": "tag:llm-security-testing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2717",
+      "to": "tag:firefox",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2717",
+      "to": "tag:automated-bug-finding",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2717",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -11766,6 +12021,36 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:2720",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:2720",
+      "to": "tag:cybersecurity",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2720",
+      "to": "tag:vulnerability-research",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2720",
+      "to": "tag:openai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2720",
+      "to": "tag:trusted-access",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:2720",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:90",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -13341,146 +13626,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:13",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:13",
-      "to": "tag:learning-analytics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:13",
-      "to": "tag:apriori-algorithm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:13",
-      "to": "tag:math-tutoring",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:13",
-      "to": "tag:behavioral-patterns",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:17",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:17",
-      "to": "tag:neuro-symbolic",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:17",
-      "to": "tag:llm-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:17",
-      "to": "tag:ilp",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:17",
-      "to": "tag:compositional-generalization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:17",
-      "to": "tag:world-model",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:17",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:18",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:18",
-      "to": "tag:llm-safety",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:18",
-      "to": "tag:robotics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:18",
-      "to": "tag:healthcare",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:18",
-      "to": "tag:safety-benchmark",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:19",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:19",
-      "to": "tag:llm-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:19",
-      "to": "tag:education",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:19",
-      "to": "tag:competency-assessment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:19",
-      "to": "tag:human-in-the-loop",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:21",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:21",
-      "to": "tag:ai4science",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:21",
-      "to": "tag:data-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:21",
-      "to": "tag:multi-agent",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:21",
-      "to": "tag:data-readiness",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:21",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -13791,6 +13936,56 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:63",
+      "to": "item:3010",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:64",
+      "to": "item:3009",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:65",
+      "to": "item:2987",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:66",
+      "to": "item:2982",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:67",
+      "to": "item:2717",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:68",
+      "to": "item:2718",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:69",
+      "to": "item:2719",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:70",
+      "to": "item:2720",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:71",
+      "to": "item:2721",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:72",
+      "to": "item:2722",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -14098,6 +14293,56 @@
     {
       "from": "prototype:62",
       "to": "skill:62",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:63",
+      "to": "skill:63",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:64",
+      "to": "skill:64",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:65",
+      "to": "skill:65",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:66",
+      "to": "skill:66",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:67",
+      "to": "skill:67",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:68",
+      "to": "skill:68",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:69",
+      "to": "skill:69",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:70",
+      "to": "skill:70",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:71",
+      "to": "skill:71",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:72",
+      "to": "skill:72",
       "rel": "DEMOS"
     }
   ]

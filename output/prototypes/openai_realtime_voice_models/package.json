@@ -1,0 +1,14 @@
+{
+  "name": "openai-realtime-voice-demo",
+  "version": "1.0.0",
+  "description": "Demo of OpenAI Realtime API voice models with mock server for local evaluation",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js",
+    "server": "node mock_server.js",
+    "demo": "node run_demo.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

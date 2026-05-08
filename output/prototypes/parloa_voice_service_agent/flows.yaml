@@ -1,0 +1,32 @@
+# Parloa-style dialogue flow configuration
+# Each flow defines available tools, escalation thresholds, and transitions.
+
+flows:
+  greeting:
+    prompt: "Welcome the customer, identify their need."
+    transitions:
+      billing: billing_flow
+      technical: tech_support_flow
+      account: account_flow
+
+  billing_flow:
+    tools:
+      - lookup_account
+      - get_invoice
+      - process_payment
+    escalation_threshold: 0.7
+    max_attempts: 3
+
+  tech_support_flow:
+    tools:
+      - search_kb
+      - create_ticket
+      - check_ticket_status
+    escalation_threshold: 0.7
+    max_attempts: 3
+
+  account_flow:
+    tools:
+      - lookup_account
+    escalation_threshold: 0.7
+    max_attempts: 3

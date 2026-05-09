@@ -1,0 +1,6 @@
+# Mock demo: no external deps needed (stdlib only)
+# For real model inference, uncomment below:
+# torch>=2.1
+# transformers>=4.40
+# accelerate>=0.27
+# vllm>=0.4  # optional, for high-throughput serving

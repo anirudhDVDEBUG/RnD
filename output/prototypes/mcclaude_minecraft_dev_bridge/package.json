@@ -1,0 +1,15 @@
+{
+  "name": "mcclaude-minecraft-dev-bridge-demo",
+  "version": "1.0.0",
+  "description": "Demo and simulation of the McClaude MCP bridge for Minecraft plugin development with Claude Code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ws": "^8.16.0"
+  },
+  "license": "MIT"
+}

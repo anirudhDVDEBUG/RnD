@@ -311,6 +311,37 @@
       "label": "awesome-list"
     },
     {
+      "id": "item:3011",
+      "type": "item",
+      "label": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+      "source": "rss",
+      "score": 0.7433514420270897,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "source:rss",
+      "type": "source",
+      "label": "rss"
+    },
+    {
+      "id": "tag:html-rendering",
+      "type": "tag",
+      "label": "html-rendering"
+    },
+    {
+      "id": "tag:prompt-engineering",
+      "type": "tag",
+      "label": "prompt-engineering"
+    },
+    {
+      "id": "tag:interactive-visualization",
+      "type": "tag",
+      "label": "interactive-visualization"
+    },
+    {
       "id": "item:1857",
       "type": "item",
       "label": "⭐ velocity: pipecat-ai/pipecat +101/day — Open Source framework for voice and mu",
@@ -392,11 +423,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "source:rss",
-      "type": "source",
-      "label": "rss"
     },
     {
       "id": "tag:llm-reasoning",
@@ -1032,11 +1058,6 @@
       "id": "tag:multi-agent-codegen",
       "type": "tag",
       "label": "multi-agent-codegen"
-    },
-    {
-      "id": "tag:prompt-engineering",
-      "type": "tag",
-      "label": "prompt-engineering"
     },
     {
       "id": "tag:llm-workflows",
@@ -4553,6 +4574,27 @@
       "label": "trusted-access"
     },
     {
+      "id": "item:3014",
+      "type": "item",
+      "label": "Running Codex safely at OpenAI",
+      "url": "https://openai.com/index/running-codex-safely",
+      "source": "rss",
+      "score": 0.5034270885126374,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:sandboxing",
+      "type": "tag",
+      "label": "sandboxing"
+    },
+    {
+      "id": "tag:openai-codex",
+      "type": "tag",
+      "label": "openai-codex"
+    },
+    {
       "id": "item:90",
       "type": "item",
       "label": "Text-Utilization for Encoder-dominated Speech Recognition Models",
@@ -6016,63 +6058,6 @@
       "label": "reliability-audit"
     },
     {
-      "id": "item:221",
-      "type": "item",
-      "label": "A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dyn",
-      "url": "https://arxiv.org/abs/2604.22227",
-      "source": "rss",
-      "score": 0.4982741427635816,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:human-ai-coexistence",
-      "type": "tag",
-      "label": "human-ai-coexistence"
-    },
-    {
-      "id": "tag:co-evolution",
-      "type": "tag",
-      "label": "co-evolution"
-    },
-    {
-      "id": "item:234",
-      "type": "item",
-      "label": "AHASD: Asynchronous Heterogeneous Architecture for LLM Adaptive Drafting Specula",
-      "url": "https://arxiv.org/abs/2604.25326",
-      "source": "rss",
-      "score": 0.4982741026542874,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:speculative-decoding",
-      "type": "tag",
-      "label": "speculative-decoding"
-    },
-    {
-      "id": "tag:mobile-inference",
-      "type": "tag",
-      "label": "mobile-inference"
-    },
-    {
-      "id": "tag:npu-pim",
-      "type": "tag",
-      "label": "npu-pim"
-    },
-    {
-      "id": "tag:heterogeneous-architecture",
-      "type": "tag",
-      "label": "heterogeneous-architecture"
-    },
-    {
-      "id": "tag:adaptive-drafting",
-      "type": "tag",
-      "label": "adaptive-drafting"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6503,6 +6488,54 @@
       "type": "skill",
       "label": "openai_realtime_voice_models",
       "path": "/home/rnd/trendforge/output/skills/openai_realtime_voice_models"
+    },
+    {
+      "id": "skill:73",
+      "type": "skill",
+      "label": "x_twitter_scraper",
+      "path": "/home/rnd/trendforge/output/skills/x_twitter_scraper"
+    },
+    {
+      "id": "skill:74",
+      "type": "skill",
+      "label": "google_ads_cli_toolkit",
+      "path": "/home/rnd/trendforge/output/skills/google_ads_cli_toolkit"
+    },
+    {
+      "id": "skill:75",
+      "type": "skill",
+      "label": "hermes_notion_gbrain_tasks",
+      "path": "/home/rnd/trendforge/output/skills/hermes_notion_gbrain_tasks"
+    },
+    {
+      "id": "skill:76",
+      "type": "skill",
+      "label": "local_security_agent_kali",
+      "path": "/home/rnd/trendforge/output/skills/local_security_agent_kali"
+    },
+    {
+      "id": "skill:77",
+      "type": "skill",
+      "label": "mcclaude_minecraft_dev_bridge",
+      "path": "/home/rnd/trendforge/output/skills/mcclaude_minecraft_dev_bridge"
+    },
+    {
+      "id": "skill:78",
+      "type": "skill",
+      "label": "html_rich_output",
+      "path": "/home/rnd/trendforge/output/skills/html_rich_output"
+    },
+    {
+      "id": "skill:79",
+      "type": "skill",
+      "label": "cybersec_qwen_local_defense",
+      "path": "/home/rnd/trendforge/output/skills/cybersec_qwen_local_defense"
+    },
+    {
+      "id": "skill:80",
+      "type": "skill",
+      "label": "safe_coding_agent_sandbox",
+      "path": "/home/rnd/trendforge/output/skills/safe_coding_agent_sandbox"
     },
     {
       "id": "prototype:1",
@@ -7007,6 +7040,62 @@
       "label": "openai_realtime_voice_models",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/openai_realtime_voice_models.pptx"
+    },
+    {
+      "id": "prototype:73",
+      "type": "prototype",
+      "label": "x_twitter_scraper",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/x_twitter_scraper.pptx"
+    },
+    {
+      "id": "prototype:74",
+      "type": "prototype",
+      "label": "google_ads_cli_toolkit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/google_ads_cli_toolkit.pptx"
+    },
+    {
+      "id": "prototype:75",
+      "type": "prototype",
+      "label": "hermes_notion_gbrain_tasks",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/hermes_notion_gbrain_tasks.pptx"
+    },
+    {
+      "id": "prototype:76",
+      "type": "prototype",
+      "label": "local_security_agent_kali",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/local_security_agent_kali.pptx"
+    },
+    {
+      "id": "prototype:77",
+      "type": "prototype",
+      "label": "mcclaude_minecraft_dev_bridge",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/mcclaude_minecraft_dev_bridge.pptx"
+    },
+    {
+      "id": "prototype:78",
+      "type": "prototype",
+      "label": "html_rich_output",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/html_rich_output.pptx"
+    },
+    {
+      "id": "prototype:79",
+      "type": "prototype",
+      "label": "cybersec_qwen_local_defense",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cybersec_qwen_local_defense.pptx"
+    },
+    {
+      "id": "prototype:80",
+      "type": "prototype",
+      "label": "safe_coding_agent_sandbox",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/safe_coding_agent_sandbox.pptx"
     }
   ],
   "edges": [
@@ -7299,6 +7388,31 @@
       "from": "item:1713",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3011",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3011",
+      "to": "tag:html-rendering",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3011",
+      "to": "tag:claude-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3011",
+      "to": "tag:prompt-engineering",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3011",
+      "to": "tag:interactive-visualization",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:1857",
@@ -12051,6 +12165,36 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:3014",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3014",
+      "to": "tag:coding-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3014",
+      "to": "tag:sandboxing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3014",
+      "to": "tag:agent-security",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3014",
+      "to": "tag:openai-codex",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3014",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:90",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -13556,76 +13700,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:221",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:221",
-      "to": "tag:human-ai-coexistence",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:221",
-      "to": "tag:ai-governance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:221",
-      "to": "tag:co-evolution",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:221",
-      "to": "tag:ai-ethics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:221",
-      "to": "tag:alignment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:221",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:234",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:234",
-      "to": "tag:speculative-decoding",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:234",
-      "to": "tag:mobile-inference",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:234",
-      "to": "tag:npu-pim",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:234",
-      "to": "tag:heterogeneous-architecture",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:234",
-      "to": "tag:adaptive-drafting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:234",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -13986,6 +14060,46 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:73",
+      "to": "item:3533",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:74",
+      "to": "item:3531",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:75",
+      "to": "item:3526",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:76",
+      "to": "item:3527",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:77",
+      "to": "item:3520",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:78",
+      "to": "item:3011",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:79",
+      "to": "item:3012",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:80",
+      "to": "item:3014",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -14343,6 +14457,46 @@
     {
       "from": "prototype:72",
       "to": "skill:72",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:73",
+      "to": "skill:73",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:74",
+      "to": "skill:74",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:75",
+      "to": "skill:75",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:76",
+      "to": "skill:76",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:77",
+      "to": "skill:77",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:78",
+      "to": "skill:78",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:79",
+      "to": "skill:79",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:80",
+      "to": "skill:80",
       "rel": "DEMOS"
     }
   ]

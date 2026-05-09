@@ -1,0 +1,2 @@
+# Safe Coding Agent Sandbox
+# No external dependencies - uses only Python stdlib

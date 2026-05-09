@@ -1,0 +1,4 @@
+# x-twitter-scraper prototype
+# The demo uses mock data and needs only the Python stdlib.
+# Uncomment the line below to install the real scraper for live usage:
+# x-twitter-scraper

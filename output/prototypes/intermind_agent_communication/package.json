@@ -1,0 +1,11 @@
+{
+  "name": "intermind-agent-communication-demo",
+  "version": "1.0.0",
+  "description": "Demo of Intermind MCP server for inter-agent threaded conversations",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo_conversation.js",
+    "server": "node intermind_simulator.js"
+  },
+  "dependencies": {}
+}

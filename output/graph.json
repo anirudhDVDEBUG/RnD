@@ -2240,6 +2240,27 @@
       "label": "automated-bug-finding"
     },
     {
+      "id": "item:3547",
+      "type": "item",
+      "label": "monkfromearth/intermind: An MCP server that lets Claude Code, Codex, Cursor, Cli",
+      "url": "https://github.com/monkfromearth/intermind",
+      "source": "github",
+      "score": 0.5277090009613732,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agent-to-agent",
+      "type": "tag",
+      "label": "agent-to-agent"
+    },
+    {
+      "id": "tag:inter-agent-communication",
+      "type": "tag",
+      "label": "inter-agent-communication"
+    },
+    {
       "id": "item:1372",
       "type": "item",
       "label": "Codex CLI 0.128.0 adds /goal",
@@ -2824,6 +2845,37 @@
       "id": "tag:anthropic-research",
       "type": "tag",
       "label": "anthropic-research"
+    },
+    {
+      "id": "item:3536",
+      "type": "item",
+      "label": "AndyShaman/premortem: Premortem skill for Claude Code — finds the concrete ways ",
+      "url": "https://github.com/AndyShaman/premortem",
+      "source": "github",
+      "score": 0.5134938399820878,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:risk-analysis",
+      "type": "tag",
+      "label": "risk-analysis"
+    },
+    {
+      "id": "tag:premortem",
+      "type": "tag",
+      "label": "premortem"
+    },
+    {
+      "id": "tag:decision-making",
+      "type": "tag",
+      "label": "decision-making"
+    },
+    {
+      "id": "tag:planning",
+      "type": "tag",
+      "label": "planning"
     },
     {
       "id": "item:1670",
@@ -5991,73 +6043,6 @@
       "label": "evidence-retrieval"
     },
     {
-      "id": "item:209",
-      "type": "item",
-      "label": "Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Ba",
-      "url": "https://arxiv.org/abs/2604.12807",
-      "source": "rss",
-      "score": 0.4982741706915579,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:satellite-imagery",
-      "type": "tag",
-      "label": "satellite-imagery"
-    },
-    {
-      "id": "tag:onboard-ai",
-      "type": "tag",
-      "label": "onboard-ai"
-    },
-    {
-      "id": "tag:image-restoration",
-      "type": "tag",
-      "label": "image-restoration"
-    },
-    {
-      "id": "tag:fpga",
-      "type": "tag",
-      "label": "fpga"
-    },
-    {
-      "id": "tag:cnn",
-      "type": "tag",
-      "label": "cnn"
-    },
-    {
-      "id": "item:220",
-      "type": "item",
-      "label": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospi",
-      "url": "https://arxiv.org/abs/2604.22063",
-      "source": "rss",
-      "score": 0.4982741445229463,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:psychiatry",
-      "type": "tag",
-      "label": "psychiatry"
-    },
-    {
-      "id": "tag:risk-assessment",
-      "type": "tag",
-      "label": "risk-assessment"
-    },
-    {
-      "id": "tag:prompt-sensitivity",
-      "type": "tag",
-      "label": "prompt-sensitivity"
-    },
-    {
-      "id": "tag:reliability-audit",
-      "type": "tag",
-      "label": "reliability-audit"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6536,6 +6521,60 @@
       "type": "skill",
       "label": "safe_coding_agent_sandbox",
       "path": "/home/rnd/trendforge/output/skills/safe_coding_agent_sandbox"
+    },
+    {
+      "id": "skill:81",
+      "type": "skill",
+      "label": "browse_anthropic_skills_marketplace",
+      "path": "/home/rnd/trendforge/output/skills/browse_anthropic_skills_marketplace"
+    },
+    {
+      "id": "skill:82",
+      "type": "skill",
+      "label": "deepseek_loop_agent",
+      "path": "/home/rnd/trendforge/output/skills/deepseek_loop_agent"
+    },
+    {
+      "id": "skill:83",
+      "type": "skill",
+      "label": "opensquilla_token_efficient_agent",
+      "path": "/home/rnd/trendforge/output/skills/opensquilla_token_efficient_agent"
+    },
+    {
+      "id": "skill:84",
+      "type": "skill",
+      "label": "openwally_fullstack_scaffold",
+      "path": "/home/rnd/trendforge/output/skills/openwally_fullstack_scaffold"
+    },
+    {
+      "id": "skill:85",
+      "type": "skill",
+      "label": "intermind_agent_communication",
+      "path": "/home/rnd/trendforge/output/skills/intermind_agent_communication"
+    },
+    {
+      "id": "skill:86",
+      "type": "skill",
+      "label": "premortem_risk_analysis",
+      "path": "/home/rnd/trendforge/output/skills/premortem_risk_analysis"
+    },
+    {
+      "id": "skill:87",
+      "type": "skill",
+      "label": "overseas_sales_research",
+      "path": "/home/rnd/trendforge/output/skills/overseas_sales_research"
+    },
+    {
+      "id": "skill:88",
+      "type": "skill",
+      "label": "oncoagent_clinical_decision_support",
+      "path": "/home/rnd/trendforge/output/skills/oncoagent_clinical_decision_support"
+    },
+    {
+      "id": "skill:89",
+      "type": "skill",
+      "label": "voice_ai_transport_evaluator",
+      "path": "/home/rnd/trendforge/output/skills/voice_ai_transport_evaluator"
     },
     {
       "id": "prototype:1",
@@ -7096,6 +7135,69 @@
       "label": "safe_coding_agent_sandbox",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/safe_coding_agent_sandbox.pptx"
+    },
+    {
+      "id": "prototype:81",
+      "type": "prototype",
+      "label": "browse_anthropic_skills_marketplace",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/browse_anthropic_skills_marketplace.pptx"
+    },
+    {
+      "id": "prototype:82",
+      "type": "prototype",
+      "label": "deepseek_loop_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/deepseek_loop_agent.pptx"
+    },
+    {
+      "id": "prototype:83",
+      "type": "prototype",
+      "label": "opensquilla_token_efficient_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/opensquilla_token_efficient_agent.pptx"
+    },
+    {
+      "id": "prototype:84",
+      "type": "prototype",
+      "label": "openwally_fullstack_scaffold",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/openwally_fullstack_scaffold.pptx"
+    },
+    {
+      "id": "prototype:85",
+      "type": "prototype",
+      "label": "intermind_agent_communication",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/intermind_agent_communication.pptx"
+    },
+    {
+      "id": "prototype:86",
+      "type": "prototype",
+      "label": "premortem_risk_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/premortem_risk_analysis.pptx"
+    },
+    {
+      "id": "prototype:87",
+      "type": "prototype",
+      "label": "overseas_sales_research",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/overseas_sales_research.pptx"
+    },
+    {
+      "id": "prototype:88",
+      "type": "prototype",
+      "label": "oncoagent_clinical_decision_support",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/oncoagent_clinical_decision_support.pptx"
+    },
+    {
+      "id": "prototype:89",
+      "type": "prototype",
+      "label": "voice_ai_transport_evaluator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/voice_ai_transport_evaluator.pptx"
     }
   ],
   "edges": [
@@ -9475,6 +9577,36 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:3547",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3547",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3547",
+      "to": "tag:agent-to-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3547",
+      "to": "tag:inter-agent-communication",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3547",
+      "to": "tag:multi-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3547",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1372",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -10301,6 +10433,41 @@
     },
     {
       "from": "item:1791",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3536",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3536",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3536",
+      "to": "tag:risk-analysis",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3536",
+      "to": "tag:premortem",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3536",
+      "to": "tag:decision-making",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3536",
+      "to": "tag:planning",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3536",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -13640,66 +13807,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:209",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:209",
-      "to": "tag:satellite-imagery",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:209",
-      "to": "tag:onboard-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:209",
-      "to": "tag:image-restoration",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:209",
-      "to": "tag:fpga",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:209",
-      "to": "tag:cnn",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:220",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:220",
-      "to": "tag:psychiatry",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:220",
-      "to": "tag:risk-assessment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:220",
-      "to": "tag:prompt-sensitivity",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:220",
-      "to": "tag:reliability-audit",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:220",
-      "to": "tag:clinical-llm",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -14100,6 +14207,51 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:81",
+      "to": "item:3563",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:82",
+      "to": "item:3561",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:83",
+      "to": "item:3552",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:84",
+      "to": "item:3557",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:85",
+      "to": "item:3547",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:86",
+      "to": "item:3536",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:87",
+      "to": "item:3539",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:88",
+      "to": "item:3535",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:89",
+      "to": "item:3534",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -14497,6 +14649,51 @@
     {
       "from": "prototype:80",
       "to": "skill:80",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:81",
+      "to": "skill:81",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:82",
+      "to": "skill:82",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:83",
+      "to": "skill:83",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:84",
+      "to": "skill:84",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:85",
+      "to": "skill:85",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:86",
+      "to": "skill:86",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:87",
+      "to": "skill:87",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:88",
+      "to": "skill:88",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:89",
+      "to": "skill:89",
       "rel": "DEMOS"
     }
   ]

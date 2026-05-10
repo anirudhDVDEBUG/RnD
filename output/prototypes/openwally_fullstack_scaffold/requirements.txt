@@ -1,0 +1,7 @@
+# OpenWally mock demo — no external deps needed
+# Real OpenWally requires:
+# crewai>=0.28
+# anthropic>=0.25
+# inspect-ai>=0.3
+# fastapi
+# uvicorn

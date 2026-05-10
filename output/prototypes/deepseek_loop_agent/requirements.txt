@@ -1,0 +1,4 @@
+# deepseek-loop-agent prototype
+# No external dependencies — uses only Python 3.10+ stdlib.
+# The real DeepSeek client uses urllib.request (stdlib).
+# If you want to use the real API, just set DEEPSEEK_API_KEY.

@@ -1,0 +1,6 @@
+# No external dependencies — uses Python 3.10+ standard library only.
+# Listed for completeness:
+# argparse (stdlib)
+# datetime (stdlib)
+# json (stdlib)
+# re (stdlib)

@@ -12,36 +12,36 @@ graph LR
   classDef skill fill:#fed7aa,stroke:#7c2d12,color:#000
   classDef proto fill:#fcd34d,stroke:#78350f,color:#000
 
-  tag_mcp_server["mcp-server"]:::tag
-  item_239["msk3d0ut/claude-skill-ugc-prompt: A Claude skill that genera"]:::pin
-  item_243["kycloudtech/website-visual-scorer: A Claude Skill for scorin"]:::pin
-  tag_claude_skill["claude-skill"]:::tag
-  tag_image_generation["image-generation"]:::tag
-  tag_product_photography["product-photography"]:::tag
-  tag_website_audit["website-audit"]:::tag
-  tag_n8n["n8n"]:::tag
-  tag_prompt_generation["prompt-generation"]:::tag
+  project_pitchbot["pitchbot"]:::proj
   item_270["masteranime/n8n-claude-skills: Production Claude Code skills"]:::pin
   tag_workflow_automation["workflow-automation"]:::tag
-  tag_ecommerce["ecommerce"]:::tag
-  item_345["buluslan/gpt-image2-ecommerce: GPT-Image-2 驱动的电商素材一键生成 Claud"]:::pin
-  item_266["wxtsky/byob: Bring Your Own Browser — let your AI agent use "]:::pin
-  project_trendforge["trendforge"]:::proj
-  tag_ugc_video["ugc-video"]:::tag
-  tag_seo["seo"]:::tag
-  tag_chrome_extension["chrome-extension"]:::tag
-  tag_marketing["marketing"]:::tag
-  tag_agentic_workflow["agentic-workflow"]:::tag
   tag_claude_skills["claude-skills"]:::tag
-  source_github["github"]:::src
+  tag_chrome_extension["chrome-extension"]:::tag
+  tag_agentic_workflow["agentic-workflow"]:::tag
+  item_345["buluslan/gpt-image2-ecommerce: GPT-Image-2 驱动的电商素材一键生成 Claud"]:::pin
+  tag_seo["seo"]:::tag
+  tag_mcp_server["mcp-server"]:::tag
+  tag_prompt_generation["prompt-generation"]:::tag
   tag_gpt_image_2["gpt-image-2"]:::tag
-  tag_b2b["b2b"]:::tag
-  project_pitchbot["pitchbot"]:::proj
-  tag_native_messaging["native-messaging"]:::tag
-  tag_conversion_scoring["conversion-scoring"]:::tag
   tag_browser_automation["browser-automation"]:::tag
-  tag_higgsfield["higgsfield"]:::tag
+  tag_website_audit["website-audit"]:::tag
+  tag_native_messaging["native-messaging"]:::tag
+  item_243["kycloudtech/website-visual-scorer: A Claude Skill for scorin"]:::pin
+  tag_ecommerce["ecommerce"]:::tag
+  item_266["wxtsky/byob: Bring Your Own Browser — let your AI agent use "]:::pin
+  tag_n8n["n8n"]:::tag
+  tag_conversion_scoring["conversion-scoring"]:::tag
+  tag_marketing["marketing"]:::tag
+  tag_ugc_video["ugc-video"]:::tag
+  source_github["github"]:::src
+  tag_claude_skill["claude-skill"]:::tag
+  item_239["msk3d0ut/claude-skill-ugc-prompt: A Claude skill that genera"]:::pin
+  tag_product_photography["product-photography"]:::tag
+  project_trendforge["trendforge"]:::proj
+  tag_image_generation["image-generation"]:::tag
+  tag_b2b["b2b"]:::tag
   tag_ai_agents["ai-agents"]:::tag
+  tag_higgsfield["higgsfield"]:::tag
 
   item_239 -- "from source" --> source_github
   item_239 -- "has tag" --> tag_claude_skill

@@ -1,0 +1,2 @@
+# Verdandi uses only Python stdlib (socket, select, json, threading)
+# No external dependencies required.

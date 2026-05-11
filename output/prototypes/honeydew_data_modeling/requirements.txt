@@ -1,0 +1,4 @@
+# No external dependencies — demo uses only the Python standard library.
+# The real Honeydew plugin requires:
+#   honeydew-ai          (Honeydew Python SDK — pip install honeydew-ai)
+#   mcp                  (Model Context Protocol SDK, if running as MCP server)

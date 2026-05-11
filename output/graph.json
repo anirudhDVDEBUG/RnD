@@ -946,6 +946,68 @@
       "label": "server-side-grep"
     },
     {
+      "id": "item:3579",
+      "type": "item",
+      "label": "hrabanazviking/Verdandi: VERÐANDI — The Norn of Becoming. AI nervous system for ",
+      "url": "https://github.com/hrabanazviking/Verdandi",
+      "source": "github",
+      "score": 0.6095031105642094,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agent-memory",
+      "type": "tag",
+      "label": "agent-memory"
+    },
+    {
+      "id": "tag:inter-process-communication",
+      "type": "tag",
+      "label": "inter-process-communication"
+    },
+    {
+      "id": "tag:unix-sockets",
+      "type": "tag",
+      "label": "unix-sockets"
+    },
+    {
+      "id": "tag:self-healing",
+      "type": "tag",
+      "label": "self-healing"
+    },
+    {
+      "id": "tag:real-time-awareness",
+      "type": "tag",
+      "label": "real-time-awareness"
+    },
+    {
+      "id": "item:3584",
+      "type": "item",
+      "label": "rahilp/second-brain-cloudflare: A personal memory layer for AI tools. Self-hoste",
+      "url": "https://github.com/rahilp/second-brain-cloudflare",
+      "source": "github",
+      "score": 0.6094721436626126,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:semantic-search",
+      "type": "tag",
+      "label": "semantic-search"
+    },
+    {
+      "id": "tag:ai-memory",
+      "type": "tag",
+      "label": "ai-memory"
+    },
+    {
+      "id": "tag:cloudflare-workers",
+      "type": "tag",
+      "label": "cloudflare-workers"
+    },
+    {
       "id": "item:1838",
       "type": "item",
       "label": "markifact/markifact-mcp: MCP server for Google Ads, Meta Ads, GA4, TikTok Ads, a",
@@ -1857,11 +1919,6 @@
       "notes": null
     },
     {
-      "id": "tag:agent-memory",
-      "type": "tag",
-      "label": "agent-memory"
-    },
-    {
       "id": "tag:virtual-characters",
       "type": "tag",
       "label": "virtual-characters"
@@ -2041,6 +2098,37 @@
       "id": "tag:anthropic-rules",
       "type": "tag",
       "label": "anthropic-rules"
+    },
+    {
+      "id": "item:3587",
+      "type": "item",
+      "label": "iamasters-academy/content-engine: Agentic Claude Code skill that creates social ",
+      "url": "https://github.com/iamasters-academy/content-engine",
+      "source": "github",
+      "score": 0.5637339259941648,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:content-creation",
+      "type": "tag",
+      "label": "content-creation"
+    },
+    {
+      "id": "tag:social-media",
+      "type": "tag",
+      "label": "social-media"
+    },
+    {
+      "id": "tag:ai-image-generation",
+      "type": "tag",
+      "label": "ai-image-generation"
+    },
+    {
+      "id": "tag:auto-publish",
+      "type": "tag",
+      "label": "auto-publish"
     },
     {
       "id": "item:1825",
@@ -2710,16 +2798,6 @@
       "label": "social-content"
     },
     {
-      "id": "tag:content-creation",
-      "type": "tag",
-      "label": "content-creation"
-    },
-    {
-      "id": "tag:social-media",
-      "type": "tag",
-      "label": "social-media"
-    },
-    {
       "id": "tag:copywriting",
       "type": "tag",
       "label": "copywriting"
@@ -2845,6 +2923,37 @@
       "id": "tag:anthropic-research",
       "type": "tag",
       "label": "anthropic-research"
+    },
+    {
+      "id": "item:3565",
+      "type": "item",
+      "label": "Quoting Andrew Quinn",
+      "url": "https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything",
+      "source": "rss",
+      "score": 0.5141197200310442,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:software-craft",
+      "type": "tag",
+      "label": "software-craft"
+    },
+    {
+      "id": "tag:learning-philosophy",
+      "type": "tag",
+      "label": "learning-philosophy"
+    },
+    {
+      "id": "tag:sqlite",
+      "type": "tag",
+      "label": "sqlite"
+    },
+    {
+      "id": "tag:finite-state-transducer",
+      "type": "tag",
+      "label": "finite-state-transducer"
     },
     {
       "id": "item:3536",
@@ -3023,11 +3132,6 @@
       "notes": null
     },
     {
-      "id": "tag:semantic-search",
-      "type": "tag",
-      "label": "semantic-search"
-    },
-    {
       "id": "tag:hpc-support",
       "type": "tag",
       "label": "hpc-support"
@@ -3160,11 +3264,6 @@
       "id": "tag:ml-pipeline",
       "type": "tag",
       "label": "ml-pipeline"
-    },
-    {
-      "id": "tag:self-healing",
-      "type": "tag",
-      "label": "self-healing"
     },
     {
       "id": "item:1381",
@@ -5919,130 +6018,6 @@
       "label": "spatiotemporal-forecasting"
     },
     {
-      "id": "item:200",
-      "type": "item",
-      "label": "Adaptive Layerwise Perturbation: Unifying Off-Policy Corrections for LLM RL",
-      "url": "https://arxiv.org/abs/2603.19470",
-      "source": "rss",
-      "score": 0.49827418765844966,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:off-policy-rl",
-      "type": "tag",
-      "label": "off-policy-rl"
-    },
-    {
-      "id": "tag:layer-perturbation",
-      "type": "tag",
-      "label": "layer-perturbation"
-    },
-    {
-      "id": "tag:importance-sampling",
-      "type": "tag",
-      "label": "importance-sampling"
-    },
-    {
-      "id": "tag:training-stability",
-      "type": "tag",
-      "label": "training-stability"
-    },
-    {
-      "id": "item:201",
-      "type": "item",
-      "label": "Unilateral Relationship Revision Power in Human-AI Companion Interaction",
-      "url": "https://arxiv.org/abs/2603.23315",
-      "source": "rss",
-      "score": 0.4982741859001937,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:ai-companions",
-      "type": "tag",
-      "label": "ai-companions"
-    },
-    {
-      "id": "tag:relational-ai",
-      "type": "tag",
-      "label": "relational-ai"
-    },
-    {
-      "id": "tag:provider-control",
-      "type": "tag",
-      "label": "provider-control"
-    },
-    {
-      "id": "tag:human-ai-interaction",
-      "type": "tag",
-      "label": "human-ai-interaction"
-    },
-    {
-      "id": "item:204",
-      "type": "item",
-      "label": "Why Attend to Everything? Focus is the Key",
-      "url": "https://arxiv.org/abs/2604.03260",
-      "source": "rss",
-      "score": 0.49827418060102113,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:sparse-attention",
-      "type": "tag",
-      "label": "sparse-attention"
-    },
-    {
-      "id": "tag:long-context",
-      "type": "tag",
-      "label": "long-context"
-    },
-    {
-      "id": "tag:pretrained-models",
-      "type": "tag",
-      "label": "pretrained-models"
-    },
-    {
-      "id": "tag:flashattention",
-      "type": "tag",
-      "label": "flashattention"
-    },
-    {
-      "id": "tag:perplexity",
-      "type": "tag",
-      "label": "perplexity"
-    },
-    {
-      "id": "item:206",
-      "type": "item",
-      "label": "Retrieval-Augmented LLMs for Evidence Localization in Clinical Trial Recruitment",
-      "url": "https://arxiv.org/abs/2604.05190",
-      "source": "rss",
-      "score": 0.49827417718212863,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:clinical-trials",
-      "type": "tag",
-      "label": "clinical-trials"
-    },
-    {
-      "id": "tag:ehr",
-      "type": "tag",
-      "label": "ehr"
-    },
-    {
-      "id": "tag:evidence-retrieval",
-      "type": "tag",
-      "label": "evidence-retrieval"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6575,6 +6550,66 @@
       "type": "skill",
       "label": "voice_ai_transport_evaluator",
       "path": "/home/rnd/trendforge/output/skills/voice_ai_transport_evaluator"
+    },
+    {
+      "id": "skill:90",
+      "type": "skill",
+      "label": "honeydew_data_modeling",
+      "path": "/home/rnd/trendforge/output/skills/honeydew_data_modeling"
+    },
+    {
+      "id": "skill:91",
+      "type": "skill",
+      "label": "second_brain_cloudflare_mcp",
+      "path": "/home/rnd/trendforge/output/skills/second_brain_cloudflare_mcp"
+    },
+    {
+      "id": "skill:92",
+      "type": "skill",
+      "label": "content_engine_social_media",
+      "path": "/home/rnd/trendforge/output/skills/content_engine_social_media"
+    },
+    {
+      "id": "skill:93",
+      "type": "skill",
+      "label": "vibe_bar_macos_quota_monitor",
+      "path": "/home/rnd/trendforge/output/skills/vibe_bar_macos_quota_monitor"
+    },
+    {
+      "id": "skill:94",
+      "type": "skill",
+      "label": "ccgx_multi_model_workflow",
+      "path": "/home/rnd/trendforge/output/skills/ccgx_multi_model_workflow"
+    },
+    {
+      "id": "skill:95",
+      "type": "skill",
+      "label": "verdandi_unix_socket_agent_awareness",
+      "path": "/home/rnd/trendforge/output/skills/verdandi_unix_socket_agent_awareness"
+    },
+    {
+      "id": "skill:96",
+      "type": "skill",
+      "label": "via_shared_context_memory_bus",
+      "path": "/home/rnd/trendforge/output/skills/via_shared_context_memory_bus"
+    },
+    {
+      "id": "skill:97",
+      "type": "skill",
+      "label": "cloudflare_tunnel_route_manager",
+      "path": "/home/rnd/trendforge/output/skills/cloudflare_tunnel_route_manager"
+    },
+    {
+      "id": "skill:98",
+      "type": "skill",
+      "label": "deliberate_wheel_reinvention",
+      "path": "/home/rnd/trendforge/output/skills/deliberate_wheel_reinvention"
+    },
+    {
+      "id": "skill:99",
+      "type": "skill",
+      "label": "cnc_manufacturability_multi_agent",
+      "path": "/home/rnd/trendforge/output/skills/cnc_manufacturability_multi_agent"
     },
     {
       "id": "prototype:1",
@@ -7198,6 +7233,76 @@
       "label": "voice_ai_transport_evaluator",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/voice_ai_transport_evaluator.pptx"
+    },
+    {
+      "id": "prototype:90",
+      "type": "prototype",
+      "label": "honeydew_data_modeling",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/honeydew_data_modeling.pptx"
+    },
+    {
+      "id": "prototype:91",
+      "type": "prototype",
+      "label": "second_brain_cloudflare_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/second_brain_cloudflare_mcp.pptx"
+    },
+    {
+      "id": "prototype:92",
+      "type": "prototype",
+      "label": "content_engine_social_media",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/content_engine_social_media.pptx"
+    },
+    {
+      "id": "prototype:93",
+      "type": "prototype",
+      "label": "vibe_bar_macos_quota_monitor",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/vibe_bar_macos_quota_monitor.pptx"
+    },
+    {
+      "id": "prototype:94",
+      "type": "prototype",
+      "label": "ccgx_multi_model_workflow",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ccgx_multi_model_workflow.pptx"
+    },
+    {
+      "id": "prototype:95",
+      "type": "prototype",
+      "label": "verdandi_unix_socket_agent_awareness",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/verdandi_unix_socket_agent_awareness.pptx"
+    },
+    {
+      "id": "prototype:96",
+      "type": "prototype",
+      "label": "via_shared_context_memory_bus",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/via_shared_context_memory_bus.pptx"
+    },
+    {
+      "id": "prototype:97",
+      "type": "prototype",
+      "label": "cloudflare_tunnel_route_manager",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cloudflare_tunnel_route_manager.pptx"
+    },
+    {
+      "id": "prototype:98",
+      "type": "prototype",
+      "label": "deliberate_wheel_reinvention",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/deliberate_wheel_reinvention.pptx"
+    },
+    {
+      "id": "prototype:99",
+      "type": "prototype",
+      "label": "cnc_manufacturability_multi_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cnc_manufacturability_multi_agent.pptx"
     }
   ],
   "edges": [
@@ -8140,6 +8245,86 @@
       "from": "item:1829",
       "to": "tag:server-side-grep",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3579",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3579",
+      "to": "tag:agent-memory",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3579",
+      "to": "tag:inter-process-communication",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3579",
+      "to": "tag:unix-sockets",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3579",
+      "to": "tag:self-healing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3579",
+      "to": "tag:real-time-awareness",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3579",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3579",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3584",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3584",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3584",
+      "to": "tag:semantic-search",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3584",
+      "to": "tag:ai-memory",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3584",
+      "to": "tag:cloudflare-workers",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3584",
+      "to": "tag:rag",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3584",
+      "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3584",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:1838",
@@ -9357,6 +9542,46 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:3587",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3587",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3587",
+      "to": "tag:content-creation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3587",
+      "to": "tag:social-media",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3587",
+      "to": "tag:ai-image-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3587",
+      "to": "tag:auto-publish",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3587",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3587",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1825",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -10435,6 +10660,31 @@
       "from": "item:1791",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3565",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3565",
+      "to": "tag:software-craft",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3565",
+      "to": "tag:learning-philosophy",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3565",
+      "to": "tag:sqlite",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3565",
+      "to": "tag:finite-state-transducer",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:3536",
@@ -13677,136 +13927,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:200",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:200",
-      "to": "tag:off-policy-rl",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:200",
-      "to": "tag:llm-training",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:200",
-      "to": "tag:layer-perturbation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:200",
-      "to": "tag:importance-sampling",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:200",
-      "to": "tag:training-stability",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:201",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:201",
-      "to": "tag:ai-companions",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:201",
-      "to": "tag:ai-ethics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:201",
-      "to": "tag:relational-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:201",
-      "to": "tag:provider-control",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:201",
-      "to": "tag:human-ai-interaction",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:201",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:204",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:204",
-      "to": "tag:sparse-attention",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:204",
-      "to": "tag:long-context",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:204",
-      "to": "tag:pretrained-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:204",
-      "to": "tag:flashattention",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:204",
-      "to": "tag:perplexity",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:206",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:206",
-      "to": "tag:clinical-trials",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:206",
-      "to": "tag:ehr",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:206",
-      "to": "tag:rag",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:206",
-      "to": "tag:medical-llm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:206",
-      "to": "tag:evidence-retrieval",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:206",
-      "to": "project:pitchbot",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -14252,6 +14372,56 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:90",
+      "to": "item:3596",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:91",
+      "to": "item:3584",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:92",
+      "to": "item:3587",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:93",
+      "to": "item:3589",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:94",
+      "to": "item:3591",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:95",
+      "to": "item:3579",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:96",
+      "to": "item:3574",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:97",
+      "to": "item:3571",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:98",
+      "to": "item:3565",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:99",
+      "to": "item:3566",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -14694,6 +14864,56 @@
     {
       "from": "prototype:89",
       "to": "skill:89",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:90",
+      "to": "skill:90",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:91",
+      "to": "skill:91",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:92",
+      "to": "skill:92",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:93",
+      "to": "skill:93",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:94",
+      "to": "skill:94",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:95",
+      "to": "skill:95",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:96",
+      "to": "skill:96",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:97",
+      "to": "skill:97",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:98",
+      "to": "skill:98",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:99",
+      "to": "skill:99",
       "rel": "DEMOS"
     }
   ]

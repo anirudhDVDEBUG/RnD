@@ -1,0 +1,12 @@
+# Core pipeline — no external dependencies needed for the demo.
+# The mock pipeline runs on Python 3.10+ stdlib only.
+
+# Optional: for real STEP file parsing (requires OpenCASCADE system libs)
+# cadquery>=2.4.0
+
+# Optional: for LLM-backed agents (production mode)
+# langchain>=0.2.0
+# langchain-community>=0.2.0
+# vllm>=0.4.0
+# fastapi>=0.111.0
+# uvicorn>=0.29.0

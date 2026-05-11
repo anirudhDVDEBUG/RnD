@@ -1,0 +1,13 @@
+{
+  "name": "via-shared-context-demo",
+  "version": "1.0.0",
+  "description": "Demo of Vektor-Memory/Via — shared context & memory bus for AI tools via MCP",
+  "main": "via_server.js",
+  "scripts": {
+    "demo": "node demo_client.js",
+    "server": "node via_server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}

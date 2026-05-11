@@ -1,0 +1,1 @@
+# ccgx demo — no external dependencies required (stdlib only)

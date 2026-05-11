@@ -1,0 +1,14 @@
+{
+  "name": "second-brain-cloudflare-mcp-demo",
+  "version": "1.0.0",
+  "description": "Local demo of a Second Brain MCP server (Cloudflare Workers style) with semantic search",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/demo.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}

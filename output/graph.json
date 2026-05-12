@@ -414,6 +414,42 @@
       "label": "mcp"
     },
     {
+      "id": "item:3600",
+      "type": "item",
+      "label": "Learning on the Shop floor",
+      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+      "source": "rss",
+      "score": 0.7176646848753818,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:coding-agents",
+      "type": "tag",
+      "label": "coding-agents"
+    },
+    {
+      "id": "tag:collaborative-learning",
+      "type": "tag",
+      "label": "collaborative-learning"
+    },
+    {
+      "id": "tag:shopify",
+      "type": "tag",
+      "label": "shopify"
+    },
+    {
+      "id": "tag:slack-integration",
+      "type": "tag",
+      "label": "slack-integration"
+    },
+    {
+      "id": "tag:developer-workflow",
+      "type": "tag",
+      "label": "developer-workflow"
+    },
+    {
       "id": "item:128",
       "type": "item",
       "label": "Student Guides Teacher: Weak-to-Strong Inference via Spectral Orthogonal Explora",
@@ -724,11 +760,6 @@
       "notes": null
     },
     {
-      "id": "tag:coding-agents",
-      "type": "tag",
-      "label": "coding-agents"
-    },
-    {
       "id": "tag:token-economics",
       "type": "tag",
       "label": "token-economics"
@@ -835,6 +866,37 @@
       "id": "tag:data-visualization",
       "type": "tag",
       "label": "data-visualization"
+    },
+    {
+      "id": "item:3598",
+      "type": "item",
+      "label": "Your AI Use Is Breaking My Brain",
+      "url": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
+      "source": "rss",
+      "score": 0.6348427575697579,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ai-generated-content",
+      "type": "tag",
+      "label": "ai-generated-content"
+    },
+    {
+      "id": "tag:zombie-internet",
+      "type": "tag",
+      "label": "zombie-internet"
+    },
+    {
+      "id": "tag:content-pollution",
+      "type": "tag",
+      "label": "content-pollution"
+    },
+    {
+      "id": "tag:llm-slop",
+      "type": "tag",
+      "label": "llm-slop"
     },
     {
       "id": "item:1756",
@@ -2281,6 +2343,27 @@
       "label": "byok"
     },
     {
+      "id": "item:3599",
+      "type": "item",
+      "label": "Using LLM in the shebang line of a script",
+      "url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+      "source": "rss",
+      "score": 0.5321291600540337,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:llm-cli",
+      "type": "tag",
+      "label": "llm-cli"
+    },
+    {
+      "id": "tag:shebang",
+      "type": "tag",
+      "label": "shebang"
+    },
+    {
       "id": "item:1755",
       "type": "item",
       "label": "⭐ velocity: langchain-ai/langgraph +62/day — Build resilient language agents as ",
@@ -2925,6 +3008,32 @@
       "label": "anthropic-research"
     },
     {
+      "id": "item:3602",
+      "type": "item",
+      "label": "How ChatGPT adoption broadened in early 2026",
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "source": "rss",
+      "score": 0.5141674702264307,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:chatgpt-adoption",
+      "type": "tag",
+      "label": "chatgpt-adoption"
+    },
+    {
+      "id": "tag:ai-demographics",
+      "type": "tag",
+      "label": "ai-demographics"
+    },
+    {
+      "id": "tag:mainstream-ai",
+      "type": "tag",
+      "label": "mainstream-ai"
+    },
+    {
       "id": "item:3565",
       "type": "item",
       "label": "Quoting Andrew Quinn",
@@ -2985,6 +3094,37 @@
       "id": "tag:planning",
       "type": "tag",
       "label": "planning"
+    },
+    {
+      "id": "item:4064",
+      "type": "item",
+      "label": "theagenticguy/erpaval: ERPAVal — autonomous software development. Six-phase Expl",
+      "url": "https://github.com/theagenticguy/erpaval",
+      "source": "github",
+      "score": 0.5124712567640453,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agentic-sdlc",
+      "type": "tag",
+      "label": "agentic-sdlc"
+    },
+    {
+      "id": "tag:autonomous-agents",
+      "type": "tag",
+      "label": "autonomous-agents"
+    },
+    {
+      "id": "tag:subagents",
+      "type": "tag",
+      "label": "subagents"
+    },
+    {
+      "id": "tag:lesson-compounding",
+      "type": "tag",
+      "label": "lesson-compounding"
     },
     {
       "id": "item:1670",
@@ -5868,156 +6008,6 @@
       "label": "gradient-compression"
     },
     {
-      "id": "item:186",
-      "type": "item",
-      "label": "Glance-or-Gaze: Incentivizing LMMs to Adaptively Focus Search via Reinforcement ",
-      "url": "https://arxiv.org/abs/2601.13942",
-      "source": "rss",
-      "score": 0.4982742128608604,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multimodal-search",
-      "type": "tag",
-      "label": "multimodal-search"
-    },
-    {
-      "id": "tag:visual-reasoning",
-      "type": "tag",
-      "label": "visual-reasoning"
-    },
-    {
-      "id": "tag:retrieval-augmented",
-      "type": "tag",
-      "label": "retrieval-augmented"
-    },
-    {
-      "id": "tag:active-perception",
-      "type": "tag",
-      "label": "active-perception"
-    },
-    {
-      "id": "item:187",
-      "type": "item",
-      "label": "Bridging Visual and Wireless Sensing via a Unified Radiation Field for 3D Radio ",
-      "url": "https://arxiv.org/abs/2601.19216",
-      "source": "rss",
-      "score": 0.49827421102384306,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:radio-mapping",
-      "type": "tag",
-      "label": "radio-mapping"
-    },
-    {
-      "id": "tag:gaussian-splatting",
-      "type": "tag",
-      "label": "gaussian-splatting"
-    },
-    {
-      "id": "tag:wireless-sensing",
-      "type": "tag",
-      "label": "wireless-sensing"
-    },
-    {
-      "id": "tag:inverse-rendering",
-      "type": "tag",
-      "label": "inverse-rendering"
-    },
-    {
-      "id": "item:188",
-      "type": "item",
-      "label": "HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing",
-      "url": "https://arxiv.org/abs/2601.21459",
-      "source": "rss",
-      "score": 0.49827420930330335,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:llm-roleplay",
-      "type": "tag",
-      "label": "llm-roleplay"
-    },
-    {
-      "id": "tag:persona-simulation",
-      "type": "tag",
-      "label": "persona-simulation"
-    },
-    {
-      "id": "tag:reasoning-traces",
-      "type": "tag",
-      "label": "reasoning-traces"
-    },
-    {
-      "id": "item:197",
-      "type": "item",
-      "label": "SciMDR: Advancing Scientific Multimodal Document Reasoning",
-      "url": "https://arxiv.org/abs/2603.12249",
-      "source": "rss",
-      "score": 0.4982741927435257,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:scientific-reasoning",
-      "type": "tag",
-      "label": "scientific-reasoning"
-    },
-    {
-      "id": "tag:multimodal-document",
-      "type": "tag",
-      "label": "multimodal-document"
-    },
-    {
-      "id": "tag:document-understanding",
-      "type": "tag",
-      "label": "document-understanding"
-    },
-    {
-      "id": "tag:training-data",
-      "type": "tag",
-      "label": "training-data"
-    },
-    {
-      "id": "item:198",
-      "type": "item",
-      "label": "Assessing the Utility of Volumetric Motion Fields for Radar-based Precipitation ",
-      "url": "https://arxiv.org/abs/2603.13589",
-      "source": "rss",
-      "score": 0.49827419099747206,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:precipitation-nowcasting",
-      "type": "tag",
-      "label": "precipitation-nowcasting"
-    },
-    {
-      "id": "tag:radar-data",
-      "type": "tag",
-      "label": "radar-data"
-    },
-    {
-      "id": "tag:motion-estimation",
-      "type": "tag",
-      "label": "motion-estimation"
-    },
-    {
-      "id": "tag:spatiotemporal-forecasting",
-      "type": "tag",
-      "label": "spatiotemporal-forecasting"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6610,6 +6600,96 @@
       "type": "skill",
       "label": "cnc_manufacturability_multi_agent",
       "path": "/home/rnd/trendforge/output/skills/cnc_manufacturability_multi_agent"
+    },
+    {
+      "id": "skill:100",
+      "type": "skill",
+      "label": "erpaval_workflow",
+      "path": "/home/rnd/trendforge/output/skills/erpaval_workflow"
+    },
+    {
+      "id": "skill:101",
+      "type": "skill",
+      "label": "goalkeeper_goal_execution",
+      "path": "/home/rnd/trendforge/output/skills/goalkeeper_goal_execution"
+    },
+    {
+      "id": "skill:102",
+      "type": "skill",
+      "label": "friday_cognitive_ai_os",
+      "path": "/home/rnd/trendforge/output/skills/friday_cognitive_ai_os"
+    },
+    {
+      "id": "skill:103",
+      "type": "skill",
+      "label": "whisperflow_voice_browser_agent",
+      "path": "/home/rnd/trendforge/output/skills/whisperflow_voice_browser_agent"
+    },
+    {
+      "id": "skill:104",
+      "type": "skill",
+      "label": "sfdc_mcp_security_toolkit",
+      "path": "/home/rnd/trendforge/output/skills/sfdc_mcp_security_toolkit"
+    },
+    {
+      "id": "skill:105",
+      "type": "skill",
+      "label": "capsulemcp_crm_integration",
+      "path": "/home/rnd/trendforge/output/skills/capsulemcp_crm_integration"
+    },
+    {
+      "id": "skill:106",
+      "type": "skill",
+      "label": "ibkr_trading_data_integration",
+      "path": "/home/rnd/trendforge/output/skills/ibkr_trading_data_integration"
+    },
+    {
+      "id": "skill:107",
+      "type": "skill",
+      "label": "gcc_market_intelligence",
+      "path": "/home/rnd/trendforge/output/skills/gcc_market_intelligence"
+    },
+    {
+      "id": "skill:108",
+      "type": "skill",
+      "label": "real_estate_asset_management",
+      "path": "/home/rnd/trendforge/output/skills/real_estate_asset_management"
+    },
+    {
+      "id": "skill:109",
+      "type": "skill",
+      "label": "llm_shebang_scripts",
+      "path": "/home/rnd/trendforge/output/skills/llm_shebang_scripts"
+    },
+    {
+      "id": "skill:110",
+      "type": "skill",
+      "label": "public_channel_coding_agent_workflow",
+      "path": "/home/rnd/trendforge/output/skills/public_channel_coding_agent_workflow"
+    },
+    {
+      "id": "skill:111",
+      "type": "skill",
+      "label": "chatgpt_adoption_trends_q1_2026",
+      "path": "/home/rnd/trendforge/output/skills/chatgpt_adoption_trends_q1_2026"
+    },
+    {
+      "id": "skill:112",
+      "type": "skill",
+      "label": "enterprise_ai_scaling_playbook",
+      "path": "/home/rnd/trendforge/output/skills/enterprise_ai_scaling_playbook"
+    },
+    {
+      "id": "skill:113",
+      "type": "skill",
+      "label": "ai_maintenance_cost_auditor",
+      "path": "/home/rnd/trendforge/output/skills/ai_maintenance_cost_auditor"
+    },
+    {
+      "id": "skill:114",
+      "type": "skill",
+      "label": "zombie_internet_content_audit",
+      "path": "/home/rnd/trendforge/output/skills/zombie_internet_content_audit"
     },
     {
       "id": "prototype:1",
@@ -7303,6 +7383,111 @@
       "label": "cnc_manufacturability_multi_agent",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/cnc_manufacturability_multi_agent.pptx"
+    },
+    {
+      "id": "prototype:100",
+      "type": "prototype",
+      "label": "erpaval_workflow",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/erpaval_workflow.pptx"
+    },
+    {
+      "id": "prototype:101",
+      "type": "prototype",
+      "label": "goalkeeper_goal_execution",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/goalkeeper_goal_execution.pptx"
+    },
+    {
+      "id": "prototype:102",
+      "type": "prototype",
+      "label": "friday_cognitive_ai_os",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/friday_cognitive_ai_os.pptx"
+    },
+    {
+      "id": "prototype:103",
+      "type": "prototype",
+      "label": "whisperflow_voice_browser_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/whisperflow_voice_browser_agent.pptx"
+    },
+    {
+      "id": "prototype:104",
+      "type": "prototype",
+      "label": "sfdc_mcp_security_toolkit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/sfdc_mcp_security_toolkit.pptx"
+    },
+    {
+      "id": "prototype:105",
+      "type": "prototype",
+      "label": "capsulemcp_crm_integration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/capsulemcp_crm_integration.pptx"
+    },
+    {
+      "id": "prototype:106",
+      "type": "prototype",
+      "label": "ibkr_trading_data_integration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ibkr_trading_data_integration.pptx"
+    },
+    {
+      "id": "prototype:107",
+      "type": "prototype",
+      "label": "gcc_market_intelligence",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/gcc_market_intelligence.pptx"
+    },
+    {
+      "id": "prototype:108",
+      "type": "prototype",
+      "label": "real_estate_asset_management",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/real_estate_asset_management.pptx"
+    },
+    {
+      "id": "prototype:109",
+      "type": "prototype",
+      "label": "llm_shebang_scripts",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/llm_shebang_scripts.pptx"
+    },
+    {
+      "id": "prototype:110",
+      "type": "prototype",
+      "label": "public_channel_coding_agent_workflow",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/public_channel_coding_agent_workflow.pptx"
+    },
+    {
+      "id": "prototype:111",
+      "type": "prototype",
+      "label": "chatgpt_adoption_trends_q1_2026",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/chatgpt_adoption_trends_q1_2026.pptx"
+    },
+    {
+      "id": "prototype:112",
+      "type": "prototype",
+      "label": "enterprise_ai_scaling_playbook",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/enterprise_ai_scaling_playbook.pptx"
+    },
+    {
+      "id": "prototype:113",
+      "type": "prototype",
+      "label": "ai_maintenance_cost_auditor",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_maintenance_cost_auditor.pptx"
+    },
+    {
+      "id": "prototype:114",
+      "type": "prototype",
+      "label": "zombie_internet_content_audit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/zombie_internet_content_audit.pptx"
     }
   ],
   "edges": [
@@ -7683,6 +7868,41 @@
     },
     {
       "from": "item:3010",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:3600",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3600",
+      "to": "tag:coding-agents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3600",
+      "to": "tag:collaborative-learning",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3600",
+      "to": "tag:shopify",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3600",
+      "to": "tag:slack-integration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3600",
+      "to": "tag:developer-workflow",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3600",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -8124,6 +8344,31 @@
     {
       "from": "item:1727",
       "to": "tag:data-visualization",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3598",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3598",
+      "to": "tag:ai-generated-content",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3598",
+      "to": "tag:zombie-internet",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3598",
+      "to": "tag:content-pollution",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3598",
+      "to": "tag:llm-slop",
       "rel": "HAS_TAG"
     },
     {
@@ -9737,6 +9982,36 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:3599",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3599",
+      "to": "tag:llm-cli",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3599",
+      "to": "tag:tool-use",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3599",
+      "to": "tag:shebang",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3599",
+      "to": "tag:code-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3599",
+      "to": "tag:prompt-engineering",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:1755",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -10662,6 +10937,26 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:3602",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:3602",
+      "to": "tag:chatgpt-adoption",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3602",
+      "to": "tag:ai-demographics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:3602",
+      "to": "tag:mainstream-ai",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:3565",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -10718,6 +11013,41 @@
     },
     {
       "from": "item:3536",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:4064",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:4064",
+      "to": "tag:claude-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4064",
+      "to": "tag:agentic-sdlc",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4064",
+      "to": "tag:autonomous-agents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4064",
+      "to": "tag:subagents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4064",
+      "to": "tag:lesson-compounding",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4064",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -13777,156 +14107,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:186",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:186",
-      "to": "tag:multimodal-search",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:186",
-      "to": "tag:visual-reasoning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:186",
-      "to": "tag:reinforcement-learning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:186",
-      "to": "tag:retrieval-augmented",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:186",
-      "to": "tag:active-perception",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:187",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:187",
-      "to": "tag:radio-mapping",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:187",
-      "to": "tag:gaussian-splatting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:187",
-      "to": "tag:cross-modal-fusion",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:187",
-      "to": "tag:wireless-sensing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:187",
-      "to": "tag:inverse-rendering",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:188",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:188",
-      "to": "tag:llm-roleplay",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:188",
-      "to": "tag:persona-simulation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:188",
-      "to": "tag:reinforcement-learning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:188",
-      "to": "tag:reasoning-traces",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:188",
-      "to": "tag:reward-modeling",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:197",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:197",
-      "to": "tag:scientific-reasoning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:197",
-      "to": "tag:multimodal-document",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:197",
-      "to": "tag:qa-dataset",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:197",
-      "to": "tag:document-understanding",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:197",
-      "to": "tag:training-data",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:198",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:198",
-      "to": "tag:precipitation-nowcasting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:198",
-      "to": "tag:physics-informed",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:198",
-      "to": "tag:radar-data",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:198",
-      "to": "tag:motion-estimation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:198",
-      "to": "tag:spatiotemporal-forecasting",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -14422,6 +14602,81 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:100",
+      "to": "item:4064",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:101",
+      "to": "item:4051",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:102",
+      "to": "item:4056",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:103",
+      "to": "item:4057",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:104",
+      "to": "item:4046",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:105",
+      "to": "item:4048",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:106",
+      "to": "item:4049",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:107",
+      "to": "item:4040",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:108",
+      "to": "item:4043",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:109",
+      "to": "item:3599",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:110",
+      "to": "item:3600",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:111",
+      "to": "item:3602",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:112",
+      "to": "item:3603",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:113",
+      "to": "item:3597",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:114",
+      "to": "item:3598",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -14914,6 +15169,81 @@
     {
       "from": "prototype:99",
       "to": "skill:99",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:100",
+      "to": "skill:100",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:101",
+      "to": "skill:101",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:102",
+      "to": "skill:102",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:103",
+      "to": "skill:103",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:104",
+      "to": "skill:104",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:105",
+      "to": "skill:105",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:106",
+      "to": "skill:106",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:107",
+      "to": "skill:107",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:108",
+      "to": "skill:108",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:109",
+      "to": "skill:109",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:110",
+      "to": "skill:110",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:111",
+      "to": "skill:111",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:112",
+      "to": "skill:112",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:113",
+      "to": "skill:113",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:114",
+      "to": "skill:114",
       "rel": "DEMOS"
     }
   ]

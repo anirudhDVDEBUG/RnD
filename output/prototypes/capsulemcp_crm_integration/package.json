@@ -1,0 +1,11 @@
+{
+  "name": "capsulemcp-crm-demo",
+  "version": "1.0.0",
+  "description": "Demo and evaluation of capsulemcp — Capsule CRM MCP server for Claude",
+  "private": true,
+  "scripts": {
+    "demo": "node demo.js",
+    "mock-server": "node mock_capsule_server.js"
+  },
+  "dependencies": {}
+}

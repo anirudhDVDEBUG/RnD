@@ -1,0 +1,12 @@
+# Core (always needed)
+# No external deps required for mock/demo mode
+
+# Optional: Gemini API for live reasoning
+# google-generativeai>=0.3.0
+
+# Optional: Voice interaction (requires audio hardware)
+# speechrecognition>=3.10.0
+# pyttsx3>=2.90
+
+# Optional: Enhanced system monitoring
+# psutil>=5.9.0

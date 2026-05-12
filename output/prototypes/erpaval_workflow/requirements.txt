@@ -1,0 +1,2 @@
+# ERPAVal Workflow — no external dependencies
+# Uses Python 3.8+ stdlib only (json, os, dataclasses, datetime, enum, typing)

@@ -1,0 +1,4 @@
+# Public-Channel Coding Agent Workflow
+# No external dependencies -- uses Python stdlib only.
+# Add slack_sdk if connecting to real Slack:
+# slack_sdk>=3.27.0

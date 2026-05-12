@@ -1,0 +1,4 @@
+# No external dependencies — uses Python 3.10+ stdlib only
+# Listed for completeness:
+# datetime (stdlib)
+# typing (stdlib)

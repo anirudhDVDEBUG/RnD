@@ -1,0 +1,2 @@
+# Goalkeeper demo has no external dependencies -- stdlib only.
+# Listed for completeness.

@@ -1,0 +1,2 @@
+# No external dependencies required — uses Python 3.8+ stdlib only.
+# The mock demo relies on: json, random, datetime, dataclasses (all built-in).

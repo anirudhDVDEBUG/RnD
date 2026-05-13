@@ -2255,6 +2255,37 @@
       "label": "frame-extraction"
     },
     {
+      "id": "item:4071",
+      "type": "item",
+      "label": "Quoting Mo Bitar",
+      "url": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+      "source": "rss",
+      "score": 0.5542201264299218,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ai-ethics",
+      "type": "tag",
+      "label": "ai-ethics"
+    },
+    {
+      "id": "tag:workplace-satire",
+      "type": "tag",
+      "label": "workplace-satire"
+    },
+    {
+      "id": "tag:automation-hype",
+      "type": "tag",
+      "label": "automation-hype"
+    },
+    {
+      "id": "tag:career-strategy",
+      "type": "tag",
+      "label": "career-strategy"
+    },
+    {
       "id": "item:1827",
       "type": "item",
       "label": "April 2026 newsletter",
@@ -2305,11 +2336,6 @@
       "id": "tag:retail-automation",
       "type": "tag",
       "label": "retail-automation"
-    },
-    {
-      "id": "tag:ai-ethics",
-      "type": "tag",
-      "label": "ai-ethics"
     },
     {
       "id": "item:323",
@@ -2378,6 +2404,37 @@
       "id": "tag:graph-agents",
       "type": "tag",
       "label": "graph-agents"
+    },
+    {
+      "id": "item:5043",
+      "type": "item",
+      "label": "DaizeDong/buy-me-a-car: Claude Code plugin: end-to-end used car buying — multi-s",
+      "url": "https://github.com/DaizeDong/buy-me-a-car",
+      "source": "github",
+      "score": 0.528066340334427,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:car-buying",
+      "type": "tag",
+      "label": "car-buying"
+    },
+    {
+      "id": "tag:negotiation",
+      "type": "tag",
+      "label": "negotiation"
+    },
+    {
+      "id": "tag:automotive",
+      "type": "tag",
+      "label": "automotive"
+    },
+    {
+      "id": "tag:dealer-outreach",
+      "type": "tag",
+      "label": "dealer-outreach"
     },
     {
       "id": "item:2717",
@@ -3032,6 +3089,37 @@
       "id": "tag:mainstream-ai",
       "type": "tag",
       "label": "mainstream-ai"
+    },
+    {
+      "id": "item:4074",
+      "type": "item",
+      "label": "How finance teams use Codex",
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "source": "rss",
+      "score": 0.5141550823465932,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:financial-analysis",
+      "type": "tag",
+      "label": "financial-analysis"
+    },
+    {
+      "id": "tag:reporting",
+      "type": "tag",
+      "label": "reporting"
+    },
+    {
+      "id": "tag:variance-analysis",
+      "type": "tag",
+      "label": "variance-analysis"
+    },
+    {
+      "id": "tag:enterprise-automation",
+      "type": "tag",
+      "label": "enterprise-automation"
     },
     {
       "id": "item:3565",
@@ -5910,104 +5998,6 @@
       "label": "inference-engine"
     },
     {
-      "id": "item:182",
-      "type": "item",
-      "label": "q3-MuPa: Quick, Quiet, Quantitative Multi-Parametric MRI using Physics-Informed ",
-      "url": "https://arxiv.org/abs/2512.23726",
-      "source": "rss",
-      "score": 0.49827422202154237,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:quantitative-mri",
-      "type": "tag",
-      "label": "quantitative-mri"
-    },
-    {
-      "id": "tag:physics-informed",
-      "type": "tag",
-      "label": "physics-informed"
-    },
-    {
-      "id": "tag:medical-imaging",
-      "type": "tag",
-      "label": "medical-imaging"
-    },
-    {
-      "id": "tag:accelerated-acquisition",
-      "type": "tag",
-      "label": "accelerated-acquisition"
-    },
-    {
-      "id": "item:183",
-      "type": "item",
-      "label": "Training-Free Adaptation of New-Generation LLMs using Legacy Clinical Models",
-      "url": "https://arxiv.org/abs/2601.03423",
-      "source": "rss",
-      "score": 0.49827422027326973,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:clinical-llm",
-      "type": "tag",
-      "label": "clinical-llm"
-    },
-    {
-      "id": "tag:model-ensembling",
-      "type": "tag",
-      "label": "model-ensembling"
-    },
-    {
-      "id": "tag:proxy-tuning",
-      "type": "tag",
-      "label": "proxy-tuning"
-    },
-    {
-      "id": "tag:contrastive-decoding",
-      "type": "tag",
-      "label": "contrastive-decoding"
-    },
-    {
-      "id": "item:185",
-      "type": "item",
-      "label": "AdaFRUGAL: Adaptive Memory-Efficient Training with Dynamic Control",
-      "url": "https://arxiv.org/abs/2601.11568",
-      "source": "rss",
-      "score": 0.49827421700191454,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:memory-efficient-training",
-      "type": "tag",
-      "label": "memory-efficient-training"
-    },
-    {
-      "id": "tag:llm-training",
-      "type": "tag",
-      "label": "llm-training"
-    },
-    {
-      "id": "tag:optimizer-states",
-      "type": "tag",
-      "label": "optimizer-states"
-    },
-    {
-      "id": "tag:adaptive-hyperparameters",
-      "type": "tag",
-      "label": "adaptive-hyperparameters"
-    },
-    {
-      "id": "tag:gradient-compression",
-      "type": "tag",
-      "label": "gradient-compression"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6690,6 +6680,78 @@
       "type": "skill",
       "label": "zombie_internet_content_audit",
       "path": "/home/rnd/trendforge/output/skills/zombie_internet_content_audit"
+    },
+    {
+      "id": "skill:115",
+      "type": "skill",
+      "label": "algokiller_trace_analysis",
+      "path": "/home/rnd/trendforge/output/skills/algokiller_trace_analysis"
+    },
+    {
+      "id": "skill:116",
+      "type": "skill",
+      "label": "fork_a_slicer",
+      "path": "/home/rnd/trendforge/output/skills/fork_a_slicer"
+    },
+    {
+      "id": "skill:117",
+      "type": "skill",
+      "label": "openclaw_orchestra",
+      "path": "/home/rnd/trendforge/output/skills/openclaw_orchestra"
+    },
+    {
+      "id": "skill:118",
+      "type": "skill",
+      "label": "visuai_research_agent",
+      "path": "/home/rnd/trendforge/output/skills/visuai_research_agent"
+    },
+    {
+      "id": "skill:119",
+      "type": "skill",
+      "label": "cord_agent_fabric",
+      "path": "/home/rnd/trendforge/output/skills/cord_agent_fabric"
+    },
+    {
+      "id": "skill:120",
+      "type": "skill",
+      "label": "claude_security_skills",
+      "path": "/home/rnd/trendforge/output/skills/claude_security_skills"
+    },
+    {
+      "id": "skill:121",
+      "type": "skill",
+      "label": "buy_me_a_car",
+      "path": "/home/rnd/trendforge/output/skills/buy_me_a_car"
+    },
+    {
+      "id": "skill:122",
+      "type": "skill",
+      "label": "social_media_scraper",
+      "path": "/home/rnd/trendforge/output/skills/social_media_scraper"
+    },
+    {
+      "id": "skill:123",
+      "type": "skill",
+      "label": "datasette_sqlite_explorer",
+      "path": "/home/rnd/trendforge/output/skills/datasette_sqlite_explorer"
+    },
+    {
+      "id": "skill:124",
+      "type": "skill",
+      "label": "ai_hype_audit",
+      "path": "/home/rnd/trendforge/output/skills/ai_hype_audit"
+    },
+    {
+      "id": "skill:125",
+      "type": "skill",
+      "label": "tdm_messaging_audit",
+      "path": "/home/rnd/trendforge/output/skills/tdm_messaging_audit"
+    },
+    {
+      "id": "skill:126",
+      "type": "skill",
+      "label": "finance_codex_reporting",
+      "path": "/home/rnd/trendforge/output/skills/finance_codex_reporting"
     },
     {
       "id": "prototype:1",
@@ -7488,6 +7550,90 @@
       "label": "zombie_internet_content_audit",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/zombie_internet_content_audit.pptx"
+    },
+    {
+      "id": "prototype:115",
+      "type": "prototype",
+      "label": "algokiller_trace_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/algokiller_trace_analysis.pptx"
+    },
+    {
+      "id": "prototype:116",
+      "type": "prototype",
+      "label": "fork_a_slicer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/fork_a_slicer.pptx"
+    },
+    {
+      "id": "prototype:117",
+      "type": "prototype",
+      "label": "openclaw_orchestra",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/openclaw_orchestra.pptx"
+    },
+    {
+      "id": "prototype:118",
+      "type": "prototype",
+      "label": "visuai_research_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/visuai_research_agent.pptx"
+    },
+    {
+      "id": "prototype:119",
+      "type": "prototype",
+      "label": "cord_agent_fabric",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cord_agent_fabric.pptx"
+    },
+    {
+      "id": "prototype:120",
+      "type": "prototype",
+      "label": "claude_security_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_security_skills.pptx"
+    },
+    {
+      "id": "prototype:121",
+      "type": "prototype",
+      "label": "buy_me_a_car",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/buy_me_a_car.pptx"
+    },
+    {
+      "id": "prototype:122",
+      "type": "prototype",
+      "label": "social_media_scraper",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/social_media_scraper.pptx"
+    },
+    {
+      "id": "prototype:123",
+      "type": "prototype",
+      "label": "datasette_sqlite_explorer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_sqlite_explorer.pptx"
+    },
+    {
+      "id": "prototype:124",
+      "type": "prototype",
+      "label": "ai_hype_audit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_hype_audit.pptx"
+    },
+    {
+      "id": "prototype:125",
+      "type": "prototype",
+      "label": "tdm_messaging_audit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/tdm_messaging_audit.pptx"
+    },
+    {
+      "id": "prototype:126",
+      "type": "prototype",
+      "label": "finance_codex_reporting",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/finance_codex_reporting.pptx"
     }
   ],
   "edges": [
@@ -9897,6 +10043,31 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:4071",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:4071",
+      "to": "tag:ai-ethics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4071",
+      "to": "tag:workplace-satire",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4071",
+      "to": "tag:automation-hype",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4071",
+      "to": "tag:career-strategy",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:1827",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -10043,6 +10214,46 @@
     },
     {
       "from": "item:1755",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5043",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5043",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5043",
+      "to": "tag:car-buying",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5043",
+      "to": "tag:negotiation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5043",
+      "to": "tag:automotive",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5043",
+      "to": "tag:dealer-outreach",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5043",
+      "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5043",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -10954,6 +11165,36 @@
     {
       "from": "item:3602",
       "to": "tag:mainstream-ai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4074",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:4074",
+      "to": "tag:financial-analysis",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4074",
+      "to": "tag:codex",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4074",
+      "to": "tag:reporting",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4074",
+      "to": "tag:variance-analysis",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:4074",
+      "to": "tag:enterprise-automation",
       "rel": "HAS_TAG"
     },
     {
@@ -14017,96 +14258,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:182",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:182",
-      "to": "tag:quantitative-mri",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:182",
-      "to": "tag:diffusion-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:182",
-      "to": "tag:physics-informed",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:182",
-      "to": "tag:medical-imaging",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:182",
-      "to": "tag:accelerated-acquisition",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:183",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:183",
-      "to": "tag:clinical-llm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:183",
-      "to": "tag:domain-adaptation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:183",
-      "to": "tag:model-ensembling",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:183",
-      "to": "tag:proxy-tuning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:183",
-      "to": "tag:contrastive-decoding",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:185",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:185",
-      "to": "tag:memory-efficient-training",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:185",
-      "to": "tag:llm-training",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:185",
-      "to": "tag:optimizer-states",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:185",
-      "to": "tag:adaptive-hyperparameters",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:185",
-      "to": "tag:gradient-compression",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -14677,6 +14828,66 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:115",
+      "to": "item:5075",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:116",
+      "to": "item:5077",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:117",
+      "to": "item:5066",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:118",
+      "to": "item:5071",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:119",
+      "to": "item:5049",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:120",
+      "to": "item:5051",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:121",
+      "to": "item:5043",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:122",
+      "to": "item:5044",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:123",
+      "to": "item:4070",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:124",
+      "to": "item:4071",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:125",
+      "to": "item:4072",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:126",
+      "to": "item:4074",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -15244,6 +15455,66 @@
     {
       "from": "prototype:114",
       "to": "skill:114",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:115",
+      "to": "skill:115",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:116",
+      "to": "skill:116",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:117",
+      "to": "skill:117",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:118",
+      "to": "skill:118",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:119",
+      "to": "skill:119",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:120",
+      "to": "skill:120",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:121",
+      "to": "skill:121",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:122",
+      "to": "skill:122",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:123",
+      "to": "skill:123",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:124",
+      "to": "skill:124",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:125",
+      "to": "skill:125",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:126",
+      "to": "skill:126",
       "rel": "DEMOS"
     }
   ]

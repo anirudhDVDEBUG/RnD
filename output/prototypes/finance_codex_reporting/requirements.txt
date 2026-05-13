@@ -1,0 +1,2 @@
+# No external dependencies — uses Python 3.6+ stdlib only
+# (csv, io, json, collections, pathlib)

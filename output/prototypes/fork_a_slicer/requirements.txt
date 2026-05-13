@@ -1,0 +1,2 @@
+# Fork-a-Slicer demo — stdlib only, no external dependencies required
+# Listed for completeness; all modules used are part of Python 3.8+

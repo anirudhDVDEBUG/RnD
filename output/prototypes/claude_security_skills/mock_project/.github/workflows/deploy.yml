@@ -1,0 +1,17 @@
+name: Deploy
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions: write-all
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: some-org/deploy-action@main
+      - name: Greet PR author
+        run: echo "Hello ${{ github.event.pull_request.title }}"
+      - name: Deploy
+        run: npm run deploy

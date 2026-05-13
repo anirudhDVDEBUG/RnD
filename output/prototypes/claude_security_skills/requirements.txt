@@ -1,0 +1,5 @@
+# claude-security-skills demo - stdlib only, no external deps needed
+# Listed for completeness:
+# dataclasses (stdlib 3.7+)
+# json (stdlib)
+# re (stdlib)

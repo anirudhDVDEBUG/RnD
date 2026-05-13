@@ -1,0 +1,12 @@
+# Core (required for live scraping)
+yt-dlp>=2024.1.0
+requests>=2.28.0
+
+# Optional: audio transcription
+openai-whisper>=20231117
+
+# Optional: video frame extraction (system package, not pip)
+# ffmpeg — install via: apt install ffmpeg / brew install ffmpeg
+
+# Optional: JSON processing (system package)
+# jq — install via: apt install jq / brew install jq

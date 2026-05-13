@@ -1,0 +1,3 @@
+# cord_demo uses only Python standard library modules:
+# json, math, re, sys, time, collections, dataclasses, typing
+# No external dependencies required.

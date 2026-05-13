@@ -1,0 +1,2 @@
+# ak_search — ARM64 trace analysis
+# No external dependencies required. Uses Python 3.8+ stdlib only.

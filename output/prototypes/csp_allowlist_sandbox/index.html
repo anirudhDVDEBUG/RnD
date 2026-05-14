@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSP Allow-list Sandbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>CSP Allow-list Sandbox</h1>
+  <span class="subtitle">Run untrusted HTML in a CSP-protected iframe &mdash; interactively allow-list origins</span>
+</header>
+
+<div class="toolbar">
+  <label>Add origin:</label>
+  <input type="text" id="origin-input" placeholder="https://api.example.com" spellcheck="false">
+  <button id="btn-add-origin">Add</button>
+  <button id="btn-refresh">Refresh Preview</button>
+  <button id="btn-reset">Reset Sample</button>
+  <button id="btn-clear-list" class="danger">Clear Allow-list</button>
+</div>
+
+<div class="main">
+  <div class="panel">
+    <div class="panel-header">Editor</div>
+    <textarea id="editor" spellcheck="false"></textarea>
+  </div>
+  <div class="divider"></div>
+  <div class="panel">
+    <div class="panel-header">Preview (sandboxed iframe)</div>
+    <iframe id="preview" sandbox="allow-scripts"></iframe>
+  </div>
+</div>
+
+<div class="bottom-bar">
+  <div class="csp-bar">
+    <span class="label">Active CSP:</span>
+    <span id="csp-display"></span>
+  </div>
+  <div class="allow-list-bar">
+    <span class="label">Allow-list:</span>
+    <span id="allow-list-tags"></span>
+  </div>
+  <div id="log-output"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "claude-design-ai-demo",
+  "version": "1.0.0",
+  "description": "Demo: AI-powered UI/UX design assistant that generates React + Tailwind components",
+  "main": "src/generator.js",
+  "scripts": {
+    "demo": "node src/demo.js",
+    "generate": "node src/generator.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,7 @@
+# Equity Research Agent
+# No external dependencies — uses Python 3 stdlib only.
+# The mock demo runs with just: python3 equity_research.py
+#
+# For live data integration (optional), you would add:
+# requests>=2.31
+# anthropic>=0.39

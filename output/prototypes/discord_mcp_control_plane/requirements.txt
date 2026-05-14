@@ -1,0 +1,8 @@
+# Discord MCP Control Plane — demo dependencies
+# The demo itself uses only the Python stdlib (no installs needed).
+# Below are what the real DiscordMCP project requires:
+# discord.py>=2.3.0
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# python-dotenv>=1.0.0
+# httpx>=0.24.0

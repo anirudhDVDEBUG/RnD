@@ -1,0 +1,11 @@
+# WhatsApp Agent for Hermes - Demo dependencies
+# The demo runs with Python stdlib only (no external deps needed).
+#
+# The full Andorina agent requires these (not needed for demo):
+# selenium>=4.15.0
+# webdriver-manager>=4.0.0
+# gTTS>=2.3.0           # Google Text-to-Speech for voice notes
+# google-api-python-client>=2.100.0  # Google Contacts integration
+# google-auth-oauthlib>=1.1.0
+# pydub>=0.25.1         # Audio format conversion
+# schedule>=1.2.0       # Cron-like scheduling

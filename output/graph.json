@@ -811,6 +811,37 @@
       "label": "hallucination"
     },
     {
+      "id": "item:5084",
+      "type": "item",
+      "label": "CSP Allow-list Experiment",
+      "url": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
+      "source": "rss",
+      "score": 0.67498042664126,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:content-security-policy",
+      "type": "tag",
+      "label": "content-security-policy"
+    },
+    {
+      "id": "tag:iframe-sandbox",
+      "type": "tag",
+      "label": "iframe-sandbox"
+    },
+    {
+      "id": "tag:web-security",
+      "type": "tag",
+      "label": "web-security"
+    },
+    {
+      "id": "tag:browser-security",
+      "type": "tag",
+      "label": "browser-security"
+    },
+    {
       "id": "item:326",
       "type": "item",
       "label": "Julpygo/Claude-Code-AI-Design: Claude Design Anthropic Tool Download April 2026 ",
@@ -1068,6 +1099,58 @@
       "id": "tag:cloudflare-workers",
       "type": "tag",
       "label": "cloudflare-workers"
+    },
+    {
+      "id": "item:5112",
+      "type": "item",
+      "label": "mikesheehan54/Claude-Code-Design-AI: Claude Design: AI UI/UX architect. Screensh",
+      "url": "https://github.com/mikesheehan54/Claude-Code-Design-AI",
+      "source": "github",
+      "score": 0.6047923412783589,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ui-design",
+      "type": "tag",
+      "label": "ui-design"
+    },
+    {
+      "id": "tag:figma",
+      "type": "tag",
+      "label": "figma"
+    },
+    {
+      "id": "tag:design-system",
+      "type": "tag",
+      "label": "design-system"
+    },
+    {
+      "id": "item:5086",
+      "type": "item",
+      "label": "Hao0321/ai-media-generator: Zero-skill cinema. Senior-director prompts on autopi",
+      "url": "https://github.com/Hao0321/ai-media-generator",
+      "source": "github",
+      "score": 0.6032700004027511,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ai-video",
+      "type": "tag",
+      "label": "ai-video"
+    },
+    {
+      "id": "tag:ai-image",
+      "type": "tag",
+      "label": "ai-image"
+    },
+    {
+      "id": "tag:generative-media",
+      "type": "tag",
+      "label": "generative-media"
     },
     {
       "id": "item:1838",
@@ -2162,6 +2245,32 @@
       "label": "anthropic-rules"
     },
     {
+      "id": "item:5108",
+      "type": "item",
+      "label": "MYounus-Codes/ai-video-pipeline: AI-powered video generation pipeline | script, ",
+      "url": "https://github.com/MYounus-Codes/ai-video-pipeline",
+      "source": "github",
+      "score": 0.5659339399611916,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:video-generation",
+      "type": "tag",
+      "label": "video-generation"
+    },
+    {
+      "id": "tag:ai-pipeline",
+      "type": "tag",
+      "label": "ai-pipeline"
+    },
+    {
+      "id": "tag:text-to-speech",
+      "type": "tag",
+      "label": "text-to-speech"
+    },
+    {
       "id": "item:3587",
       "type": "item",
       "label": "iamasters-academy/content-engine: Agentic Claude Code skill that creates social ",
@@ -2570,6 +2679,32 @@
       "id": "tag:ad-creative",
       "type": "tag",
       "label": "ad-creative"
+    },
+    {
+      "id": "item:5115",
+      "type": "item",
+      "label": "prof-little-bear/cc-equity-research: Turn Claude Code into an equity-research ag",
+      "url": "https://github.com/prof-little-bear/cc-equity-research",
+      "source": "github",
+      "score": 0.5234408780596777,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:equity-research",
+      "type": "tag",
+      "label": "equity-research"
+    },
+    {
+      "id": "tag:financial-analysis",
+      "type": "tag",
+      "label": "financial-analysis"
+    },
+    {
+      "id": "tag:stock-research",
+      "type": "tag",
+      "label": "stock-research"
     },
     {
       "id": "item:1130",
@@ -3100,11 +3235,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "tag:financial-analysis",
-      "type": "tag",
-      "label": "financial-analysis"
     },
     {
       "id": "tag:reporting",
@@ -5833,171 +5963,6 @@
       "label": "trait-alignment"
     },
     {
-      "id": "item:172",
-      "type": "item",
-      "label": "Emergent Coordination in Multi-Agent Language Models",
-      "url": "https://arxiv.org/abs/2510.05174",
-      "source": "rss",
-      "score": 0.4982742424306299,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multi-agent-llm",
-      "type": "tag",
-      "label": "multi-agent-llm"
-    },
-    {
-      "id": "tag:emergent-coordination",
-      "type": "tag",
-      "label": "emergent-coordination"
-    },
-    {
-      "id": "tag:information-decomposition",
-      "type": "tag",
-      "label": "information-decomposition"
-    },
-    {
-      "id": "tag:collective-intelligence",
-      "type": "tag",
-      "label": "collective-intelligence"
-    },
-    {
-      "id": "tag:prompt-design",
-      "type": "tag",
-      "label": "prompt-design"
-    },
-    {
-      "id": "item:173",
-      "type": "item",
-      "label": "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions ",
-      "url": "https://arxiv.org/abs/2510.08049",
-      "source": "rss",
-      "score": 0.4982742405902843,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:process-reward-models",
-      "type": "tag",
-      "label": "process-reward-models"
-    },
-    {
-      "id": "tag:reward-modeling",
-      "type": "tag",
-      "label": "reward-modeling"
-    },
-    {
-      "id": "tag:rlhf",
-      "type": "tag",
-      "label": "rlhf"
-    },
-    {
-      "id": "tag:reasoning-alignment",
-      "type": "tag",
-      "label": "reasoning-alignment"
-    },
-    {
-      "id": "item:176",
-      "type": "item",
-      "label": "EvoDev: An Iterative Feature-Driven Framework for End-to-End Software Developmen",
-      "url": "https://arxiv.org/abs/2511.02399",
-      "source": "rss",
-      "score": 0.49827423426499773,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:software-development",
-      "type": "tag",
-      "label": "software-development"
-    },
-    {
-      "id": "tag:feature-driven-development",
-      "type": "tag",
-      "label": "feature-driven-development"
-    },
-    {
-      "id": "tag:dependency-graphs",
-      "type": "tag",
-      "label": "dependency-graphs"
-    },
-    {
-      "id": "tag:iterative-workflow",
-      "type": "tag",
-      "label": "iterative-workflow"
-    },
-    {
-      "id": "item:177",
-      "type": "item",
-      "label": "Stress Testing Factual Consistency Metrics for Long-Document Summarization",
-      "url": "https://arxiv.org/abs/2511.07689",
-      "source": "rss",
-      "score": 0.49827423197316306,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:factuality-evaluation",
-      "type": "tag",
-      "label": "factuality-evaluation"
-    },
-    {
-      "id": "tag:long-document-summarization",
-      "type": "tag",
-      "label": "long-document-summarization"
-    },
-    {
-      "id": "tag:robustness-testing",
-      "type": "tag",
-      "label": "robustness-testing"
-    },
-    {
-      "id": "tag:metric-evaluation",
-      "type": "tag",
-      "label": "metric-evaluation"
-    },
-    {
-      "id": "tag:perturbation-analysis",
-      "type": "tag",
-      "label": "perturbation-analysis"
-    },
-    {
-      "id": "item:178",
-      "type": "item",
-      "label": "Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu",
-      "url": "https://arxiv.org/abs/2511.20714",
-      "source": "rss",
-      "score": 0.4982742300618217,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:world-models",
-      "type": "tag",
-      "label": "world-models"
-    },
-    {
-      "id": "tag:video-generation",
-      "type": "tag",
-      "label": "video-generation"
-    },
-    {
-      "id": "tag:block-diffusion",
-      "type": "tag",
-      "label": "block-diffusion"
-    },
-    {
-      "id": "tag:inference-engine",
-      "type": "tag",
-      "label": "inference-engine"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6752,6 +6717,84 @@
       "type": "skill",
       "label": "finance_codex_reporting",
       "path": "/home/rnd/trendforge/output/skills/finance_codex_reporting"
+    },
+    {
+      "id": "skill:127",
+      "type": "skill",
+      "label": "claude_design_ai",
+      "path": "/home/rnd/trendforge/output/skills/claude_design_ai"
+    },
+    {
+      "id": "skill:128",
+      "type": "skill",
+      "label": "equity_research_agent",
+      "path": "/home/rnd/trendforge/output/skills/equity_research_agent"
+    },
+    {
+      "id": "skill:129",
+      "type": "skill",
+      "label": "hypothesis_validator",
+      "path": "/home/rnd/trendforge/output/skills/hypothesis_validator"
+    },
+    {
+      "id": "skill:130",
+      "type": "skill",
+      "label": "whatsapp_agent_hermes",
+      "path": "/home/rnd/trendforge/output/skills/whatsapp_agent_hermes"
+    },
+    {
+      "id": "skill:131",
+      "type": "skill",
+      "label": "ai_video_pipeline",
+      "path": "/home/rnd/trendforge/output/skills/ai_video_pipeline"
+    },
+    {
+      "id": "skill:132",
+      "type": "skill",
+      "label": "remote_shell_mcp",
+      "path": "/home/rnd/trendforge/output/skills/remote_shell_mcp"
+    },
+    {
+      "id": "skill:133",
+      "type": "skill",
+      "label": "rugproof_smart_contract_auditor",
+      "path": "/home/rnd/trendforge/output/skills/rugproof_smart_contract_auditor"
+    },
+    {
+      "id": "skill:134",
+      "type": "skill",
+      "label": "claude_code_for_ai_engineers",
+      "path": "/home/rnd/trendforge/output/skills/claude_code_for_ai_engineers"
+    },
+    {
+      "id": "skill:135",
+      "type": "skill",
+      "label": "discord_mcp_control_plane",
+      "path": "/home/rnd/trendforge/output/skills/discord_mcp_control_plane"
+    },
+    {
+      "id": "skill:136",
+      "type": "skill",
+      "label": "ai_media_generator",
+      "path": "/home/rnd/trendforge/output/skills/ai_media_generator"
+    },
+    {
+      "id": "skill:137",
+      "type": "skill",
+      "label": "datasette_blog_setup",
+      "path": "/home/rnd/trendforge/output/skills/datasette_blog_setup"
+    },
+    {
+      "id": "skill:138",
+      "type": "skill",
+      "label": "csp_allowlist_sandbox",
+      "path": "/home/rnd/trendforge/output/skills/csp_allowlist_sandbox"
+    },
+    {
+      "id": "skill:139",
+      "type": "skill",
+      "label": "windows_sandbox_coding_agent",
+      "path": "/home/rnd/trendforge/output/skills/windows_sandbox_coding_agent"
     },
     {
       "id": "prototype:1",
@@ -7634,6 +7677,97 @@
       "label": "finance_codex_reporting",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/finance_codex_reporting.pptx"
+    },
+    {
+      "id": "prototype:127",
+      "type": "prototype",
+      "label": "claude_design_ai",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_design_ai.pptx"
+    },
+    {
+      "id": "prototype:128",
+      "type": "prototype",
+      "label": "equity_research_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/equity_research_agent.pptx"
+    },
+    {
+      "id": "prototype:129",
+      "type": "prototype",
+      "label": "hypothesis_validator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/hypothesis_validator.pptx"
+    },
+    {
+      "id": "prototype:130",
+      "type": "prototype",
+      "label": "whatsapp_agent_hermes",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/whatsapp_agent_hermes.pptx"
+    },
+    {
+      "id": "prototype:131",
+      "type": "prototype",
+      "label": "ai_video_pipeline",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_video_pipeline.pptx"
+    },
+    {
+      "id": "prototype:132",
+      "type": "prototype",
+      "label": "remote_shell_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/remote_shell_mcp.pptx"
+    },
+    {
+      "id": "prototype:133",
+      "type": "prototype",
+      "label": "rugproof_smart_contract_auditor",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/rugproof_smart_contract_auditor.pptx"
+    },
+    {
+      "id": "prototype:134",
+      "type": "prototype",
+      "label": "claude_code_for_ai_engineers",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_code_for_ai_engineers.pptx"
+    },
+    {
+      "id": "prototype:135",
+      "type": "prototype",
+      "label": "discord_mcp_control_plane",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/discord_mcp_control_plane.pptx"
+    },
+    {
+      "id": "prototype:136",
+      "type": "prototype",
+      "label": "ai_media_generator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_media_generator.pptx"
+    },
+    {
+      "id": "prototype:137",
+      "type": "prototype",
+      "label": "datasette_blog_setup",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_blog_setup.pptx"
+    },
+    {
+      "id": "prototype:138",
+      "type": "prototype",
+      "label": "csp_allowlist_sandbox",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/csp_allowlist_sandbox.pptx"
+    },
+    {
+      "id": "prototype:139",
+      "type": "prototype",
+      "label": "windows_sandbox_coding_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/windows_sandbox_coding_agent.pptx"
     }
   ],
   "edges": [
@@ -8428,6 +8562,31 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:5084",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5084",
+      "to": "tag:content-security-policy",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5084",
+      "to": "tag:iframe-sandbox",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5084",
+      "to": "tag:web-security",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5084",
+      "to": "tag:browser-security",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:326",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -8714,6 +8873,76 @@
     },
     {
       "from": "item:3584",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5112",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5112",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5112",
+      "to": "tag:ui-design",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5112",
+      "to": "tag:figma",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5112",
+      "to": "tag:react",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5112",
+      "to": "tag:design-system",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5112",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5086",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5086",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5086",
+      "to": "tag:prompt-engineering",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5086",
+      "to": "tag:ai-video",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5086",
+      "to": "tag:ai-image",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5086",
+      "to": "tag:generative-media",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5086",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -9933,6 +10162,41 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:5108",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5108",
+      "to": "tag:video-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5108",
+      "to": "tag:ai-pipeline",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5108",
+      "to": "tag:text-to-speech",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5108",
+      "to": "tag:workflow-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5108",
+      "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5108",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:3587",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -10414,6 +10678,41 @@
     },
     {
       "from": "item:2680",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5115",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5115",
+      "to": "tag:equity-research",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5115",
+      "to": "tag:financial-analysis",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5115",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5115",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5115",
+      "to": "tag:stock-research",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5115",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -14093,171 +14392,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:172",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:172",
-      "to": "tag:multi-agent-llm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:172",
-      "to": "tag:emergent-coordination",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:172",
-      "to": "tag:information-decomposition",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:172",
-      "to": "tag:collective-intelligence",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:172",
-      "to": "tag:prompt-design",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:172",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:173",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:173",
-      "to": "tag:process-reward-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:173",
-      "to": "tag:llm-reasoning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:173",
-      "to": "tag:reward-modeling",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:173",
-      "to": "tag:rlhf",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:173",
-      "to": "tag:reasoning-alignment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:173",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:176",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:176",
-      "to": "tag:llm-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:176",
-      "to": "tag:software-development",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:176",
-      "to": "tag:feature-driven-development",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:176",
-      "to": "tag:dependency-graphs",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:176",
-      "to": "tag:iterative-workflow",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:176",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:177",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:177",
-      "to": "tag:factuality-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:177",
-      "to": "tag:long-document-summarization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:177",
-      "to": "tag:robustness-testing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:177",
-      "to": "tag:metric-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:177",
-      "to": "tag:perturbation-analysis",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:178",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:178",
-      "to": "tag:world-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:178",
-      "to": "tag:video-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:178",
-      "to": "tag:block-diffusion",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:178",
-      "to": "tag:inference-engine",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:178",
-      "to": "tag:kv-cache",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -14888,6 +15022,71 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:127",
+      "to": "item:5112",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:128",
+      "to": "item:5115",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:129",
+      "to": "item:5117",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:130",
+      "to": "item:5107",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:131",
+      "to": "item:5108",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:132",
+      "to": "item:5100",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:133",
+      "to": "item:5094",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:134",
+      "to": "item:5095",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:135",
+      "to": "item:5098",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:136",
+      "to": "item:5086",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:137",
+      "to": "item:5082",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:138",
+      "to": "item:5084",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:139",
+      "to": "item:5085",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -15515,6 +15714,71 @@
     {
       "from": "prototype:126",
       "to": "skill:126",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:127",
+      "to": "skill:127",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:128",
+      "to": "skill:128",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:129",
+      "to": "skill:129",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:130",
+      "to": "skill:130",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:131",
+      "to": "skill:131",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:132",
+      "to": "skill:132",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:133",
+      "to": "skill:133",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:134",
+      "to": "skill:134",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:135",
+      "to": "skill:135",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:136",
+      "to": "skill:136",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:137",
+      "to": "skill:137",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:138",
+      "to": "skill:138",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:139",
+      "to": "skill:139",
       "rel": "DEMOS"
     }
   ]

@@ -1,0 +1,2 @@
+# No external dependencies — all demos use Python 3.10+ stdlib only.
+# The skill itself works inside Claude Code and requires no pip packages.

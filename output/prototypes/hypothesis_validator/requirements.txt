@@ -1,0 +1,2 @@
+# hypothesis_validator demo
+# No external dependencies — stdlib only (dataclasses, json, textwrap)

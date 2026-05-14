@@ -1,0 +1,12 @@
+{
+  "name": "csp-allowlist-sandbox",
+  "version": "1.0.0",
+  "description": "Browser-based CSP-protected sandboxed iframe playground with interactive origin allow-listing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["csp", "content-security-policy", "sandbox", "iframe", "security"],
+  "license": "MIT",
+  "dependencies": {}
+}

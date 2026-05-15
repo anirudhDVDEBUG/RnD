@@ -1,0 +1,13 @@
+{
+  "name": "qobrix-crm-mcp-demo",
+  "version": "1.0.0",
+  "description": "Demo and evaluation harness for the Qobrix CRM MCP server",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.js",
+    "start": "node mock-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  }
+}

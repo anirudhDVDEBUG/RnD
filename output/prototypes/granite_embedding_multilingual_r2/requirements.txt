@@ -1,0 +1,9 @@
+# Core (for live model inference)
+sentence-transformers>=3.0.0
+numpy>=1.24.0
+
+# Optional integrations (uncomment as needed)
+# langchain-huggingface
+# llama-index-embeddings-huggingface
+# haystack-ai
+# pymilvus

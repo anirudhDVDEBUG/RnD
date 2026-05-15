@@ -1,0 +1,2 @@
+# Token Cost Lint — dependencies
+# No external dependencies required. Uses Python 3.10+ stdlib only.

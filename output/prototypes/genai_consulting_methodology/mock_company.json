@@ -1,0 +1,74 @@
+{
+  "company_name": "Acme Manufacturing Co.",
+  "industry": "Industrial Manufacturing",
+  "dimensions": [
+    {
+      "dimension": "Strategy & Vision",
+      "current_level": 2,
+      "target_level": 4,
+      "evidence": "CEO mentioned AI in annual report; no formal strategy doc; one VP championing AI internally"
+    },
+    {
+      "dimension": "Data & Infrastructure",
+      "current_level": 2,
+      "target_level": 4,
+      "evidence": "ERP data in SQL Server; some IoT sensors on production lines; no centralized data lake"
+    },
+    {
+      "dimension": "Talent & Culture",
+      "current_level": 1,
+      "target_level": 3,
+      "evidence": "No dedicated AI team; IT staff has basic Python skills; resistance from floor managers"
+    },
+    {
+      "dimension": "Governance & Ethics",
+      "current_level": 1,
+      "target_level": 3,
+      "evidence": "No AI policy; general IT security policies exist; no awareness of AI-specific risks"
+    },
+    {
+      "dimension": "Use Cases & Value",
+      "current_level": 2,
+      "target_level": 4,
+      "evidence": "One chatbot pilot for internal IT help desk; manual QC process ripe for vision AI"
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Predictive Maintenance (IoT+AI)",
+      "impact": 5,
+      "feasibility": 3,
+      "strategic_fit": 5
+    },
+    {
+      "name": "GenAI Knowledge Base for SOPs",
+      "impact": 4,
+      "feasibility": 5,
+      "strategic_fit": 4
+    },
+    {
+      "name": "Visual QC Defect Detection",
+      "impact": 5,
+      "feasibility": 2,
+      "strategic_fit": 4
+    },
+    {
+      "name": "Supplier Email Auto-Drafting",
+      "impact": 3,
+      "feasibility": 5,
+      "strategic_fit": 3
+    },
+    {
+      "name": "Demand Forecasting with LLM",
+      "impact": 4,
+      "feasibility": 3,
+      "strategic_fit": 4
+    },
+    {
+      "name": "AI-Assisted RFP Response",
+      "impact": 3,
+      "feasibility": 4,
+      "strategic_fit": 3
+    }
+  ]
+}

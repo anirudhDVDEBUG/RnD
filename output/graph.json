@@ -2188,6 +2188,32 @@
       "label": "document-conversion"
     },
     {
+      "id": "item:5529",
+      "type": "item",
+      "label": "h4ckologic/bughunter-ai: Autonomous Bug Bounty Hunting Framework powered by Clau",
+      "url": "https://github.com/h4ckologic/bughunter-ai",
+      "source": "github",
+      "score": 0.5799585999335174,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:bug-bounty",
+      "type": "tag",
+      "label": "bug-bounty"
+    },
+    {
+      "id": "tag:pentesting",
+      "type": "tag",
+      "label": "pentesting"
+    },
+    {
+      "id": "tag:security-automation",
+      "type": "tag",
+      "label": "security-automation"
+    },
+    {
       "id": "item:1801",
       "type": "item",
       "label": "KSroido/Kagi-Session2API-MCP: Free Kagi Search MCP server — access search and su",
@@ -2395,6 +2421,32 @@
       "label": "career-strategy"
     },
     {
+      "id": "item:5118",
+      "type": "item",
+      "label": "Not so locked in any more",
+      "url": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
+      "source": "rss",
+      "score": 0.5536524455942747,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:language-migration",
+      "type": "tag",
+      "label": "language-migration"
+    },
+    {
+      "id": "tag:react-native",
+      "type": "tag",
+      "label": "react-native"
+    },
+    {
+      "id": "tag:ai-assisted-programming",
+      "type": "tag",
+      "label": "ai-assisted-programming"
+    },
+    {
       "id": "item:1827",
       "type": "item",
       "label": "April 2026 newsletter",
@@ -2447,6 +2499,58 @@
       "label": "retail-automation"
     },
     {
+      "id": "item:5526",
+      "type": "item",
+      "label": "nexu-io/html-anything: ✨ The agentic HTML editor — your local AI agent writes th",
+      "url": "https://github.com/nexu-io/html-anything",
+      "source": "github",
+      "score": 0.5468980381804621,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:html-editor",
+      "type": "tag",
+      "label": "html-editor"
+    },
+    {
+      "id": "tag:generative-design",
+      "type": "tag",
+      "label": "generative-design"
+    },
+    {
+      "id": "tag:local-first",
+      "type": "tag",
+      "label": "local-first"
+    },
+    {
+      "id": "item:5512",
+      "type": "item",
+      "label": "sharpsir-group/qobrix-crm-mcp: Read-only MCP server for Qobrix CRM — 42 tools ac",
+      "url": "https://github.com/sharpsir-group/qobrix-crm-mcp",
+      "source": "github",
+      "score": 0.5455289434066388,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:crm-integration",
+      "type": "tag",
+      "label": "crm-integration"
+    },
+    {
+      "id": "tag:real-estate",
+      "type": "tag",
+      "label": "real-estate"
+    },
+    {
+      "id": "tag:reso-standard",
+      "type": "tag",
+      "label": "reso-standard"
+    },
+    {
       "id": "item:323",
       "type": "item",
       "label": "nexu-io/open-design: 🎨 Local-first, open-source alternative to Anthropic's Claud",
@@ -2461,11 +2565,6 @@
       "id": "tag:design-systems",
       "type": "tag",
       "label": "design-systems"
-    },
-    {
-      "id": "tag:local-first",
-      "type": "tag",
-      "label": "local-first"
     },
     {
       "id": "tag:sandboxed-preview",
@@ -3177,6 +3276,37 @@
       "id": "tag:rust",
       "type": "tag",
       "label": "rust"
+    },
+    {
+      "id": "item:5528",
+      "type": "item",
+      "label": "jianshuo/claude-skills: 13 Claude Code skills for video production (transcribe /",
+      "url": "https://github.com/jianshuo/claude-skills",
+      "source": "github",
+      "score": 0.5155675961268369,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:video-production",
+      "type": "tag",
+      "label": "video-production"
+    },
+    {
+      "id": "tag:transcription",
+      "type": "tag",
+      "label": "transcription"
+    },
+    {
+      "id": "tag:dubbing",
+      "type": "tag",
+      "label": "dubbing"
+    },
+    {
+      "id": "tag:subtitles",
+      "type": "tag",
+      "label": "subtitles"
     },
     {
       "id": "item:1791",
@@ -5083,6 +5213,27 @@
       "label": "trusted-access"
     },
     {
+      "id": "item:5122",
+      "type": "item",
+      "label": "Work with Codex from anywhere",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "source": "rss",
+      "score": 0.505507798412288,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:mobile-dev",
+      "type": "tag",
+      "label": "mobile-dev"
+    },
+    {
+      "id": "tag:remote-coding",
+      "type": "tag",
+      "label": "remote-coding"
+    },
+    {
       "id": "item:3014",
       "type": "item",
       "label": "Running Codex safely at OpenAI",
@@ -5760,207 +5911,6 @@
       "id": "tag:autonomous-driving",
       "type": "tag",
       "label": "autonomous-driving"
-    },
-    {
-      "id": "item:158",
-      "type": "item",
-      "label": "MINOS: A Multimodal Evaluation Model for Bidirectional Generation Between Image ",
-      "url": "https://arxiv.org/abs/2506.02494",
-      "source": "rss",
-      "score": 0.498274269163899,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multimodal-evaluation",
-      "type": "tag",
-      "label": "multimodal-evaluation"
-    },
-    {
-      "id": "tag:mllm",
-      "type": "tag",
-      "label": "mllm"
-    },
-    {
-      "id": "tag:image-text-generation",
-      "type": "tag",
-      "label": "image-text-generation"
-    },
-    {
-      "id": "tag:preference-alignment",
-      "type": "tag",
-      "label": "preference-alignment"
-    },
-    {
-      "id": "item:159",
-      "type": "item",
-      "label": "Efficient Traffic Forecasting on Large-Scale Road Network by Regularized Adaptiv",
-      "url": "https://arxiv.org/abs/2506.07179",
-      "source": "rss",
-      "score": 0.4982742673401927,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:traffic-forecasting",
-      "type": "tag",
-      "label": "traffic-forecasting"
-    },
-    {
-      "id": "tag:graph-convolution",
-      "type": "tag",
-      "label": "graph-convolution"
-    },
-    {
-      "id": "tag:spatial-temporal",
-      "type": "tag",
-      "label": "spatial-temporal"
-    },
-    {
-      "id": "tag:scalability",
-      "type": "tag",
-      "label": "scalability"
-    },
-    {
-      "id": "tag:adaptive-graph",
-      "type": "tag",
-      "label": "adaptive-graph"
-    },
-    {
-      "id": "item:160",
-      "type": "item",
-      "label": "Treatment, evidence, imitation, and chat",
-      "url": "https://arxiv.org/abs/2506.23040",
-      "source": "rss",
-      "score": 0.4982742656407292,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:evidence-based-medicine",
-      "type": "tag",
-      "label": "evidence-based-medicine"
-    },
-    {
-      "id": "tag:llm-healthcare",
-      "type": "tag",
-      "label": "llm-healthcare"
-    },
-    {
-      "id": "tag:treatment-reasoning",
-      "type": "tag",
-      "label": "treatment-reasoning"
-    },
-    {
-      "id": "item:161",
-      "type": "item",
-      "label": "PBiLoss: Popularity-Aware Regularization to Improve Fairness in Graph-Based Reco",
-      "url": "https://arxiv.org/abs/2507.19067",
-      "source": "rss",
-      "score": 0.4982742639212981,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:recommender-systems",
-      "type": "tag",
-      "label": "recommender-systems"
-    },
-    {
-      "id": "tag:graph-neural-networks",
-      "type": "tag",
-      "label": "graph-neural-networks"
-    },
-    {
-      "id": "tag:fairness",
-      "type": "tag",
-      "label": "fairness"
-    },
-    {
-      "id": "tag:popularity-bias",
-      "type": "tag",
-      "label": "popularity-bias"
-    },
-    {
-      "id": "tag:regularization",
-      "type": "tag",
-      "label": "regularization"
-    },
-    {
-      "id": "item:164",
-      "type": "item",
-      "label": "Vertex Features for Neural Global Illumination",
-      "url": "https://arxiv.org/abs/2508.07852",
-      "source": "rss",
-      "score": 0.4982742586942277,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:neural-rendering",
-      "type": "tag",
-      "label": "neural-rendering"
-    },
-    {
-      "id": "tag:mesh-vertex-features",
-      "type": "tag",
-      "label": "mesh-vertex-features"
-    },
-    {
-      "id": "tag:global-illumination",
-      "type": "tag",
-      "label": "global-illumination"
-    },
-    {
-      "id": "tag:memory-efficiency",
-      "type": "tag",
-      "label": "memory-efficiency"
-    },
-    {
-      "id": "tag:3d-scenes",
-      "type": "tag",
-      "label": "3d-scenes"
-    },
-    {
-      "id": "item:168",
-      "type": "item",
-      "label": "Vibe Check: Understanding the Effects of LLM-Based Conversational Agents' Person",
-      "url": "https://arxiv.org/abs/2509.09870",
-      "source": "rss",
-      "score": 0.49827425171666595,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:conversational-agents",
-      "type": "tag",
-      "label": "conversational-agents"
-    },
-    {
-      "id": "tag:llm-personality",
-      "type": "tag",
-      "label": "llm-personality"
-    },
-    {
-      "id": "tag:big-five",
-      "type": "tag",
-      "label": "big-five"
-    },
-    {
-      "id": "tag:user-perception",
-      "type": "tag",
-      "label": "user-perception"
-    },
-    {
-      "id": "tag:trait-alignment",
-      "type": "tag",
-      "label": "trait-alignment"
     },
     {
       "id": "skill:1",
@@ -6795,6 +6745,72 @@
       "type": "skill",
       "label": "windows_sandbox_coding_agent",
       "path": "/home/rnd/trendforge/output/skills/windows_sandbox_coding_agent"
+    },
+    {
+      "id": "skill:140",
+      "type": "skill",
+      "label": "company_execution_layer",
+      "path": "/home/rnd/trendforge/output/skills/company_execution_layer"
+    },
+    {
+      "id": "skill:141",
+      "type": "skill",
+      "label": "html_anything_agentic_editor",
+      "path": "/home/rnd/trendforge/output/skills/html_anything_agentic_editor"
+    },
+    {
+      "id": "skill:142",
+      "type": "skill",
+      "label": "video_production_toolkit",
+      "path": "/home/rnd/trendforge/output/skills/video_production_toolkit"
+    },
+    {
+      "id": "skill:143",
+      "type": "skill",
+      "label": "bug_bounty_hunter",
+      "path": "/home/rnd/trendforge/output/skills/bug_bounty_hunter"
+    },
+    {
+      "id": "skill:144",
+      "type": "skill",
+      "label": "token_cost_lint",
+      "path": "/home/rnd/trendforge/output/skills/token_cost_lint"
+    },
+    {
+      "id": "skill:145",
+      "type": "skill",
+      "label": "genai_consulting_methodology",
+      "path": "/home/rnd/trendforge/output/skills/genai_consulting_methodology"
+    },
+    {
+      "id": "skill:146",
+      "type": "skill",
+      "label": "qobrix_crm_mcp",
+      "path": "/home/rnd/trendforge/output/skills/qobrix_crm_mcp"
+    },
+    {
+      "id": "skill:147",
+      "type": "skill",
+      "label": "codebase_language_migration",
+      "path": "/home/rnd/trendforge/output/skills/codebase_language_migration"
+    },
+    {
+      "id": "skill:148",
+      "type": "skill",
+      "label": "codebase_language_migration",
+      "path": "/home/rnd/trendforge/output/skills/codebase_language_migration"
+    },
+    {
+      "id": "skill:149",
+      "type": "skill",
+      "label": "granite_embedding_multilingual_r2",
+      "path": "/home/rnd/trendforge/output/skills/granite_embedding_multilingual_r2"
+    },
+    {
+      "id": "skill:150",
+      "type": "skill",
+      "label": "mobile_remote_codex_workflow",
+      "path": "/home/rnd/trendforge/output/skills/mobile_remote_codex_workflow"
     },
     {
       "id": "prototype:1",
@@ -7768,6 +7784,83 @@
       "label": "windows_sandbox_coding_agent",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/windows_sandbox_coding_agent.pptx"
+    },
+    {
+      "id": "prototype:140",
+      "type": "prototype",
+      "label": "company_execution_layer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/company_execution_layer.pptx"
+    },
+    {
+      "id": "prototype:141",
+      "type": "prototype",
+      "label": "html_anything_agentic_editor",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/html_anything_agentic_editor.pptx"
+    },
+    {
+      "id": "prototype:142",
+      "type": "prototype",
+      "label": "video_production_toolkit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/video_production_toolkit.pptx"
+    },
+    {
+      "id": "prototype:143",
+      "type": "prototype",
+      "label": "bug_bounty_hunter",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/bug_bounty_hunter.pptx"
+    },
+    {
+      "id": "prototype:144",
+      "type": "prototype",
+      "label": "token_cost_lint",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/token_cost_lint.pptx"
+    },
+    {
+      "id": "prototype:145",
+      "type": "prototype",
+      "label": "genai_consulting_methodology",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/genai_consulting_methodology.pptx"
+    },
+    {
+      "id": "prototype:146",
+      "type": "prototype",
+      "label": "qobrix_crm_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/qobrix_crm_mcp.pptx"
+    },
+    {
+      "id": "prototype:147",
+      "type": "prototype",
+      "label": "codebase_language_migration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/codebase_language_migration.pptx"
+    },
+    {
+      "id": "prototype:148",
+      "type": "prototype",
+      "label": "codebase_language_migration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/codebase_language_migration.pptx"
+    },
+    {
+      "id": "prototype:149",
+      "type": "prototype",
+      "label": "granite_embedding_multilingual_r2",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/granite_embedding_multilingual_r2.pptx"
+    },
+    {
+      "id": "prototype:150",
+      "type": "prototype",
+      "label": "mobile_remote_codex_workflow",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/mobile_remote_codex_workflow.pptx"
     }
   ],
   "edges": [
@@ -10087,6 +10180,41 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:5529",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5529",
+      "to": "tag:bug-bounty",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5529",
+      "to": "tag:pentesting",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5529",
+      "to": "tag:claude-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5529",
+      "to": "tag:security-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5529",
+      "to": "tag:multi-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5529",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1801",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -10332,6 +10460,36 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:5118",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5118",
+      "to": "tag:coding-agents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5118",
+      "to": "tag:language-migration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5118",
+      "to": "tag:react-native",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5118",
+      "to": "tag:ai-assisted-programming",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5118",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1827",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -10378,6 +10536,76 @@
     },
     {
       "from": "item:1859",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5526",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5526",
+      "to": "tag:html-editor",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5526",
+      "to": "tag:agent-skills",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5526",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5526",
+      "to": "tag:generative-design",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5526",
+      "to": "tag:local-first",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5526",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5512",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5512",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5512",
+      "to": "tag:crm-integration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5512",
+      "to": "tag:real-estate",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5512",
+      "to": "tag:reso-standard",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5512",
+      "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5512",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -11409,6 +11637,41 @@
     {
       "from": "item:675",
       "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5528",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5528",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5528",
+      "to": "tag:video-production",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5528",
+      "to": "tag:transcription",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5528",
+      "to": "tag:dubbing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5528",
+      "to": "tag:subtitles",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5528",
+      "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
     {
@@ -13452,6 +13715,31 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:5122",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5122",
+      "to": "tag:codex",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5122",
+      "to": "tag:mobile-dev",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5122",
+      "to": "tag:remote-coding",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5122",
+      "to": "tag:ai-assisted-programming",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:3014",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -14207,191 +14495,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:158",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:158",
-      "to": "tag:multimodal-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:158",
-      "to": "tag:mllm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:158",
-      "to": "tag:image-text-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:158",
-      "to": "tag:preference-alignment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:158",
-      "to": "tag:evaluation-benchmark",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:159",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:159",
-      "to": "tag:traffic-forecasting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:159",
-      "to": "tag:graph-convolution",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:159",
-      "to": "tag:spatial-temporal",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:159",
-      "to": "tag:scalability",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:159",
-      "to": "tag:adaptive-graph",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:160",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:160",
-      "to": "tag:clinical-decision-support",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:160",
-      "to": "tag:evidence-based-medicine",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:160",
-      "to": "tag:llm-healthcare",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:160",
-      "to": "tag:treatment-reasoning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:160",
-      "to": "tag:medical-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:161",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:161",
-      "to": "tag:recommender-systems",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:161",
-      "to": "tag:graph-neural-networks",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:161",
-      "to": "tag:fairness",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:161",
-      "to": "tag:popularity-bias",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:161",
-      "to": "tag:regularization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:164",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:164",
-      "to": "tag:neural-rendering",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:164",
-      "to": "tag:mesh-vertex-features",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:164",
-      "to": "tag:global-illumination",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:164",
-      "to": "tag:memory-efficiency",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:164",
-      "to": "tag:3d-scenes",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:168",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:168",
-      "to": "tag:conversational-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:168",
-      "to": "tag:llm-personality",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:168",
-      "to": "tag:big-five",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:168",
-      "to": "tag:user-perception",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:168",
-      "to": "tag:trait-alignment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:168",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -15087,6 +15190,61 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:140",
+      "to": "item:5535",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:141",
+      "to": "item:5526",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:142",
+      "to": "item:5528",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:143",
+      "to": "item:5529",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:144",
+      "to": "item:5532",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:145",
+      "to": "item:5534",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:146",
+      "to": "item:5512",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:147",
+      "to": "item:5118",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:148",
+      "to": "item:5119",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:149",
+      "to": "item:5121",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:150",
+      "to": "item:5122",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -15779,6 +15937,61 @@
     {
       "from": "prototype:139",
       "to": "skill:139",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:140",
+      "to": "skill:140",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:141",
+      "to": "skill:141",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:142",
+      "to": "skill:142",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:143",
+      "to": "skill:143",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:144",
+      "to": "skill:144",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:145",
+      "to": "skill:145",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:146",
+      "to": "skill:146",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:147",
+      "to": "skill:147",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:148",
+      "to": "skill:148",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:149",
+      "to": "skill:149",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:150",
+      "to": "skill:150",
       "rel": "DEMOS"
     }
   ]

@@ -1,0 +1,3 @@
+# No external dependencies — uses Python 3.10+ stdlib only
+# pytest is optional (falls back to unittest)
+pytest>=7.0

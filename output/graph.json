@@ -868,6 +868,37 @@
       "label": "react"
     },
     {
+      "id": "item:5954",
+      "type": "item",
+      "label": "DenisSergeevitch/agents-best-practices: Provider-neutral Agent Skill for Codex, ",
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "source": "github",
+      "score": 0.6528410259110774,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agent-skill",
+      "type": "tag",
+      "label": "agent-skill"
+    },
+    {
+      "id": "tag:agentic-workflows",
+      "type": "tag",
+      "label": "agentic-workflows"
+    },
+    {
+      "id": "tag:best-practices",
+      "type": "tag",
+      "label": "best-practices"
+    },
+    {
+      "id": "tag:cross-platform",
+      "type": "tag",
+      "label": "cross-platform"
+    },
+    {
       "id": "item:1727",
       "type": "item",
       "label": "iNaturalist Sightings",
@@ -5887,32 +5918,6 @@
       "label": "proprioception"
     },
     {
-      "id": "item:155",
-      "type": "item",
-      "label": "RetroMotion: Retrocausal Motion Forecasting Models are Instructable",
-      "url": "https://arxiv.org/abs/2505.20414",
-      "source": "rss",
-      "score": 0.4982742757953568,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:motion-forecasting",
-      "type": "tag",
-      "label": "motion-forecasting"
-    },
-    {
-      "id": "tag:trajectory-prediction",
-      "type": "tag",
-      "label": "trajectory-prediction"
-    },
-    {
-      "id": "tag:autonomous-driving",
-      "type": "tag",
-      "label": "autonomous-driving"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6811,6 +6816,48 @@
       "type": "skill",
       "label": "mobile_remote_codex_workflow",
       "path": "/home/rnd/trendforge/output/skills/mobile_remote_codex_workflow"
+    },
+    {
+      "id": "skill:151",
+      "type": "skill",
+      "label": "agents_best_practices",
+      "path": "/home/rnd/trendforge/output/skills/agents_best_practices"
+    },
+    {
+      "id": "skill:152",
+      "type": "skill",
+      "label": "anansi_self_healing_scraper",
+      "path": "/home/rnd/trendforge/output/skills/anansi_self_healing_scraper"
+    },
+    {
+      "id": "skill:153",
+      "type": "skill",
+      "label": "wpvibe_wordpress_mcp",
+      "path": "/home/rnd/trendforge/output/skills/wpvibe_wordpress_mcp"
+    },
+    {
+      "id": "skill:154",
+      "type": "skill",
+      "label": "click_to_mcp_cli_wrapper",
+      "path": "/home/rnd/trendforge/output/skills/click_to_mcp_cli_wrapper"
+    },
+    {
+      "id": "skill:155",
+      "type": "skill",
+      "label": "polis_protocol_multi_agent_routing",
+      "path": "/home/rnd/trendforge/output/skills/polis_protocol_multi_agent_routing"
+    },
+    {
+      "id": "skill:156",
+      "type": "skill",
+      "label": "ta_persona_digital_twin_distillation",
+      "path": "/home/rnd/trendforge/output/skills/ta_persona_digital_twin_distillation"
+    },
+    {
+      "id": "skill:157",
+      "type": "skill",
+      "label": "qr_code_generator",
+      "path": "/home/rnd/trendforge/output/skills/qr_code_generator"
     },
     {
       "id": "prototype:1",
@@ -7861,6 +7908,55 @@
       "label": "mobile_remote_codex_workflow",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/mobile_remote_codex_workflow.pptx"
+    },
+    {
+      "id": "prototype:151",
+      "type": "prototype",
+      "label": "agents_best_practices",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agents_best_practices.pptx"
+    },
+    {
+      "id": "prototype:152",
+      "type": "prototype",
+      "label": "anansi_self_healing_scraper",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/anansi_self_healing_scraper.pptx"
+    },
+    {
+      "id": "prototype:153",
+      "type": "prototype",
+      "label": "wpvibe_wordpress_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/wpvibe_wordpress_mcp.pptx"
+    },
+    {
+      "id": "prototype:154",
+      "type": "prototype",
+      "label": "click_to_mcp_cli_wrapper",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/click_to_mcp_cli_wrapper.pptx"
+    },
+    {
+      "id": "prototype:155",
+      "type": "prototype",
+      "label": "polis_protocol_multi_agent_routing",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/polis_protocol_multi_agent_routing.pptx"
+    },
+    {
+      "id": "prototype:156",
+      "type": "prototype",
+      "label": "ta_persona_digital_twin_distillation",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ta_persona_digital_twin_distillation.pptx"
+    },
+    {
+      "id": "prototype:157",
+      "type": "prototype",
+      "label": "qr_code_generator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/qr_code_generator.pptx"
     }
   ],
   "edges": [
@@ -8711,6 +8807,41 @@
     },
     {
       "from": "item:326",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5954",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5954",
+      "to": "tag:agent-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5954",
+      "to": "tag:agentic-workflows",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5954",
+      "to": "tag:prompt-engineering",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5954",
+      "to": "tag:best-practices",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5954",
+      "to": "tag:cross-platform",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5954",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -14460,41 +14591,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:155",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:155",
-      "to": "tag:motion-forecasting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:155",
-      "to": "tag:trajectory-prediction",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:155",
-      "to": "tag:autonomous-driving",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:155",
-      "to": "tag:transformer",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:155",
-      "to": "tag:multi-agent",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:155",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -15245,6 +15341,41 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:151",
+      "to": "item:5954",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:152",
+      "to": "item:5944",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:153",
+      "to": "item:5946",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:154",
+      "to": "item:5947",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:155",
+      "to": "item:5937",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:156",
+      "to": "item:5938",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:157",
+      "to": "item:5536",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -15992,6 +16123,41 @@
     {
       "from": "prototype:150",
       "to": "skill:150",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:151",
+      "to": "skill:151",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:152",
+      "to": "skill:152",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:153",
+      "to": "skill:153",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:154",
+      "to": "skill:154",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:155",
+      "to": "skill:155",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:156",
+      "to": "skill:156",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:157",
+      "to": "skill:157",
       "rel": "DEMOS"
     }
   ]

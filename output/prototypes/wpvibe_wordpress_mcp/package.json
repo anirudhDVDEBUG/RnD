@@ -1,0 +1,14 @@
+{
+  "name": "wpvibe-wordpress-mcp-demo",
+  "version": "1.0.0",
+  "description": "Demo of WPVibe AI MCP server for WordPress — mock server showing content management, theme editing, WP-CLI, and REST API tools",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node demo-client.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,4 @@
+# Ta-Persona Digital Twin Distillation
+# No external dependencies needed for demo mode.
+# For live Claude-powered interviews, uncomment:
+# anthropic>=0.40.0

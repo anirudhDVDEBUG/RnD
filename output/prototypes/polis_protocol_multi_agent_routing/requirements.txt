@@ -1,0 +1,2 @@
+# Polis Protocol — no external dependencies required.
+# Uses only Python 3.8+ standard library.

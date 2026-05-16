@@ -1,0 +1,4 @@
+# No Python dependencies — this demo uses Node.js built-in modules only.
+# Requires: Node.js 18+ (uses crypto.randomUUID, URL, http)
+#
+# The real WPVibe plugin is a PHP WordPress plugin with no external dependencies.

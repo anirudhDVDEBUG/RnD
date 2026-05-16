@@ -1,0 +1,12 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "Single-file HTML QR code generator for URLs, text, and WiFi networks — fully client-side",
+  "scripts": {
+    "start": "bash run.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "notes": "No npm dependencies required. The HTML file loads qrcode-generator@1.4.4 via CDN. Python 3 is used only for the local dev server in run.sh."
+}

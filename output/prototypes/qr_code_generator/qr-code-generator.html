@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Code Generator</title>
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f7; color: #1d1d1f; min-height: 100vh;
+    display: flex; justify-content: center; padding: 2rem 1rem;
+  }
+  .container { max-width: 480px; width: 100%; }
+  h1 { font-size: 1.5rem; font-weight: 700; text-align: center; margin-bottom: 1.5rem; }
+
+  /* Segmented control */
+  .segmented { display: flex; background: #e5e5ea; border-radius: 8px; padding: 3px; margin-bottom: 1.5rem; }
+  .segmented button {
+    flex: 1; padding: 8px 0; border: none; background: none; border-radius: 6px;
+    font-size: 0.9rem; font-weight: 600; cursor: pointer; color: #666; transition: all .2s;
+  }
+  .segmented button.active { background: #fff; color: #1d1d1f; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+
+  /* Form */
+  .field { margin-bottom: 1rem; }
+  label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #555; }
+  input[type="text"], input[type="password"], textarea, select {
+    width: 100%; padding: 10px 12px; border: 1px solid #d2d2d7; border-radius: 8px;
+    font-size: 0.95rem; background: #fff; outline: none; transition: border-color .2s;
+  }
+  input:focus, textarea:focus, select:focus { border-color: #0071e3; }
+  textarea { resize: vertical; min-height: 80px; font-family: inherit; }
+
+  .password-wrap { position: relative; }
+  .password-wrap input { padding-right: 60px; }
+  .toggle-pw {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    background: none; border: none; font-size: 0.8rem; color: #0071e3; cursor: pointer; font-weight: 600;
+  }
+
+  .checkbox-row { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+  .checkbox-row input[type="checkbox"] { width: 18px; height: 18px; accent-color: #0071e3; }
+
+  /* Style options */
+  .options { background: #fff; border-radius: 12px; padding: 1rem; margin-bottom: 1.5rem; border: 1px solid #e5e5ea; }
+  .options h3 { font-size: 0.85rem; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem; }
+  .opt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .opt-grid .field { margin-bottom: 0; }
+  select { cursor: pointer; }
+  input[type="color"] { width: 100%; height: 38px; border: 1px solid #d2d2d7; border-radius: 8px; padding: 4px; cursor: pointer; background: #fff; }
+
+  /* Button */
+  .btn {
+    width: 100%; padding: 14px; border: none; border-radius: 10px; font-size: 1rem;
+    font-weight: 700; cursor: pointer; transition: background .2s;
+  }
+  .btn-primary { background: #0071e3; color: #fff; }
+  .btn-primary:hover { background: #0060c0; }
+  .btn-secondary { background: #e5e5ea; color: #1d1d1f; margin-top: 0.75rem; }
+  .btn-secondary:hover { background: #d5d5da; }
+  .btn-secondary:disabled { opacity: 0.4; cursor: default; }
+
+  /* Output */
+  .output { text-align: center; margin-top: 1.5rem; }
+  .output canvas { border-radius: 8px; max-width: 100%; height: auto; }
+
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>QR Code Generator</h1>
+
+  <!-- Mode toggle -->
+  <div class="segmented">
+    <button class="active" data-mode="text" onclick="switchMode('text')">URL / Text</button>
+    <button data-mode="wifi" onclick="switchMode('wifi')">WiFi</button>
+  </div>
+
+  <!-- URL/Text mode -->
+  <div id="mode-text">
+    <div class="field">
+      <label for="text-input">URL or text</label>
+      <textarea id="text-input" placeholder="https://example.com or any text…"></textarea>
+    </div>
+  </div>
+
+  <!-- WiFi mode -->
+  <div id="mode-wifi" class="hidden">
+    <div class="field">
+      <label for="wifi-ssid">Network name (SSID)</label>
+      <input type="text" id="wifi-ssid" placeholder="MyWiFiNetwork">
+    </div>
+    <div class="field">
+      <label for="wifi-pass">Password</label>
+      <div class="password-wrap">
+        <input type="password" id="wifi-pass" placeholder="Enter password">
+        <button class="toggle-pw" onclick="togglePassword()">Show</button>
+      </div>
+    </div>
+    <div class="field">
+      <label for="wifi-sec">Security</label>
+      <select id="wifi-sec">
+        <option value="wpa">WPA/WPA2/WPA3 (most common)</option>
+        <option value="wep">WEP</option>
+        <option value="none">None</option>
+      </select>
+    </div>
+    <div class="field">
+      <div class="checkbox-row">
+        <input type="checkbox" id="wifi-hidden">
+        <label for="wifi-hidden" style="margin-bottom:0">Hidden network</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Style options -->
+  <div class="options">
+    <h3>Style Options</h3>
+    <div class="opt-grid">
+      <div class="field">
+        <label for="opt-style">Module style</label>
+        <select id="opt-style">
+          <option value="square">Square</option>
+          <option value="rounded">Rounded</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="opt-size">Size</label>
+        <select id="opt-size">
+          <option value="4">Small</option>
+          <option value="6" selected>Medium</option>
+          <option value="10">Large</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="opt-color">Foreground color</label>
+        <input type="color" id="opt-color" value="#000000">
+      </div>
+      <div class="field">
+        <div class="checkbox-row" style="margin-top: 22px;">
+          <input type="checkbox" id="opt-border" checked>
+          <label for="opt-border" style="margin-bottom:0">Quiet zone border</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn btn-primary" onclick="generate()">Generate QR Code</button>
+
+  <div class="output">
+    <canvas id="qr-canvas"></canvas>
+    <button class="btn btn-secondary" id="download-btn" onclick="downloadQR()" disabled>Download PNG</button>
+  </div>
+</div>
+
+<script>
+let currentMode = 'text';
+
+function switchMode(mode) {
+  currentMode = mode;
+  document.querySelectorAll('.segmented button').forEach(b => b.classList.toggle('active', b.dataset.mode === mode));
+  document.getElementById('mode-text').classList.toggle('hidden', mode !== 'text');
+  document.getElementById('mode-wifi').classList.toggle('hidden', mode !== 'wifi');
+}
+
+function togglePassword() {
+  const inp = document.getElementById('wifi-pass');
+  const btn = inp.nextElementSibling;
+  if (inp.type === 'password') { inp.type = 'text'; btn.textContent = 'Hide'; }
+  else { inp.type = 'password'; btn.textContent = 'Show'; }
+}
+
+function escapeWifi(s) {
+  return s.replace(/([\\;,:"\\])/g, '\\$1');
+}
+
+function buildWifiString() {
+  const ssid = document.getElementById('wifi-ssid').value;
+  const password = document.getElementById('wifi-pass').value;
+  const security = document.getElementById('wifi-sec').value;
+  const hidden = document.getElementById('wifi-hidden').checked;
+  const secMap = { wpa: 'WPA', wep: 'WEP', none: 'nopass' };
+  const sec = secMap[security] || 'WPA';
+  return 'WIFI:T:' + sec + ';S:' + escapeWifi(ssid) + ';P:' + escapeWifi(password) + ';H:' + (hidden ? 'true' : 'false') + ';;';
+}
+
+function generate() {
+  let text;
+  if (currentMode === 'text') {
+    text = document.getElementById('text-input').value.trim();
+    if (!text) { alert('Please enter a URL or text.'); return; }
+  } else {
+    const ssid = document.getElementById('wifi-ssid').value.trim();
+    if (!ssid) { alert('Please enter a network name.'); return; }
+    text = buildWifiString();
+  }
+
+  const cellSize = parseInt(document.getElementById('opt-size').value, 10);
+  const color = document.getElementById('opt-color').value;
+  const rounded = document.getElementById('opt-style').value === 'rounded';
+  const border = document.getElementById('opt-border').checked;
+  const borderModules = border ? 4 : 0;
+
+  const qr = qrcode(0, 'M');
+  qr.addData(text);
+  qr.make();
+
+  const count = qr.getModuleCount();
+  const totalSize = (count + borderModules * 2) * cellSize;
+
+  const canvas = document.getElementById('qr-canvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = totalSize;
+  canvas.height = totalSize;
+
+  // Background
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, totalSize, totalSize);
+
+  const offset = borderModules * cellSize;
+  const radius = rounded ? cellSize * 0.35 : 0;
+
+  for (let row = 0; row < count; row++) {
+    for (let col = 0; col < count; col++) {
+      if (qr.isDark(row, col)) {
+        const x = offset + col * cellSize;
+        const y = offset + row * cellSize;
+        ctx.fillStyle = color;
+        if (rounded) {
+          ctx.beginPath();
+          ctx.roundRect(x, y, cellSize, cellSize, radius);
+          ctx.fill();
+        } else {
+          ctx.fillRect(x, y, cellSize, cellSize);
+        }
+      }
+    }
+  }
+
+  document.getElementById('download-btn').disabled = false;
+}
+
+function downloadQR() {
+  const canvas = document.getElementById('qr-canvas');
+  const link = document.createElement('a');
+  link.download = 'qrcode.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+</script>
+</body>
+</html>

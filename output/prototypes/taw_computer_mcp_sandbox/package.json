@@ -1,0 +1,13 @@
+{
+  "name": "taw-computer-mcp-sandbox-demo",
+  "version": "1.0.0",
+  "description": "Demo and evaluation harness for the taw-computer MCP server (Ubuntu sandbox with 30+ tools for AI agents)",
+  "main": "demo.mjs",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.mjs",
+    "start": "node demo.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

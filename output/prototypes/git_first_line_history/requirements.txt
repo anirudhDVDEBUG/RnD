@@ -1,0 +1,5 @@
+# No Python dependencies required.
+# This tool uses only git and POSIX shell utilities.
+# Listed for completeness:
+# - git (system package)
+# - coreutils (tac, head, cut)

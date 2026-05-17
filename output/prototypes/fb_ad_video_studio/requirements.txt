@@ -1,0 +1,6 @@
+# FB Ad Video Studio
+# Pure Python - no external dependencies needed for core composition
+# Optional dependencies for extended features:
+# playwright>=1.40  # for headless HTML-to-video rendering
+# pydub>=0.25      # for audio mixing pipeline
+# elevenlabs>=0.2  # for AI voiceover generation

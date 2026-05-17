@@ -1,0 +1,7 @@
+# Multi-Agent Market Lab
+# Pure Python stdlib — no external dependencies required for the demo.
+# For production use, you'd add:
+# httpx>=0.25.0        # async HTTP for real market data sources
+# pydantic>=2.0        # structured config validation
+# rich>=13.0           # better terminal output
+# anthropic>=1.0       # Claude API for agent reasoning

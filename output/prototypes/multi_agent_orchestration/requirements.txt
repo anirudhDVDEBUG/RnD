@@ -1,0 +1,3 @@
+# Multi-Agent Orchestration Engine
+# No external dependencies - uses Python stdlib only
+# (threading, concurrent.futures, dataclasses, enum, json, time, random)

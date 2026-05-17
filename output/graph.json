@@ -2359,6 +2359,32 @@
       "label": "auto-publish"
     },
     {
+      "id": "item:5973",
+      "type": "item",
+      "label": "anzy-renlab-ai/pronounce: 🔊 Pronounce developer jargon out loud. 540+ entries (k",
+      "url": "https://github.com/anzy-renlab-ai/pronounce",
+      "source": "github",
+      "score": 0.5634883776100252,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:pronunciation",
+      "type": "tag",
+      "label": "pronunciation"
+    },
+    {
+      "id": "tag:developer-tools",
+      "type": "tag",
+      "label": "developer-tools"
+    },
+    {
+      "id": "tag:cli",
+      "type": "tag",
+      "label": "cli"
+    },
+    {
       "id": "item:1825",
       "type": "item",
       "label": "Granite 4.1 3B SVG Pelican Gallery",
@@ -2582,6 +2608,32 @@
       "label": "reso-standard"
     },
     {
+      "id": "item:5972",
+      "type": "item",
+      "label": "the-agents-work/taw-computer: Give any AI a real computer. Open source MCP serve",
+      "url": "https://github.com/the-agents-work/taw-computer",
+      "source": "github",
+      "score": 0.5437870677069907,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:computer-use",
+      "type": "tag",
+      "label": "computer-use"
+    },
+    {
+      "id": "tag:sandbox",
+      "type": "tag",
+      "label": "sandbox"
+    },
+    {
+      "id": "tag:desktop-automation",
+      "type": "tag",
+      "label": "desktop-automation"
+    },
+    {
       "id": "item:323",
       "type": "item",
       "label": "nexu-io/open-design: 🎨 Local-first, open-source alternative to Anthropic's Claud",
@@ -2606,6 +2658,37 @@
       "id": "tag:byok",
       "type": "tag",
       "label": "byok"
+    },
+    {
+      "id": "item:5960",
+      "type": "item",
+      "label": "Warelay -> OpenClaw",
+      "url": "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything",
+      "source": "rss",
+      "score": 0.5401478833634383,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:openclaw",
+      "type": "tag",
+      "label": "openclaw"
+    },
+    {
+      "id": "tag:open-source-naming",
+      "type": "tag",
+      "label": "open-source-naming"
+    },
+    {
+      "id": "tag:git-history",
+      "type": "tag",
+      "label": "git-history"
+    },
+    {
+      "id": "tag:python-tooling",
+      "type": "tag",
+      "label": "python-tooling"
     },
     {
       "id": "item:3599",
@@ -2674,6 +2757,27 @@
       "id": "tag:dealer-outreach",
       "type": "tag",
       "label": "dealer-outreach"
+    },
+    {
+      "id": "item:5962",
+      "type": "item",
+      "label": "keerthanapranesh/Claude-Code-Swarm-Toolkit: 🚀 ZeroClaw Master 2026 — Ultimate Cl",
+      "url": "https://github.com/keerthanapranesh/Claude-Code-Swarm-Toolkit",
+      "source": "github",
+      "score": 0.5279888051548717,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agent-toolkit",
+      "type": "tag",
+      "label": "agent-toolkit"
+    },
+    {
+      "id": "tag:zeroclaw",
+      "type": "tag",
+      "label": "zeroclaw"
     },
     {
       "id": "item:2717",
@@ -3506,6 +3610,32 @@
       "label": "lesson-compounding"
     },
     {
+      "id": "item:5964",
+      "type": "item",
+      "label": "ai-agents-for-agencies-coaches/fb-ad-video-studio: High-converting FB/IG/TikTok ",
+      "url": "https://github.com/ai-agents-for-agencies-coaches/fb-ad-video-studio",
+      "source": "github",
+      "score": 0.5121797719253975,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:video-ads",
+      "type": "tag",
+      "label": "video-ads"
+    },
+    {
+      "id": "tag:facebook-ads",
+      "type": "tag",
+      "label": "facebook-ads"
+    },
+    {
+      "id": "tag:motion-graphics",
+      "type": "tag",
+      "label": "motion-graphics"
+    },
+    {
       "id": "item:1670",
       "type": "item",
       "label": "Making Conformal Predictors Robust in Healthcare Settings: a Case Study on EEG C",
@@ -4058,11 +4188,6 @@
       "id": "tag:cross-application",
       "type": "tag",
       "label": "cross-application"
-    },
-    {
-      "id": "tag:desktop-automation",
-      "type": "tag",
-      "label": "desktop-automation"
     },
     {
       "id": "tag:multi-step-tasks",
@@ -5783,141 +5908,6 @@
       "label": "personalization"
     },
     {
-      "id": "item:140",
-      "type": "item",
-      "label": "A Dual Perspective on Synthetic Trajectory Generators: Utility Framework and Pri",
-      "url": "https://arxiv.org/abs/2604.19653",
-      "source": "rss",
-      "score": 0.49827430146813134,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:mobility-data",
-      "type": "tag",
-      "label": "mobility-data"
-    },
-    {
-      "id": "tag:privacy",
-      "type": "tag",
-      "label": "privacy"
-    },
-    {
-      "id": "tag:membership-inference",
-      "type": "tag",
-      "label": "membership-inference"
-    },
-    {
-      "id": "tag:generative-models",
-      "type": "tag",
-      "label": "generative-models"
-    },
-    {
-      "id": "item:143",
-      "type": "item",
-      "label": "Identifying the Achilles' Heel: An Iterative Method for Dynamically Uncovering F",
-      "url": "https://arxiv.org/abs/2401.00761",
-      "source": "rss",
-      "score": 0.49827429576516535,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:factuality",
-      "type": "tag",
-      "label": "factuality"
-    },
-    {
-      "id": "tag:adversarial-testing",
-      "type": "tag",
-      "label": "adversarial-testing"
-    },
-    {
-      "id": "item:145",
-      "type": "item",
-      "label": "ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models",
-      "url": "https://arxiv.org/abs/2405.13729",
-      "source": "rss",
-      "score": 0.4982742920423189,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:stochastic-processes",
-      "type": "tag",
-      "label": "stochastic-processes"
-    },
-    {
-      "id": "tag:3d-generation",
-      "type": "tag",
-      "label": "3d-generation"
-    },
-    {
-      "id": "tag:combinatorial-structure",
-      "type": "tag",
-      "label": "combinatorial-structure"
-    },
-    {
-      "id": "item:148",
-      "type": "item",
-      "label": "Is Human-Like Text Liked by Humans? Multilingual Human Detection and Preference ",
-      "url": "https://arxiv.org/abs/2502.11614",
-      "source": "rss",
-      "score": 0.4982742870049396,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:ai-text-detection",
-      "type": "tag",
-      "label": "ai-text-detection"
-    },
-    {
-      "id": "tag:multilingual",
-      "type": "tag",
-      "label": "multilingual"
-    },
-    {
-      "id": "tag:human-evaluation",
-      "type": "tag",
-      "label": "human-evaluation"
-    },
-    {
-      "id": "tag:text-generation",
-      "type": "tag",
-      "label": "text-generation"
-    },
-    {
-      "id": "tag:preference-evaluation",
-      "type": "tag",
-      "label": "preference-evaluation"
-    },
-    {
-      "id": "item:150",
-      "type": "item",
-      "label": "M2R2: MultiModal Robotic Representation for Temporal Action Segmentation",
-      "url": "https://arxiv.org/abs/2504.18662",
-      "source": "rss",
-      "score": 0.4982742836847731,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:feature-extraction",
-      "type": "tag",
-      "label": "feature-extraction"
-    },
-    {
-      "id": "tag:proprioception",
-      "type": "tag",
-      "label": "proprioception"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6858,6 +6848,60 @@
       "type": "skill",
       "label": "qr_code_generator",
       "path": "/home/rnd/trendforge/output/skills/qr_code_generator"
+    },
+    {
+      "id": "skill:158",
+      "type": "skill",
+      "label": "multi_agent_orchestration",
+      "path": "/home/rnd/trendforge/output/skills/multi_agent_orchestration"
+    },
+    {
+      "id": "skill:159",
+      "type": "skill",
+      "label": "multi_agent_market_lab",
+      "path": "/home/rnd/trendforge/output/skills/multi_agent_market_lab"
+    },
+    {
+      "id": "skill:160",
+      "type": "skill",
+      "label": "luoling8192_technical_writing_agent_skill_postmortem",
+      "path": "/home/rnd/trendforge/output/skills/luoling8192_technical_writing_agent_skill_postmortem"
+    },
+    {
+      "id": "skill:161",
+      "type": "skill",
+      "label": "taw_computer_mcp_sandbox",
+      "path": "/home/rnd/trendforge/output/skills/taw_computer_mcp_sandbox"
+    },
+    {
+      "id": "skill:162",
+      "type": "skill",
+      "label": "pronounce_dev_jargon",
+      "path": "/home/rnd/trendforge/output/skills/pronounce_dev_jargon"
+    },
+    {
+      "id": "skill:163",
+      "type": "skill",
+      "label": "claude_code_swarm_toolkit",
+      "path": "/home/rnd/trendforge/output/skills/claude_code_swarm_toolkit"
+    },
+    {
+      "id": "skill:164",
+      "type": "skill",
+      "label": "fb_ad_video_studio",
+      "path": "/home/rnd/trendforge/output/skills/fb_ad_video_studio"
+    },
+    {
+      "id": "skill:165",
+      "type": "skill",
+      "label": "git_first_line_history",
+      "path": "/home/rnd/trendforge/output/skills/git_first_line_history"
+    },
+    {
+      "id": "skill:166",
+      "type": "skill",
+      "label": "css_architecture_guide",
+      "path": "/home/rnd/trendforge/output/skills/css_architecture_guide"
     },
     {
       "id": "prototype:1",
@@ -7957,6 +8001,69 @@
       "label": "qr_code_generator",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/qr_code_generator.pptx"
+    },
+    {
+      "id": "prototype:158",
+      "type": "prototype",
+      "label": "multi_agent_orchestration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/multi_agent_orchestration.pptx"
+    },
+    {
+      "id": "prototype:159",
+      "type": "prototype",
+      "label": "multi_agent_market_lab",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/multi_agent_market_lab.pptx"
+    },
+    {
+      "id": "prototype:160",
+      "type": "prototype",
+      "label": "luoling8192_technical_writing_agent_skill_postmortem",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/luoling8192_technical_writing_agent_skill_postmortem.pptx"
+    },
+    {
+      "id": "prototype:161",
+      "type": "prototype",
+      "label": "taw_computer_mcp_sandbox",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/taw_computer_mcp_sandbox.pptx"
+    },
+    {
+      "id": "prototype:162",
+      "type": "prototype",
+      "label": "pronounce_dev_jargon",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/pronounce_dev_jargon.pptx"
+    },
+    {
+      "id": "prototype:163",
+      "type": "prototype",
+      "label": "claude_code_swarm_toolkit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_code_swarm_toolkit.pptx"
+    },
+    {
+      "id": "prototype:164",
+      "type": "prototype",
+      "label": "fb_ad_video_studio",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/fb_ad_video_studio.pptx"
+    },
+    {
+      "id": "prototype:165",
+      "type": "prototype",
+      "label": "git_first_line_history",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/git_first_line_history.pptx"
+    },
+    {
+      "id": "prototype:166",
+      "type": "prototype",
+      "label": "css_architecture_guide",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/css_architecture_guide.pptx"
     }
   ],
   "edges": [
@@ -10496,6 +10603,46 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:5973",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5973",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5973",
+      "to": "tag:pronunciation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5973",
+      "to": "tag:developer-tools",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5973",
+      "to": "tag:cli",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5973",
+      "to": "tag:text-to-speech",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5973",
+      "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5973",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1825",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -10741,6 +10888,41 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:5972",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5972",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5972",
+      "to": "tag:computer-use",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5972",
+      "to": "tag:browser-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5972",
+      "to": "tag:sandbox",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5972",
+      "to": "tag:desktop-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5972",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:323",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -10774,6 +10956,31 @@
       "from": "item:323",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5960",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5960",
+      "to": "tag:openclaw",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5960",
+      "to": "tag:open-source-naming",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5960",
+      "to": "tag:git-history",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5960",
+      "to": "tag:python-tooling",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:3599",
@@ -10877,6 +11084,36 @@
     },
     {
       "from": "item:5043",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5962",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5962",
+      "to": "tag:claude-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5962",
+      "to": "tag:agent-toolkit",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5962",
+      "to": "tag:zeroclaw",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5962",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5962",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -11982,6 +12219,41 @@
     },
     {
       "from": "item:4064",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5964",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5964",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5964",
+      "to": "tag:video-ads",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5964",
+      "to": "tag:facebook-ads",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5964",
+      "to": "tag:motion-graphics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5964",
+      "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5964",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -14436,161 +14708,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:140",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:140",
-      "to": "tag:synthetic-data",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:140",
-      "to": "tag:mobility-data",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:140",
-      "to": "tag:privacy",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:140",
-      "to": "tag:membership-inference",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:140",
-      "to": "tag:generative-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:143",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:143",
-      "to": "tag:hallucination-detection",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:143",
-      "to": "tag:factuality",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:143",
-      "to": "tag:knowledge-graphs",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:143",
-      "to": "tag:llm-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:143",
-      "to": "tag:adversarial-testing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:143",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:145",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:145",
-      "to": "tag:diffusion-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:145",
-      "to": "tag:stochastic-processes",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:145",
-      "to": "tag:generative-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:145",
-      "to": "tag:3d-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:145",
-      "to": "tag:combinatorial-structure",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:148",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:148",
-      "to": "tag:ai-text-detection",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:148",
-      "to": "tag:multilingual",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:148",
-      "to": "tag:human-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:148",
-      "to": "tag:text-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:148",
-      "to": "tag:preference-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:150",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:150",
-      "to": "tag:multimodal",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:150",
-      "to": "tag:action-segmentation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:150",
-      "to": "tag:robotics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:150",
-      "to": "tag:feature-extraction",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:150",
-      "to": "tag:proprioception",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -15376,6 +15493,51 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:158",
+      "to": "item:5989",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:159",
+      "to": "item:5990",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:160",
+      "to": "item:5991",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:161",
+      "to": "item:5972",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:162",
+      "to": "item:5973",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:163",
+      "to": "item:5962",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:164",
+      "to": "item:5964",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:165",
+      "to": "item:5960",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:166",
+      "to": "item:5961",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -16158,6 +16320,51 @@
     {
       "from": "prototype:157",
       "to": "skill:157",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:158",
+      "to": "skill:158",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:159",
+      "to": "skill:159",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:160",
+      "to": "skill:160",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:161",
+      "to": "skill:161",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:162",
+      "to": "skill:162",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:163",
+      "to": "skill:163",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:164",
+      "to": "skill:164",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:165",
+      "to": "skill:165",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:166",
+      "to": "skill:166",
       "rel": "DEMOS"
     }
   ]

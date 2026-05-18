@@ -1,0 +1,18 @@
+runtime:
+  # LLM provider settings (used when real API is available)
+  llm_provider: "mock"  # Options: mock, anthropic, openai
+  model: "claude-sonnet-4-20250514"
+  max_cycles: 10
+  cycle_delay_seconds: 1
+
+  # Memory settings
+  memory_path: "logs/memory.json"
+  goals_path: "logs/goals.json"
+  max_context_messages: 20
+
+  # Logging
+  log_level: "INFO"
+  log_file: "logs/agent.log"
+
+  # API keys (set via environment variables for real usage)
+  # ANTHROPIC_API_KEY: set in environment

@@ -1,0 +1,4 @@
+# Claude Thai Skills - Python dependencies
+# Core functionality uses only stdlib (no external packages required)
+# Optional: uncomment for production-grade Thai NLP
+# pythainlp>=5.0

@@ -1,0 +1,2 @@
+# Claude Session Handoff — no external dependencies
+# Uses only Python stdlib (subprocess, argparse, json, pathlib, datetime)

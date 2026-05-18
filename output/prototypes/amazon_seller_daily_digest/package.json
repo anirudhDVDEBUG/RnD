@@ -1,0 +1,13 @@
+{
+  "name": "amazon-seller-daily-digest",
+  "version": "1.0.0",
+  "description": "Daily Amazon-seller intelligence digest: fetches signals, synthesizes bilingual digest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "DEMO_MODE=1 node index.js"
+  },
+  "keywords": ["amazon", "seller", "digest", "claude", "ecommerce", "intelligence"],
+  "license": "MIT",
+  "dependencies": {}
+}

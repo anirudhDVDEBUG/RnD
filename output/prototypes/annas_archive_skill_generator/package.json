@@ -1,0 +1,12 @@
+{
+  "name": "annas-archive-skill-generator-demo",
+  "version": "1.0.0",
+  "description": "Demo of MCP server that searches Anna's Archive, downloads books, extracts methodologies via Gemini, and generates Claude Code SKILL.md files",
+  "main": "demo.js",
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "dependencies": {},
+  "keywords": ["mcp", "claude-code", "skill-generator", "annas-archive", "gemini"],
+  "license": "MIT"
+}

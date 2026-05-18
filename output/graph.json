@@ -1034,6 +1034,42 @@
       "label": "compute-infrastructure"
     },
     {
+      "id": "item:5993",
+      "type": "item",
+      "label": "GDS weighs in on the NHS's decision to retreat from Open Source",
+      "url": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
+      "source": "rss",
+      "score": 0.6186678293334853,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:open-source-policy",
+      "type": "tag",
+      "label": "open-source-policy"
+    },
+    {
+      "id": "tag:nhs",
+      "type": "tag",
+      "label": "nhs"
+    },
+    {
+      "id": "tag:government-digital",
+      "type": "tag",
+      "label": "government-digital"
+    },
+    {
+      "id": "tag:security-disclosure",
+      "type": "tag",
+      "label": "security-disclosure"
+    },
+    {
+      "id": "tag:public-sector",
+      "type": "tag",
+      "label": "public-sector"
+    },
+    {
       "id": "item:1829",
       "type": "item",
       "label": "Redis Array Playground",
@@ -2710,6 +2746,27 @@
       "id": "tag:shebang",
       "type": "tag",
       "label": "shebang"
+    },
+    {
+      "id": "item:5994",
+      "type": "item",
+      "label": "VKirill/mcp-annas-archive-create-skill: MCP server for Claude Code: Anna's Archi",
+      "url": "https://github.com/VKirill/mcp-annas-archive-create-skill",
+      "source": "github",
+      "score": 0.530117076490892,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:knowledge-extraction",
+      "type": "tag",
+      "label": "knowledge-extraction"
+    },
+    {
+      "id": "tag:book-extraction",
+      "type": "tag",
+      "label": "book-extraction"
     },
     {
       "id": "item:1755",
@@ -5856,58 +5913,6 @@
       "label": "closed-loop-reasoning"
     },
     {
-      "id": "item:135",
-      "type": "item",
-      "label": "Probe-then-Plan: Environment-Aware Planning for Industrial E-commerce Search",
-      "url": "https://arxiv.org/abs/2603.15262",
-      "source": "rss",
-      "score": 0.4982743091234845,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:search-planning",
-      "type": "tag",
-      "label": "search-planning"
-    },
-    {
-      "id": "tag:query-rewriting",
-      "type": "tag",
-      "label": "query-rewriting"
-    },
-    {
-      "id": "item:136",
-      "type": "item",
-      "label": "A Framework for Longitudinal Health AI Agents",
-      "url": "https://arxiv.org/abs/2604.12019",
-      "source": "rss",
-      "score": 0.49827430773795545,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:health-ai",
-      "type": "tag",
-      "label": "health-ai"
-    },
-    {
-      "id": "tag:longitudinal-agents",
-      "type": "tag",
-      "label": "longitudinal-agents"
-    },
-    {
-      "id": "tag:clinical-decision-support",
-      "type": "tag",
-      "label": "clinical-decision-support"
-    },
-    {
-      "id": "tag:personalization",
-      "type": "tag",
-      "label": "personalization"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -6902,6 +6907,66 @@
       "type": "skill",
       "label": "css_architecture_guide",
       "path": "/home/rnd/trendforge/output/skills/css_architecture_guide"
+    },
+    {
+      "id": "skill:167",
+      "type": "skill",
+      "label": "ai_memory_reader",
+      "path": "/home/rnd/trendforge/output/skills/ai_memory_reader"
+    },
+    {
+      "id": "skill:168",
+      "type": "skill",
+      "label": "claude_thai_skills",
+      "path": "/home/rnd/trendforge/output/skills/claude_thai_skills"
+    },
+    {
+      "id": "skill:169",
+      "type": "skill",
+      "label": "html_slide_generator",
+      "path": "/home/rnd/trendforge/output/skills/html_slide_generator"
+    },
+    {
+      "id": "skill:170",
+      "type": "skill",
+      "label": "runa_digital_being_agent",
+      "path": "/home/rnd/trendforge/output/skills/runa_digital_being_agent"
+    },
+    {
+      "id": "skill:171",
+      "type": "skill",
+      "label": "sr_moa_adapter",
+      "path": "/home/rnd/trendforge/output/skills/sr_moa_adapter"
+    },
+    {
+      "id": "skill:172",
+      "type": "skill",
+      "label": "orkestrai_multi_agent_orchestrator",
+      "path": "/home/rnd/trendforge/output/skills/orkestrai_multi_agent_orchestrator"
+    },
+    {
+      "id": "skill:173",
+      "type": "skill",
+      "label": "annas_archive_skill_generator",
+      "path": "/home/rnd/trendforge/output/skills/annas_archive_skill_generator"
+    },
+    {
+      "id": "skill:174",
+      "type": "skill",
+      "label": "claude_session_handoff",
+      "path": "/home/rnd/trendforge/output/skills/claude_session_handoff"
+    },
+    {
+      "id": "skill:175",
+      "type": "skill",
+      "label": "amazon_seller_daily_digest",
+      "path": "/home/rnd/trendforge/output/skills/amazon_seller_daily_digest"
+    },
+    {
+      "id": "skill:176",
+      "type": "skill",
+      "label": "open_source_policy_advisor",
+      "path": "/home/rnd/trendforge/output/skills/open_source_policy_advisor"
     },
     {
       "id": "prototype:1",
@@ -8064,6 +8129,76 @@
       "label": "css_architecture_guide",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/css_architecture_guide.pptx"
+    },
+    {
+      "id": "prototype:167",
+      "type": "prototype",
+      "label": "ai_memory_reader",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_memory_reader.pptx"
+    },
+    {
+      "id": "prototype:168",
+      "type": "prototype",
+      "label": "claude_thai_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_thai_skills.pptx"
+    },
+    {
+      "id": "prototype:169",
+      "type": "prototype",
+      "label": "html_slide_generator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/html_slide_generator.pptx"
+    },
+    {
+      "id": "prototype:170",
+      "type": "prototype",
+      "label": "runa_digital_being_agent",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/runa_digital_being_agent.pptx"
+    },
+    {
+      "id": "prototype:171",
+      "type": "prototype",
+      "label": "sr_moa_adapter",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/sr_moa_adapter.pptx"
+    },
+    {
+      "id": "prototype:172",
+      "type": "prototype",
+      "label": "orkestrai_multi_agent_orchestrator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/orkestrai_multi_agent_orchestrator.pptx"
+    },
+    {
+      "id": "prototype:173",
+      "type": "prototype",
+      "label": "annas_archive_skill_generator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/annas_archive_skill_generator.pptx"
+    },
+    {
+      "id": "prototype:174",
+      "type": "prototype",
+      "label": "claude_session_handoff",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_session_handoff.pptx"
+    },
+    {
+      "id": "prototype:175",
+      "type": "prototype",
+      "label": "amazon_seller_daily_digest",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/amazon_seller_daily_digest.pptx"
+    },
+    {
+      "id": "prototype:176",
+      "type": "prototype",
+      "label": "open_source_policy_advisor",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/open_source_policy_advisor.pptx"
     }
   ],
   "edges": [
@@ -9095,6 +9230,36 @@
     {
       "from": "item:2718",
       "to": "tag:compute-infrastructure",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5993",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5993",
+      "to": "tag:open-source-policy",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5993",
+      "to": "tag:nhs",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5993",
+      "to": "tag:government-digital",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5993",
+      "to": "tag:security-disclosure",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5993",
+      "to": "tag:public-sector",
       "rel": "HAS_TAG"
     },
     {
@@ -11011,6 +11176,51 @@
       "from": "item:3599",
       "to": "tag:prompt-engineering",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5994",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:5994",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5994",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5994",
+      "to": "tag:knowledge-extraction",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5994",
+      "to": "tag:rag",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5994",
+      "to": "tag:book-extraction",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:5994",
+      "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5994",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:5994",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:1755",
@@ -14643,71 +14853,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:135",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:135",
-      "to": "tag:e-commerce",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:135",
-      "to": "tag:search-planning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:135",
-      "to": "tag:reinforcement-learning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:135",
-      "to": "tag:query-rewriting",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:135",
-      "to": "tag:retrieval",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:136",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:136",
-      "to": "tag:health-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:136",
-      "to": "tag:longitudinal-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:136",
-      "to": "tag:agent-architecture",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:136",
-      "to": "tag:clinical-decision-support",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:136",
-      "to": "tag:personalization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:136",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -15538,6 +15683,56 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:167",
+      "to": "item:6021",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:168",
+      "to": "item:6022",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:169",
+      "to": "item:6023",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:170",
+      "to": "item:6009",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:171",
+      "to": "item:6011",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:172",
+      "to": "item:6012",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:173",
+      "to": "item:5994",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:174",
+      "to": "item:5996",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:175",
+      "to": "item:5997",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:176",
+      "to": "item:5993",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -16365,6 +16560,56 @@
     {
       "from": "prototype:166",
       "to": "skill:166",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:167",
+      "to": "skill:167",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:168",
+      "to": "skill:168",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:169",
+      "to": "skill:169",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:170",
+      "to": "skill:170",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:171",
+      "to": "skill:171",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:172",
+      "to": "skill:172",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:173",
+      "to": "skill:173",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:174",
+      "to": "skill:174",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:175",
+      "to": "skill:175",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:176",
+      "to": "skill:176",
       "rel": "DEMOS"
     }
   ]

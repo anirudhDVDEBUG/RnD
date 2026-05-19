@@ -1,0 +1,14 @@
+# PaddleOCR 3.5 with Transformers backend
+# Core (install torch separately for your hardware first)
+paddleocr==3.5.0
+paddlex==3.5.2
+transformers>=5.4.0
+
+# PyTorch - uncomment the line matching your hardware:
+# CPU only:
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch torchvision torchaudio
+#
+# CUDA 12.6:
+# --extra-index-url https://download.pytorch.org/whl/cu126
+# torch torchvision torchaudio

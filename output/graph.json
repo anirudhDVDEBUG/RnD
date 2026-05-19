@@ -899,6 +899,37 @@
       "label": "cross-platform"
     },
     {
+      "id": "item:6343",
+      "type": "item",
+      "label": "AbhishekK130804/Claude-Mythos-AI-Anthropic-App: Claude pro free Mythos design Op",
+      "url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "source": "github",
+      "score": 0.6506995678880401,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:claude-desktop",
+      "type": "tag",
+      "label": "claude-desktop"
+    },
+    {
+      "id": "tag:api-setup",
+      "type": "tag",
+      "label": "api-setup"
+    },
+    {
+      "id": "tag:roleplay",
+      "type": "tag",
+      "label": "roleplay"
+    },
+    {
+      "id": "tag:app-distribution",
+      "type": "tag",
+      "label": "app-distribution"
+    },
+    {
       "id": "item:1727",
       "type": "item",
       "label": "iNaturalist Sightings",
@@ -1032,6 +1063,42 @@
       "id": "tag:compute-infrastructure",
       "type": "tag",
       "label": "compute-infrastructure"
+    },
+    {
+      "id": "item:6025",
+      "type": "item",
+      "label": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+      "source": "rss",
+      "score": 0.6187057999038735,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:video-generation",
+      "type": "tag",
+      "label": "video-generation"
+    },
+    {
+      "id": "tag:fine-tuning",
+      "type": "tag",
+      "label": "fine-tuning"
+    },
+    {
+      "id": "tag:lora-dora",
+      "type": "tag",
+      "label": "lora-dora"
+    },
+    {
+      "id": "tag:robotics",
+      "type": "tag",
+      "label": "robotics"
+    },
+    {
+      "id": "tag:nvidia-cosmos",
+      "type": "tag",
+      "label": "nvidia-cosmos"
     },
     {
       "id": "item:5993",
@@ -1399,11 +1466,6 @@
       "id": "tag:reinforcement-learning",
       "type": "tag",
       "label": "reinforcement-learning"
-    },
-    {
-      "id": "tag:fine-tuning",
-      "type": "tag",
-      "label": "fine-tuning"
     },
     {
       "id": "item:124",
@@ -2347,11 +2409,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "tag:video-generation",
-      "type": "tag",
-      "label": "video-generation"
     },
     {
       "id": "tag:ai-pipeline",
@@ -5400,11 +5457,6 @@
       "label": "rss-feed"
     },
     {
-      "id": "tag:app-distribution",
-      "type": "tag",
-      "label": "app-distribution"
-    },
-    {
       "id": "tag:personal-tooling",
       "type": "tag",
       "label": "personal-tooling"
@@ -5655,11 +5707,6 @@
       "notes": null
     },
     {
-      "id": "tag:robotics",
-      "type": "tag",
-      "label": "robotics"
-    },
-    {
       "id": "tag:action-segmentation",
       "type": "tag",
       "label": "action-segmentation"
@@ -5854,63 +5901,6 @@
       "id": "tag:neuro-symbolic",
       "type": "tag",
       "label": "neuro-symbolic"
-    },
-    {
-      "id": "item:127",
-      "type": "item",
-      "label": "Saber: An Efficient Sampling with Adaptive Acceleration and Backtracking Enhance",
-      "url": "https://arxiv.org/abs/2510.18165",
-      "source": "rss",
-      "score": 0.49827432223664736,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:diffusion-language-models",
-      "type": "tag",
-      "label": "diffusion-language-models"
-    },
-    {
-      "id": "tag:sampling",
-      "type": "tag",
-      "label": "sampling"
-    },
-    {
-      "id": "tag:backtracking",
-      "type": "tag",
-      "label": "backtracking"
-    },
-    {
-      "id": "tag:inference-acceleration",
-      "type": "tag",
-      "label": "inference-acceleration"
-    },
-    {
-      "id": "item:131",
-      "type": "item",
-      "label": "RE-MCDF: Closed-Loop Multi-Expert LLM Reasoning for Knowledge-Grounded Clinical ",
-      "url": "https://arxiv.org/abs/2602.01297",
-      "source": "rss",
-      "score": 0.4982743159634947,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:clinical-diagnosis",
-      "type": "tag",
-      "label": "clinical-diagnosis"
-    },
-    {
-      "id": "tag:medical-llm",
-      "type": "tag",
-      "label": "medical-llm"
-    },
-    {
-      "id": "tag:closed-loop-reasoning",
-      "type": "tag",
-      "label": "closed-loop-reasoning"
     },
     {
       "id": "skill:1",
@@ -6967,6 +6957,78 @@
       "type": "skill",
       "label": "open_source_policy_advisor",
       "path": "/home/rnd/trendforge/output/skills/open_source_policy_advisor"
+    },
+    {
+      "id": "skill:177",
+      "type": "skill",
+      "label": "claude_mythos_app_setup",
+      "path": "/home/rnd/trendforge/output/skills/claude_mythos_app_setup"
+    },
+    {
+      "id": "skill:178",
+      "type": "skill",
+      "label": "create_claude_md",
+      "path": "/home/rnd/trendforge/output/skills/create_claude_md"
+    },
+    {
+      "id": "skill:179",
+      "type": "skill",
+      "label": "agent_design_patterns",
+      "path": "/home/rnd/trendforge/output/skills/agent_design_patterns"
+    },
+    {
+      "id": "skill:180",
+      "type": "skill",
+      "label": "ck_skills_agent_toolkit",
+      "path": "/home/rnd/trendforge/output/skills/ck_skills_agent_toolkit"
+    },
+    {
+      "id": "skill:181",
+      "type": "skill",
+      "label": "demandbird_social_media_management",
+      "path": "/home/rnd/trendforge/output/skills/demandbird_social_media_management"
+    },
+    {
+      "id": "skill:182",
+      "type": "skill",
+      "label": "awesome_weread_agent_skill",
+      "path": "/home/rnd/trendforge/output/skills/awesome_weread_agent_skill"
+    },
+    {
+      "id": "skill:183",
+      "type": "skill",
+      "label": "super_geo_agent_readiness",
+      "path": "/home/rnd/trendforge/output/skills/super_geo_agent_readiness"
+    },
+    {
+      "id": "skill:184",
+      "type": "skill",
+      "label": "inaturalist_wildlife_sighting_logger",
+      "path": "/home/rnd/trendforge/output/skills/inaturalist_wildlife_sighting_logger"
+    },
+    {
+      "id": "skill:185",
+      "type": "skill",
+      "label": "cosmos_predict25_robot_video_lora",
+      "path": "/home/rnd/trendforge/output/skills/cosmos_predict25_robot_video_lora"
+    },
+    {
+      "id": "skill:186",
+      "type": "skill",
+      "label": "paddleocr_transformers_ocr_doc_parsing",
+      "path": "/home/rnd/trendforge/output/skills/paddleocr_transformers_ocr_doc_parsing"
+    },
+    {
+      "id": "skill:187",
+      "type": "skill",
+      "label": "open_agent_leaderboard_eval",
+      "path": "/home/rnd/trendforge/output/skills/open_agent_leaderboard_eval"
+    },
+    {
+      "id": "skill:188",
+      "type": "skill",
+      "label": "dell_codex_on_prem_enterprise_deploy",
+      "path": "/home/rnd/trendforge/output/skills/dell_codex_on_prem_enterprise_deploy"
     },
     {
       "id": "prototype:1",
@@ -8199,6 +8261,90 @@
       "label": "open_source_policy_advisor",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/open_source_policy_advisor.pptx"
+    },
+    {
+      "id": "prototype:177",
+      "type": "prototype",
+      "label": "claude_mythos_app_setup",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_mythos_app_setup.pptx"
+    },
+    {
+      "id": "prototype:178",
+      "type": "prototype",
+      "label": "create_claude_md",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/create_claude_md.pptx"
+    },
+    {
+      "id": "prototype:179",
+      "type": "prototype",
+      "label": "agent_design_patterns",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agent_design_patterns.pptx"
+    },
+    {
+      "id": "prototype:180",
+      "type": "prototype",
+      "label": "ck_skills_agent_toolkit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ck_skills_agent_toolkit.pptx"
+    },
+    {
+      "id": "prototype:181",
+      "type": "prototype",
+      "label": "demandbird_social_media_management",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/demandbird_social_media_management.pptx"
+    },
+    {
+      "id": "prototype:182",
+      "type": "prototype",
+      "label": "awesome_weread_agent_skill",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/awesome_weread_agent_skill.pptx"
+    },
+    {
+      "id": "prototype:183",
+      "type": "prototype",
+      "label": "super_geo_agent_readiness",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/super_geo_agent_readiness.pptx"
+    },
+    {
+      "id": "prototype:184",
+      "type": "prototype",
+      "label": "inaturalist_wildlife_sighting_logger",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/inaturalist_wildlife_sighting_logger.pptx"
+    },
+    {
+      "id": "prototype:185",
+      "type": "prototype",
+      "label": "cosmos_predict25_robot_video_lora",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cosmos_predict25_robot_video_lora.pptx"
+    },
+    {
+      "id": "prototype:186",
+      "type": "prototype",
+      "label": "paddleocr_transformers_ocr_doc_parsing",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/paddleocr_transformers_ocr_doc_parsing.pptx"
+    },
+    {
+      "id": "prototype:187",
+      "type": "prototype",
+      "label": "open_agent_leaderboard_eval",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/open_agent_leaderboard_eval.pptx"
+    },
+    {
+      "id": "prototype:188",
+      "type": "prototype",
+      "label": "dell_codex_on_prem_enterprise_deploy",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/dell_codex_on_prem_enterprise_deploy.pptx"
     }
   ],
   "edges": [
@@ -9088,6 +9234,36 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:6343",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:6343",
+      "to": "tag:claude-desktop",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6343",
+      "to": "tag:claude-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6343",
+      "to": "tag:api-setup",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6343",
+      "to": "tag:roleplay",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6343",
+      "to": "tag:app-distribution",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:1727",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -9230,6 +9406,36 @@
     {
       "from": "item:2718",
       "to": "tag:compute-infrastructure",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6025",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:6025",
+      "to": "tag:video-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6025",
+      "to": "tag:fine-tuning",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6025",
+      "to": "tag:lora-dora",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6025",
+      "to": "tag:robotics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6025",
+      "to": "tag:nvidia-cosmos",
       "rel": "HAS_TAG"
     },
     {
@@ -14783,76 +14989,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:127",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:127",
-      "to": "tag:diffusion-language-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:127",
-      "to": "tag:code-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:127",
-      "to": "tag:sampling",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:127",
-      "to": "tag:backtracking",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:127",
-      "to": "tag:inference-acceleration",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:131",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:131",
-      "to": "tag:multi-agent",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:131",
-      "to": "tag:clinical-diagnosis",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:131",
-      "to": "tag:knowledge-graph",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:131",
-      "to": "tag:medical-llm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:131",
-      "to": "tag:closed-loop-reasoning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:131",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:131",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -15733,6 +15869,66 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:177",
+      "to": "item:6343",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:178",
+      "to": "item:6347",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:179",
+      "to": "item:6337",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:180",
+      "to": "item:6335",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:181",
+      "to": "item:6326",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:182",
+      "to": "item:6327",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:183",
+      "to": "item:6320",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:184",
+      "to": "item:6024",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:185",
+      "to": "item:6025",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:186",
+      "to": "item:6026",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:187",
+      "to": "item:6027",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:188",
+      "to": "item:6028",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -16610,6 +16806,66 @@
     {
       "from": "prototype:176",
       "to": "skill:176",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:177",
+      "to": "skill:177",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:178",
+      "to": "skill:178",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:179",
+      "to": "skill:179",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:180",
+      "to": "skill:180",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:181",
+      "to": "skill:181",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:182",
+      "to": "skill:182",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:183",
+      "to": "skill:183",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:184",
+      "to": "skill:184",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:185",
+      "to": "skill:185",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:186",
+      "to": "skill:186",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:187",
+      "to": "skill:187",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:188",
+      "to": "skill:188",
       "rel": "DEMOS"
     }
   ]

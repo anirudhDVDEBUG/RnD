@@ -1,0 +1,4 @@
+# No external dependencies -- uses Python 3.7+ stdlib only
+# dataclasses (stdlib)
+# json (stdlib)
+# datetime (stdlib)

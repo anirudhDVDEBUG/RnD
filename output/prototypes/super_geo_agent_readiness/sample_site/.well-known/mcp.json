@@ -1,0 +1,30 @@
+{
+  "name": "demo-saas",
+  "version": "1.0.0",
+  "description": "Demo SaaS App MCP server for AI agent interaction",
+  "tools": [
+    {
+      "name": "create_project",
+      "description": "Create a new project",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "required": ["name"]
+      }
+    },
+    {
+      "name": "list_tasks",
+      "description": "List tasks in a project",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "project_id": { "type": "string" }
+        },
+        "required": ["project_id"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Agent Design Patterns framework — no external dependencies
+# Pure Python 3.8+ (uses dataclasses from stdlib)

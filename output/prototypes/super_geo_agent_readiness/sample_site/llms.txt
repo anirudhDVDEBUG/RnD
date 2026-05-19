@@ -1,0 +1,10 @@
+# Demo SaaS App
+> A project management tool with REST API and AI integrations.
+
+## Docs
+- [API Reference](/docs/api): Full REST API documentation
+- [Getting Started](/docs/start): Quick start guide
+- [Webhooks](/docs/webhooks): Event-driven integrations
+
+## Optional
+- [Examples](/examples): Code examples and SDKs

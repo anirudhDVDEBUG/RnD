@@ -1,0 +1,13 @@
+# Core dependencies for Cosmos Predict 2.5 LoRA fine-tuning
+# Note: actual training requires PyTorch 2.5+ with CUDA and 80GB+ GPU
+diffusers[torch]>=0.32.0
+transformers>=4.46.0
+accelerate>=1.2.0
+peft>=0.14.0
+wandb>=0.18.0
+torch>=2.5.0
+safetensors>=0.4.0
+
+# Evaluation
+opencv-python>=4.8.0
+numpy>=1.24.0

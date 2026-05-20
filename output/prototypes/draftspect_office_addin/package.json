@@ -1,0 +1,15 @@
+{
+  "name": "draftspect-office-addin-demo",
+  "version": "1.0.0",
+  "description": "Demo: Electron-based Office add-ins (Word & Excel) powered by Claude Code",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node server.js --demo"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}

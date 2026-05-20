@@ -1,0 +1,5 @@
+# Runtime (for actual usage — not needed for the mock demo)
+# llm>=0.32a0
+# llm-gemini==0.32a0
+
+# This demo uses only Python stdlib — no pip install required.

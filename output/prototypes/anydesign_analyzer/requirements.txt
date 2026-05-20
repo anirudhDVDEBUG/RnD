@@ -1,0 +1,4 @@
+# Core (no external deps needed for demo mode)
+# Optional — install for real image/website analysis:
+# Pillow>=10.0
+# playwright>=1.40

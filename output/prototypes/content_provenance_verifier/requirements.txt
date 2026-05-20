@@ -1,0 +1,5 @@
+# No external dependencies required for demo mode.
+# All imports are Python stdlib (json, hashlib, dataclasses, glob, os, sys).
+
+# Optional: install for real C2PA manifest reading from image files
+# c2pa-python>=0.6.0

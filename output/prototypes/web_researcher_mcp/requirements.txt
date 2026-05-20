@@ -1,0 +1,2 @@
+# web-researcher-mcp demo
+# No external dependencies -- uses only Python stdlib

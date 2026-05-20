@@ -1,0 +1,4 @@
+# AI Video Skill dependencies
+# Core — stdlib only for mock mode; add provider SDKs for real usage
+# requests>=2.28    # uncomment for real API calls
+# Pillow>=9.0       # uncomment for image-to-video preprocessing

@@ -1,0 +1,2 @@
+# No external dependencies — demo uses only stdlib (sqlite3, textwrap, os)
+# For real usage: pip install datasette datasette-llm

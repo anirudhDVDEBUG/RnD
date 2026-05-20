@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "claim_generator": "Adobe Photoshop 26.1",
+    "title": "hero_banner_final.psd",
+    "assertions": [
+      {
+        "label": "c2pa.actions",
+        "data": {
+          "actions": [
+            {
+              "action": "c2pa.edited",
+              "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/compositeSynthetic",
+              "when": "2026-05-01T09:45:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "label": "c2pa.hash.data",
+        "data": {
+          "name": "jumbf manifest",
+          "hash": "1234abcd5678ef90"
+        }
+      }
+    ],
+    "signature": {
+      "alg": "SHA-256",
+      "hash": "placeholder",
+      "issuer": "Adobe Inc.",
+      "time": "2026-05-01T09:45:00Z"
+    },
+    "ingredients": [
+      {"title": "background.jpg", "source_type": "digitalCapture"},
+      {"title": "ai_object.png", "source_type": "trainedAlgorithmicMedia"}
+    ]
+  }
+}

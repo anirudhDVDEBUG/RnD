@@ -285,6 +285,42 @@
       "label": "claude-code"
     },
     {
+      "id": "item:6349",
+      "type": "item",
+      "label": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
+      "url": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
+      "source": "rss",
+      "score": 0.752405632015061,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "source:rss",
+      "type": "source",
+      "label": "rss"
+    },
+    {
+      "id": "tag:gemini-api",
+      "type": "tag",
+      "label": "gemini-api"
+    },
+    {
+      "id": "tag:model-pricing",
+      "type": "tag",
+      "label": "model-pricing"
+    },
+    {
+      "id": "tag:google-io",
+      "type": "tag",
+      "label": "google-io"
+    },
+    {
+      "id": "tag:llm-benchmark",
+      "type": "tag",
+      "label": "llm-benchmark"
+    },
+    {
       "id": "item:1713",
       "type": "item",
       "label": "⭐ velocity: VoltAgent/awesome-agent-skills +97/day — A curated collection of 100",
@@ -320,11 +356,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "source:rss",
-      "type": "source",
-      "label": "rss"
     },
     {
       "id": "tag:html-rendering",
@@ -2784,6 +2815,27 @@
       "label": "python-tooling"
     },
     {
+      "id": "item:7182",
+      "type": "item",
+      "label": "0xadvait/ai-video-skill: The AI video skill for Claude Code that learns — end-to",
+      "url": "https://github.com/0xadvait/ai-video-skill",
+      "source": "github",
+      "score": 0.5378722027123084,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:text-to-video",
+      "type": "tag",
+      "label": "text-to-video"
+    },
+    {
+      "id": "tag:image-to-video",
+      "type": "tag",
+      "label": "image-to-video"
+    },
+    {
       "id": "item:3599",
       "type": "item",
       "label": "Using LLM in the shebang line of a script",
@@ -3027,6 +3079,32 @@
       "id": "tag:ad-creative",
       "type": "tag",
       "label": "ad-creative"
+    },
+    {
+      "id": "item:7195",
+      "type": "item",
+      "label": "zoharbabin/web-researcher-mcp: MCP server (Go) for AI assistants: web search, co",
+      "url": "https://github.com/zoharbabin/web-researcher-mcp",
+      "source": "github",
+      "score": 0.5240325389019637,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:web-scraping",
+      "type": "tag",
+      "label": "web-scraping"
+    },
+    {
+      "id": "tag:research-automation",
+      "type": "tag",
+      "label": "research-automation"
+    },
+    {
+      "id": "tag:content-extraction",
+      "type": "tag",
+      "label": "content-extraction"
     },
     {
       "id": "item:5115",
@@ -4805,11 +4883,6 @@
       "label": "hdl-code-completion"
     },
     {
-      "id": "tag:llm-benchmark",
-      "type": "tag",
-      "label": "llm-benchmark"
-    },
-    {
       "id": "tag:grammar-driven-evaluation",
       "type": "tag",
       "label": "grammar-driven-evaluation"
@@ -5818,89 +5891,6 @@
       "id": "tag:policy-evaluation",
       "type": "tag",
       "label": "policy-evaluation"
-    },
-    {
-      "id": "item:112",
-      "type": "item",
-      "label": "ViCrop-Det: Spatial Attention Entropy Guided Cropping for Training-Free Small-Ob",
-      "url": "https://arxiv.org/abs/2604.26806",
-      "source": "rss",
-      "score": 0.4982743476942242,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:object-detection",
-      "type": "tag",
-      "label": "object-detection"
-    },
-    {
-      "id": "tag:transformer",
-      "type": "tag",
-      "label": "transformer"
-    },
-    {
-      "id": "tag:spatial-attention",
-      "type": "tag",
-      "label": "spatial-attention"
-    },
-    {
-      "id": "item:117",
-      "type": "item",
-      "label": "Resume-ing Control: (Mis)Perceptions of Agency Around GenAI Use in Recruiting Wo",
-      "url": "https://arxiv.org/abs/2604.26851",
-      "source": "rss",
-      "score": 0.49827433913810837,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:genai",
-      "type": "tag",
-      "label": "genai"
-    },
-    {
-      "id": "tag:hiring",
-      "type": "tag",
-      "label": "hiring"
-    },
-    {
-      "id": "tag:human-agency",
-      "type": "tag",
-      "label": "human-agency"
-    },
-    {
-      "id": "item:123",
-      "type": "item",
-      "label": "ChinaTravel: An Open-Ended Travel Planning Benchmark with Compositional Constrai",
-      "url": "https://arxiv.org/abs/2412.13682",
-      "source": "rss",
-      "score": 0.49827432865955723,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:language-agents",
-      "type": "tag",
-      "label": "language-agents"
-    },
-    {
-      "id": "tag:travel-planning",
-      "type": "tag",
-      "label": "travel-planning"
-    },
-    {
-      "id": "tag:constraint-satisfaction",
-      "type": "tag",
-      "label": "constraint-satisfaction"
-    },
-    {
-      "id": "tag:neuro-symbolic",
-      "type": "tag",
-      "label": "neuro-symbolic"
     },
     {
       "id": "skill:1",
@@ -7029,6 +7019,78 @@
       "type": "skill",
       "label": "dell_codex_on_prem_enterprise_deploy",
       "path": "/home/rnd/trendforge/output/skills/dell_codex_on_prem_enterprise_deploy"
+    },
+    {
+      "id": "skill:189",
+      "type": "skill",
+      "label": "draftspect_office_addin",
+      "path": "/home/rnd/trendforge/output/skills/draftspect_office_addin"
+    },
+    {
+      "id": "skill:190",
+      "type": "skill",
+      "label": "web_researcher_mcp",
+      "path": "/home/rnd/trendforge/output/skills/web_researcher_mcp"
+    },
+    {
+      "id": "skill:191",
+      "type": "skill",
+      "label": "tokenless_context_compression",
+      "path": "/home/rnd/trendforge/output/skills/tokenless_context_compression"
+    },
+    {
+      "id": "skill:192",
+      "type": "skill",
+      "label": "anydesign_analyzer",
+      "path": "/home/rnd/trendforge/output/skills/anydesign_analyzer"
+    },
+    {
+      "id": "skill:193",
+      "type": "skill",
+      "label": "ai_video_skill",
+      "path": "/home/rnd/trendforge/output/skills/ai_video_skill"
+    },
+    {
+      "id": "skill:194",
+      "type": "skill",
+      "label": "llm_gemini_plugin",
+      "path": "/home/rnd/trendforge/output/skills/llm_gemini_plugin"
+    },
+    {
+      "id": "skill:195",
+      "type": "skill",
+      "label": "gemini_35_flash_guide",
+      "path": "/home/rnd/trendforge/output/skills/gemini_35_flash_guide"
+    },
+    {
+      "id": "skill:196",
+      "type": "skill",
+      "label": "datasette_llm_accountant",
+      "path": "/home/rnd/trendforge/output/skills/datasette_llm_accountant"
+    },
+    {
+      "id": "skill:197",
+      "type": "skill",
+      "label": "llm_gemini_plugin",
+      "path": "/home/rnd/trendforge/output/skills/llm_gemini_plugin"
+    },
+    {
+      "id": "skill:198",
+      "type": "skill",
+      "label": "datasette_llm_accountant",
+      "path": "/home/rnd/trendforge/output/skills/datasette_llm_accountant"
+    },
+    {
+      "id": "skill:199",
+      "type": "skill",
+      "label": "llm_landscape_briefing",
+      "path": "/home/rnd/trendforge/output/skills/llm_landscape_briefing"
+    },
+    {
+      "id": "skill:200",
+      "type": "skill",
+      "label": "content_provenance_verifier",
+      "path": "/home/rnd/trendforge/output/skills/content_provenance_verifier"
     },
     {
       "id": "prototype:1",
@@ -8345,6 +8407,90 @@
       "label": "dell_codex_on_prem_enterprise_deploy",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/dell_codex_on_prem_enterprise_deploy.pptx"
+    },
+    {
+      "id": "prototype:189",
+      "type": "prototype",
+      "label": "draftspect_office_addin",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/draftspect_office_addin.pptx"
+    },
+    {
+      "id": "prototype:190",
+      "type": "prototype",
+      "label": "web_researcher_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/web_researcher_mcp.pptx"
+    },
+    {
+      "id": "prototype:191",
+      "type": "prototype",
+      "label": "tokenless_context_compression",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/tokenless_context_compression.pptx"
+    },
+    {
+      "id": "prototype:192",
+      "type": "prototype",
+      "label": "anydesign_analyzer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/anydesign_analyzer.pptx"
+    },
+    {
+      "id": "prototype:193",
+      "type": "prototype",
+      "label": "ai_video_skill",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_video_skill.pptx"
+    },
+    {
+      "id": "prototype:194",
+      "type": "prototype",
+      "label": "llm_gemini_plugin",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/llm_gemini_plugin.pptx"
+    },
+    {
+      "id": "prototype:195",
+      "type": "prototype",
+      "label": "gemini_35_flash_guide",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/gemini_35_flash_guide.pptx"
+    },
+    {
+      "id": "prototype:196",
+      "type": "prototype",
+      "label": "datasette_llm_accountant",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_llm_accountant.pptx"
+    },
+    {
+      "id": "prototype:197",
+      "type": "prototype",
+      "label": "llm_gemini_plugin",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/llm_gemini_plugin.pptx"
+    },
+    {
+      "id": "prototype:198",
+      "type": "prototype",
+      "label": "datasette_llm_accountant",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_llm_accountant.pptx"
+    },
+    {
+      "id": "prototype:199",
+      "type": "prototype",
+      "label": "llm_landscape_briefing",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/llm_landscape_briefing.pptx"
+    },
+    {
+      "id": "prototype:200",
+      "type": "prototype",
+      "label": "content_provenance_verifier",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/content_provenance_verifier.pptx"
     }
   ],
   "edges": [
@@ -8602,6 +8748,31 @@
       "from": "item:1712",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:6349",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:6349",
+      "to": "tag:gemini-api",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6349",
+      "to": "tag:model-pricing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6349",
+      "to": "tag:google-io",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:6349",
+      "to": "tag:llm-benchmark",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:1713",
@@ -11354,6 +11525,36 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:7182",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7182",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7182",
+      "to": "tag:video-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7182",
+      "to": "tag:text-to-video",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7182",
+      "to": "tag:image-to-video",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7182",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:3599",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -11690,6 +11891,41 @@
     },
     {
       "from": "item:2680",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:7195",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7195",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7195",
+      "to": "tag:web-scraping",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7195",
+      "to": "tag:web-search",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7195",
+      "to": "tag:research-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7195",
+      "to": "tag:content-extraction",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7195",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -14894,101 +15130,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:112",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:112",
-      "to": "tag:object-detection",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:112",
-      "to": "tag:attention-mechanism",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:112",
-      "to": "tag:training-free",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:112",
-      "to": "tag:transformer",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:112",
-      "to": "tag:spatial-attention",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:117",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:117",
-      "to": "tag:genai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:117",
-      "to": "tag:hiring",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:117",
-      "to": "tag:human-agency",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:117",
-      "to": "tag:workflow-automation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:117",
-      "to": "tag:responsible-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:123",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:123",
-      "to": "tag:language-agents",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:123",
-      "to": "tag:travel-planning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:123",
-      "to": "tag:benchmark",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:123",
-      "to": "tag:constraint-satisfaction",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:123",
-      "to": "tag:neuro-symbolic",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:123",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -15929,6 +16070,66 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:189",
+      "to": "item:7211",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:190",
+      "to": "item:7195",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:191",
+      "to": "item:7180",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:192",
+      "to": "item:7181",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:193",
+      "to": "item:7182",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:194",
+      "to": "item:6348",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:195",
+      "to": "item:6349",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:196",
+      "to": "item:6350",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:197",
+      "to": "item:6351",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:198",
+      "to": "item:6352",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:199",
+      "to": "item:6353",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:200",
+      "to": "item:6355",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -16866,6 +17067,66 @@
     {
       "from": "prototype:188",
       "to": "skill:188",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:189",
+      "to": "skill:189",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:190",
+      "to": "skill:190",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:191",
+      "to": "skill:191",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:192",
+      "to": "skill:192",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:193",
+      "to": "skill:193",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:194",
+      "to": "skill:194",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:195",
+      "to": "skill:195",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:196",
+      "to": "skill:196",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:197",
+      "to": "skill:197",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:198",
+      "to": "skill:198",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:199",
+      "to": "skill:199",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:200",
+      "to": "skill:200",
       "rel": "DEMOS"
     }
   ]

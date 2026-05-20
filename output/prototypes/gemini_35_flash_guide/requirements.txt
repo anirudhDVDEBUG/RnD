@@ -1,0 +1,3 @@
+# No runtime dependencies — demo uses only the Python standard library.
+# To actually call the Gemini API you would install:
+# google-generativeai>=0.8.0

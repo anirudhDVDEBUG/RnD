@@ -1,0 +1,40 @@
+# Application Configuration
+# ========================
+# This configuration file contains all settings for the application.
+# Modify these values to customize the behavior of the server.
+
+# Server settings
+server:
+  # The port number the server listens on
+  port: 3000
+  # The hostname to bind to
+  host: localhost
+  # Request timeout in milliseconds
+  timeout: 30000
+
+# Database settings
+database:
+  # Connection string for the primary database
+  connection_string: mongodb://localhost:27017/myapp
+  # Maximum number of connections in the pool
+  pool_size: 10
+  # Connection timeout in milliseconds
+  connect_timeout: 5000
+
+# Logging settings
+logging:
+  # Log level (debug, info, warn, error)
+  level: info
+  # Log format (json, text)
+  format: json
+  # Log output destination
+  output: stdout
+
+# Authentication settings
+auth:
+  # JWT secret key (change in production!)
+  jwt_secret: change-me-in-production
+  # Token expiration time in seconds
+  token_expiry: 3600
+  # Enable refresh tokens
+  refresh_enabled: true

@@ -1,0 +1,34 @@
+{
+  "manifest": {
+    "claim_generator": "Canon EOS R5 / Firmware 1.8",
+    "title": "IMG_2847.jpg",
+    "assertions": [
+      {
+        "label": "c2pa.actions",
+        "data": {
+          "actions": [
+            {
+              "action": "c2pa.created",
+              "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture",
+              "when": "2026-04-22T14:15:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "label": "c2pa.hash.data",
+        "data": {
+          "name": "jumbf manifest",
+          "hash": "f9e8d7c6b5a43210"
+        }
+      }
+    ],
+    "signature": {
+      "alg": "SHA-256",
+      "hash": "placeholder",
+      "issuer": "Canon Inc.",
+      "time": "2026-04-22T14:15:00Z"
+    },
+    "ingredients": []
+  }
+}

@@ -1,0 +1,2 @@
+# Sprint Orchestrator — no external dependencies required
+# Uses only Python 3.10+ standard library

@@ -930,6 +930,37 @@
       "label": "cross-platform"
     },
     {
+      "id": "item:7215",
+      "type": "item",
+      "label": "Quoting SpaceX S-1",
+      "url": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+      "source": "rss",
+      "score": 0.6511247552857801,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:cloud-compute",
+      "type": "tag",
+      "label": "cloud-compute"
+    },
+    {
+      "id": "tag:anthropic-infrastructure",
+      "type": "tag",
+      "label": "anthropic-infrastructure"
+    },
+    {
+      "id": "tag:xai-colossus",
+      "type": "tag",
+      "label": "xai-colossus"
+    },
+    {
+      "id": "tag:data-center-deal",
+      "type": "tag",
+      "label": "data-center-deal"
+    },
+    {
       "id": "item:6343",
       "type": "item",
       "label": "AbhishekK130804/Claude-Mythos-AI-Anthropic-App: Claude pro free Mythos design Op",
@@ -2878,6 +2909,22 @@
       "label": "book-extraction"
     },
     {
+      "id": "item:7642",
+      "type": "item",
+      "label": "jnMetaCode/ai-shortfilm-prompts: Methodology + prompts + Claude Code Skill behin",
+      "url": "https://github.com/jnMetaCode/ai-shortfilm-prompts",
+      "source": "github",
+      "score": 0.5295264474435787,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:short-film",
+      "type": "tag",
+      "label": "short-film"
+    },
+    {
       "id": "item:1755",
       "type": "item",
       "label": "⭐ velocity: langchain-ai/langgraph +62/day — Build resilient language agents as ",
@@ -2944,6 +2991,32 @@
       "id": "tag:zeroclaw",
       "type": "tag",
       "label": "zeroclaw"
+    },
+    {
+      "id": "item:7216",
+      "type": "item",
+      "label": "How fast is 10 tokens per second really?",
+      "url": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
+      "source": "rss",
+      "score": 0.5279245499628884,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:llm-inference-speed",
+      "type": "tag",
+      "label": "llm-inference-speed"
+    },
+    {
+      "id": "tag:token-throughput",
+      "type": "tag",
+      "label": "token-throughput"
+    },
+    {
+      "id": "tag:interactive-demo",
+      "type": "tag",
+      "label": "interactive-demo"
     },
     {
       "id": "item:2717",
@@ -3605,6 +3678,37 @@
       "label": "rust"
     },
     {
+      "id": "item:7217",
+      "type": "item",
+      "label": "Google I/O, Gemini Spark, Antigravity",
+      "url": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+      "source": "rss",
+      "score": 0.5165685636187323,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:gemini-spark",
+      "type": "tag",
+      "label": "gemini-spark"
+    },
+    {
+      "id": "tag:ai-agent-platform",
+      "type": "tag",
+      "label": "ai-agent-platform"
+    },
+    {
+      "id": "tag:prompt-injection",
+      "type": "tag",
+      "label": "prompt-injection"
+    },
+    {
+      "id": "tag:antigravity",
+      "type": "tag",
+      "label": "antigravity"
+    },
+    {
       "id": "item:5528",
       "type": "item",
       "label": "jianshuo/claude-skills: 13 Claude Code skills for video production (transcribe /",
@@ -4038,11 +4142,6 @@
       "id": "tag:smart-grid-security",
       "type": "tag",
       "label": "smart-grid-security"
-    },
-    {
-      "id": "tag:prompt-injection",
-      "type": "tag",
-      "label": "prompt-injection"
     },
     {
       "id": "tag:safety-alignment",
@@ -5769,130 +5868,6 @@
       "label": "agent-architecture"
     },
     {
-      "id": "item:102",
-      "type": "item",
-      "label": "ATLAS: An Annotation Tool for Long-horizon Robotic Action Segmentation",
-      "url": "https://arxiv.org/abs/2604.26637",
-      "source": "rss",
-      "score": 0.49827436336879016,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:action-segmentation",
-      "type": "tag",
-      "label": "action-segmentation"
-    },
-    {
-      "id": "tag:annotation-tools",
-      "type": "tag",
-      "label": "annotation-tools"
-    },
-    {
-      "id": "tag:multimodal-data",
-      "type": "tag",
-      "label": "multimodal-data"
-    },
-    {
-      "id": "tag:time-series",
-      "type": "tag",
-      "label": "time-series"
-    },
-    {
-      "id": "item:103",
-      "type": "item",
-      "label": "When to Retrieve During Reasoning: Adaptive Retrieval for Large Reasoning Models",
-      "url": "https://arxiv.org/abs/2604.26649",
-      "source": "rss",
-      "score": 0.4982743617281189,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:reasoning-models",
-      "type": "tag",
-      "label": "reasoning-models"
-    },
-    {
-      "id": "tag:multi-hop-qa",
-      "type": "tag",
-      "label": "multi-hop-qa"
-    },
-    {
-      "id": "item:104",
-      "type": "item",
-      "label": "From Black-Box Confidence to Measurable Trust in Clinical AI: A Framework for Ev",
-      "url": "https://arxiv.org/abs/2604.26671",
-      "source": "rss",
-      "score": 0.4982743597346868,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:clinical-ai",
-      "type": "tag",
-      "label": "clinical-ai"
-    },
-    {
-      "id": "tag:trustworthy-ai",
-      "type": "tag",
-      "label": "trustworthy-ai"
-    },
-    {
-      "id": "tag:human-oversight",
-      "type": "tag",
-      "label": "human-oversight"
-    },
-    {
-      "id": "tag:medical-ai",
-      "type": "tag",
-      "label": "medical-ai"
-    },
-    {
-      "id": "tag:evaluation-metrics",
-      "type": "tag",
-      "label": "evaluation-metrics"
-    },
-    {
-      "id": "item:106",
-      "type": "item",
-      "label": "Atomic-Probe Governance for Skill Updates in Compositional Robot Policies",
-      "url": "https://arxiv.org/abs/2604.26689",
-      "source": "rss",
-      "score": 0.4982743565997735,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:robot-policies",
-      "type": "tag",
-      "label": "robot-policies"
-    },
-    {
-      "id": "tag:skill-libraries",
-      "type": "tag",
-      "label": "skill-libraries"
-    },
-    {
-      "id": "tag:compositional-learning",
-      "type": "tag",
-      "label": "compositional-learning"
-    },
-    {
-      "id": "tag:manipulation",
-      "type": "tag",
-      "label": "manipulation"
-    },
-    {
-      "id": "tag:policy-evaluation",
-      "type": "tag",
-      "label": "policy-evaluation"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -7091,6 +7066,66 @@
       "type": "skill",
       "label": "content_provenance_verifier",
       "path": "/home/rnd/trendforge/output/skills/content_provenance_verifier"
+    },
+    {
+      "id": "skill:201",
+      "type": "skill",
+      "label": "skill_router",
+      "path": "/home/rnd/trendforge/output/skills/skill_router"
+    },
+    {
+      "id": "skill:202",
+      "type": "skill",
+      "label": "ai_shortfilm_prompts",
+      "path": "/home/rnd/trendforge/output/skills/ai_shortfilm_prompts"
+    },
+    {
+      "id": "skill:203",
+      "type": "skill",
+      "label": "zephyr_local_ai_sidekick",
+      "path": "/home/rnd/trendforge/output/skills/zephyr_local_ai_sidekick"
+    },
+    {
+      "id": "skill:204",
+      "type": "skill",
+      "label": "youtube_research_mcp",
+      "path": "/home/rnd/trendforge/output/skills/youtube_research_mcp"
+    },
+    {
+      "id": "skill:205",
+      "type": "skill",
+      "label": "update_skills",
+      "path": "/home/rnd/trendforge/output/skills/update_skills"
+    },
+    {
+      "id": "skill:206",
+      "type": "skill",
+      "label": "sprint_orchestrator",
+      "path": "/home/rnd/trendforge/output/skills/sprint_orchestrator"
+    },
+    {
+      "id": "skill:207",
+      "type": "skill",
+      "label": "high_quality_slides",
+      "path": "/home/rnd/trendforge/output/skills/high_quality_slides"
+    },
+    {
+      "id": "skill:208",
+      "type": "skill",
+      "label": "anthropic_xai_colossus_deal",
+      "path": "/home/rnd/trendforge/output/skills/anthropic_xai_colossus_deal"
+    },
+    {
+      "id": "skill:209",
+      "type": "skill",
+      "label": "token_speed_visualizer",
+      "path": "/home/rnd/trendforge/output/skills/token_speed_visualizer"
+    },
+    {
+      "id": "skill:210",
+      "type": "skill",
+      "label": "google_io_gemini_spark_tracker",
+      "path": "/home/rnd/trendforge/output/skills/google_io_gemini_spark_tracker"
     },
     {
       "id": "prototype:1",
@@ -8491,6 +8526,76 @@
       "label": "content_provenance_verifier",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/content_provenance_verifier.pptx"
+    },
+    {
+      "id": "prototype:201",
+      "type": "prototype",
+      "label": "skill_router",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/skill_router.pptx"
+    },
+    {
+      "id": "prototype:202",
+      "type": "prototype",
+      "label": "ai_shortfilm_prompts",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_shortfilm_prompts.pptx"
+    },
+    {
+      "id": "prototype:203",
+      "type": "prototype",
+      "label": "zephyr_local_ai_sidekick",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/zephyr_local_ai_sidekick.pptx"
+    },
+    {
+      "id": "prototype:204",
+      "type": "prototype",
+      "label": "youtube_research_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/youtube_research_mcp.pptx"
+    },
+    {
+      "id": "prototype:205",
+      "type": "prototype",
+      "label": "update_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/update_skills.pptx"
+    },
+    {
+      "id": "prototype:206",
+      "type": "prototype",
+      "label": "sprint_orchestrator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/sprint_orchestrator.pptx"
+    },
+    {
+      "id": "prototype:207",
+      "type": "prototype",
+      "label": "high_quality_slides",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/high_quality_slides.pptx"
+    },
+    {
+      "id": "prototype:208",
+      "type": "prototype",
+      "label": "anthropic_xai_colossus_deal",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/anthropic_xai_colossus_deal.pptx"
+    },
+    {
+      "id": "prototype:209",
+      "type": "prototype",
+      "label": "token_speed_visualizer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/token_speed_visualizer.pptx"
+    },
+    {
+      "id": "prototype:210",
+      "type": "prototype",
+      "label": "google_io_gemini_spark_tracker",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/google_io_gemini_spark_tracker.pptx"
     }
   ],
   "edges": [
@@ -9403,6 +9508,31 @@
       "from": "item:5954",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:7215",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7215",
+      "to": "tag:cloud-compute",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7215",
+      "to": "tag:anthropic-infrastructure",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7215",
+      "to": "tag:xai-colossus",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7215",
+      "to": "tag:data-center-deal",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:6343",
@@ -11630,6 +11760,41 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:7642",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7642",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7642",
+      "to": "tag:ai-video",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7642",
+      "to": "tag:prompt-engineering",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7642",
+      "to": "tag:short-film",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7642",
+      "to": "tag:video-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7642",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1755",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -11733,6 +11898,26 @@
       "from": "item:5962",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:7216",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7216",
+      "to": "tag:llm-inference-speed",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7216",
+      "to": "tag:token-throughput",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7216",
+      "to": "tag:interactive-demo",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:2717",
@@ -12657,6 +12842,41 @@
     {
       "from": "item:675",
       "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:7217",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7217",
+      "to": "tag:google-io",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7217",
+      "to": "tag:gemini-spark",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7217",
+      "to": "tag:ai-agent-platform",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7217",
+      "to": "tag:prompt-injection",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7217",
+      "to": "tag:antigravity",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7217",
+      "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
     {
@@ -14995,141 +15215,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:102",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:102",
-      "to": "tag:robotics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:102",
-      "to": "tag:action-segmentation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:102",
-      "to": "tag:annotation-tools",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:102",
-      "to": "tag:multimodal-data",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:102",
-      "to": "tag:time-series",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:103",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:103",
-      "to": "tag:rag",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:103",
-      "to": "tag:reasoning-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:103",
-      "to": "tag:adaptive-retrieval",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:103",
-      "to": "tag:chain-of-thought",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:103",
-      "to": "tag:multi-hop-qa",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:103",
-      "to": "project:pitchbot",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:104",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:104",
-      "to": "tag:clinical-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:104",
-      "to": "tag:trustworthy-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:104",
-      "to": "tag:human-oversight",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:104",
-      "to": "tag:medical-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:104",
-      "to": "tag:evaluation-metrics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:104",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:106",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:106",
-      "to": "tag:robot-policies",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:106",
-      "to": "tag:skill-libraries",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:106",
-      "to": "tag:compositional-learning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:106",
-      "to": "tag:manipulation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:106",
-      "to": "tag:policy-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:106",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -16130,6 +16215,56 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:201",
+      "to": "item:7640",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:202",
+      "to": "item:7642",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:203",
+      "to": "item:7634",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:204",
+      "to": "item:7623",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:205",
+      "to": "item:7613",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:206",
+      "to": "item:7614",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:207",
+      "to": "item:7616",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:208",
+      "to": "item:7215",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:209",
+      "to": "item:7216",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:210",
+      "to": "item:7217",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -17127,6 +17262,56 @@
     {
       "from": "prototype:200",
       "to": "skill:200",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:201",
+      "to": "skill:201",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:202",
+      "to": "skill:202",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:203",
+      "to": "skill:203",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:204",
+      "to": "skill:204",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:205",
+      "to": "skill:205",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:206",
+      "to": "skill:206",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:207",
+      "to": "skill:207",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:208",
+      "to": "skill:208",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:209",
+      "to": "skill:209",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:210",
+      "to": "skill:210",
       "rel": "DEMOS"
     }
   ]

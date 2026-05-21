@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Token Speed Visualizer</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --surface: #f5f5f5;
+      --border: #e0e0e0;
+      --accent: #2563eb;
+      --accent-light: #dbeafe;
+      --highlight: #fef08a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --fg: #e2e8f0;
+        --surface: #1e293b;
+        --border: #334155;
+        --accent: #3b82f6;
+        --accent-light: #1e3a5f;
+        --highlight: #854d0e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      padding: 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #64748b; margin-bottom: 1.5rem; font-size: 0.9rem; }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .presets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    .presets button {
+      padding: 0.3rem 0.7rem;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--fg);
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .presets button:hover, .presets button.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .slider-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex: 1;
+      min-width: 200px;
+    }
+    .slider-group input[type="range"] { flex: 1; }
+    .speed-val {
+      font-weight: 700;
+      min-width: 4rem;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    .actions { display: flex; gap: 0.5rem; }
+    .actions button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    #startBtn { background: var(--accent); color: #fff; }
+    #stopBtn { background: #ef4444; color: #fff; }
+    #resetBtn { background: var(--surface); color: var(--fg); border: 1px solid var(--border); }
+    .stats {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+      font-variant-numeric: tabular-nums;
+    }
+    .stats span { color: #64748b; }
+    .stats strong { color: var(--fg); }
+    .output-area {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      min-height: 300px;
+      max-height: 500px;
+      overflow-y: auto;
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    .token-highlight {
+      background: var(--highlight);
+      border-radius: 2px;
+      transition: background 0.3s ease;
+    }
+    .cursor {
+      display: inline-block;
+      width: 2px;
+      height: 1.1em;
+      background: var(--accent);
+      animation: blink 1s step-end infinite;
+      vertical-align: text-bottom;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .output-area { min-height: 200px; max-height: 350px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Token Speed Visualizer</h1>
+  <p class="subtitle">See what different LLM inference speeds actually look like. Inspired by <a href="https://simonwillison.net/2026/May/20/tokens-per-second/" style="color:var(--accent)">Simon Willison</a> / <a href="https://mikeveerman.github.io/tokenspeed/" style="color:var(--accent)">Mike Veerman</a>.</p>
+
+  <div class="presets">
+    <button data-speed="5">5 t/s</button>
+    <button data-speed="10">10 t/s</button>
+    <button data-speed="30">30 t/s</button>
+    <button data-speed="50">50 t/s</button>
+    <button data-speed="100">100 t/s</button>
+    <button data-speed="200">200 t/s</button>
+    <button data-speed="400">400 t/s</button>
+    <button data-speed="800">800 t/s</button>
+  </div>
+
+  <div class="controls">
+    <div class="slider-group">
+      <input type="range" id="speedSlider" min="5" max="800" value="30" step="1">
+      <span class="speed-val" id="speedDisplay">30 t/s</span>
+    </div>
+    <div class="actions">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn">Stop</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div><span>Tokens:</span> <strong id="tokenCount">0</strong></div>
+    <div><span>Elapsed:</span> <strong id="elapsed">0.0s</strong></div>
+    <div><span>Actual rate:</span> <strong id="actualRate">0 t/s</strong></div>
+  </div>
+
+  <div class="output-area" id="output"><span class="cursor" id="cursor"></span></div>
+
+  <script>
+    const sampleText = `The development of large language models has fundamentally transformed how we interact with artificial intelligence. These models, trained on vast corpora of text data, can generate coherent paragraphs, answer complex questions, write code, and even engage in creative writing tasks that were previously thought to be exclusively human domains.
+
+When we talk about inference speed, we are referring to how quickly a model can generate output tokens after receiving a prompt. This speed is typically measured in tokens per second, where a token is roughly three-quarters of a word in English text. The perceived quality of interaction depends heavily on this speed.
+
+At very low speeds, around five to ten tokens per second, the output feels painfully slow. Each word appears with a noticeable delay, making it difficult to maintain focus on the content being generated. Reading comprehension suffers because by the time the next sentence appears, you may have lost the thread of the previous one.
+
+Around thirty tokens per second, the experience becomes comfortable for most users. Text appears at roughly reading speed, which creates a natural flow where you can read along as the model generates. This is the sweet spot where most current consumer-facing models operate.
+
+At fifty to one hundred tokens per second, the generation starts to feel fast. Text streams in quickly enough that you might struggle to keep up with reading it in real time. This speed is excellent for batch processing tasks where you do not need to read every word as it appears.
+
+Beyond two hundred tokens per second, we enter territory where the output appears almost instantaneously for short responses. At four hundred or eight hundred tokens per second, even long paragraphs materialize in fractions of a second. This level of speed enables entirely new interaction paradigms, where the bottleneck shifts from generation to comprehension.
+
+The hardware requirements for achieving these speeds vary dramatically. Running a small model locally on a modern GPU might achieve thirty to fifty tokens per second. Cloud-based inference with optimized infrastructure can push into the hundreds. Specialized hardware like Groq's LPU claims to deliver over five hundred tokens per second for certain model sizes.
+
+Understanding these speeds matters for product design. A chatbot that responds at ten tokens per second will frustrate users accustomed to instant messaging. An agent that needs to make multiple model calls in sequence requires high throughput to remain responsive. Code generation tools benefit from fast inference because developers expect rapid feedback loops.
+
+The relationship between model size and speed is generally inverse. Larger models with more parameters require more computation per token, resulting in slower generation. This creates a fundamental tradeoff between capability and responsiveness that model providers must navigate carefully.
+
+Quantization techniques can improve speed by reducing the precision of model weights, trading a small amount of quality for significant throughput gains. Speculative decoding uses a smaller draft model to propose tokens that the larger model can verify in batches, effectively parallelizing what was previously a sequential process.
+
+As inference costs continue to decrease and speeds continue to increase, we will see new applications that were previously impractical become viable. Real-time translation, live transcription enhancement, and interactive tutoring systems all benefit from faster token generation. The future of AI interaction is not just about smarter models but faster ones too.`;
+
+    const tokens = sampleText.split(/(\s+)/);
+    let tokenIndex = 0;
+    let tokenCount = 0;
+    let startTime = null;
+    let running = false;
+    let animationId = null;
+    let lastEmitTime = 0;
+    let tokensToEmit = 0;
+
+    const output = document.getElementById('output');
+    const cursor = document.getElementById('cursor');
+    const speedSlider = document.getElementById('speedSlider');
+    const speedDisplay = document.getElementById('speedDisplay');
+    const tokenCountEl = document.getElementById('tokenCount');
+    const elapsedEl = document.getElementById('elapsed');
+    const actualRateEl = document.getElementById('actualRate');
+    const startBtn = document.getElementById('startBtn');
+    const stopBtn = document.getElementById('stopBtn');
+    const resetBtn = document.getElementById('resetBtn');
+
+    function getSpeed() { return parseInt(speedSlider.value); }
+
+    speedSlider.addEventListener('input', () => {
+      speedDisplay.textContent = speedSlider.value + ' t/s';
+      updatePresetHighlight();
+    });
+
+    document.querySelectorAll('.presets button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        speedSlider.value = btn.dataset.speed;
+        speedDisplay.textContent = btn.dataset.speed + ' t/s';
+        updatePresetHighlight();
+      });
+    });
+
+    function updatePresetHighlight() {
+      const val = speedSlider.value;
+      document.querySelectorAll('.presets button').forEach(b => {
+        b.classList.toggle('active', b.dataset.speed === val);
+      });
+    }
+
+    startBtn.addEventListener('click', start);
+    stopBtn.addEventListener('click', stop);
+    resetBtn.addEventListener('click', reset);
+
+    function start() {
+      if (running) return;
+      if (tokenIndex >= tokens.length) reset();
+      running = true;
+      startTime = startTime || performance.now();
+      lastEmitTime = performance.now();
+      tokensToEmit = 0;
+      tick();
+    }
+
+    function stop() {
+      running = false;
+      if (animationId) { cancelAnimationFrame(animationId); animationId = null; }
+    }
+
+    function reset() {
+      stop();
+      tokenIndex = 0;
+      tokenCount = 0;
+      startTime = null;
+      output.innerHTML = '<span class="cursor" id="cursor"></span>';
+      tokenCountEl.textContent = '0';
+      elapsedEl.textContent = '0.0s';
+      actualRateEl.textContent = '0 t/s';
+    }
+
+    function tick() {
+      if (!running) return;
+      const now = performance.now();
+      const speed = getSpeed();
+      const elapsed = (now - lastEmitTime) / 1000;
+      tokensToEmit += elapsed * speed;
+      lastEmitTime = now;
+
+      const toEmit = Math.floor(tokensToEmit);
+      if (toEmit > 0) {
+        tokensToEmit -= toEmit;
+        emitTokens(toEmit);
+      }
+
+      updateStats(now);
+      if (tokenIndex < tokens.length) {
+        animationId = requestAnimationFrame(tick);
+      } else {
+        running = false;
+      }
+    }
+
+    function emitTokens(count) {
+      const cursorEl = output.querySelector('.cursor');
+      // Remove previous highlight
+      const prev = output.querySelector('.token-highlight');
+      if (prev) prev.classList.remove('token-highlight');
+
+      let lastSpan = null;
+      for (let i = 0; i < count && tokenIndex < tokens.length; i++) {
+        const token = tokens[tokenIndex++];
+        // Only count non-whitespace tokens
+        if (token.trim()) {
+          tokenCount++;
+          const span = document.createElement('span');
+          span.textContent = token;
+          span.className = 'token-highlight';
+          if (lastSpan) lastSpan.classList.remove('token-highlight');
+          output.insertBefore(span, cursorEl);
+          lastSpan = span;
+        } else {
+          output.insertBefore(document.createTextNode(token), cursorEl);
+        }
+      }
+      output.scrollTop = output.scrollHeight;
+    }
+
+    function updateStats(now) {
+      const totalElapsed = (now - startTime) / 1000;
+      tokenCountEl.textContent = tokenCount;
+      elapsedEl.textContent = totalElapsed.toFixed(1) + 's';
+      actualRateEl.textContent = totalElapsed > 0 ? Math.round(tokenCount / totalElapsed) + ' t/s' : '0 t/s';
+    }
+
+    updatePresetHighlight();
+  </script>
+</body>
+</html>

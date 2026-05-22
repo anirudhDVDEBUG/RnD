@@ -373,6 +373,42 @@
       "label": "interactive-visualization"
     },
     {
+      "id": "item:7680",
+      "type": "item",
+      "label": "Why You Need Claude for Small Business",
+      "url": "https://www.youtube.com/watch?v=GXq7mi1UQQ4",
+      "source": "youtube",
+      "score": 0.7409005183489112,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "source:youtube",
+      "type": "source",
+      "label": "youtube"
+    },
+    {
+      "id": "tag:small-business-ai",
+      "type": "tag",
+      "label": "small-business-ai"
+    },
+    {
+      "id": "tag:claude-plugins",
+      "type": "tag",
+      "label": "claude-plugins"
+    },
+    {
+      "id": "tag:business-automation",
+      "type": "tag",
+      "label": "business-automation"
+    },
+    {
+      "id": "tag:mcp-connectors",
+      "type": "tag",
+      "label": "mcp-connectors"
+    },
+    {
       "id": "item:1857",
       "type": "item",
       "label": "⭐ velocity: pipecat-ai/pipecat +101/day — Open Source framework for voice and mu",
@@ -418,11 +454,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "source:youtube",
-      "type": "source",
-      "label": "youtube"
     },
     {
       "id": "tag:claude-tutorial",
@@ -1021,6 +1052,37 @@
       "id": "tag:data-visualization",
       "type": "tag",
       "label": "data-visualization"
+    },
+    {
+      "id": "item:7674",
+      "type": "item",
+      "label": "jiangmuran/claude-in-box: Portable Claude Code dev environment in a Docker conta",
+      "url": "https://github.com/jiangmuran/claude-in-box",
+      "source": "github",
+      "score": 0.6352701370632831,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:docker-dev-environment",
+      "type": "tag",
+      "label": "docker-dev-environment"
+    },
+    {
+      "id": "tag:remote-development",
+      "type": "tag",
+      "label": "remote-development"
+    },
+    {
+      "id": "tag:raspberry-pi",
+      "type": "tag",
+      "label": "raspberry-pi"
+    },
+    {
+      "id": "tag:containerization",
+      "type": "tag",
+      "label": "containerization"
     },
     {
       "id": "item:3598",
@@ -2865,6 +2927,42 @@
       "id": "tag:image-to-video",
       "type": "tag",
       "label": "image-to-video"
+    },
+    {
+      "id": "item:7644",
+      "type": "item",
+      "label": "Datasette Agent",
+      "url": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+      "source": "rss",
+      "score": 0.5374664140600813,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:datasette-agent",
+      "type": "tag",
+      "label": "datasette-agent"
+    },
+    {
+      "id": "tag:conversational-data",
+      "type": "tag",
+      "label": "conversational-data"
+    },
+    {
+      "id": "tag:sql-assistant",
+      "type": "tag",
+      "label": "sql-assistant"
+    },
+    {
+      "id": "tag:data-exploration",
+      "type": "tag",
+      "label": "data-exploration"
+    },
+    {
+      "id": "tag:llm-tool-use",
+      "type": "tag",
+      "label": "llm-tool-use"
     },
     {
       "id": "item:3599",
@@ -5692,6 +5790,32 @@
       "label": "openai-codex"
     },
     {
+      "id": "item:7648",
+      "type": "item",
+      "label": "AdventHealth advances whole-person care with OpenAI",
+      "url": "https://openai.com/index/adventhealth",
+      "source": "rss",
+      "score": 0.501377076451271,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:chatgpt-enterprise",
+      "type": "tag",
+      "label": "chatgpt-enterprise"
+    },
+    {
+      "id": "tag:clinical-workflows",
+      "type": "tag",
+      "label": "clinical-workflows"
+    },
+    {
+      "id": "tag:patient-care",
+      "type": "tag",
+      "label": "patient-care"
+    },
+    {
       "id": "item:90",
       "type": "item",
       "label": "Text-Utilization for Encoder-dominated Speech Recognition Models",
@@ -5752,120 +5876,6 @@
       "id": "tag:transformers",
       "type": "tag",
       "label": "transformers"
-    },
-    {
-      "id": "item:94",
-      "type": "item",
-      "label": "DUAL-BLADE: Dual-Path NVMe-Direct KV-Cache Offloading for Edge LLM Inference",
-      "url": "https://arxiv.org/abs/2604.26557",
-      "source": "rss",
-      "score": 0.4982743796878677,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:edge-llm",
-      "type": "tag",
-      "label": "edge-llm"
-    },
-    {
-      "id": "tag:kv-cache",
-      "type": "tag",
-      "label": "kv-cache"
-    },
-    {
-      "id": "tag:nvme-offloading",
-      "type": "tag",
-      "label": "nvme-offloading"
-    },
-    {
-      "id": "item:95",
-      "type": "item",
-      "label": "Preserving Disagreement: Architectural Heterogeneity and Coherence Validation in",
-      "url": "https://arxiv.org/abs/2604.26561",
-      "source": "rss",
-      "score": 0.49827437611033876,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multi-agent-deliberation",
-      "type": "tag",
-      "label": "multi-agent-deliberation"
-    },
-    {
-      "id": "tag:policy-simulation",
-      "type": "tag",
-      "label": "policy-simulation"
-    },
-    {
-      "id": "tag:model-heterogeneity",
-      "type": "tag",
-      "label": "model-heterogeneity"
-    },
-    {
-      "id": "tag:consensus-bias",
-      "type": "tag",
-      "label": "consensus-bias"
-    },
-    {
-      "id": "item:96",
-      "type": "item",
-      "label": "Graph Construction and Matching for Imperative Programs using Neural and Structu",
-      "url": "https://arxiv.org/abs/2604.26578",
-      "source": "rss",
-      "score": 0.49827437288557097,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:program-graphs",
-      "type": "tag",
-      "label": "program-graphs"
-    },
-    {
-      "id": "tag:code-embeddings",
-      "type": "tag",
-      "label": "code-embeddings"
-    },
-    {
-      "id": "tag:graph-matching",
-      "type": "tag",
-      "label": "graph-matching"
-    },
-    {
-      "id": "item:98",
-      "type": "item",
-      "label": "MappingEvolve: LLM-Driven Code Evolution for Technology Mapping",
-      "url": "https://arxiv.org/abs/2604.26591",
-      "source": "rss",
-      "score": 0.4982743697917019,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:technology-mapping",
-      "type": "tag",
-      "label": "technology-mapping"
-    },
-    {
-      "id": "tag:logic-synthesis",
-      "type": "tag",
-      "label": "logic-synthesis"
-    },
-    {
-      "id": "tag:llm-code-evolution",
-      "type": "tag",
-      "label": "llm-code-evolution"
-    },
-    {
-      "id": "tag:agent-architecture",
-      "type": "tag",
-      "label": "agent-architecture"
     },
     {
       "id": "skill:1",
@@ -7126,6 +7136,66 @@
       "type": "skill",
       "label": "google_io_gemini_spark_tracker",
       "path": "/home/rnd/trendforge/output/skills/google_io_gemini_spark_tracker"
+    },
+    {
+      "id": "skill:211",
+      "type": "skill",
+      "label": "small_business_ops",
+      "path": "/home/rnd/trendforge/output/skills/small_business_ops"
+    },
+    {
+      "id": "skill:212",
+      "type": "skill",
+      "label": "appshot_store_preview_generator",
+      "path": "/home/rnd/trendforge/output/skills/appshot_store_preview_generator"
+    },
+    {
+      "id": "skill:213",
+      "type": "skill",
+      "label": "claude_in_box_docker_dev",
+      "path": "/home/rnd/trendforge/output/skills/claude_in_box_docker_dev"
+    },
+    {
+      "id": "skill:214",
+      "type": "skill",
+      "label": "compose_kotlin_mvi_agent_skill",
+      "path": "/home/rnd/trendforge/output/skills/compose_kotlin_mvi_agent_skill"
+    },
+    {
+      "id": "skill:215",
+      "type": "skill",
+      "label": "maestro_agent_orchestrator",
+      "path": "/home/rnd/trendforge/output/skills/maestro_agent_orchestrator"
+    },
+    {
+      "id": "skill:216",
+      "type": "skill",
+      "label": "trustgraph_resource_rater",
+      "path": "/home/rnd/trendforge/output/skills/trustgraph_resource_rater"
+    },
+    {
+      "id": "skill:217",
+      "type": "skill",
+      "label": "datasette_agent_data_explorer",
+      "path": "/home/rnd/trendforge/output/skills/datasette_agent_data_explorer"
+    },
+    {
+      "id": "skill:218",
+      "type": "skill",
+      "label": "datasette_agent_sprites_sandbox",
+      "path": "/home/rnd/trendforge/output/skills/datasette_agent_sprites_sandbox"
+    },
+    {
+      "id": "skill:219",
+      "type": "skill",
+      "label": "datasette_agent_data_explorer",
+      "path": "/home/rnd/trendforge/output/skills/datasette_agent_data_explorer"
+    },
+    {
+      "id": "skill:220",
+      "type": "skill",
+      "label": "healthcare_clinical_workflow_optimizer",
+      "path": "/home/rnd/trendforge/output/skills/healthcare_clinical_workflow_optimizer"
     },
     {
       "id": "prototype:1",
@@ -8596,6 +8666,76 @@
       "label": "google_io_gemini_spark_tracker",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/google_io_gemini_spark_tracker.pptx"
+    },
+    {
+      "id": "prototype:211",
+      "type": "prototype",
+      "label": "small_business_ops",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/small_business_ops.pptx"
+    },
+    {
+      "id": "prototype:212",
+      "type": "prototype",
+      "label": "appshot_store_preview_generator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/appshot_store_preview_generator.pptx"
+    },
+    {
+      "id": "prototype:213",
+      "type": "prototype",
+      "label": "claude_in_box_docker_dev",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_in_box_docker_dev.pptx"
+    },
+    {
+      "id": "prototype:214",
+      "type": "prototype",
+      "label": "compose_kotlin_mvi_agent_skill",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/compose_kotlin_mvi_agent_skill.pptx"
+    },
+    {
+      "id": "prototype:215",
+      "type": "prototype",
+      "label": "maestro_agent_orchestrator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/maestro_agent_orchestrator.pptx"
+    },
+    {
+      "id": "prototype:216",
+      "type": "prototype",
+      "label": "trustgraph_resource_rater",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/trustgraph_resource_rater.pptx"
+    },
+    {
+      "id": "prototype:217",
+      "type": "prototype",
+      "label": "datasette_agent_data_explorer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_agent_data_explorer.pptx"
+    },
+    {
+      "id": "prototype:218",
+      "type": "prototype",
+      "label": "datasette_agent_sprites_sandbox",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_agent_sprites_sandbox.pptx"
+    },
+    {
+      "id": "prototype:219",
+      "type": "prototype",
+      "label": "datasette_agent_data_explorer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_agent_data_explorer.pptx"
+    },
+    {
+      "id": "prototype:220",
+      "type": "prototype",
+      "label": "healthcare_clinical_workflow_optimizer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/healthcare_clinical_workflow_optimizer.pptx"
     }
   ],
   "edges": [
@@ -8938,6 +9078,41 @@
       "from": "item:3011",
       "to": "tag:interactive-visualization",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7680",
+      "to": "source:youtube",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7680",
+      "to": "tag:small-business-ai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7680",
+      "to": "tag:claude-plugins",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7680",
+      "to": "tag:business-automation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7680",
+      "to": "tag:mcp-connectors",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7680",
+      "to": "tag:claude-skills",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7680",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:1857",
@@ -9593,6 +9768,41 @@
       "from": "item:1727",
       "to": "tag:data-visualization",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7674",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7674",
+      "to": "tag:docker-dev-environment",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7674",
+      "to": "tag:claude-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7674",
+      "to": "tag:remote-development",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7674",
+      "to": "tag:raspberry-pi",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7674",
+      "to": "tag:containerization",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7674",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:3598",
@@ -11681,6 +11891,41 @@
     },
     {
       "from": "item:7182",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:7644",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7644",
+      "to": "tag:datasette-agent",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7644",
+      "to": "tag:conversational-data",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7644",
+      "to": "tag:sql-assistant",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7644",
+      "to": "tag:data-exploration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7644",
+      "to": "tag:llm-tool-use",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7644",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -15045,6 +15290,31 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:7648",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7648",
+      "to": "tag:healthcare-ai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7648",
+      "to": "tag:chatgpt-enterprise",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7648",
+      "to": "tag:clinical-workflows",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7648",
+      "to": "tag:patient-care",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:90",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -15098,121 +15368,6 @@
       "from": "item:91",
       "to": "tag:transformers",
       "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:94",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:94",
-      "to": "tag:edge-llm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:94",
-      "to": "tag:kv-cache",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:94",
-      "to": "tag:nvme-offloading",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:94",
-      "to": "tag:inference-optimization",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:94",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:95",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:95",
-      "to": "tag:multi-agent-deliberation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:95",
-      "to": "tag:policy-simulation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:95",
-      "to": "tag:model-heterogeneity",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:95",
-      "to": "tag:consensus-bias",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:95",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:96",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:96",
-      "to": "tag:program-graphs",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:96",
-      "to": "tag:verification",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:96",
-      "to": "tag:code-embeddings",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:96",
-      "to": "tag:graph-matching",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:98",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:98",
-      "to": "tag:technology-mapping",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:98",
-      "to": "tag:logic-synthesis",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:98",
-      "to": "tag:llm-code-evolution",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:98",
-      "to": "tag:agent-architecture",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:98",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
     },
     {
       "from": "skill:1",
@@ -16265,6 +16420,56 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:211",
+      "to": "item:7680",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:212",
+      "to": "item:7673",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:213",
+      "to": "item:7674",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:214",
+      "to": "item:7675",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:215",
+      "to": "item:7668",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:216",
+      "to": "item:7650",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:217",
+      "to": "item:7644",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:218",
+      "to": "item:7645",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:219",
+      "to": "item:7647",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:220",
+      "to": "item:7648",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -17312,6 +17517,56 @@
     {
       "from": "prototype:210",
       "to": "skill:210",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:211",
+      "to": "skill:211",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:212",
+      "to": "skill:212",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:213",
+      "to": "skill:213",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:214",
+      "to": "skill:214",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:215",
+      "to": "skill:215",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:216",
+      "to": "skill:216",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:217",
+      "to": "skill:217",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:218",
+      "to": "skill:218",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:219",
+      "to": "skill:219",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:220",
+      "to": "skill:220",
       "rel": "DEMOS"
     }
   ]

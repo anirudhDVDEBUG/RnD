@@ -1,0 +1,13 @@
+{
+  "name": "appshot-store-preview-demo",
+  "version": "1.0.0",
+  "description": "Demo of appshot store preview generator concept",
+  "main": "demo.js",
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

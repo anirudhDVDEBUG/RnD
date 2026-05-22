@@ -1,0 +1,13 @@
+agent: claude
+strengths:
+  - complex reasoning
+  - architecture design
+  - code review
+  - refactoring
+  - debugging
+context_window: large
+preferred_tasks:
+  - system design
+  - debugging complex issues
+  - multi-file refactoring
+  - security audit

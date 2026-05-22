@@ -1,0 +1,10 @@
+pre_task:
+  - sync_context: "git diff --cached > .maestro/context/staged_changes.txt"
+  - update_state: "python .maestro/scripts/update_project_state.py"
+
+post_task:
+  - validate: "python .maestro/scripts/validate_output.py"
+  - log: "python .maestro/scripts/log_agent_action.py"
+
+handoff:
+  - export_context: "python .maestro/scripts/export_context.py --from $SOURCE_AGENT --to $TARGET_AGENT"

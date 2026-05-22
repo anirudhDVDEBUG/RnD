@@ -1,0 +1,12 @@
+agent: codex
+strengths:
+  - rapid prototyping
+  - boilerplate generation
+  - simple CRUD operations
+  - code completion
+context_window: medium
+preferred_tasks:
+  - scaffolding
+  - repetitive code generation
+  - simple feature implementation
+  - unit test generation

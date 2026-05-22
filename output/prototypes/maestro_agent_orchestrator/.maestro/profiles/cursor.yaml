@@ -1,0 +1,12 @@
+agent: cursor
+strengths:
+  - UI development
+  - component design
+  - styling
+  - layout
+context_window: medium
+preferred_tasks:
+  - frontend components
+  - CSS and styling
+  - responsive design
+  - UI refinement

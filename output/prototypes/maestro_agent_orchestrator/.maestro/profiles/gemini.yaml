@@ -1,0 +1,12 @@
+agent: gemini
+strengths:
+  - search and research
+  - information synthesis
+  - exploration
+  - multimodal analysis
+context_window: large
+preferred_tasks:
+  - research tasks
+  - documentation review
+  - codebase exploration
+  - competitive analysis

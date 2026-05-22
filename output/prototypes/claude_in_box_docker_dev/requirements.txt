@@ -1,0 +1,2 @@
+# Claude-in-Box simulator — stdlib only, no external deps required.
+# Listed for completeness; the simulator uses only Python 3.8+ builtins.

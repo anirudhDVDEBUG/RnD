@@ -1,0 +1,12 @@
+agent: windsurf
+strengths:
+  - rapid iteration
+  - prototyping
+  - performance optimization
+  - quick fixes
+context_window: medium
+preferred_tasks:
+  - fast prototyping
+  - performance tuning
+  - quick bug fixes
+  - iterative development

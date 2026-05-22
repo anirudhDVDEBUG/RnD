@@ -1,0 +1,19 @@
+name: full_feature
+steps:
+  - agent: claude
+    task: "Design the architecture and define interfaces"
+    output: ".maestro/artifacts/design.md"
+
+  - agent: codex
+    task: "Implement the scaffolding based on design"
+    input: ".maestro/artifacts/design.md"
+    output: "src/"
+
+  - agent: claude
+    task: "Review implementation and suggest improvements"
+    input: "src/"
+    output: ".maestro/artifacts/review.md"
+
+  - agent: cursor
+    task: "Apply UI refinements based on review"
+    input: ".maestro/artifacts/review.md"

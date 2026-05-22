@@ -1,0 +1,8 @@
+# Mock demo (no external deps beyond stdlib)
+# The demo uses only sqlite3 (stdlib) — no pip install needed to run.
+
+# For the real Datasette Agent, install:
+# datasette
+# datasette-agent
+# datasette-agent-charts   # optional, for chart generation
+# llm-gemini               # or llm-claude-3, etc.

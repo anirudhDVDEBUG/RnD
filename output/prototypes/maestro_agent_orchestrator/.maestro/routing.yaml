@@ -1,0 +1,22 @@
+rules:
+  - pattern: "architect|design|refactor|review|debug|security"
+    route_to: claude
+    priority: high
+
+  - pattern: "scaffold|generate|boilerplate|crud|template"
+    route_to: codex
+    priority: medium
+
+  - pattern: "ui|component|style|layout|css|frontend"
+    route_to: cursor
+    priority: medium
+
+  - pattern: "search|research|explore|analyze|documentation"
+    route_to: gemini
+    priority: low
+
+  - pattern: "prototype|iterate|optimize|performance|quick fix"
+    route_to: windsurf
+    priority: medium
+
+fallback: claude

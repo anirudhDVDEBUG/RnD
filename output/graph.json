@@ -904,6 +904,42 @@
       "label": "browser-security"
     },
     {
+      "id": "item:7682",
+      "type": "item",
+      "label": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Sett",
+      "url": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "source": "rss",
+      "score": 0.6748537363566572,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ftc-enforcement",
+      "type": "tag",
+      "label": "ftc-enforcement"
+    },
+    {
+      "id": "tag:ad-targeting",
+      "type": "tag",
+      "label": "ad-targeting"
+    },
+    {
+      "id": "tag:active-listening",
+      "type": "tag",
+      "label": "active-listening"
+    },
+    {
+      "id": "tag:deceptive-marketing",
+      "type": "tag",
+      "label": "deceptive-marketing"
+    },
+    {
+      "id": "tag:consumer-privacy",
+      "type": "tag",
+      "label": "consumer-privacy"
+    },
+    {
       "id": "item:326",
       "type": "item",
       "label": "Julpygo/Claude-Code-AI-Design: Claude Design Anthropic Tool Download April 2026 ",
@@ -1021,6 +1057,42 @@
       "id": "tag:app-distribution",
       "type": "tag",
       "label": "app-distribution"
+    },
+    {
+      "id": "item:7681",
+      "type": "item",
+      "label": "The memory shortage is causing a repricing of consumer electronics",
+      "url": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+      "source": "rss",
+      "score": 0.6488377724973113,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:hbm",
+      "type": "tag",
+      "label": "hbm"
+    },
+    {
+      "id": "tag:memory-shortage",
+      "type": "tag",
+      "label": "memory-shortage"
+    },
+    {
+      "id": "tag:consumer-electronics",
+      "type": "tag",
+      "label": "consumer-electronics"
+    },
+    {
+      "id": "tag:semiconductor",
+      "type": "tag",
+      "label": "semiconductor"
+    },
+    {
+      "id": "tag:gpu-demand",
+      "type": "tag",
+      "label": "gpu-demand"
     },
     {
       "id": "item:1727",
@@ -5816,68 +5888,6 @@
       "label": "patient-care"
     },
     {
-      "id": "item:90",
-      "type": "item",
-      "label": "Text-Utilization for Encoder-dominated Speech Recognition Models",
-      "url": "https://arxiv.org/abs/2604.26514",
-      "source": "rss",
-      "score": 0.49827438591332285,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:encoder-models",
-      "type": "tag",
-      "label": "encoder-models"
-    },
-    {
-      "id": "tag:text-only-data",
-      "type": "tag",
-      "label": "text-only-data"
-    },
-    {
-      "id": "tag:modality-matching",
-      "type": "tag",
-      "label": "modality-matching"
-    },
-    {
-      "id": "item:91",
-      "type": "item",
-      "label": "Lyapunov-Guided Self-Alignment: Test-Time Adaptation for Offline Safe Reinforcem",
-      "url": "https://arxiv.org/abs/2604.26516",
-      "source": "rss",
-      "score": 0.49827438398201185,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:safe-rl",
-      "type": "tag",
-      "label": "safe-rl"
-    },
-    {
-      "id": "tag:offline-rl",
-      "type": "tag",
-      "label": "offline-rl"
-    },
-    {
-      "id": "tag:lyapunov",
-      "type": "tag",
-      "label": "lyapunov"
-    },
-    {
-      "id": "tag:test-time-adaptation",
-      "type": "tag",
-      "label": "test-time-adaptation"
-    },
-    {
-      "id": "tag:transformers",
-      "type": "tag",
-      "label": "transformers"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -7196,6 +7206,72 @@
       "type": "skill",
       "label": "healthcare_clinical_workflow_optimizer",
       "path": "/home/rnd/trendforge/output/skills/healthcare_clinical_workflow_optimizer"
+    },
+    {
+      "id": "skill:221",
+      "type": "skill",
+      "label": "nextjs_sanity_blog",
+      "path": "/home/rnd/trendforge/output/skills/nextjs_sanity_blog"
+    },
+    {
+      "id": "skill:222",
+      "type": "skill",
+      "label": "build_ship_grow_content_strategy",
+      "path": "/home/rnd/trendforge/output/skills/build_ship_grow_content_strategy"
+    },
+    {
+      "id": "skill:223",
+      "type": "skill",
+      "label": "overkill",
+      "path": "/home/rnd/trendforge/output/skills/overkill"
+    },
+    {
+      "id": "skill:224",
+      "type": "skill",
+      "label": "agentic_science",
+      "path": "/home/rnd/trendforge/output/skills/agentic_science"
+    },
+    {
+      "id": "skill:225",
+      "type": "skill",
+      "label": "ansys_aedt_mcp_simulation",
+      "path": "/home/rnd/trendforge/output/skills/ansys_aedt_mcp_simulation"
+    },
+    {
+      "id": "skill:226",
+      "type": "skill",
+      "label": "openmcp_server_manager",
+      "path": "/home/rnd/trendforge/output/skills/openmcp_server_manager"
+    },
+    {
+      "id": "skill:227",
+      "type": "skill",
+      "label": "ninjaone_mcp_server",
+      "path": "/home/rnd/trendforge/output/skills/ninjaone_mcp_server"
+    },
+    {
+      "id": "skill:228",
+      "type": "skill",
+      "label": "alchemy_infra",
+      "path": "/home/rnd/trendforge/output/skills/alchemy_infra"
+    },
+    {
+      "id": "skill:229",
+      "type": "skill",
+      "label": "awesome_amazon_ec_skills",
+      "path": "/home/rnd/trendforge/output/skills/awesome_amazon_ec_skills"
+    },
+    {
+      "id": "skill:230",
+      "type": "skill",
+      "label": "hbm_memory_shortage_analysis",
+      "path": "/home/rnd/trendforge/output/skills/hbm_memory_shortage_analysis"
+    },
+    {
+      "id": "skill:231",
+      "type": "skill",
+      "label": "ftc_active_listening_settlement",
+      "path": "/home/rnd/trendforge/output/skills/ftc_active_listening_settlement"
     },
     {
       "id": "prototype:1",
@@ -8736,6 +8812,83 @@
       "label": "healthcare_clinical_workflow_optimizer",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/healthcare_clinical_workflow_optimizer.pptx"
+    },
+    {
+      "id": "prototype:221",
+      "type": "prototype",
+      "label": "nextjs_sanity_blog",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/nextjs_sanity_blog.pptx"
+    },
+    {
+      "id": "prototype:222",
+      "type": "prototype",
+      "label": "build_ship_grow_content_strategy",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/build_ship_grow_content_strategy.pptx"
+    },
+    {
+      "id": "prototype:223",
+      "type": "prototype",
+      "label": "overkill",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/overkill.pptx"
+    },
+    {
+      "id": "prototype:224",
+      "type": "prototype",
+      "label": "agentic_science",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agentic_science.pptx"
+    },
+    {
+      "id": "prototype:225",
+      "type": "prototype",
+      "label": "ansys_aedt_mcp_simulation",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ansys_aedt_mcp_simulation.pptx"
+    },
+    {
+      "id": "prototype:226",
+      "type": "prototype",
+      "label": "openmcp_server_manager",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/openmcp_server_manager.pptx"
+    },
+    {
+      "id": "prototype:227",
+      "type": "prototype",
+      "label": "ninjaone_mcp_server",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ninjaone_mcp_server.pptx"
+    },
+    {
+      "id": "prototype:228",
+      "type": "prototype",
+      "label": "alchemy_infra",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/alchemy_infra.pptx"
+    },
+    {
+      "id": "prototype:229",
+      "type": "prototype",
+      "label": "awesome_amazon_ec_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/awesome_amazon_ec_skills.pptx"
+    },
+    {
+      "id": "prototype:230",
+      "type": "prototype",
+      "label": "hbm_memory_shortage_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/hbm_memory_shortage_analysis.pptx"
+    },
+    {
+      "id": "prototype:231",
+      "type": "prototype",
+      "label": "ftc_active_listening_settlement",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ftc_active_listening_settlement.pptx"
     }
   ],
   "edges": [
@@ -9615,6 +9768,36 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:7682",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7682",
+      "to": "tag:ftc-enforcement",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7682",
+      "to": "tag:ad-targeting",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7682",
+      "to": "tag:active-listening",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7682",
+      "to": "tag:deceptive-marketing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7682",
+      "to": "tag:consumer-privacy",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:326",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -9737,6 +9920,36 @@
     {
       "from": "item:6343",
       "to": "tag:app-distribution",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7681",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:7681",
+      "to": "tag:hbm",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7681",
+      "to": "tag:memory-shortage",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7681",
+      "to": "tag:consumer-electronics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7681",
+      "to": "tag:semiconductor",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:7681",
+      "to": "tag:gpu-demand",
       "rel": "HAS_TAG"
     },
     {
@@ -15315,61 +15528,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:90",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:90",
-      "to": "tag:speech-recognition",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:90",
-      "to": "tag:encoder-models",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:90",
-      "to": "tag:text-only-data",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:90",
-      "to": "tag:modality-matching",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:91",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:91",
-      "to": "tag:safe-rl",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:91",
-      "to": "tag:offline-rl",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:91",
-      "to": "tag:lyapunov",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:91",
-      "to": "tag:test-time-adaptation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:91",
-      "to": "tag:transformers",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -16470,6 +16628,61 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:221",
+      "to": "item:8048",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:222",
+      "to": "item:8049",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:223",
+      "to": "item:8050",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:224",
+      "to": "item:8044",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:225",
+      "to": "item:8038",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:226",
+      "to": "item:8031",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:227",
+      "to": "item:8033",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:228",
+      "to": "item:8021",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:229",
+      "to": "item:8022",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:230",
+      "to": "item:7681",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:231",
+      "to": "item:7682",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -17567,6 +17780,61 @@
     {
       "from": "prototype:220",
       "to": "skill:220",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:221",
+      "to": "skill:221",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:222",
+      "to": "skill:222",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:223",
+      "to": "skill:223",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:224",
+      "to": "skill:224",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:225",
+      "to": "skill:225",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:226",
+      "to": "skill:226",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:227",
+      "to": "skill:227",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:228",
+      "to": "skill:228",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:229",
+      "to": "skill:229",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:230",
+      "to": "skill:230",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:231",
+      "to": "skill:231",
       "rel": "DEMOS"
     }
   ]

@@ -1,0 +1,4 @@
+# Demo runs with Python stdlib only (no external deps).
+# The real ansys-aedt-mcp server requires:
+#   pyaedt>=0.9.0
+#   mcp>=1.0.0

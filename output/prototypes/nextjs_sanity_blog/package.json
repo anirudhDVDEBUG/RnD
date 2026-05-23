@@ -1,0 +1,12 @@
+{
+  "name": "nextjs-sanity-blog-skill-demo",
+  "version": "1.0.0",
+  "description": "Demo of the Next.js + Sanity Blog Builder Claude Code skill",
+  "scripts": {
+    "demo": "node scaffold.js && node server.js",
+    "scaffold": "node scaffold.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

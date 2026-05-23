@@ -1,0 +1,12 @@
+{
+  "name": "alchemy-infra-demo",
+  "version": "1.0.0",
+  "description": "Demo of alchemy-infra skill: scaffolds Alchemy IaC into any codebase with strict secret hygiene",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.mjs",
+    "scaffold": "node scaffold.mjs"
+  },
+  "dependencies": {}
+}

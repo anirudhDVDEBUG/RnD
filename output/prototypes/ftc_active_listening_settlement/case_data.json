@@ -1,0 +1,78 @@
+{
+  "case_name": "FTC v. Cox Media Group, MindSift, 1010 Digital Works",
+  "date": "May 2026",
+  "agency": "Federal Trade Commission",
+  "statute": "FTC Act Section 5 (Deceptive Trade Practices)",
+  "parties": {
+    "respondents": [
+      {
+        "name": "Cox Media Group (CMG)",
+        "role": "Primary marketer of 'Active Listening' service",
+        "penalty_usd": 499227
+      },
+      {
+        "name": "MindSift",
+        "role": "Technology partner providing ad-targeting platform",
+        "penalty_usd": 349459
+      },
+      {
+        "name": "1010 Digital Works",
+        "role": "Reseller and marketing partner",
+        "penalty_usd": 149768
+      }
+    ],
+    "total_penalty_usd": 998454
+  },
+  "claims_made": [
+    "Smart devices capture real-time intent data by listening to consumer conversations",
+    "Voice data is paired with behavioral data to target in-market consumers",
+    "Advertisers get access to 'Active Listening' intent signals from device microphones",
+    "The service uses AI to process ambient audio for advertising purposes"
+  ],
+  "reality": [
+    "NO microphone data was collected or used by the service",
+    "Service relied entirely on standard ad-targeting techniques",
+    "Targeting used cookies, behavioral browsing data, and demographic profiling",
+    "'Active Listening' was a deceptive marketing label, not a real technology",
+    "Ads were also not accurately placed in customers' desired geographic locations"
+  ],
+  "timeline": [
+    {
+      "date": "2024",
+      "event": "CMG pitch deck surfaces publicly claiming 'active listening' via smart devices"
+    },
+    {
+      "date": "September 2024",
+      "event": "Security researchers and journalists analyze claims; hypothesize standard ad targeting rebranded"
+    },
+    {
+      "date": "May 2026",
+      "event": "FTC announces settlement confirming service never used voice data"
+    }
+  ],
+  "compliance_lessons": [
+    "Technical claims in sales materials must match actual system capabilities",
+    "Aspirational language implying unbuilt functionality constitutes deceptive trade practices",
+    "FTC actively enforces against misleading AI capability claims under Section 5",
+    "Consumer fear of 'phones listening' is widespread but targeting comes from behavioral data, not microphones",
+    "Audit pitch decks and marketing collateral for regulatory compliance before distribution"
+  ],
+  "references": [
+    {
+      "title": "FTC Press Release",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived"
+    },
+    {
+      "title": "Simon Willison Analysis (May 2026)",
+      "url": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything"
+    },
+    {
+      "title": "Simon Willison Original Coverage (Sep 2024)",
+      "url": "https://simonwillison.net/2024/Sep/2/facebook-cmg/"
+    },
+    {
+      "title": "CMG Pitch Deck (DocumentCloud)",
+      "url": "https://www.documentcloud.org/documents/25051283-cmg-pitch-deck-on-voice-data-advertising-active-listening/"
+    }
+  ]
+}

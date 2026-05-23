@@ -1,0 +1,3 @@
+# NinjaOne MCP Server mock demo
+# No external dependencies — uses only Python 3 stdlib.
+# The real Bezalu.NinjaOne.MCP server is built in C# / .NET 8.

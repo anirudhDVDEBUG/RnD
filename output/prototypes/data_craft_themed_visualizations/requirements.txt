@@ -1,0 +1,2 @@
+# Data Craft uses only Python stdlib (json, os, sys, dataclasses)
+# No external dependencies required.

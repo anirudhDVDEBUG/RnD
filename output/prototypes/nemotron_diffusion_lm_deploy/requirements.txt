@@ -1,0 +1,6 @@
+# Nemotron-Labs Diffusion LM Deploy — Demo Dependencies
+# The demo uses only Python stdlib (no external deps needed for mock mode).
+# For real deployment, uncomment:
+# sglang[all]
+# openai
+# torch

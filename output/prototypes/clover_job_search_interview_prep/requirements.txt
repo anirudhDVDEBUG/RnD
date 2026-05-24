@@ -1,0 +1,2 @@
+# Clover Job Search & Interview Prep Demo
+# No external dependencies — uses only Python stdlib

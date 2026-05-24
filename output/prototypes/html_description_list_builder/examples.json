@@ -1,0 +1,57 @@
+[
+  {
+    "label": "Basic description list (no divs, no ARIA)",
+    "config": {
+      "items": [
+        { "term": "HTML", "descriptions": "HyperText Markup Language" },
+        { "term": "CSS",  "descriptions": "Cascading Style Sheets" },
+        { "term": "JS",   "descriptions": "JavaScript" }
+      ]
+    }
+  },
+  {
+    "label": "Multiple descriptions per term",
+    "config": {
+      "items": [
+        {
+          "term": "Author",
+          "descriptions": ["Jeffrey Zeldman", "Ethan Marcotte"]
+        },
+        {
+          "term": "Publisher",
+          "descriptions": "A Book Apart"
+        },
+        {
+          "term": "Format",
+          "descriptions": ["Paperback", "eBook", "Audiobook"]
+        }
+      ]
+    }
+  },
+  {
+    "label": "Div-wrapped groups for CSS grid/flexbox",
+    "config": {
+      "wrap_divs": true,
+      "items": [
+        { "term": "Name",     "descriptions": "Ada Lovelace" },
+        { "term": "Born",     "descriptions": "10 December 1815" },
+        { "term": "Known for", "descriptions": ["First computer program", "Analytical Engine notes"] }
+      ]
+    }
+  },
+  {
+    "label": "ARIA-labeled list with heading",
+    "config": {
+      "heading_id": "project-metadata",
+      "heading_text": "Project Metadata",
+      "heading_tag": "h2",
+      "wrap_divs": true,
+      "items": [
+        { "term": "License",    "descriptions": "MIT" },
+        { "term": "Language",   "descriptions": ["Python", "HTML"] },
+        { "term": "Status",     "descriptions": "Active" },
+        { "term": "Maintainer", "descriptions": "Open Source Community" }
+      ]
+    }
+  }
+]

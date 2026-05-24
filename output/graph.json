@@ -873,6 +873,32 @@
       "label": "hallucination"
     },
     {
+      "id": "item:8078",
+      "type": "item",
+      "label": "rayhayqal/Mythos-Claude-Skill-Forge: 🚀 Claude Mythos AI 2026 – Build Autonomous ",
+      "url": "https://github.com/rayhayqal/Mythos-Claude-Skill-Forge",
+      "source": "github",
+      "score": 0.678588812515287,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agent-plugins",
+      "type": "tag",
+      "label": "agent-plugins"
+    },
+    {
+      "id": "tag:autonomous-agents",
+      "type": "tag",
+      "label": "autonomous-agents"
+    },
+    {
+      "id": "tag:skill-forge",
+      "type": "tag",
+      "label": "skill-forge"
+    },
+    {
       "id": "item:5084",
       "type": "item",
       "label": "CSP Allow-list Experiment",
@@ -2539,6 +2565,37 @@
       "label": "security-automation"
     },
     {
+      "id": "item:8056",
+      "type": "item",
+      "label": "muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics: 🚀 ZeroClaw Subagents 2026:",
+      "url": "https://github.com/muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
+      "source": "github",
+      "score": 0.5773983900870611,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:agent-orchestration",
+      "type": "tag",
+      "label": "agent-orchestration"
+    },
+    {
+      "id": "tag:subagents",
+      "type": "tag",
+      "label": "subagents"
+    },
+    {
+      "id": "tag:mcp-router",
+      "type": "tag",
+      "label": "mcp-router"
+    },
+    {
+      "id": "tag:zeroclaw",
+      "type": "tag",
+      "label": "zeroclaw"
+    },
+    {
       "id": "item:1801",
       "type": "item",
       "label": "KSroido/Kagi-Session2API-MCP: Free Kagi Search MCP server — access search and su",
@@ -2949,6 +3006,42 @@
       "label": "byok"
     },
     {
+      "id": "item:8054",
+      "type": "item",
+      "label": "On the <dl>",
+      "url": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+      "source": "rss",
+      "score": 0.5402611230407013,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:html-semantics",
+      "type": "tag",
+      "label": "html-semantics"
+    },
+    {
+      "id": "tag:web-accessibility",
+      "type": "tag",
+      "label": "web-accessibility"
+    },
+    {
+      "id": "tag:description-list",
+      "type": "tag",
+      "label": "description-list"
+    },
+    {
+      "id": "tag:aria",
+      "type": "tag",
+      "label": "aria"
+    },
+    {
+      "id": "tag:html5",
+      "type": "tag",
+      "label": "html5"
+    },
+    {
       "id": "item:5960",
       "type": "item",
       "label": "Warelay -> OpenClaw",
@@ -3058,6 +3151,32 @@
       "label": "shebang"
     },
     {
+      "id": "item:8062",
+      "type": "item",
+      "label": "fourleafai/clover-public: Open-source Claude Skill + MCP integration for job sea",
+      "url": "https://github.com/fourleafai/clover-public",
+      "source": "github",
+      "score": 0.5301778789065601,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:job-search",
+      "type": "tag",
+      "label": "job-search"
+    },
+    {
+      "id": "tag:interview-prep",
+      "type": "tag",
+      "label": "interview-prep"
+    },
+    {
+      "id": "tag:career-tools",
+      "type": "tag",
+      "label": "career-tools"
+    },
+    {
       "id": "item:5994",
       "type": "item",
       "label": "VKirill/mcp-annas-archive-create-skill: MCP server for Claude Code: Anna's Archi",
@@ -3156,11 +3275,6 @@
       "id": "tag:agent-toolkit",
       "type": "tag",
       "label": "agent-toolkit"
-    },
-    {
-      "id": "tag:zeroclaw",
-      "type": "tag",
-      "label": "zeroclaw"
     },
     {
       "id": "item:7216",
@@ -4059,16 +4173,6 @@
       "id": "tag:agentic-sdlc",
       "type": "tag",
       "label": "agentic-sdlc"
-    },
-    {
-      "id": "tag:autonomous-agents",
-      "type": "tag",
-      "label": "autonomous-agents"
-    },
-    {
-      "id": "tag:subagents",
-      "type": "tag",
-      "label": "subagents"
     },
     {
       "id": "tag:lesson-compounding",
@@ -5804,90 +5908,6 @@
       "label": "personal-tooling"
     },
     {
-      "id": "item:2720",
-      "type": "item",
-      "label": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "source": "rss",
-      "score": 0.5055177051062566,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:trusted-access",
-      "type": "tag",
-      "label": "trusted-access"
-    },
-    {
-      "id": "item:5122",
-      "type": "item",
-      "label": "Work with Codex from anywhere",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "source": "rss",
-      "score": 0.505507798412288,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:mobile-dev",
-      "type": "tag",
-      "label": "mobile-dev"
-    },
-    {
-      "id": "tag:remote-coding",
-      "type": "tag",
-      "label": "remote-coding"
-    },
-    {
-      "id": "item:3014",
-      "type": "item",
-      "label": "Running Codex safely at OpenAI",
-      "url": "https://openai.com/index/running-codex-safely",
-      "source": "rss",
-      "score": 0.5034270885126374,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:sandboxing",
-      "type": "tag",
-      "label": "sandboxing"
-    },
-    {
-      "id": "tag:openai-codex",
-      "type": "tag",
-      "label": "openai-codex"
-    },
-    {
-      "id": "item:7648",
-      "type": "item",
-      "label": "AdventHealth advances whole-person care with OpenAI",
-      "url": "https://openai.com/index/adventhealth",
-      "source": "rss",
-      "score": 0.501377076451271,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:chatgpt-enterprise",
-      "type": "tag",
-      "label": "chatgpt-enterprise"
-    },
-    {
-      "id": "tag:clinical-workflows",
-      "type": "tag",
-      "label": "clinical-workflows"
-    },
-    {
-      "id": "tag:patient-care",
-      "type": "tag",
-      "label": "patient-care"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -7272,6 +7292,54 @@
       "type": "skill",
       "label": "ftc_active_listening_settlement",
       "path": "/home/rnd/trendforge/output/skills/ftc_active_listening_settlement"
+    },
+    {
+      "id": "skill:232",
+      "type": "skill",
+      "label": "claude_design_studio",
+      "path": "/home/rnd/trendforge/output/skills/claude_design_studio"
+    },
+    {
+      "id": "skill:233",
+      "type": "skill",
+      "label": "mythos_skill_forge",
+      "path": "/home/rnd/trendforge/output/skills/mythos_skill_forge"
+    },
+    {
+      "id": "skill:234",
+      "type": "skill",
+      "label": "figmirror_paper_figure_style",
+      "path": "/home/rnd/trendforge/output/skills/figmirror_paper_figure_style"
+    },
+    {
+      "id": "skill:235",
+      "type": "skill",
+      "label": "zeroclaw_subagent_orchestration",
+      "path": "/home/rnd/trendforge/output/skills/zeroclaw_subagent_orchestration"
+    },
+    {
+      "id": "skill:236",
+      "type": "skill",
+      "label": "data_craft_themed_visualizations",
+      "path": "/home/rnd/trendforge/output/skills/data_craft_themed_visualizations"
+    },
+    {
+      "id": "skill:237",
+      "type": "skill",
+      "label": "clover_job_search_interview_prep",
+      "path": "/home/rnd/trendforge/output/skills/clover_job_search_interview_prep"
+    },
+    {
+      "id": "skill:238",
+      "type": "skill",
+      "label": "html_description_list_builder",
+      "path": "/home/rnd/trendforge/output/skills/html_description_list_builder"
+    },
+    {
+      "id": "skill:239",
+      "type": "skill",
+      "label": "nemotron_diffusion_lm_deploy",
+      "path": "/home/rnd/trendforge/output/skills/nemotron_diffusion_lm_deploy"
     },
     {
       "id": "prototype:1",
@@ -8889,6 +8957,62 @@
       "label": "ftc_active_listening_settlement",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/ftc_active_listening_settlement.pptx"
+    },
+    {
+      "id": "prototype:232",
+      "type": "prototype",
+      "label": "claude_design_studio",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_design_studio.pptx"
+    },
+    {
+      "id": "prototype:233",
+      "type": "prototype",
+      "label": "mythos_skill_forge",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/mythos_skill_forge.pptx"
+    },
+    {
+      "id": "prototype:234",
+      "type": "prototype",
+      "label": "figmirror_paper_figure_style",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/figmirror_paper_figure_style.pptx"
+    },
+    {
+      "id": "prototype:235",
+      "type": "prototype",
+      "label": "zeroclaw_subagent_orchestration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/zeroclaw_subagent_orchestration.pptx"
+    },
+    {
+      "id": "prototype:236",
+      "type": "prototype",
+      "label": "data_craft_themed_visualizations",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/data_craft_themed_visualizations.pptx"
+    },
+    {
+      "id": "prototype:237",
+      "type": "prototype",
+      "label": "clover_job_search_interview_prep",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/clover_job_search_interview_prep.pptx"
+    },
+    {
+      "id": "prototype:238",
+      "type": "prototype",
+      "label": "html_description_list_builder",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/html_description_list_builder.pptx"
+    },
+    {
+      "id": "prototype:239",
+      "type": "prototype",
+      "label": "nemotron_diffusion_lm_deploy",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/nemotron_diffusion_lm_deploy.pptx"
     }
   ],
   "edges": [
@@ -9740,6 +9864,36 @@
     {
       "from": "item:79",
       "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:8078",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8078",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8078",
+      "to": "tag:agent-plugins",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8078",
+      "to": "tag:autonomous-agents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8078",
+      "to": "tag:skill-forge",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8078",
+      "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
     {
@@ -11548,6 +11702,41 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:8056",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8056",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8056",
+      "to": "tag:agent-orchestration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8056",
+      "to": "tag:subagents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8056",
+      "to": "tag:mcp-router",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8056",
+      "to": "tag:zeroclaw",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8056",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1801",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -12053,6 +12242,36 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:8054",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8054",
+      "to": "tag:html-semantics",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8054",
+      "to": "tag:web-accessibility",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8054",
+      "to": "tag:description-list",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8054",
+      "to": "tag:aria",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8054",
+      "to": "tag:html5",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:5960",
       "to": "source:rss",
       "rel": "FROM_SOURCE"
@@ -12171,6 +12390,46 @@
       "from": "item:3599",
       "to": "tag:prompt-engineering",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8062",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8062",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8062",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8062",
+      "to": "tag:job-search",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8062",
+      "to": "tag:interview-prep",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8062",
+      "to": "tag:career-tools",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8062",
+      "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:8062",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:5994",
@@ -15418,116 +15677,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:2720",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:2720",
-      "to": "tag:cybersecurity",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:2720",
-      "to": "tag:vulnerability-research",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:2720",
-      "to": "tag:openai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:2720",
-      "to": "tag:trusted-access",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:2720",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:5122",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:5122",
-      "to": "tag:codex",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:5122",
-      "to": "tag:mobile-dev",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:5122",
-      "to": "tag:remote-coding",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:5122",
-      "to": "tag:ai-assisted-programming",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:3014",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:3014",
-      "to": "tag:coding-agent",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:3014",
-      "to": "tag:sandboxing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:3014",
-      "to": "tag:agent-security",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:3014",
-      "to": "tag:openai-codex",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:3014",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:7648",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:7648",
-      "to": "tag:healthcare-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:7648",
-      "to": "tag:chatgpt-enterprise",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:7648",
-      "to": "tag:clinical-workflows",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:7648",
-      "to": "tag:patient-care",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -16683,6 +16832,46 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:232",
+      "to": "item:8077",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:233",
+      "to": "item:8078",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:234",
+      "to": "item:8079",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:235",
+      "to": "item:8056",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:236",
+      "to": "item:8060",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:237",
+      "to": "item:8062",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:238",
+      "to": "item:8054",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:239",
+      "to": "item:8055",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -17835,6 +18024,46 @@
     {
       "from": "prototype:231",
       "to": "skill:231",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:232",
+      "to": "skill:232",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:233",
+      "to": "skill:233",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:234",
+      "to": "skill:234",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:235",
+      "to": "skill:235",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:236",
+      "to": "skill:236",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:237",
+      "to": "skill:237",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:238",
+      "to": "skill:238",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:239",
+      "to": "skill:239",
       "rel": "DEMOS"
     }
   ]

@@ -1,0 +1,44 @@
+{
+  "chart_type": "line",
+  "title": "Model Performance Over Training",
+  "colors": {
+    "line1": "#2166ac",
+    "line2": "#b2182b",
+    "line3": "#4dac26",
+    "line4": "#e08214",
+    "background": "#fafafa",
+    "grid": "#cccccc"
+  },
+  "typography": {
+    "font_family": "serif",
+    "title_size": 14,
+    "axis_label_size": 12,
+    "tick_label_size": 10,
+    "legend_size": 10,
+    "title_weight": "bold"
+  },
+  "layout": {
+    "figsize": [8, 5],
+    "dpi": 300,
+    "aspect_ratio": 1.6
+  },
+  "lines": {
+    "linewidth": 2.0,
+    "marker_size": 6,
+    "markers": ["o", "s", "^", "D"],
+    "linestyles": ["-", "--", "-", "--"]
+  },
+  "axes": {
+    "grid": true,
+    "grid_alpha": 0.3,
+    "grid_linestyle": "--",
+    "spine_visible": true,
+    "spine_width": 0.8
+  },
+  "legend": {
+    "position": "best",
+    "frameon": true,
+    "frame_alpha": 0.8,
+    "ncol": 2
+  }
+}

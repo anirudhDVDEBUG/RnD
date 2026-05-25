@@ -1,0 +1,3 @@
+# NeMo Evaluator BYOB prototype
+# No external dependencies — runs on Python stdlib only
+# For production use, install: nemo-evaluator

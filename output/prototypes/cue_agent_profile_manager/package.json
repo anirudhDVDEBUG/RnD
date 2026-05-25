@@ -1,0 +1,13 @@
+{
+  "name": "cue-agent-profile-manager-demo",
+  "version": "1.0.0",
+  "description": "Demo of cue-ai: per-directory agent profile manager for Claude Code & Codex",
+  "main": "src/cue.js",
+  "bin": {
+    "cue-demo": "./src/cue.js"
+  },
+  "scripts": {
+    "demo": "node src/cue.js demo"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+[project]
+name = "datasette-jump-bookmarks"
+version = "0.1.0"
+description = "Datasette plugin that adds bookmarks to the Jump to menu"
+requires-python = ">=3.9"
+dependencies = ["datasette>=1.0a30"]
+
+[project.entry-points.datasette]
+jump_bookmarks = "datasette_jump_bookmarks"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"

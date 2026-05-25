@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAD HOUSE — Usborne Creepy Computer Games</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      color: #0f0;
+      font-family: 'Courier New', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+    h1 { color: #0f0; font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center; }
+    #game-container {
+      width: 100%;
+      max-width: 600px;
+      border: 2px solid #0f0;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+    #game-container::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 255, 0, 0.03) 0px,
+        rgba(0, 255, 0, 0.03) 1px,
+        transparent 1px,
+        transparent 3px
+      );
+      pointer-events: none;
+      z-index: 10;
+    }
+    #status { margin-bottom: 0.5rem; font-size: 0.9rem; }
+    #map {
+      font-size: 0.85rem;
+      line-height: 1.2;
+      white-space: pre;
+      margin: 0.5rem 0;
+      min-height: 200px;
+    }
+    #message {
+      color: #ff0;
+      min-height: 1.5rem;
+      margin: 0.5rem 0;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.3rem;
+      max-width: 200px;
+      margin: 0.5rem auto;
+    }
+    .controls button {
+      background: #111;
+      color: #0f0;
+      border: 1px solid #0f0;
+      padding: 0.6rem;
+      font-family: 'Courier New', monospace;
+      font-size: 1rem;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+    .controls button:hover, .controls button:active {
+      background: #0f0;
+      color: #000;
+    }
+    .controls button.empty { visibility: hidden; }
+    #start-btn {
+      display: block;
+      margin: 1rem auto;
+      background: #0f0;
+      color: #000;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-family: 'Courier New', monospace;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #start-btn:hover { background: #0a0; }
+    footer {
+      margin-top: 1rem;
+      font-size: 0.7rem;
+      color: #070;
+      text-align: center;
+    }
+    footer a { color: #0a0; }
+  </style>
+</head>
+<body>
+  <h1>MAD HOUSE</h1>
+  <div id="game-container">
+    <div id="status">SCORE: 0 | MOVES: 0 | GHOSTS: 3</div>
+    <div id="map"></div>
+    <div id="message">Press START or any arrow key to begin...</div>
+    <div class="controls">
+      <button class="empty"></button>
+      <button onclick="move('up')">&#9650;</button>
+      <button class="empty"></button>
+      <button onclick="move('left')">&#9664;</button>
+      <button onclick="move('wait')">&#9679;</button>
+      <button onclick="move('right')">&#9654;</button>
+      <button class="empty"></button>
+      <button onclick="move('down')">&#9660;</button>
+      <button class="empty"></button>
+    </div>
+    <button id="start-btn" onclick="startGame()">START</button>
+  </div>
+  <footer>
+    Based on "Mad House" from <em>Creepy Computer Games</em> (1983) by Usborne Publishing.<br>
+    <a href="https://usborne.com/us/books/computer-and-coding-books">Free PDFs available here</a>
+  </footer>
+
+  <script>
+    // MAD HOUSE - Recreated from Usborne "Creepy Computer Games" (1983)
+    // Original: You are trapped in a haunted house. Avoid ghosts, collect treasures, find the exit.
+
+    const WIDTH = 20;
+    const HEIGHT = 12;
+    let grid, player, ghosts, treasures, exitPos, score, moves, gameOver, gameStarted;
+
+    function generateMaze() {
+      // Create a simple maze with walls
+      let g = [];
+      for (let y = 0; y < HEIGHT; y++) {
+        g[y] = [];
+        for (let x = 0; x < WIDTH; x++) {
+          if (y === 0 || y === HEIGHT-1 || x === 0 || x === WIDTH-1) {
+            g[y][x] = '#';
+          } else {
+            g[y][x] = '.';
+          }
+        }
+      }
+      // Add internal walls
+      for (let i = 0; i < 25; i++) {
+        let wx = 2 + Math.floor(Math.random() * (WIDTH - 4));
+        let wy = 2 + Math.floor(Math.random() * (HEIGHT - 4));
+        g[wy][wx] = '#';
+      }
+      // Add some wall runs
+      for (let i = 0; i < 5; i++) {
+        let wx = 2 + Math.floor(Math.random() * (WIDTH - 6));
+        let wy = 2 + Math.floor(Math.random() * (HEIGHT - 4));
+        let len = 2 + Math.floor(Math.random() * 4);
+        for (let j = 0; j < len && wx + j < WIDTH - 1; j++) {
+          g[wy][wx + j] = '#';
+        }
+      }
+      for (let i = 0; i < 3; i++) {
+        let wx = 2 + Math.floor(Math.random() * (WIDTH - 4));
+        let wy = 2 + Math.floor(Math.random() * (HEIGHT - 6));
+        let len = 2 + Math.floor(Math.random() * 3);
+        for (let j = 0; j < len && wy + j < HEIGHT - 1; j++) {
+          g[wy + j][wx] = '#';
+        }
+      }
+      return g;
+    }
+
+    function findEmpty(g) {
+      let x, y;
+      do {
+        x = 1 + Math.floor(Math.random() * (WIDTH - 2));
+        y = 1 + Math.floor(Math.random() * (HEIGHT - 2));
+      } while (g[y][x] !== '.');
+      return { x, y };
+    }
+
+    function startGame() {
+      grid = generateMaze();
+      player = findEmpty(grid);
+      ghosts = [];
+      for (let i = 0; i < 3; i++) {
+        ghosts.push(findEmpty(grid));
+      }
+      treasures = [];
+      for (let i = 0; i < 5; i++) {
+        treasures.push(findEmpty(grid));
+      }
+      exitPos = findEmpty(grid);
+      score = 0;
+      moves = 0;
+      gameOver = false;
+      gameStarted = true;
+      document.getElementById('start-btn').textContent = 'RESTART';
+      render();
+    }
+
+    function move(dir) {
+      if (!gameStarted) { startGame(); return; }
+      if (gameOver) return;
+
+      let nx = player.x, ny = player.y;
+      if (dir === 'up') ny--;
+      else if (dir === 'down') ny++;
+      else if (dir === 'left') nx--;
+      else if (dir === 'right') nx++;
+
+      if (nx >= 0 && nx < WIDTH && ny >= 0 && ny < HEIGHT && grid[ny][nx] !== '#') {
+        player.x = nx;
+        player.y = ny;
+      }
+      moves++;
+
+      // Check treasure pickup
+      for (let i = treasures.length - 1; i >= 0; i--) {
+        if (treasures[i].x === player.x && treasures[i].y === player.y) {
+          treasures.splice(i, 1);
+          score += 10;
+          setMessage("YOU FOUND TREASURE! +10 POINTS");
+        }
+      }
+
+      // Check exit
+      if (player.x === exitPos.x && player.y === exitPos.y) {
+        score += 50;
+        gameOver = true;
+        setMessage("YOU ESCAPED THE MAD HOUSE! FINAL SCORE: " + score);
+        render();
+        return;
+      }
+
+      // Move ghosts toward player
+      moveGhosts();
+
+      // Check ghost collision
+      for (let g of ghosts) {
+        if (g.x === player.x && g.y === player.y) {
+          gameOver = true;
+          setMessage("A GHOST GOT YOU! GAME OVER. SCORE: " + score);
+          render();
+          return;
+        }
+      }
+
+      render();
+    }
+
+    function moveGhosts() {
+      for (let g of ghosts) {
+        // Ghosts move toward player with some randomness (faithful to original)
+        if (Math.random() < 0.6) {
+          let dx = Math.sign(player.x - g.x);
+          let dy = Math.sign(player.y - g.y);
+          // Prefer horizontal or vertical randomly
+          if (Math.random() < 0.5) {
+            if (dx !== 0 && grid[g.y][g.x + dx] !== '#') { g.x += dx; }
+            else if (dy !== 0 && grid[g.y + dy][g.x] !== '#') { g.y += dy; }
+          } else {
+            if (dy !== 0 && grid[g.y + dy][g.x] !== '#') { g.y += dy; }
+            else if (dx !== 0 && grid[g.y][g.x + dx] !== '#') { g.x += dx; }
+          }
+        }
+      }
+    }
+
+    function setMessage(msg) {
+      document.getElementById('message').textContent = msg;
+    }
+
+    function render() {
+      let display = '';
+      for (let y = 0; y < HEIGHT; y++) {
+        for (let x = 0; x < WIDTH; x++) {
+          if (player.x === x && player.y === y) {
+            display += '@';
+          } else if (ghosts.some(g => g.x === x && g.y === y)) {
+            display += 'G';
+          } else if (treasures.some(t => t.x === x && t.y === y)) {
+            display += '$';
+          } else if (exitPos.x === x && exitPos.y === y) {
+            display += 'E';
+          } else {
+            display += grid[y][x] === '#' ? '\u2588' : ' ';
+          }
+        }
+        display += '\n';
+      }
+      document.getElementById('map').textContent = display;
+      document.getElementById('status').textContent =
+        `SCORE: ${score} | MOVES: ${moves} | GHOSTS: ${ghosts.length}`;
+      if (!gameOver) {
+        setMessage("@ = You  G = Ghost  $ = Treasure  E = Exit");
+      }
+    }
+
+    // Keyboard controls
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowUp') move('up');
+      else if (e.key === 'ArrowDown') move('down');
+      else if (e.key === 'ArrowLeft') move('left');
+      else if (e.key === 'ArrowRight') move('right');
+      else if (e.key === ' ') move('wait');
+    });
+  </script>
+</body>
+</html>

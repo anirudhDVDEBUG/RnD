@@ -409,6 +409,32 @@
       "label": "mcp-connectors"
     },
     {
+      "id": "item:8090",
+      "type": "item",
+      "label": "Mad House — Usborne Creepy Computer Games",
+      "url": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
+      "source": "rss",
+      "score": 0.7244589918567953,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:retro-gaming",
+      "type": "tag",
+      "label": "retro-gaming"
+    },
+    {
+      "id": "tag:javascript-game",
+      "type": "tag",
+      "label": "javascript-game"
+    },
+    {
+      "id": "tag:computer-history",
+      "type": "tag",
+      "label": "computer-history"
+    },
+    {
       "id": "item:1857",
       "type": "item",
       "label": "⭐ velocity: pipecat-ai/pipecat +101/day — Open Source framework for voice and mu",
@@ -2928,6 +2954,32 @@
       "label": "local-first"
     },
     {
+      "id": "item:8088",
+      "type": "item",
+      "label": "datasette-fixtures 0.1a0",
+      "url": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+      "source": "rss",
+      "score": 0.5467753949857721,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:datasette",
+      "type": "tag",
+      "label": "datasette"
+    },
+    {
+      "id": "tag:test-fixtures",
+      "type": "tag",
+      "label": "test-fixtures"
+    },
+    {
+      "id": "tag:plugin-testing",
+      "type": "tag",
+      "label": "plugin-testing"
+    },
+    {
       "id": "item:5512",
       "type": "item",
       "label": "sharpsir-group/qobrix-crm-mcp: Read-only MCP server for Qobrix CRM — 42 tools ac",
@@ -3149,6 +3201,32 @@
       "id": "tag:shebang",
       "type": "tag",
       "label": "shebang"
+    },
+    {
+      "id": "item:8089",
+      "type": "item",
+      "label": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+      "source": "rss",
+      "score": 0.5319635692870217,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ai-slop",
+      "type": "tag",
+      "label": "ai-slop"
+    },
+    {
+      "id": "tag:github-issues",
+      "type": "tag",
+      "label": "github-issues"
+    },
+    {
+      "id": "tag:bug-reporting",
+      "type": "tag",
+      "label": "bug-reporting"
     },
     {
       "id": "item:8062",
@@ -5820,94 +5898,6 @@
       "label": "classroom-analytics"
     },
     {
-      "id": "item:1659",
-      "type": "item",
-      "label": "Taxon: Hierarchical Tax Code Prediction with Semantically Aligned LLM Expert Gui",
-      "url": "https://arxiv.org/abs/2601.08418",
-      "source": "rss",
-      "score": 0.5114801699539814,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:tax-classification",
-      "type": "tag",
-      "label": "tax-classification"
-    },
-    {
-      "id": "tag:hierarchical-prediction",
-      "type": "tag",
-      "label": "hierarchical-prediction"
-    },
-    {
-      "id": "tag:e-commerce",
-      "type": "tag",
-      "label": "e-commerce"
-    },
-    {
-      "id": "item:1665",
-      "type": "item",
-      "label": "CLAMP: Contrastive Learning for 3D Multi-View Action-Conditioned Robotic Manipul",
-      "url": "https://arxiv.org/abs/2602.00937",
-      "source": "rss",
-      "score": 0.5114801418515326,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:robotic-manipulation",
-      "type": "tag",
-      "label": "robotic-manipulation"
-    },
-    {
-      "id": "tag:contrastive-learning",
-      "type": "tag",
-      "label": "contrastive-learning"
-    },
-    {
-      "id": "tag:3d-pretraining",
-      "type": "tag",
-      "label": "3d-pretraining"
-    },
-    {
-      "id": "tag:diffusion-policy",
-      "type": "tag",
-      "label": "diffusion-policy"
-    },
-    {
-      "id": "tag:behavior-cloning",
-      "type": "tag",
-      "label": "behavior-cloning"
-    },
-    {
-      "id": "item:1375",
-      "type": "item",
-      "label": "We need RSS for sharing abundant vibe-coded apps",
-      "url": "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything",
-      "source": "rss",
-      "score": 0.5061531569711415,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:vibe-coding",
-      "type": "tag",
-      "label": "vibe-coding"
-    },
-    {
-      "id": "tag:rss-feed",
-      "type": "tag",
-      "label": "rss-feed"
-    },
-    {
-      "id": "tag:personal-tooling",
-      "type": "tag",
-      "label": "personal-tooling"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -7340,6 +7330,72 @@
       "type": "skill",
       "label": "nemotron_diffusion_lm_deploy",
       "path": "/home/rnd/trendforge/output/skills/nemotron_diffusion_lm_deploy"
+    },
+    {
+      "id": "skill:240",
+      "type": "skill",
+      "label": "nemo_evaluator_byob",
+      "path": "/home/rnd/trendforge/output/skills/nemo_evaluator_byob"
+    },
+    {
+      "id": "skill:241",
+      "type": "skill",
+      "label": "coding_with_beat",
+      "path": "/home/rnd/trendforge/output/skills/coding_with_beat"
+    },
+    {
+      "id": "skill:242",
+      "type": "skill",
+      "label": "claude_code_whatsapp_telegram_bot",
+      "path": "/home/rnd/trendforge/output/skills/claude_code_whatsapp_telegram_bot"
+    },
+    {
+      "id": "skill:243",
+      "type": "skill",
+      "label": "knowledge_shelf_mcp",
+      "path": "/home/rnd/trendforge/output/skills/knowledge_shelf_mcp"
+    },
+    {
+      "id": "skill:244",
+      "type": "skill",
+      "label": "youtube_video_summarizer",
+      "path": "/home/rnd/trendforge/output/skills/youtube_video_summarizer"
+    },
+    {
+      "id": "skill:245",
+      "type": "skill",
+      "label": "cue_agent_profile_manager",
+      "path": "/home/rnd/trendforge/output/skills/cue_agent_profile_manager"
+    },
+    {
+      "id": "skill:246",
+      "type": "skill",
+      "label": "datasette_jump_menu_plugin",
+      "path": "/home/rnd/trendforge/output/skills/datasette_jump_menu_plugin"
+    },
+    {
+      "id": "skill:247",
+      "type": "skill",
+      "label": "datasette_agent_chat",
+      "path": "/home/rnd/trendforge/output/skills/datasette_agent_chat"
+    },
+    {
+      "id": "skill:248",
+      "type": "skill",
+      "label": "datasette_fixtures_plugin_testing",
+      "path": "/home/rnd/trendforge/output/skills/datasette_fixtures_plugin_testing"
+    },
+    {
+      "id": "skill:249",
+      "type": "skill",
+      "label": "clean_bug_report",
+      "path": "/home/rnd/trendforge/output/skills/clean_bug_report"
+    },
+    {
+      "id": "skill:250",
+      "type": "skill",
+      "label": "retro_book_game_converter",
+      "path": "/home/rnd/trendforge/output/skills/retro_book_game_converter"
     },
     {
       "id": "prototype:1",
@@ -9013,6 +9069,83 @@
       "label": "nemotron_diffusion_lm_deploy",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/nemotron_diffusion_lm_deploy.pptx"
+    },
+    {
+      "id": "prototype:240",
+      "type": "prototype",
+      "label": "nemo_evaluator_byob",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/nemo_evaluator_byob.pptx"
+    },
+    {
+      "id": "prototype:241",
+      "type": "prototype",
+      "label": "coding_with_beat",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/coding_with_beat.pptx"
+    },
+    {
+      "id": "prototype:242",
+      "type": "prototype",
+      "label": "claude_code_whatsapp_telegram_bot",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_code_whatsapp_telegram_bot.pptx"
+    },
+    {
+      "id": "prototype:243",
+      "type": "prototype",
+      "label": "knowledge_shelf_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/knowledge_shelf_mcp.pptx"
+    },
+    {
+      "id": "prototype:244",
+      "type": "prototype",
+      "label": "youtube_video_summarizer",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/youtube_video_summarizer.pptx"
+    },
+    {
+      "id": "prototype:245",
+      "type": "prototype",
+      "label": "cue_agent_profile_manager",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cue_agent_profile_manager.pptx"
+    },
+    {
+      "id": "prototype:246",
+      "type": "prototype",
+      "label": "datasette_jump_menu_plugin",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_jump_menu_plugin.pptx"
+    },
+    {
+      "id": "prototype:247",
+      "type": "prototype",
+      "label": "datasette_agent_chat",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_agent_chat.pptx"
+    },
+    {
+      "id": "prototype:248",
+      "type": "prototype",
+      "label": "datasette_fixtures_plugin_testing",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_fixtures_plugin_testing.pptx"
+    },
+    {
+      "id": "prototype:249",
+      "type": "prototype",
+      "label": "clean_bug_report",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/clean_bug_report.pptx"
+    },
+    {
+      "id": "prototype:250",
+      "type": "prototype",
+      "label": "retro_book_game_converter",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/retro_book_game_converter.pptx"
     }
   ],
   "edges": [
@@ -9390,6 +9523,31 @@
       "from": "item:7680",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:8090",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8090",
+      "to": "tag:retro-gaming",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8090",
+      "to": "tag:code-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8090",
+      "to": "tag:javascript-game",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8090",
+      "to": "tag:computer-history",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:1857",
@@ -12137,6 +12295,26 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:8088",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8088",
+      "to": "tag:datasette",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8088",
+      "to": "tag:test-fixtures",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8088",
+      "to": "tag:plugin-testing",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:5512",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -12390,6 +12568,41 @@
       "from": "item:3599",
       "to": "tag:prompt-engineering",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8089",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8089",
+      "to": "tag:open-source",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8089",
+      "to": "tag:ai-slop",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8089",
+      "to": "tag:github-issues",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8089",
+      "to": "tag:bug-reporting",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8089",
+      "to": "tag:coding-agents",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8089",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:8062",
@@ -15582,101 +15795,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:1659",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1659",
-      "to": "tag:tax-classification",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1659",
-      "to": "tag:mixture-of-experts",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1659",
-      "to": "tag:hierarchical-prediction",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1659",
-      "to": "tag:e-commerce",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1659",
-      "to": "tag:knowledge-distillation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1659",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:1665",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1665",
-      "to": "tag:robotic-manipulation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1665",
-      "to": "tag:contrastive-learning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1665",
-      "to": "tag:3d-pretraining",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1665",
-      "to": "tag:diffusion-policy",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1665",
-      "to": "tag:behavior-cloning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1375",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1375",
-      "to": "tag:vibe-coding",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1375",
-      "to": "tag:rss-feed",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1375",
-      "to": "tag:app-distribution",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1375",
-      "to": "tag:personal-tooling",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1375",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -16872,6 +16990,61 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:240",
+      "to": "item:8172",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:241",
+      "to": "item:8120",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:242",
+      "to": "item:8105",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:243",
+      "to": "item:8097",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:244",
+      "to": "item:8092",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:245",
+      "to": "item:8095",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:246",
+      "to": "item:8086",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:247",
+      "to": "item:8087",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:248",
+      "to": "item:8088",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:249",
+      "to": "item:8089",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:250",
+      "to": "item:8090",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -18064,6 +18237,61 @@
     {
       "from": "prototype:239",
       "to": "skill:239",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:240",
+      "to": "skill:240",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:241",
+      "to": "skill:241",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:242",
+      "to": "skill:242",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:243",
+      "to": "skill:243",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:244",
+      "to": "skill:244",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:245",
+      "to": "skill:245",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:246",
+      "to": "skill:246",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:247",
+      "to": "skill:247",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:248",
+      "to": "skill:248",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:249",
+      "to": "skill:249",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:250",
+      "to": "skill:250",
       "rel": "DEMOS"
     }
   ]

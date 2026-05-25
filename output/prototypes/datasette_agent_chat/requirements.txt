@@ -1,0 +1,6 @@
+# Core dependency for the real plugin
+datasette>=1.0a30
+datasette-agent>=0.1a4
+
+# The demo scripts only need Python's stdlib (sqlite3).
+# Install the above to run datasette-agent in a live browser session.

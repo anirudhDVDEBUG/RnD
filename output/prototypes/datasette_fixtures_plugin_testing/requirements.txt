@@ -1,0 +1,9 @@
+# Core (pre-release — use pip install --pre)
+# datasette>=1.0a30
+# datasette-fixtures>=0.1a0
+
+# The demo works without these installed (uses bundled mock fixtures).
+# Install them for the full fixture database:
+#   pip install --pre datasette datasette-fixtures
+
+# No mandatory dependencies — the demo is self-contained using sqlite3 (stdlib).

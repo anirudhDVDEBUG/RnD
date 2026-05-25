@@ -1,0 +1,3 @@
+# Core (stdlib only - no pip dependencies for the summarizer itself)
+# yt-dlp is required as a system tool, install via: pip install yt-dlp
+# ffmpeg is optional, for slide/frame extraction

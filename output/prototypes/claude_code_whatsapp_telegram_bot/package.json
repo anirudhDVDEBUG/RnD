@@ -1,0 +1,19 @@
+{
+  "name": "claude-whatsapp-telegram-bot",
+  "version": "1.0.0",
+  "description": "Claude Code agent on WhatsApp and Telegram with voice, vision, file analysis, RAG, and multi-tool reasoning",
+  "main": "src/mock-bot.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node src/mock-bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "telegraf": "^4.16.3",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "fluent-ffmpeg": "^2.1.3",
+    "pdf-parse": "^1.1.1",
+    "mime-types": "^2.1.35"
+  }
+}

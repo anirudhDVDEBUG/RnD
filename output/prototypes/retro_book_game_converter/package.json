@@ -1,0 +1,12 @@
+{
+  "name": "retro-book-game-converter",
+  "version": "1.0.0",
+  "description": "Converts classic 1980s BASIC game listings into modern playable browser games",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8973",
+    "demo": "bash run.sh"
+  },
+  "keywords": ["retro", "game", "basic", "usborne", "vintage", "converter"],
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "knowledge-shelf-mcp-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo and evaluation harness for the knowledge-shelf MCP server",
+  "scripts": {
+    "demo": "node demo_client.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}

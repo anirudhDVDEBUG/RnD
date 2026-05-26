@@ -1,0 +1,3 @@
+# WAYD Social Feed Demo
+# The demo uses only Python stdlib modules.
+# The real tool is installed via: pip install wayd

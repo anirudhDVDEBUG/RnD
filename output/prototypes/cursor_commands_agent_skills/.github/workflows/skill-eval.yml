@@ -1,0 +1,20 @@
+name: Skill Quality Gate
+on: [pull_request]
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run behavioral evals
+        run: |
+          python eval/run_evals.py \
+            --rubrics-dir eval/rubrics \
+            --mock-dir eval/mock_outputs \
+            --threshold 0.8
+      - name: Check ship-gate
+        run: python eval/check_gate.py --results eval-results.json

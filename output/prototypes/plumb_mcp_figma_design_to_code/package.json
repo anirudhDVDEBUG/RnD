@@ -1,0 +1,11 @@
+{
+  "name": "plumb-mcp-demo",
+  "version": "1.0.0",
+  "description": "Demo of plumb-mcp: local Figma MCP server for design-to-code workflows",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.js",
+    "mock-server": "node mock-mcp-server.js"
+  },
+  "dependencies": {}
+}

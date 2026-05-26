@@ -3568,6 +3568,32 @@
       "label": "stock-research"
     },
     {
+      "id": "item:8582",
+      "type": "item",
+      "label": "xiaomoBoy/claude-writing-skills: A toolkit of Claude Code skills for long-form c",
+      "url": "https://github.com/xiaomoBoy/claude-writing-skills",
+      "source": "github",
+      "score": 0.5204624450814892,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:long-form-writing",
+      "type": "tag",
+      "label": "long-form-writing"
+    },
+    {
+      "id": "tag:publishing",
+      "type": "tag",
+      "label": "publishing"
+    },
+    {
+      "id": "tag:research",
+      "type": "tag",
+      "label": "research"
+    },
+    {
       "id": "item:1130",
       "type": "item",
       "label": "MCP server",
@@ -4282,6 +4308,32 @@
       "id": "tag:motion-graphics",
       "type": "tag",
       "label": "motion-graphics"
+    },
+    {
+      "id": "item:8561",
+      "type": "item",
+      "label": "tathagat22/plumb-mcp: Local Figma MCP server with no REST rate limits, no metere",
+      "url": "https://github.com/tathagat22/plumb-mcp",
+      "source": "github",
+      "score": 0.5115888639894243,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:design-to-code",
+      "type": "tag",
+      "label": "design-to-code"
+    },
+    {
+      "id": "tag:design-tokens",
+      "type": "tag",
+      "label": "design-tokens"
+    },
+    {
+      "id": "tag:free-tier",
+      "type": "tag",
+      "label": "free-tier"
     },
     {
       "id": "item:1670",
@@ -5841,63 +5893,6 @@
       "label": "language-conditioned-control"
     },
     {
-      "id": "item:1655",
-      "type": "item",
-      "label": "In Line with Context: Repository-Level Code Generation via Context Inlining",
-      "url": "https://arxiv.org/abs/2601.00376",
-      "source": "rss",
-      "score": 0.5114801876796945,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:repository-level-code-generation",
-      "type": "tag",
-      "label": "repository-level-code-generation"
-    },
-    {
-      "id": "tag:call-graph",
-      "type": "tag",
-      "label": "call-graph"
-    },
-    {
-      "id": "tag:context-inlining",
-      "type": "tag",
-      "label": "context-inlining"
-    },
-    {
-      "id": "tag:code-completion",
-      "type": "tag",
-      "label": "code-completion"
-    },
-    {
-      "id": "item:1657",
-      "type": "item",
-      "label": "Context Matters: Peer-Aware Student Behavioral Engagement Measurement via VLM Ac",
-      "url": "https://arxiv.org/abs/2601.06394",
-      "source": "rss",
-      "score": 0.5114801755194772,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:student-engagement",
-      "type": "tag",
-      "label": "student-engagement"
-    },
-    {
-      "id": "tag:action-recognition",
-      "type": "tag",
-      "label": "action-recognition"
-    },
-    {
-      "id": "tag:classroom-analytics",
-      "type": "tag",
-      "label": "classroom-analytics"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -7396,6 +7391,54 @@
       "type": "skill",
       "label": "retro_book_game_converter",
       "path": "/home/rnd/trendforge/output/skills/retro_book_game_converter"
+    },
+    {
+      "id": "skill:251",
+      "type": "skill",
+      "label": "claude_writing_skills",
+      "path": "/home/rnd/trendforge/output/skills/claude_writing_skills"
+    },
+    {
+      "id": "skill:252",
+      "type": "skill",
+      "label": "aws_well_architected_review",
+      "path": "/home/rnd/trendforge/output/skills/aws_well_architected_review"
+    },
+    {
+      "id": "skill:253",
+      "type": "skill",
+      "label": "research_proof",
+      "path": "/home/rnd/trendforge/output/skills/research_proof"
+    },
+    {
+      "id": "skill:254",
+      "type": "skill",
+      "label": "cursor_commands_agent_skills",
+      "path": "/home/rnd/trendforge/output/skills/cursor_commands_agent_skills"
+    },
+    {
+      "id": "skill:255",
+      "type": "skill",
+      "label": "plumb_mcp_figma_design_to_code",
+      "path": "/home/rnd/trendforge/output/skills/plumb_mcp_figma_design_to_code"
+    },
+    {
+      "id": "skill:256",
+      "type": "skill",
+      "label": "yangtao_perspective_cognitive_distillation",
+      "path": "/home/rnd/trendforge/output/skills/yangtao_perspective_cognitive_distillation"
+    },
+    {
+      "id": "skill:257",
+      "type": "skill",
+      "label": "wayd_social_feed",
+      "path": "/home/rnd/trendforge/output/skills/wayd_social_feed"
+    },
+    {
+      "id": "skill:258",
+      "type": "skill",
+      "label": "auto_project_builder_nextjs",
+      "path": "/home/rnd/trendforge/output/skills/auto_project_builder_nextjs"
     },
     {
       "id": "prototype:1",
@@ -9146,6 +9189,62 @@
       "label": "retro_book_game_converter",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/retro_book_game_converter.pptx"
+    },
+    {
+      "id": "prototype:251",
+      "type": "prototype",
+      "label": "claude_writing_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_writing_skills.pptx"
+    },
+    {
+      "id": "prototype:252",
+      "type": "prototype",
+      "label": "aws_well_architected_review",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/aws_well_architected_review.pptx"
+    },
+    {
+      "id": "prototype:253",
+      "type": "prototype",
+      "label": "research_proof",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/research_proof.pptx"
+    },
+    {
+      "id": "prototype:254",
+      "type": "prototype",
+      "label": "cursor_commands_agent_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cursor_commands_agent_skills.pptx"
+    },
+    {
+      "id": "prototype:255",
+      "type": "prototype",
+      "label": "plumb_mcp_figma_design_to_code",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/plumb_mcp_figma_design_to_code.pptx"
+    },
+    {
+      "id": "prototype:256",
+      "type": "prototype",
+      "label": "yangtao_perspective_cognitive_distillation",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/yangtao_perspective_cognitive_distillation.pptx"
+    },
+    {
+      "id": "prototype:257",
+      "type": "prototype",
+      "label": "wayd_social_feed",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/wayd_social_feed.pptx"
+    },
+    {
+      "id": "prototype:258",
+      "type": "prototype",
+      "label": "auto_project_builder_nextjs",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/auto_project_builder_nextjs.pptx"
     }
   ],
   "edges": [
@@ -13080,6 +13179,41 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:8582",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8582",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8582",
+      "to": "tag:long-form-writing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8582",
+      "to": "tag:content-creation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8582",
+      "to": "tag:publishing",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8582",
+      "to": "tag:research",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8582",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:1130",
       "to": "source:awesome_list",
       "rel": "FROM_SOURCE"
@@ -14056,6 +14190,41 @@
     },
     {
       "from": "item:5964",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:8561",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8561",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8561",
+      "to": "tag:figma",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8561",
+      "to": "tag:design-to-code",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8561",
+      "to": "tag:design-tokens",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8561",
+      "to": "tag:free-tier",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8561",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -15730,71 +15899,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:1655",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1655",
-      "to": "tag:repository-level-code-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1655",
-      "to": "tag:rag",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1655",
-      "to": "tag:call-graph",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1655",
-      "to": "tag:context-inlining",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1655",
-      "to": "tag:code-completion",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1655",
-      "to": "project:pitchbot",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:1657",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1657",
-      "to": "tag:student-engagement",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1657",
-      "to": "tag:action-recognition",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1657",
-      "to": "tag:vision-language-model",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1657",
-      "to": "tag:classroom-analytics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1657",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -17045,6 +17149,46 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:251",
+      "to": "item:8582",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:252",
+      "to": "item:8586",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:253",
+      "to": "item:8589",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:254",
+      "to": "item:8572",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:255",
+      "to": "item:8561",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:256",
+      "to": "item:8546",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:257",
+      "to": "item:8550",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:258",
+      "to": "item:8555",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -18292,6 +18436,46 @@
     {
       "from": "prototype:250",
       "to": "skill:250",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:251",
+      "to": "skill:251",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:252",
+      "to": "skill:252",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:253",
+      "to": "skill:253",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:254",
+      "to": "skill:254",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:255",
+      "to": "skill:255",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:256",
+      "to": "skill:256",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:257",
+      "to": "skill:257",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:258",
+      "to": "skill:258",
       "rel": "DEMOS"
     }
   ]

@@ -1,0 +1,3 @@
+# Research Proof — dependencies
+# This project uses only Python 3.10+ stdlib (dataclasses, json, enum, textwrap).
+# No external packages required.

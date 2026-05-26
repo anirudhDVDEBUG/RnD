@@ -1,0 +1,23 @@
+command: /test-plan
+rubric:
+  - criterion: covers_public_api
+    description: "Every public method/endpoint has at least one test case"
+    weight: 0.30
+    pass_threshold: 0.9
+  - criterion: edge_cases_identified
+    description: "Non-obvious edge cases and failure modes are listed"
+    weight: 0.25
+    pass_threshold: 0.7
+  - criterion: correct_categorization
+    description: "Tests are correctly categorized as unit/integration/e2e"
+    weight: 0.15
+    pass_threshold: 0.8
+  - criterion: actionable_steps
+    description: "Each test case has enough detail to implement directly"
+    weight: 0.20
+    pass_threshold: 0.8
+  - criterion: format_compliance
+    description: "Output follows the specified table format"
+    weight: 0.10
+    pass_threshold: 1.0
+overall_pass_threshold: 0.80

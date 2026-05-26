@@ -1,0 +1,23 @@
+command: /refactor
+rubric:
+  - criterion: behavioral_equivalence
+    description: "Refactored code preserves the original public API and side effects"
+    weight: 0.35
+    pass_threshold: 1.0
+  - criterion: measurable_improvement
+    description: "The change demonstrably improves the stated goal metric"
+    weight: 0.25
+    pass_threshold: 0.7
+  - criterion: before_after_clarity
+    description: "Before/after snippets are clear and complete"
+    weight: 0.15
+    pass_threshold: 0.8
+  - criterion: test_verification
+    description: "Lists specific tests to re-run for confidence"
+    weight: 0.15
+    pass_threshold: 0.7
+  - criterion: format_compliance
+    description: "Output follows the specified markdown format"
+    weight: 0.10
+    pass_threshold: 1.0
+overall_pass_threshold: 0.80

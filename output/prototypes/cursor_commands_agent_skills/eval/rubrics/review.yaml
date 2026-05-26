@@ -1,0 +1,23 @@
+command: /review
+rubric:
+  - criterion: identifies_real_issues
+    description: "Findings reference actual problems present in the diff"
+    weight: 0.35
+    pass_threshold: 0.8
+  - criterion: actionable_suggestions
+    description: "Each finding includes a concrete, applicable fix"
+    weight: 0.25
+    pass_threshold: 0.8
+  - criterion: correct_severity
+    description: "Severity ratings match the real impact of each issue"
+    weight: 0.20
+    pass_threshold: 0.7
+  - criterion: no_false_positives
+    description: "No fabricated issues that do not exist in the code"
+    weight: 0.10
+    pass_threshold: 1.0
+  - criterion: format_compliance
+    description: "Output follows the specified markdown table format"
+    weight: 0.10
+    pass_threshold: 1.0
+overall_pass_threshold: 0.80

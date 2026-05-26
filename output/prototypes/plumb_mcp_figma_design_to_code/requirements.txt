@@ -1,0 +1,7 @@
+# This project uses Node.js (see package.json).
+# No Python dependencies required.
+# No npm dependencies required for the demo — it uses only Node.js built-ins.
+#
+# For the real plumb-mcp server, install via:
+#   git clone https://github.com/tathagat22/plumb-mcp.git
+#   cd plumb-mcp && npm install && npm run build

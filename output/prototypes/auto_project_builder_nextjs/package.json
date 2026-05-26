@@ -1,0 +1,17 @@
+{
+  "name": "auto-project-builder-nextjs-demo",
+  "version": "1.0.0",
+  "description": "Demo of auto-project-builder: autonomously builds Next.js + shadcn/ui + SQLite web projects",
+  "private": true,
+  "scripts": {
+    "demo": "node src/builder.mjs",
+    "preview": "node src/preview-server.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}

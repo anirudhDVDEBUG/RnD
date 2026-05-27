@@ -1,0 +1,41 @@
+{
+  "agent": "copilot-cowork-clone",
+  "version": "1.0",
+  "description": "AI assistant with email and file access — deliberately vulnerable for audit demo",
+  "permissions": {
+    "send_email": true,
+    "file_read": true,
+    "file_access": "all_user_files",
+    "web_request": true,
+    "create_link": true,
+    "share_file": true
+  },
+  "actions": {
+    "email_reply": {
+      "approval_required": "false",
+      "auto_send": true,
+      "description": "Auto-reply to incoming emails using agent-generated content"
+    },
+    "file_summarize": {
+      "approval_required": "false",
+      "sources": ["onedrive", "sharepoint", "local_files"]
+    }
+  },
+  "rendering": {
+    "render_html": true,
+    "render_markdown": true,
+    "allow_images": true,
+    "external_resources": "allowed",
+    "content_security_policy": "none"
+  },
+  "integrations": {
+    "onedrive": {
+      "pre_auth_links": true,
+      "sas_token_generation": "auto"
+    },
+    "email": {
+      "protocol": "smtp",
+      "auto_send_without_approval": true
+    }
+  }
+}

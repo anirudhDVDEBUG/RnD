@@ -1,0 +1,8 @@
+{
+  "valid_critical": "Thank you for reporting this vulnerability. We have confirmed the issue and assessed it as {severity}. We are treating this with urgency and aim to release a patch within {sla}. A CVE identifier will be assigned shortly. We will credit you in the advisory unless you prefer to remain anonymous.",
+  "valid_standard": "Thank you for this report. We have confirmed the issue and assessed it as {severity} severity. We plan to address this in our next security release. {additional_notes}",
+  "false_positive_ai": "Thank you for taking the time to report this. After careful analysis, we have determined that this does not constitute a security vulnerability in our project.\n\n{explanation}\n\nThe code path described {reachability_note}. We appreciate your effort and encourage you to review our security policy before submitting future reports.",
+  "false_positive_human": "Thank you for this report. We investigated the described behavior and determined it does not pose a security risk because:\n\n{explanation}\n\nIf you have additional evidence or a working proof of concept demonstrating exploitability, we are happy to re-evaluate.",
+  "needs_more_info": "Thank you for this report. To complete our assessment, we need the following additional information:\n\n{questions}\n\nPlease respond within 14 days so we can continue our evaluation.",
+  "duplicate": "Thank you for this report. This issue has already been reported and is being tracked as {existing_id}. Current status: {status}."
+}

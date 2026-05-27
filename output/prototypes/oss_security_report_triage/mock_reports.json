@@ -1,0 +1,67 @@
+[
+  {
+    "id": "SR-2026-0041",
+    "title": "Heap buffer overflow in URL parser via crafted internationalized domain name",
+    "reporter": "security-bot-7x@protonmail.com",
+    "submitted": "2026-05-25T14:22:00Z",
+    "component": "lib/urlparser.c",
+    "function": "parse_idn_host()",
+    "claimed_impact": "Remote Code Execution",
+    "attack_vector": "Network",
+    "description": "A specially crafted internationalized domain name (IDN) containing a sequence of Punycode-encoded characters exceeding 256 bytes can trigger a heap buffer overflow in the parse_idn_host() function at line 847. The function allocates a fixed-size buffer of 256 bytes via malloc() and then copies the decoded hostname using memcpy() without verifying the decoded length against the buffer size. An attacker could exploit this by sending a crafted URL to a victim application that uses this library for URL parsing, potentially achieving remote code execution.\n\nThe vulnerable code path is:\n1. curl_url_set() -> parse_authority() -> parse_idn_host()\n2. At line 847: char *decoded = malloc(256)\n3. At line 852: memcpy(decoded, punycode_result, result_len)  // no bounds check\n\nThis vulnerability affects all versions since commit abc123 which introduced IDN support.\n\nCVSS Score: 9.8 (Critical)\nCWE-122: Heap-based Buffer Overflow",
+    "poc": "curl 'https://xn--' followed by 300 'a' characters '.example.com/path'",
+    "ai_indicators": ["formulaic structure", "generic CWE reference", "claims critical without PoC output", "references non-existent line numbers", "overly detailed for a first report"]
+  },
+  {
+    "id": "SR-2026-0042",
+    "title": "Integer overflow in Content-Length parsing leads to request smuggling",
+    "reporter": "j.martinez@university.edu",
+    "submitted": "2026-05-25T09:15:00Z",
+    "component": "lib/http.c",
+    "function": "parse_content_length()",
+    "claimed_impact": "HTTP Request Smuggling",
+    "attack_vector": "Network",
+    "description": "When parsing the Content-Length header, the function uses strtoul() which silently wraps on overflow for 32-bit builds. On platforms where unsigned long is 32 bits, a Content-Length value of 4294967297 (2^32 + 1) would be interpreted as 1. This mismatch between the declared and interpreted content length could enable HTTP request smuggling in proxy configurations.\n\nI tested this on a 32-bit ARM build (Raspberry Pi 3) and confirmed the wraparound behavior. See attached build log and tcpdump capture.",
+    "poc": "curl -H 'Content-Length: 4294967297' -d 'A' http://target-behind-proxy/",
+    "ai_indicators": []
+  },
+  {
+    "id": "SR-2026-0043",
+    "title": "Use-after-free in connection pool during HTTP/2 stream reset",
+    "reporter": "ai-security-scanner@bugbountyplatform.io",
+    "submitted": "2026-05-24T22:10:00Z",
+    "component": "lib/http2.c",
+    "function": "h2_stream_close()",
+    "claimed_impact": "Remote Code Execution / Denial of Service",
+    "attack_vector": "Network",
+    "description": "A use-after-free vulnerability exists in the HTTP/2 stream handling code. When a server sends a RST_STREAM frame for a stream that is currently being processed by the application layer, the h2_stream_close() function frees the stream data structure. However, the application layer still holds a pointer to this freed memory and may subsequently read from or write to it.\n\nThis is a classic use-after-free pattern that could potentially be exploited for remote code execution, though exploitation difficulty is high due to heap layout unpredictability.\n\nThe vulnerability can be triggered by:\n1. Establishing an HTTP/2 connection\n2. Initiating multiple streams\n3. Having the server send RST_STREAM for an active stream\n4. The client attempting to read data from the reset stream\n\nSeverity: CRITICAL (CVSS 9.1)\nCWE-416: Use After Free\nCWE-362: Race Condition\n\nRemediation: Implement reference counting for stream data structures, or null-check the stream pointer after any operation that could trigger stream closure.\n\nNote: This vulnerability pattern is similar to CVE-2023-XXXXX and CVE-2024-YYYYY in other HTTP/2 implementations.",
+    "poc": "No working PoC available. Theoretical analysis based on code review.",
+    "ai_indicators": ["references placeholder CVEs (XXXXX, YYYYY)", "no working PoC", "generic remediation advice", "claims critical but acknowledges exploitation is hard", "multiple CWEs listed without specificity"]
+  },
+  {
+    "id": "SR-2026-0044",
+    "title": "CRLF injection in custom header passthrough allows response splitting",
+    "reporter": "redteam@consultingfirm.com",
+    "submitted": "2026-05-23T16:45:00Z",
+    "component": "lib/transfer.c",
+    "function": "add_custom_header()",
+    "claimed_impact": "HTTP Response Splitting / Header Injection",
+    "attack_vector": "Network",
+    "description": "The add_custom_header() function does not strip \\r\\n sequences from user-supplied header values passed via CURLOPT_HTTPHEADER. While curl does sanitize some header inputs, custom headers set via the programmatic API bypass this check.\n\nAn application that passes unsanitized user input as a custom header value is vulnerable to CRLF injection.",
+    "poc": "curl -H $'X-Custom: value\\r\\nInjected-Header: evil' http://example.com/",
+    "ai_indicators": []
+  },
+  {
+    "id": "SR-2026-0045",
+    "title": "Null pointer dereference in SOCKS5 proxy authentication",
+    "reporter": "bountybot-pro@gmail.com",
+    "submitted": "2026-05-22T11:30:00Z",
+    "component": "lib/socks.c",
+    "function": "socks5_auth()",
+    "claimed_impact": "Denial of Service",
+    "attack_vector": "Network",
+    "description": "A null pointer dereference can occur in the SOCKS5 authentication handler when the proxy sends a malformed authentication response. Specifically, if the proxy responds with an authentication method selection message that has a zero-length username field, the subsequent strlen() call on the username pointer will dereference NULL.\n\nThis can be triggered by a malicious SOCKS5 proxy and would cause the client application to crash, resulting in a denial of service.\n\nThe issue is in socks5_auth() at the point where it processes the server's auth method response. The function assumes the username buffer has been allocated, but if the server's response indicates no authentication is needed after initially requesting it, the buffer may remain NULL.\n\nCVSS: 5.3 (Medium)\nCWE-476: NULL Pointer Dereference",
+    "poc": "Set up a rogue SOCKS5 proxy that sends a crafted auth response. Connect via: curl --socks5 malicious-proxy:1080 http://example.com/",
+    "ai_indicators": ["generic crash description", "no specific line numbers", "vague about exact trigger conditions"]
+  }
+]

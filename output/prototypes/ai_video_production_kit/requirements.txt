@@ -1,0 +1,2 @@
+# AI Video Production Kit
+# No external dependencies — stdlib only (Python 3.10+)

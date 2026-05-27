@@ -992,6 +992,27 @@
       "label": "consumer-privacy"
     },
     {
+      "id": "item:9302",
+      "type": "item",
+      "label": "cclank/lanshu-awesome-ai-video-kit: 做企业 AI 视频项目逼出来的工具包 · 411 prompt · 15 模型 · 7 ",
+      "url": "https://github.com/cclank/lanshu-awesome-ai-video-kit",
+      "source": "github",
+      "score": 0.6649474775892578,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ai-video",
+      "type": "tag",
+      "label": "ai-video"
+    },
+    {
+      "id": "tag:video-generation",
+      "type": "tag",
+      "label": "video-generation"
+    },
+    {
       "id": "item:326",
       "type": "item",
       "label": "Julpygo/Claude-Code-AI-Design: Claude Design Anthropic Tool Download April 2026 ",
@@ -1324,11 +1345,6 @@
       "notes": null
     },
     {
-      "id": "tag:video-generation",
-      "type": "tag",
-      "label": "video-generation"
-    },
-    {
       "id": "tag:fine-tuning",
       "type": "tag",
       "label": "fine-tuning"
@@ -1518,11 +1534,6 @@
       "pinned": false,
       "pitch": null,
       "notes": null
-    },
-    {
-      "id": "tag:ai-video",
-      "type": "tag",
-      "label": "ai-video"
     },
     {
       "id": "tag:ai-image",
@@ -2788,6 +2799,37 @@
       "label": "gguf"
     },
     {
+      "id": "item:8592",
+      "type": "item",
+      "label": "The pressure",
+      "url": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+      "source": "rss",
+      "score": 0.5588386202224613,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ai-security-reports",
+      "type": "tag",
+      "label": "ai-security-reports"
+    },
+    {
+      "id": "tag:curl",
+      "type": "tag",
+      "label": "curl"
+    },
+    {
+      "id": "tag:vulnerability-management",
+      "type": "tag",
+      "label": "vulnerability-management"
+    },
+    {
+      "id": "tag:open-source-maintenance",
+      "type": "tag",
+      "label": "open-source-maintenance"
+    },
+    {
       "id": "item:1731",
       "type": "item",
       "label": "ravindranathpathi/scenelens: Give Claude a smarter video input. Scene-aware fram",
@@ -3516,6 +3558,37 @@
       "label": "ad-creative"
     },
     {
+      "id": "item:9278",
+      "type": "item",
+      "label": "wuwangzhang1216/DirectorSKILL: Claude Code skill for AI filmmaking — shot lists,",
+      "url": "https://github.com/wuwangzhang1216/DirectorSKILL",
+      "source": "github",
+      "score": 0.5244090600285634,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:ai-filmmaking",
+      "type": "tag",
+      "label": "ai-filmmaking"
+    },
+    {
+      "id": "tag:storyboard",
+      "type": "tag",
+      "label": "storyboard"
+    },
+    {
+      "id": "tag:video-prompts",
+      "type": "tag",
+      "label": "video-prompts"
+    },
+    {
+      "id": "tag:cinematic-direction",
+      "type": "tag",
+      "label": "cinematic-direction"
+    },
+    {
       "id": "item:7195",
       "type": "item",
       "label": "zoharbabin/web-researcher-mcp: MCP server (Go) for AI assistants: web search, co",
@@ -4066,6 +4139,42 @@
       "label": "rust"
     },
     {
+      "id": "item:8593",
+      "type": "item",
+      "label": "Microsoft Copilot Cowork Exfiltrates Files",
+      "url": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+      "source": "rss",
+      "score": 0.5169131236029123,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:prompt-injection",
+      "type": "tag",
+      "label": "prompt-injection"
+    },
+    {
+      "id": "tag:data-exfiltration",
+      "type": "tag",
+      "label": "data-exfiltration"
+    },
+    {
+      "id": "tag:copilot-security",
+      "type": "tag",
+      "label": "copilot-security"
+    },
+    {
+      "id": "tag:agentic-security",
+      "type": "tag",
+      "label": "agentic-security"
+    },
+    {
+      "id": "tag:microsoft",
+      "type": "tag",
+      "label": "microsoft"
+    },
+    {
       "id": "item:7217",
       "type": "item",
       "label": "Google I/O, Gemini Spark, Antigravity",
@@ -4085,11 +4194,6 @@
       "id": "tag:ai-agent-platform",
       "type": "tag",
       "label": "ai-agent-platform"
-    },
-    {
-      "id": "tag:prompt-injection",
-      "type": "tag",
-      "label": "prompt-injection"
     },
     {
       "id": "tag:antigravity",
@@ -5779,120 +5883,6 @@
       "label": "reproducibility"
     },
     {
-      "id": "item:1638",
-      "type": "item",
-      "label": "Compose and Fuse: Revisiting the Foundational Bottlenecks in Multimodal Reasonin",
-      "url": "https://arxiv.org/abs/2509.23744",
-      "source": "rss",
-      "score": 0.5114802551477154,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:cross-modal-fusion",
-      "type": "tag",
-      "label": "cross-modal-fusion"
-    },
-    {
-      "id": "tag:attention-mechanism",
-      "type": "tag",
-      "label": "attention-mechanism"
-    },
-    {
-      "id": "item:1639",
-      "type": "item",
-      "label": "Training-Free Reward-Guided Image Editing via Trajectory Optimal Control",
-      "url": "https://arxiv.org/abs/2509.25845",
-      "source": "rss",
-      "score": 0.5114802516237704,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:diffusion-model",
-      "type": "tag",
-      "label": "diffusion-model"
-    },
-    {
-      "id": "tag:image-editing",
-      "type": "tag",
-      "label": "image-editing"
-    },
-    {
-      "id": "tag:optimal-control",
-      "type": "tag",
-      "label": "optimal-control"
-    },
-    {
-      "id": "tag:reward-guidance",
-      "type": "tag",
-      "label": "reward-guidance"
-    },
-    {
-      "id": "tag:training-free",
-      "type": "tag",
-      "label": "training-free"
-    },
-    {
-      "id": "item:1649",
-      "type": "item",
-      "label": "Quantum Masked Autoencoders for Vision Learning",
-      "url": "https://arxiv.org/abs/2511.17372",
-      "source": "rss",
-      "score": 0.5114802147467803,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:quantum-computing",
-      "type": "tag",
-      "label": "quantum-computing"
-    },
-    {
-      "id": "tag:masked-autoencoder",
-      "type": "tag",
-      "label": "masked-autoencoder"
-    },
-    {
-      "id": "tag:quantum-machine-learning",
-      "type": "tag",
-      "label": "quantum-machine-learning"
-    },
-    {
-      "id": "tag:image-reconstruction",
-      "type": "tag",
-      "label": "image-reconstruction"
-    },
-    {
-      "id": "item:1651",
-      "type": "item",
-      "label": "Language-Conditioned Safe Trajectory Generation for Spacecraft Rendezvous",
-      "url": "https://arxiv.org/abs/2512.09111",
-      "source": "rss",
-      "score": 0.5114802019137245,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:spacecraft-guidance",
-      "type": "tag",
-      "label": "spacecraft-guidance"
-    },
-    {
-      "id": "tag:trajectory-generation",
-      "type": "tag",
-      "label": "trajectory-generation"
-    },
-    {
-      "id": "tag:language-conditioned-control",
-      "type": "tag",
-      "label": "language-conditioned-control"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -7439,6 +7429,66 @@
       "type": "skill",
       "label": "auto_project_builder_nextjs",
       "path": "/home/rnd/trendforge/output/skills/auto_project_builder_nextjs"
+    },
+    {
+      "id": "skill:259",
+      "type": "skill",
+      "label": "ai_video_production_kit",
+      "path": "/home/rnd/trendforge/output/skills/ai_video_production_kit"
+    },
+    {
+      "id": "skill:260",
+      "type": "skill",
+      "label": "pi_plugin_cc_agent_routing",
+      "path": "/home/rnd/trendforge/output/skills/pi_plugin_cc_agent_routing"
+    },
+    {
+      "id": "skill:261",
+      "type": "skill",
+      "label": "hermes_dreaming_self_improvement",
+      "path": "/home/rnd/trendforge/output/skills/hermes_dreaming_self_improvement"
+    },
+    {
+      "id": "skill:262",
+      "type": "skill",
+      "label": "kodro_spec_driven_dev",
+      "path": "/home/rnd/trendforge/output/skills/kodro_spec_driven_dev"
+    },
+    {
+      "id": "skill:263",
+      "type": "skill",
+      "label": "trending_claude_skills_leaderboard",
+      "path": "/home/rnd/trendforge/output/skills/trending_claude_skills_leaderboard"
+    },
+    {
+      "id": "skill:264",
+      "type": "skill",
+      "label": "director_skill_ai_filmmaking",
+      "path": "/home/rnd/trendforge/output/skills/director_skill_ai_filmmaking"
+    },
+    {
+      "id": "skill:265",
+      "type": "skill",
+      "label": "oss_security_report_triage",
+      "path": "/home/rnd/trendforge/output/skills/oss_security_report_triage"
+    },
+    {
+      "id": "skill:266",
+      "type": "skill",
+      "label": "agentic_exfil_defense_audit",
+      "path": "/home/rnd/trendforge/output/skills/agentic_exfil_defense_audit"
+    },
+    {
+      "id": "skill:267",
+      "type": "skill",
+      "label": "authentic_founder_voice",
+      "path": "/home/rnd/trendforge/output/skills/authentic_founder_voice"
+    },
+    {
+      "id": "skill:268",
+      "type": "skill",
+      "label": "ai_policy_influence_analyst",
+      "path": "/home/rnd/trendforge/output/skills/ai_policy_influence_analyst"
     },
     {
       "id": "prototype:1",
@@ -9245,6 +9295,76 @@
       "label": "auto_project_builder_nextjs",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/auto_project_builder_nextjs.pptx"
+    },
+    {
+      "id": "prototype:259",
+      "type": "prototype",
+      "label": "ai_video_production_kit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_video_production_kit.pptx"
+    },
+    {
+      "id": "prototype:260",
+      "type": "prototype",
+      "label": "pi_plugin_cc_agent_routing",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/pi_plugin_cc_agent_routing.pptx"
+    },
+    {
+      "id": "prototype:261",
+      "type": "prototype",
+      "label": "hermes_dreaming_self_improvement",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/hermes_dreaming_self_improvement.pptx"
+    },
+    {
+      "id": "prototype:262",
+      "type": "prototype",
+      "label": "kodro_spec_driven_dev",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/kodro_spec_driven_dev.pptx"
+    },
+    {
+      "id": "prototype:263",
+      "type": "prototype",
+      "label": "trending_claude_skills_leaderboard",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/trending_claude_skills_leaderboard.pptx"
+    },
+    {
+      "id": "prototype:264",
+      "type": "prototype",
+      "label": "director_skill_ai_filmmaking",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/director_skill_ai_filmmaking.pptx"
+    },
+    {
+      "id": "prototype:265",
+      "type": "prototype",
+      "label": "oss_security_report_triage",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/oss_security_report_triage.pptx"
+    },
+    {
+      "id": "prototype:266",
+      "type": "prototype",
+      "label": "agentic_exfil_defense_audit",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agentic_exfil_defense_audit.pptx"
+    },
+    {
+      "id": "prototype:267",
+      "type": "prototype",
+      "label": "authentic_founder_voice",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/authentic_founder_voice.pptx"
+    },
+    {
+      "id": "prototype:268",
+      "type": "prototype",
+      "label": "ai_policy_influence_analyst",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ai_policy_influence_analyst.pptx"
     }
   ],
   "edges": [
@@ -10207,6 +10327,41 @@
       "from": "item:7682",
       "to": "tag:consumer-privacy",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9302",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:9302",
+      "to": "tag:ai-video",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9302",
+      "to": "tag:prompt-engineering",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9302",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9302",
+      "to": "tag:video-generation",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9302",
+      "to": "tag:awesome-list",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9302",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:326",
@@ -12214,6 +12369,36 @@
       "rel": "HAS_TAG"
     },
     {
+      "from": "item:8592",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8592",
+      "to": "tag:ai-security-reports",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8592",
+      "to": "tag:curl",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8592",
+      "to": "tag:vulnerability-management",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8592",
+      "to": "tag:open-source-maintenance",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8592",
+      "to": "tag:bug-bounty",
+      "rel": "HAS_TAG"
+    },
+    {
       "from": "item:1731",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -13109,6 +13294,41 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:9278",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:9278",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9278",
+      "to": "tag:ai-filmmaking",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9278",
+      "to": "tag:storyboard",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9278",
+      "to": "tag:video-prompts",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9278",
+      "to": "tag:cinematic-direction",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:9278",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:7195",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -13906,6 +14126,41 @@
     {
       "from": "item:675",
       "to": "project:pitchbot",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:8593",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:8593",
+      "to": "tag:prompt-injection",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8593",
+      "to": "tag:data-exfiltration",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8593",
+      "to": "tag:copilot-security",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8593",
+      "to": "tag:agentic-security",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8593",
+      "to": "tag:microsoft",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:8593",
+      "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
     {
@@ -15789,116 +16044,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:1638",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1638",
-      "to": "tag:multimodal-reasoning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1638",
-      "to": "tag:cross-modal-fusion",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1638",
-      "to": "tag:attention-mechanism",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1638",
-      "to": "tag:multimodal-llm",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1639",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1639",
-      "to": "tag:diffusion-model",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1639",
-      "to": "tag:image-editing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1639",
-      "to": "tag:optimal-control",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1639",
-      "to": "tag:reward-guidance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1639",
-      "to": "tag:training-free",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1649",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1649",
-      "to": "tag:quantum-computing",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1649",
-      "to": "tag:masked-autoencoder",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1649",
-      "to": "tag:quantum-machine-learning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1649",
-      "to": "tag:image-reconstruction",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1649",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:1651",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1651",
-      "to": "tag:spacecraft-guidance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1651",
-      "to": "tag:trajectory-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1651",
-      "to": "tag:language-conditioned-control",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1651",
-      "to": "tag:autonomous-systems",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -17189,6 +17334,56 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:259",
+      "to": "item:9302",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:260",
+      "to": "item:9308",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:261",
+      "to": "item:9292",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:262",
+      "to": "item:9294",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:263",
+      "to": "item:9288",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:264",
+      "to": "item:9278",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:265",
+      "to": "item:8592",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:266",
+      "to": "item:8593",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:267",
+      "to": "item:8594",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:268",
+      "to": "item:8595",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -18476,6 +18671,56 @@
     {
       "from": "prototype:258",
       "to": "skill:258",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:259",
+      "to": "skill:259",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:260",
+      "to": "skill:260",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:261",
+      "to": "skill:261",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:262",
+      "to": "skill:262",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:263",
+      "to": "skill:263",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:264",
+      "to": "skill:264",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:265",
+      "to": "skill:265",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:266",
+      "to": "skill:266",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:267",
+      "to": "skill:267",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:268",
+      "to": "skill:268",
       "rel": "DEMOS"
     }
   ]

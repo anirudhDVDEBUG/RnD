@@ -1,0 +1,23 @@
+{
+  "name": "pi-plugin-cc-demo",
+  "version": "1.0.0",
+  "description": "Demo of Pi Plugin for Claude Code — routes /pi:* slash commands through Pi coding agent (DeepSeek V4)",
+  "main": "pi_plugin.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "deepseek",
+    "pi-coding-agent",
+    "code-review",
+    "multi-agent"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

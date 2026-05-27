@@ -1,0 +1,3 @@
+# hermes-dreaming has no external dependencies — stdlib only.
+# Listed for completeness:
+# python >= 3.10

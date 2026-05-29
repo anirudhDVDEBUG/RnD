@@ -1,0 +1,11 @@
+# This demo uses only Python stdlib (no external deps).
+# The real TradingAgents-CN-lite framework requires:
+# langgraph>=0.2.0
+# langchain>=0.3.0
+# akshare>=1.14.0
+# yfinance>=0.2.36
+# openai>=1.0.0
+# anthropic>=0.25.0
+# python-dotenv>=1.0.0
+# pandas>=2.0.0
+# numpy>=1.24.0

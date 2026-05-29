@@ -1,0 +1,5 @@
+# hermes-code-bridge demo — no external dependencies required.
+# The real hermes-code-bridge package:
+#   pip install -e git+https://github.com/xuyang-liu16/hermes-code-bridge.git#egg=hermes-code-bridge
+#
+# This demo uses only the Python stdlib.

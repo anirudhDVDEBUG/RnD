@@ -1,0 +1,10 @@
+{
+  "name": "memorybridge-demo",
+  "version": "1.0.0",
+  "description": "Demo of MemoryBridge — cross-tool AI memory MCP server",
+  "private": true,
+  "scripts": {
+    "demo": "node demo.mjs"
+  },
+  "dependencies": {}
+}

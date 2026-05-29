@@ -1,0 +1,2 @@
+# brain.md demo — pure Python, no external dependencies needed
+# The real brain.md server requires Bun (https://bun.sh)

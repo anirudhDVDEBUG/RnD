@@ -1474,6 +1474,27 @@
       "label": "server-side-grep"
     },
     {
+      "id": "item:10238",
+      "type": "item",
+      "label": "seomarlboro/domain-check-skills: Check domain availability from any LLM. MCP ser",
+      "url": "https://github.com/seomarlboro/domain-check-skills",
+      "source": "github",
+      "score": 0.616255397864161,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:domain-availability",
+      "type": "tag",
+      "label": "domain-availability"
+    },
+    {
+      "id": "tag:registrar-api",
+      "type": "tag",
+      "label": "registrar-api"
+    },
+    {
       "id": "item:3579",
       "type": "item",
       "label": "hrabanazviking/Verdandi: VERÐANDI — The Norn of Becoming. AI nervous system for ",
@@ -5772,42 +5793,6 @@
       "label": "motion-synthesis"
     },
     {
-      "id": "item:1595",
-      "type": "item",
-      "label": "Chronology of Multi-Agent Interactions for Provenance of Evolving Information",
-      "url": "https://arxiv.org/abs/2504.12612",
-      "source": "rss",
-      "score": 0.5114804785665774,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multi-agent-provenance",
-      "type": "tag",
-      "label": "multi-agent-provenance"
-    },
-    {
-      "id": "tag:content-attribution",
-      "type": "tag",
-      "label": "content-attribution"
-    },
-    {
-      "id": "tag:generative-chain",
-      "type": "tag",
-      "label": "generative-chain"
-    },
-    {
-      "id": "tag:digital-forensics",
-      "type": "tag",
-      "label": "digital-forensics"
-    },
-    {
-      "id": "tag:temporal-tracking",
-      "type": "tag",
-      "label": "temporal-tracking"
-    },
-    {
       "id": "skill:1",
       "type": "skill",
       "label": "awesome_agent_skills_finder",
@@ -7474,6 +7459,54 @@
       "type": "skill",
       "label": "building_self_improving_tax_agents_with_codex",
       "path": "/home/rnd/trendforge/output/skills/building_self_improving_tax_agents_with_codex"
+    },
+    {
+      "id": "skill:279",
+      "type": "skill",
+      "label": "prompt_cache_skills",
+      "path": "/home/rnd/trendforge/output/skills/prompt_cache_skills"
+    },
+    {
+      "id": "skill:280",
+      "type": "skill",
+      "label": "loushang_multi_model_orchestration",
+      "path": "/home/rnd/trendforge/output/skills/loushang_multi_model_orchestration"
+    },
+    {
+      "id": "skill:281",
+      "type": "skill",
+      "label": "hermes_code_bridge",
+      "path": "/home/rnd/trendforge/output/skills/hermes_code_bridge"
+    },
+    {
+      "id": "skill:282",
+      "type": "skill",
+      "label": "tradingagents_cn_lite_stock_analysis",
+      "path": "/home/rnd/trendforge/output/skills/tradingagents_cn_lite_stock_analysis"
+    },
+    {
+      "id": "skill:283",
+      "type": "skill",
+      "label": "memorybridge_cross_tool_ai_memory",
+      "path": "/home/rnd/trendforge/output/skills/memorybridge_cross_tool_ai_memory"
+    },
+    {
+      "id": "skill:284",
+      "type": "skill",
+      "label": "brainmd_markdown_knowledge_mcp",
+      "path": "/home/rnd/trendforge/output/skills/brainmd_markdown_knowledge_mcp"
+    },
+    {
+      "id": "skill:285",
+      "type": "skill",
+      "label": "domain_check_availability",
+      "path": "/home/rnd/trendforge/output/skills/domain_check_availability"
+    },
+    {
+      "id": "skill:286",
+      "type": "skill",
+      "label": "agentic_org_requirements_accelerator",
+      "path": "/home/rnd/trendforge/output/skills/agentic_org_requirements_accelerator"
     },
     {
       "id": "prototype:1",
@@ -9420,6 +9453,62 @@
       "label": "building_self_improving_tax_agents_with_codex",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/building_self_improving_tax_agents_with_codex.pptx"
+    },
+    {
+      "id": "prototype:279",
+      "type": "prototype",
+      "label": "prompt_cache_skills",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/prompt_cache_skills.pptx"
+    },
+    {
+      "id": "prototype:280",
+      "type": "prototype",
+      "label": "loushang_multi_model_orchestration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/loushang_multi_model_orchestration.pptx"
+    },
+    {
+      "id": "prototype:281",
+      "type": "prototype",
+      "label": "hermes_code_bridge",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/hermes_code_bridge.pptx"
+    },
+    {
+      "id": "prototype:282",
+      "type": "prototype",
+      "label": "tradingagents_cn_lite_stock_analysis",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/tradingagents_cn_lite_stock_analysis.pptx"
+    },
+    {
+      "id": "prototype:283",
+      "type": "prototype",
+      "label": "memorybridge_cross_tool_ai_memory",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/memorybridge_cross_tool_ai_memory.pptx"
+    },
+    {
+      "id": "prototype:284",
+      "type": "prototype",
+      "label": "brainmd_markdown_knowledge_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/brainmd_markdown_knowledge_mcp.pptx"
+    },
+    {
+      "id": "prototype:285",
+      "type": "prototype",
+      "label": "domain_check_availability",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/domain_check_availability.pptx"
+    },
+    {
+      "id": "prototype:286",
+      "type": "prototype",
+      "label": "agentic_org_requirements_accelerator",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agentic_org_requirements_accelerator.pptx"
     }
   ],
   "edges": [
@@ -10902,6 +10991,36 @@
       "from": "item:1829",
       "to": "tag:server-side-grep",
       "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10238",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:10238",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10238",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10238",
+      "to": "tag:domain-availability",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10238",
+      "to": "tag:registrar-api",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10238",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
     },
     {
       "from": "item:3579",
@@ -16034,41 +16153,6 @@
       "rel": "HAS_TAG"
     },
     {
-      "from": "item:1595",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1595",
-      "to": "tag:multi-agent-provenance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1595",
-      "to": "tag:content-attribution",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1595",
-      "to": "tag:generative-chain",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1595",
-      "to": "tag:digital-forensics",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1595",
-      "to": "tag:temporal-tracking",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1595",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -17459,6 +17543,46 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:279",
+      "to": "item:10264",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:280",
+      "to": "item:10265",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:281",
+      "to": "item:10269",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:282",
+      "to": "item:10257",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:283",
+      "to": "item:10242",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:284",
+      "to": "item:10243",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:285",
+      "to": "item:10238",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:286",
+      "to": "item:9727",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -18846,6 +18970,46 @@
     {
       "from": "prototype:278",
       "to": "skill:278",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:279",
+      "to": "skill:279",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:280",
+      "to": "skill:280",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:281",
+      "to": "skill:281",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:282",
+      "to": "skill:282",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:283",
+      "to": "skill:283",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:284",
+      "to": "skill:284",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:285",
+      "to": "skill:285",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:286",
+      "to": "skill:286",
       "rel": "DEMOS"
     }
   ]

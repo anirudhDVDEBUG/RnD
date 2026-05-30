@@ -1,0 +1,12 @@
+title: Datasette Write Queries Demo
+databases:
+  demo:
+    permissions:
+      execute-sql:
+        id: "*"
+      insert-row:
+        id: "*"
+      update-row:
+        id: "*"
+      delete-row:
+        id: "*"

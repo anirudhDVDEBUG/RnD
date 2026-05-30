@@ -1,0 +1,67 @@
+[
+  {
+    "id": "REQ-001",
+    "source": "support_ticket",
+    "customer": "Acme Corp",
+    "title": "Add CSV export to dashboard analytics",
+    "body": "We need to export our analytics dashboard data as CSV files. Currently we can only view data in the browser. Our finance team needs to pull weekly reports into Excel for board meetings. This is blocking our renewal.",
+    "priority_signals": {
+      "requesters": 12,
+      "revenue_impact": "$240k ARR",
+      "urgency": "high"
+    },
+    "submitted_at": "2026-05-28T14:30:00Z"
+  },
+  {
+    "id": "REQ-002",
+    "source": "feature_request",
+    "customer": "DataFlow Inc",
+    "title": "Support webhook retries with exponential backoff",
+    "body": "Our webhook endpoint sometimes goes down for maintenance. When that happens we lose events permanently. We need automatic retries with exponential backoff so events aren't lost. Ideally 3 retries over 15 minutes.",
+    "priority_signals": {
+      "requesters": 8,
+      "revenue_impact": "$180k ARR",
+      "urgency": "medium"
+    },
+    "submitted_at": "2026-05-27T09:15:00Z"
+  },
+  {
+    "id": "REQ-003",
+    "source": "bug_report",
+    "customer": "StartupXYZ",
+    "title": "Search returns stale results after item deletion",
+    "body": "When I delete an item and then search for it, the deleted item still appears in search results for several minutes. This confuses our team because they think the deletion didn't work and try to delete again, getting errors.",
+    "priority_signals": {
+      "requesters": 3,
+      "revenue_impact": "$45k ARR",
+      "urgency": "medium"
+    },
+    "submitted_at": "2026-05-29T11:00:00Z"
+  },
+  {
+    "id": "REQ-004",
+    "source": "feature_request",
+    "customer": "MegaRetail",
+    "title": "Add role-based access control to API keys",
+    "body": "We have multiple teams using our API but all share the same key with full permissions. We need scoped API keys — read-only for analytics team, write for the integration team, admin for platform team. SOC2 audit requires this.",
+    "priority_signals": {
+      "requesters": 22,
+      "revenue_impact": "$500k ARR",
+      "urgency": "high"
+    },
+    "submitted_at": "2026-05-26T16:45:00Z"
+  },
+  {
+    "id": "REQ-005",
+    "source": "support_ticket",
+    "customer": "HealthTech Pro",
+    "title": "Rate limiting returns 500 instead of 429",
+    "body": "When we hit the rate limit, the API returns a 500 Internal Server Error instead of 429 Too Many Requests. Our retry logic depends on getting 429 to back off properly. The 500 triggers our alerting system unnecessarily.",
+    "priority_signals": {
+      "requesters": 5,
+      "revenue_impact": "$90k ARR",
+      "urgency": "high"
+    },
+    "submitted_at": "2026-05-29T08:20:00Z"
+  }
+]

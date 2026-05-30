@@ -1,0 +1,5 @@
+# CVE Triage — Should I Care?
+# No external dependencies required for the demo.
+# In production, you would add:
+# requests>=2.31.0    # for NVD/MITRE API calls
+# packaging>=23.0     # for robust version comparison

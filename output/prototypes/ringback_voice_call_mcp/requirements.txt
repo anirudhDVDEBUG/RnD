@@ -1,0 +1,10 @@
+# Ringback Voice Call MCP — Dependencies
+#
+# Demo mode: no external dependencies (Python stdlib only).
+#
+# Production mode — uncomment these:
+# pjsua2          # SIP call handling (PJSIP Python bindings)
+# whisper-cpp-python  # Speech-to-text via whisper.cpp
+# piper-tts       # Text-to-speech engine
+# requests        # For ntfy/Pushover HTTP APIs
+# httpx           # Alternative async HTTP client

@@ -1034,6 +1034,42 @@
       "label": "video-generation"
     },
     {
+      "id": "item:10272",
+      "type": "item",
+      "label": "Anthropic's run-rate revenue hits $47 billion",
+      "url": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+      "source": "rss",
+      "score": 0.6640431744281327,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:anthropic",
+      "type": "tag",
+      "label": "anthropic"
+    },
+    {
+      "id": "tag:revenue",
+      "type": "tag",
+      "label": "revenue"
+    },
+    {
+      "id": "tag:funding",
+      "type": "tag",
+      "label": "funding"
+    },
+    {
+      "id": "tag:business-growth",
+      "type": "tag",
+      "label": "business-growth"
+    },
+    {
+      "id": "tag:run-rate",
+      "type": "tag",
+      "label": "run-rate"
+    },
+    {
       "id": "item:326",
       "type": "item",
       "label": "Julpygo/Claude-Code-AI-Design: Claude Design Anthropic Tool Download April 2026 ",
@@ -1354,11 +1390,6 @@
       "id": "tag:data-center",
       "type": "tag",
       "label": "data-center"
-    },
-    {
-      "id": "tag:anthropic",
-      "type": "tag",
-      "label": "anthropic"
     },
     {
       "id": "tag:environmental-impact",
@@ -2743,6 +2774,99 @@
       "label": "anthropic-rules"
     },
     {
+      "id": "item:10275",
+      "type": "item",
+      "label": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "source": "rss",
+      "score": 0.5690092564030981,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:biodefense",
+      "type": "tag",
+      "label": "biodefense"
+    },
+    {
+      "id": "tag:public-health",
+      "type": "tag",
+      "label": "public-health"
+    },
+    {
+      "id": "tag:pandemic-preparedness",
+      "type": "tag",
+      "label": "pandemic-preparedness"
+    },
+    {
+      "id": "tag:biosecurity",
+      "type": "tag",
+      "label": "biosecurity"
+    },
+    {
+      "id": "item:10769",
+      "type": "item",
+      "label": "moltenbit/should-i-care: Should you care about this CVE? An agent skill that tri",
+      "url": "https://github.com/moltenbit/should-i-care",
+      "source": "github",
+      "score": 0.5661260024815402,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:cve-triage",
+      "type": "tag",
+      "label": "cve-triage"
+    },
+    {
+      "id": "tag:vulnerability-assessment",
+      "type": "tag",
+      "label": "vulnerability-assessment"
+    },
+    {
+      "id": "tag:cybersecurity",
+      "type": "tag",
+      "label": "cybersecurity"
+    },
+    {
+      "id": "tag:threat-intelligence",
+      "type": "tag",
+      "label": "threat-intelligence"
+    },
+    {
+      "id": "item:10776",
+      "type": "item",
+      "label": "mohitbadwal/ringback: Let your AI agent call your phone and talk to you — MCP se",
+      "url": "https://github.com/mohitbadwal/ringback",
+      "source": "github",
+      "score": 0.5659721595122049,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:voice-call",
+      "type": "tag",
+      "label": "voice-call"
+    },
+    {
+      "id": "tag:telephony",
+      "type": "tag",
+      "label": "telephony"
+    },
+    {
+      "id": "tag:voip",
+      "type": "tag",
+      "label": "voip"
+    },
+    {
+      "id": "tag:text-to-speech",
+      "type": "tag",
+      "label": "text-to-speech"
+    },
+    {
       "id": "item:5108",
       "type": "item",
       "label": "MYounus-Codes/ai-video-pipeline: AI-powered video generation pipeline | script, ",
@@ -2757,11 +2881,6 @@
       "id": "tag:ai-pipeline",
       "type": "tag",
       "label": "ai-pipeline"
-    },
-    {
-      "id": "tag:text-to-speech",
-      "type": "tag",
-      "label": "text-to-speech"
     },
     {
       "id": "item:3587",
@@ -3725,6 +3844,32 @@
       "pinned": false,
       "pitch": null,
       "notes": null
+    },
+    {
+      "id": "item:10767",
+      "type": "item",
+      "label": "mathiaschu/watch: Give Claude a video input. /watch downloads from YouTube/Insta",
+      "url": "https://github.com/mathiaschu/watch",
+      "source": "github",
+      "score": 0.5213897913284968,
+      "pinned": false,
+      "pitch": null,
+      "notes": null
+    },
+    {
+      "id": "tag:video-transcription",
+      "type": "tag",
+      "label": "video-transcription"
+    },
+    {
+      "id": "tag:yt-dlp",
+      "type": "tag",
+      "label": "yt-dlp"
+    },
+    {
+      "id": "tag:mlx",
+      "type": "tag",
+      "label": "mlx"
     },
     {
       "id": "item:8582",
@@ -5431,11 +5576,6 @@
       "label": "retrieval-augmented-generation"
     },
     {
-      "id": "tag:cybersecurity",
-      "type": "tag",
-      "label": "cybersecurity"
-    },
-    {
       "id": "item:1528",
       "type": "item",
       "label": "Exploring the Adoption Intention in Using AI-Enabled Educational Tools Among Pre",
@@ -5641,156 +5781,6 @@
       "id": "tag:temporal-awareness",
       "type": "tag",
       "label": "temporal-awareness"
-    },
-    {
-      "id": "item:1578",
-      "type": "item",
-      "label": "To Build or Not to Build? Factors that Lead to Non-Development or Abandonment of",
-      "url": "https://arxiv.org/abs/2604.28053",
-      "source": "rss",
-      "score": 0.5114805482605963,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:responsible-ai",
-      "type": "tag",
-      "label": "responsible-ai"
-    },
-    {
-      "id": "tag:ai-abandonment",
-      "type": "tag",
-      "label": "ai-abandonment"
-    },
-    {
-      "id": "tag:development-lifecycle",
-      "type": "tag",
-      "label": "development-lifecycle"
-    },
-    {
-      "id": "tag:stakeholder-feedback",
-      "type": "tag",
-      "label": "stakeholder-feedback"
-    },
-    {
-      "id": "item:1585",
-      "type": "item",
-      "label": "PRISM: Pre-alignment via Black-box On-policy Distillation for Multimodal Reinfor",
-      "url": "https://arxiv.org/abs/2604.28123",
-      "source": "rss",
-      "score": 0.511480524924795,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:multimodal-rl",
-      "type": "tag",
-      "label": "multimodal-rl"
-    },
-    {
-      "id": "tag:distribution-alignment",
-      "type": "tag",
-      "label": "distribution-alignment"
-    },
-    {
-      "id": "item:1588",
-      "type": "item",
-      "label": "Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes",
-      "url": "https://arxiv.org/abs/2604.28138",
-      "source": "rss",
-      "score": 0.5114805121378033,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:agent-sandbox",
-      "type": "tag",
-      "label": "agent-sandbox"
-    },
-    {
-      "id": "tag:checkpoint-restore",
-      "type": "tag",
-      "label": "checkpoint-restore"
-    },
-    {
-      "id": "tag:ebpf",
-      "type": "tag",
-      "label": "ebpf"
-    },
-    {
-      "id": "tag:fault-tolerance",
-      "type": "tag",
-      "label": "fault-tolerance"
-    },
-    {
-      "id": "tag:container-runtime",
-      "type": "tag",
-      "label": "container-runtime"
-    },
-    {
-      "id": "item:1589",
-      "type": "item",
-      "label": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
-      "url": "https://arxiv.org/abs/2604.28139",
-      "source": "rss",
-      "score": 0.5114805086246066,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:live-evaluation",
-      "type": "tag",
-      "label": "live-evaluation"
-    },
-    {
-      "id": "tag:task-grading",
-      "type": "tag",
-      "label": "task-grading"
-    },
-    {
-      "id": "tag:execution-trace",
-      "type": "tag",
-      "label": "execution-trace"
-    },
-    {
-      "id": "item:1591",
-      "type": "item",
-      "label": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
-      "url": "https://arxiv.org/abs/2604.28169",
-      "source": "rss",
-      "score": 0.5114804961540648,
-      "pinned": false,
-      "pitch": null,
-      "notes": null
-    },
-    {
-      "id": "tag:video-diffusion",
-      "type": "tag",
-      "label": "video-diffusion"
-    },
-    {
-      "id": "tag:physics-simulation",
-      "type": "tag",
-      "label": "physics-simulation"
-    },
-    {
-      "id": "tag:controllable-generation",
-      "type": "tag",
-      "label": "controllable-generation"
-    },
-    {
-      "id": "tag:physical-reasoning",
-      "type": "tag",
-      "label": "physical-reasoning"
-    },
-    {
-      "id": "tag:motion-synthesis",
-      "type": "tag",
-      "label": "motion-synthesis"
     },
     {
       "id": "skill:1",
@@ -7507,6 +7497,78 @@
       "type": "skill",
       "label": "agentic_org_requirements_accelerator",
       "path": "/home/rnd/trendforge/output/skills/agentic_org_requirements_accelerator"
+    },
+    {
+      "id": "skill:287",
+      "type": "skill",
+      "label": "agent_arena_online",
+      "path": "/home/rnd/trendforge/output/skills/agent_arena_online"
+    },
+    {
+      "id": "skill:288",
+      "type": "skill",
+      "label": "claude_code_session_picker",
+      "path": "/home/rnd/trendforge/output/skills/claude_code_session_picker"
+    },
+    {
+      "id": "skill:289",
+      "type": "skill",
+      "label": "agent_workflows_orchestration",
+      "path": "/home/rnd/trendforge/output/skills/agent_workflows_orchestration"
+    },
+    {
+      "id": "skill:290",
+      "type": "skill",
+      "label": "ringback_voice_call_mcp",
+      "path": "/home/rnd/trendforge/output/skills/ringback_voice_call_mcp"
+    },
+    {
+      "id": "skill:291",
+      "type": "skill",
+      "label": "watch_video_input",
+      "path": "/home/rnd/trendforge/output/skills/watch_video_input"
+    },
+    {
+      "id": "skill:292",
+      "type": "skill",
+      "label": "build_dna_business_ideation",
+      "path": "/home/rnd/trendforge/output/skills/build_dna_business_ideation"
+    },
+    {
+      "id": "skill:293",
+      "type": "skill",
+      "label": "cve_triage_should_i_care",
+      "path": "/home/rnd/trendforge/output/skills/cve_triage_should_i_care"
+    },
+    {
+      "id": "skill:294",
+      "type": "skill",
+      "label": "datasette_sql_write_stored_queries",
+      "path": "/home/rnd/trendforge/output/skills/datasette_sql_write_stored_queries"
+    },
+    {
+      "id": "skill:295",
+      "type": "skill",
+      "label": "revenue_run_rate_tracker",
+      "path": "/home/rnd/trendforge/output/skills/revenue_run_rate_tracker"
+    },
+    {
+      "id": "skill:296",
+      "type": "skill",
+      "label": "rare_disease_diagnostic_assistant",
+      "path": "/home/rnd/trendforge/output/skills/rare_disease_diagnostic_assistant"
+    },
+    {
+      "id": "skill:297",
+      "type": "skill",
+      "label": "customer_request_to_code_pipeline",
+      "path": "/home/rnd/trendforge/output/skills/customer_request_to_code_pipeline"
+    },
+    {
+      "id": "skill:298",
+      "type": "skill",
+      "label": "biodefense_threat_briefing",
+      "path": "/home/rnd/trendforge/output/skills/biodefense_threat_briefing"
     },
     {
       "id": "prototype:1",
@@ -9509,6 +9571,90 @@
       "label": "agentic_org_requirements_accelerator",
       "runs_ok": true,
       "deck": "/home/rnd/trendforge/output/decks/agentic_org_requirements_accelerator.pptx"
+    },
+    {
+      "id": "prototype:287",
+      "type": "prototype",
+      "label": "agent_arena_online",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agent_arena_online.pptx"
+    },
+    {
+      "id": "prototype:288",
+      "type": "prototype",
+      "label": "claude_code_session_picker",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/claude_code_session_picker.pptx"
+    },
+    {
+      "id": "prototype:289",
+      "type": "prototype",
+      "label": "agent_workflows_orchestration",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/agent_workflows_orchestration.pptx"
+    },
+    {
+      "id": "prototype:290",
+      "type": "prototype",
+      "label": "ringback_voice_call_mcp",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/ringback_voice_call_mcp.pptx"
+    },
+    {
+      "id": "prototype:291",
+      "type": "prototype",
+      "label": "watch_video_input",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/watch_video_input.pptx"
+    },
+    {
+      "id": "prototype:292",
+      "type": "prototype",
+      "label": "build_dna_business_ideation",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/build_dna_business_ideation.pptx"
+    },
+    {
+      "id": "prototype:293",
+      "type": "prototype",
+      "label": "cve_triage_should_i_care",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/cve_triage_should_i_care.pptx"
+    },
+    {
+      "id": "prototype:294",
+      "type": "prototype",
+      "label": "datasette_sql_write_stored_queries",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/datasette_sql_write_stored_queries.pptx"
+    },
+    {
+      "id": "prototype:295",
+      "type": "prototype",
+      "label": "revenue_run_rate_tracker",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/revenue_run_rate_tracker.pptx"
+    },
+    {
+      "id": "prototype:296",
+      "type": "prototype",
+      "label": "rare_disease_diagnostic_assistant",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/rare_disease_diagnostic_assistant.pptx"
+    },
+    {
+      "id": "prototype:297",
+      "type": "prototype",
+      "label": "customer_request_to_code_pipeline",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/customer_request_to_code_pipeline.pptx"
+    },
+    {
+      "id": "prototype:298",
+      "type": "prototype",
+      "label": "biodefense_threat_briefing",
+      "runs_ok": true,
+      "deck": "/home/rnd/trendforge/output/decks/biodefense_threat_briefing.pptx"
     }
   ],
   "edges": [
@@ -10536,6 +10682,36 @@
       "from": "item:9302",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:10272",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:10272",
+      "to": "tag:anthropic",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10272",
+      "to": "tag:revenue",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10272",
+      "to": "tag:funding",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10272",
+      "to": "tag:business-growth",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10272",
+      "to": "tag:run-rate",
+      "rel": "HAS_TAG"
     },
     {
       "from": "item:326",
@@ -12458,6 +12634,116 @@
       "rel": "RELEVANT_TO"
     },
     {
+      "from": "item:10275",
+      "to": "source:rss",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:10275",
+      "to": "tag:biodefense",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10275",
+      "to": "tag:public-health",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10275",
+      "to": "tag:pandemic-preparedness",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10275",
+      "to": "tag:openai",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10275",
+      "to": "tag:biosecurity",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10275",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:10769",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:10769",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10769",
+      "to": "tag:cve-triage",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10769",
+      "to": "tag:vulnerability-assessment",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10769",
+      "to": "tag:cybersecurity",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10769",
+      "to": "tag:threat-intelligence",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10769",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:10776",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:10776",
+      "to": "tag:mcp-server",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10776",
+      "to": "tag:voice-call",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10776",
+      "to": "tag:telephony",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10776",
+      "to": "tag:voip",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10776",
+      "to": "tag:text-to-speech",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10776",
+      "to": "project:aria",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:10776",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
       "from": "item:5108",
       "to": "source:github",
       "rel": "FROM_SOURCE"
@@ -13694,6 +13980,46 @@
     },
     {
       "from": "item:9310",
+      "to": "project:trendforge",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:10767",
+      "to": "source:github",
+      "rel": "FROM_SOURCE"
+    },
+    {
+      "from": "item:10767",
+      "to": "tag:claude-skill",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10767",
+      "to": "tag:video-transcription",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10767",
+      "to": "tag:whisper",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10767",
+      "to": "tag:yt-dlp",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10767",
+      "to": "tag:mlx",
+      "rel": "HAS_TAG"
+    },
+    {
+      "from": "item:10767",
+      "to": "project:smart_glasses",
+      "rel": "RELEVANT_TO"
+    },
+    {
+      "from": "item:10767",
       "to": "project:trendforge",
       "rel": "RELEVANT_TO"
     },
@@ -15983,176 +16309,6 @@
       "rel": "RELEVANT_TO"
     },
     {
-      "from": "item:1578",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1578",
-      "to": "tag:responsible-ai",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1578",
-      "to": "tag:ai-abandonment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1578",
-      "to": "tag:ai-governance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1578",
-      "to": "tag:development-lifecycle",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1578",
-      "to": "tag:stakeholder-feedback",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1578",
-      "to": "project:pitchbot",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:1585",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1585",
-      "to": "tag:multimodal-rl",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1585",
-      "to": "tag:knowledge-distillation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1585",
-      "to": "tag:reinforcement-learning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1585",
-      "to": "tag:vision-language-model",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1585",
-      "to": "tag:distribution-alignment",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1585",
-      "to": "project:smart_glasses",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:1588",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1588",
-      "to": "tag:agent-sandbox",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1588",
-      "to": "tag:checkpoint-restore",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1588",
-      "to": "tag:ebpf",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1588",
-      "to": "tag:fault-tolerance",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1588",
-      "to": "tag:container-runtime",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1588",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:1589",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1589",
-      "to": "tag:agent-benchmark",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1589",
-      "to": "tag:workflow-automation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1589",
-      "to": "tag:live-evaluation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1589",
-      "to": "tag:task-grading",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1589",
-      "to": "tag:execution-trace",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1589",
-      "to": "project:trendforge",
-      "rel": "RELEVANT_TO"
-    },
-    {
-      "from": "item:1591",
-      "to": "source:rss",
-      "rel": "FROM_SOURCE"
-    },
-    {
-      "from": "item:1591",
-      "to": "tag:video-diffusion",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1591",
-      "to": "tag:physics-simulation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1591",
-      "to": "tag:controllable-generation",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1591",
-      "to": "tag:physical-reasoning",
-      "rel": "HAS_TAG"
-    },
-    {
-      "from": "item:1591",
-      "to": "tag:motion-synthesis",
-      "rel": "HAS_TAG"
-    },
-    {
       "from": "skill:1",
       "to": "item:1713",
       "rel": "GENERATED_FROM"
@@ -17583,6 +17739,66 @@
       "rel": "GENERATED_FROM"
     },
     {
+      "from": "skill:287",
+      "to": "item:10795",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:288",
+      "to": "item:10796",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:289",
+      "to": "item:10791",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:290",
+      "to": "item:10776",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:291",
+      "to": "item:10767",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:292",
+      "to": "item:10768",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:293",
+      "to": "item:10769",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:294",
+      "to": "item:10271",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:295",
+      "to": "item:10272",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:296",
+      "to": "item:10273",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:297",
+      "to": "item:10274",
+      "rel": "GENERATED_FROM"
+    },
+    {
+      "from": "skill:298",
+      "to": "item:10275",
+      "rel": "GENERATED_FROM"
+    },
+    {
       "from": "prototype:1",
       "to": "skill:1",
       "rel": "DEMOS"
@@ -19010,6 +19226,66 @@
     {
       "from": "prototype:286",
       "to": "skill:286",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:287",
+      "to": "skill:287",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:288",
+      "to": "skill:288",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:289",
+      "to": "skill:289",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:290",
+      "to": "skill:290",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:291",
+      "to": "skill:291",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:292",
+      "to": "skill:292",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:293",
+      "to": "skill:293",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:294",
+      "to": "skill:294",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:295",
+      "to": "skill:295",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:296",
+      "to": "skill:296",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:297",
+      "to": "skill:297",
+      "rel": "DEMOS"
+    },
+    {
+      "from": "prototype:298",
+      "to": "skill:298",
       "rel": "DEMOS"
     }
   ]

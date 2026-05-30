@@ -1,0 +1,11 @@
+{
+  "name": "agent-arena-online-demo",
+  "version": "1.0.0",
+  "description": "Local demo of Agent Arena Online — competitive agent gaming simulator",
+  "main": "arena.js",
+  "scripts": {
+    "start": "node arena.js"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}

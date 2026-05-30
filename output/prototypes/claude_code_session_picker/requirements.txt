@@ -1,0 +1,4 @@
+# ccsession — no external dependencies beyond Python 3.10+ stdlib
+# The original Go tool requires: go 1.21+, fzf
+# This Python port uses only stdlib modules:
+#   json, os, subprocess, sys, pathlib, datetime, argparse, textwrap

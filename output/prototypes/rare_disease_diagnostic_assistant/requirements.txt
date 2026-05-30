@@ -1,0 +1,4 @@
+# No external dependencies — pure Python stdlib
+# In production you might add:
+# anthropic>=0.40.0   # for LLM-powered differential refinement
+# requests>=2.31.0    # for OMIM/Orphanet API calls

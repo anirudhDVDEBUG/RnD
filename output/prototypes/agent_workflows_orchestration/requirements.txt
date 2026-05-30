@@ -1,0 +1,2 @@
+# No external dependencies — stdlib only (sqlite3, uuid, dataclasses).
+# The real package can be installed with: pip install agent-workflows

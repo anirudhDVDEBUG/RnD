@@ -1,0 +1,2 @@
+# Build DNA — Business Ideation Demo
+# No external dependencies — uses Python 3.7+ stdlib only.

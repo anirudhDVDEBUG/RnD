@@ -1,0 +1,2 @@
+# No external dependencies — uses only Python 3.10+ stdlib
+# (json, csv, re, dataclasses, pathlib, typing, io, textwrap, secrets, hashlib, enum)
